@@ -280,8 +280,8 @@
 </div>{{-- /admin-wrapper --}}
 
 <!-- JS Scripts -->
-<script src="{{ asset('js/vendor/jquery-3.7.1.min.js') }}"></script>
-<script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
+<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
 
 <!-- Summernote Rich Text Editor JS -->
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>

@@ -126,6 +126,6 @@ document.getElementById('togglePassword').addEventListener('click', function () 
 </script>
 
 <!-- Bootstrap JS -->
-<script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>
