@@ -11,29 +11,29 @@
     <meta name="keywords" content="BigBiz - Multipurpose Business HTML5 Template">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <link rel="shortcut icon" href="assets/img/favicons/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicons/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/flaticon_bigbiz.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon_bigbiz.css">
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page vs-home1">
     <div class="preloader">
         <button class="vs-btn preloaderCls">Cancel Preloader</button>
-        <div class="preloader-inner"><img src="assets/img/logo.svg" alt="logo"> <span class="vs-loader"></span></div>
+        <div class="preloader-inner"><img src="img/logo.svg" alt="logo"> <span class="vs-loader"></span></div>
     </div>
     <div class="vs-menu-wrapper">
         <div class="vs-menu-area text-center">
             <div class="mobile-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Toddly" class="logo"></a>
+                <a href="index.html"><img src="img/logo.svg" alt="Toddly" class="logo"></a>
                 <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
             </div>
             <div class="vs-mobile-menu">
@@ -81,7 +81,7 @@
     <div class="sidemenu-wrapper">
         <div class="sidemenu-content">
             <div class="sidemenu-logo sidemenu-item">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Toddly" class="logo"></a>
+                <a href="index.html"><img src="img/logo.svg" alt="Toddly" class="logo"></a>
                 <button class="closeButton sideMenuCls">X</button>
             </div>
             <hr class="sidemenu-hr sidemenu-item">
@@ -98,12 +98,12 @@
                     </div>
                     <h4 class="sidemenu-subtitle style2 text-uppercase sidemenu-item">Instagram</h4>
                     <div class="sidebar-gallery sidemenu-item">
-                        <div class="gallery-thumb"><img src="assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-1-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                        <div class="gallery-thumb"><img src="assets/img/widget/gal-1-2.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-2-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                        <div class="gallery-thumb"><img src="assets/img/widget/gal-1-3.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-3-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                        <div class="gallery-thumb"><img src="assets/img/widget/gal-1-4.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-4-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                        <div class="gallery-thumb"><img src="assets/img/widget/gal-1-5.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-5-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                        <div class="gallery-thumb"><img src="assets/img/widget/gal-1-6.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-6-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                        <div class="gallery-thumb"><img src="img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-1-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                        <div class="gallery-thumb"><img src="img/widget/gal-1-2.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-2-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                        <div class="gallery-thumb"><img src="img/widget/gal-1-3.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-3-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                        <div class="gallery-thumb"><img src="img/widget/gal-1-4.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-4-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                        <div class="gallery-thumb"><img src="img/widget/gal-1-5.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-5-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                        <div class="gallery-thumb"><img src="img/widget/gal-1-6.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-6-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
                     </div>
                 </div>
                 <div class="sidemenu-footer">
@@ -159,7 +159,7 @@
                         <div class="row justify-content-between align-items-center gx-sm-0">
                             <div class="col-lg-auto col-auto">
                                 <div class="vs-header__logo">
-                                    <a href="index.html"><img src="assets/img/logo.svg" alt="BigBiz" class="logo"></a>
+                                    <a href="index.html"><img src="img/logo.svg" alt="BigBiz" class="logo"></a>
                                 </div>
                             </div>
                             <div class="col-lg-auto flex-grow-1 col-auto d-none d-lg-block">
@@ -248,9 +248,9 @@
             </div>
         </div>
     </header>
-    <section class="vs-hero vs-hero--padding bg-gray z-index-common" data-bg-src="assets/img/hero/h1-hero-bg-1.png">
-        <div class="vs-hero__ele vs-hero__ele--left"><img src="assets/img/elements/vs-hero-ele-h1-1.svg" alt="Elements"></div>
-        <div class="vs-hero__ele vs-hero__ele--right"><img src="assets/img/elements/vs-hero-ele-h1-2.svg" alt="Elements"></div>
+    <section class="vs-hero vs-hero--padding bg-gray z-index-common" data-bg-src="img/hero/h1-hero-bg-1.png">
+        <div class="vs-hero__ele vs-hero__ele--left"><img src="img/elements/vs-hero-ele-h1-1.svg" alt="Elements"></div>
+        <div class="vs-hero__ele vs-hero__ele--right"><img src="img/elements/vs-hero-ele-h1-2.svg" alt="Elements"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 mx-auto">
@@ -267,27 +267,27 @@
                 <div class="col-xl-12">
                     <div class="it-carousel" id="it-carousel-0" dir="ltr">
                         <div class="it-carousel__wrapper">
-                            <div class="it-carousel__item vs-rounded-125"><img src="assets/img/hero/h1-hero-bottom-img-1.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-2.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-3.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-125"><img src="assets/img/hero/h1-hero-bottom-img-4.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-5.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-6.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-125"><img src="assets/img/hero/h1-hero-bottom-img-7.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-125"><img src="assets/img/hero/h1-hero-bottom-img-1.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-2.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-3.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-125"><img src="assets/img/hero/h1-hero-bottom-img-4.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-5.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-6.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-125"><img src="assets/img/hero/h1-hero-bottom-img-7.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-125"><img src="assets/img/hero/h1-hero-bottom-img-1.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-2.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-3.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-125"><img src="assets/img/hero/h1-hero-bottom-img-4.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-5.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-full"><img src="assets/img/hero/h1-hero-bottom-img-6.jpg" alt="Hero Image 1" class="img-fluid"></div>
-                            <div class="it-carousel__item vs-rounded-125"><img src="assets/img/hero/h1-hero-bottom-img-7.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-125"><img src="img/hero/h1-hero-bottom-img-1.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-2.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-3.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-125"><img src="img/hero/h1-hero-bottom-img-4.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-5.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-6.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-125"><img src="img/hero/h1-hero-bottom-img-7.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-125"><img src="img/hero/h1-hero-bottom-img-1.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-2.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-3.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-125"><img src="img/hero/h1-hero-bottom-img-4.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-5.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-6.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-125"><img src="img/hero/h1-hero-bottom-img-7.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-125"><img src="img/hero/h1-hero-bottom-img-1.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-2.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-3.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-125"><img src="img/hero/h1-hero-bottom-img-4.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-5.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-full"><img src="img/hero/h1-hero-bottom-img-6.jpg" alt="Hero Image 1" class="img-fluid"></div>
+                            <div class="it-carousel__item vs-rounded-125"><img src="img/hero/h1-hero-bottom-img-7.jpg" alt="Hero Image 1" class="img-fluid"></div>
                         </div>
                     </div>
                 </div>
@@ -301,22 +301,22 @@
                 <div class="vs-brand__ele vs-brand__ele--right"></div>
                 <div class="it-carousel" id="it-carousel-1" data-direction="right" data-autoplay="true" data-autoplay-speed="0.5">
                     <div class="it-carousel__wrapper it-carousel__wrapper--style2">
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-6.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-2.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-3.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-4.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-5.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-6.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-2.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-3.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-4.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-5.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-6.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-2.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-3.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-4.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-5.svg" alt="Hero Image 1" class="img-fluid"></div>
-                        <div class="it-carousel__item it-carousel__item--style2"><img src="assets/img/brand/brand-1.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-6.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-2.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-3.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-4.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-5.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-6.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-2.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-3.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-4.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-5.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-6.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-2.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-3.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-4.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-5.svg" alt="Hero Image 1" class="img-fluid"></div>
+                        <div class="it-carousel__item it-carousel__item--style2"><img src="img/brand/brand-1.svg" alt="Hero Image 1" class="img-fluid"></div>
                     </div>
                 </div>
             </div>
@@ -327,13 +327,13 @@
             <div class="row">
                 <div class="col-lg-6 mb-30">
                     <div class="vs-about__content">
-                        <div class="title-area mb-4"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> About US <img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"></span>
+                        <div class="title-area mb-4"><span class="title-area__title--sub"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> About US <img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"></span>
                             <h2 class="title-area__title">We Are The Best, Yes We Are BigBiz!</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                         <div class="vs-about__cards">
                             <div class="vs-about__card">
-                                <div class="vs-about__card-icon"><img src="assets/img/icons/vs-icon-about-h1-1.svg" alt="vs-icon"></div>
+                                <div class="vs-about__card-icon"><img src="img/icons/vs-icon-about-h1-1.svg" alt="vs-icon"></div>
                                 <div class="vs-about__card-content">
                                     <h3 class="vs-about__card-title">Lorem ipsum dolor</h3>
                                     <p class="vs-about__card-text">Lorem ipsum dolor sit amet, tetura dipiscing elit.</p>
@@ -341,7 +341,7 @@
                             </div>
                             <div class="vs-about__cards-divider"></div>
                             <div class="vs-about__card">
-                                <div class="vs-about__card-icon"><img src="assets/img/icons/vs-icon-about-h1-1.svg" alt="vs-icon"></div>
+                                <div class="vs-about__card-icon"><img src="img/icons/vs-icon-about-h1-1.svg" alt="vs-icon"></div>
                                 <div class="vs-about__card-content">
                                     <h3 class="vs-about__card-title">Lorem ipsum dolor</h3>
                                     <p class="vs-about__card-text">Lorem ipsum dolor sit amet, tetura dipiscing elit.</p>
@@ -352,10 +352,10 @@
                         <div class="vs-about__footer"><a href="blog-details.html" class="vs-btn">Explore More <i class="fa-solid fa-arrow-right"></i></a>
                             <div class="vs-about__facts">
                                 <div class="vs-about__facts-images vs-active-wrapper">
-                                    <a href="#" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-1.jpg" alt="about"> </a>
-                                    <a href="#" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-2.jpg" alt="about"> </a>
-                                    <a href="#" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-3.jpg" alt="about"> </a>
-                                    <a href="#" class="vs-about__facts-img vs-active active"><img src="assets/img/about/about-facts-h1-4.jpg" alt="about"></a>
+                                    <a href="#" class="vs-about__facts-img vs-active"><img src="img/about/about-facts-h1-1.jpg" alt="about"> </a>
+                                    <a href="#" class="vs-about__facts-img vs-active"><img src="img/about/about-facts-h1-2.jpg" alt="about"> </a>
+                                    <a href="#" class="vs-about__facts-img vs-active"><img src="img/about/about-facts-h1-3.jpg" alt="about"> </a>
+                                    <a href="#" class="vs-about__facts-img vs-active active"><img src="img/about/about-facts-h1-4.jpg" alt="about"></a>
                                 </div>
                                 <div class="vs-about__facts-content main-counter" data-counter="2000" data-format="comma">
                                     <div class="vs-about__facts-number">
@@ -369,17 +369,17 @@
                         <div class="col-lg-6 col-md-6 mb-30">
                             <div class="vs-ex mb-30">
                                 <div class="vs-ex__counter">
-                                    <div class="vs-ex__counter-icon"><img src="assets/img/icons/vs-vs-counter-icon-1-1.svg" alt="vs-icon"></div>
+                                    <div class="vs-ex__counter-icon"><img src="img/icons/vs-vs-counter-icon-1-1.svg" alt="vs-icon"></div>
                                     <div class="main-counter" data-counter="15">
                                         <div class="vs-ex__counter-number">
                                             <div class="main-counter__number">0</div>+</div><span class="vs-ex__counter-title">Years Of Experience</span></div>
                                 </div>
                                 <p class="vs-ex__text">Lorem ipsum dolor sit amet, ctetur in adipiscing elit.</p>
                             </div>
-                            <div class="vs-about__image"><img data-parallax='{"y": 150, "smoothness": 5}' src="assets/img/about/about-image-h1-1.jpg" alt="about image"></div>
+                            <div class="vs-about__image"><img data-parallax='{"y": 150, "smoothness": 5}' src="img/about/about-image-h1-1.jpg" alt="about image"></div>
                         </div>
                         <div class="col-lg-6 col-md-6 mb-30">
-                            <div class="vs-about__image vs-about__image--two"><img data-parallax='{"y": 150, "smoothness": 5}' src="assets/img/about/about-image-h1-2.jpg" alt="about image"></div>
+                            <div class="vs-about__image vs-about__image--two"><img data-parallax='{"y": 150, "smoothness": 5}' src="img/about/about-image-h1-2.jpg" alt="about image"></div>
                         </div>
                     </div>
                 </div>
@@ -390,7 +390,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-xl-6">
-                    <div class="title-area text-center px-4" dir="ltr"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#C4F500" data-duration="0.8">Services</span> <img src="assets/img/icons/vs-icon-title-star.svg"
+                    <div class="title-area text-center px-4" dir="ltr"><span class="title-area__title--sub"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#C4F500" data-duration="0.8">Services</span> <img src="img/icons/vs-icon-title-star.svg"
                         alt="vs-icon-title-star"></span>
                         <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #C4F500)" data-duration="1">Ensure The Best Service For Clients.</h2></div>
                 </div>
@@ -400,7 +400,7 @@
                     <div class="vs-service__card">
                         <div class="vs-service__card-figure">
                             <div class="vs-service__card-figure__inner">
-                                <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="assets/img/services/service-img-h1-1.jpg" alt="Service Image"></a>
+                                <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="img/services/service-img-h1-1.jpg" alt="Service Image"></a>
                             </div>
                         </div>
                         <div class="vs-service__card-content">
@@ -415,7 +415,7 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="assets/img/services/service-img-h1-2.jpg" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="img/services/service-img-h1-2.jpg" alt="Service Image"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
@@ -430,7 +430,7 @@
             <div class="vs-service__card">
                 <div class="vs-service__card-figure">
                     <div class="vs-service__card-figure__inner">
-                        <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="assets/img/services/service-img-h1-3.jpg" alt="Service Image"></a>
+                        <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="img/services/service-img-h1-3.jpg" alt="Service Image"></a>
                     </div>
                 </div>
                 <div class="vs-service__card-content">
@@ -447,7 +447,7 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="assets/img/services/service-img-h1-4.jpg" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="img/services/service-img-h1-4.jpg" alt="Service Image"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
@@ -462,7 +462,7 @@
             <div class="vs-service__card">
                 <div class="vs-service__card-figure">
                     <div class="vs-service__card-figure__inner">
-                        <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="assets/img/services/service-img-h1-5.jpg" alt="Service Image"></a>
+                        <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="img/services/service-img-h1-5.jpg" alt="Service Image"></a>
                     </div>
                 </div>
                 <div class="vs-service__card-content">
@@ -477,7 +477,7 @@
             <div class="vs-service__card">
                 <div class="vs-service__card-figure">
                     <div class="vs-service__card-figure__inner">
-                        <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="assets/img/services/service-img-h1-6.jpg" alt="Service Image"></a>
+                        <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="img/services/service-img-h1-6.jpg" alt="Service Image"></a>
                     </div>
                 </div>
                 <div class="vs-service__card-content">
@@ -495,7 +495,7 @@
         <div class="container">
             <div class="row justify-content-between align-items-end">
                 <div class="col-xl-5 col-lg-6">
-                    <div class="title-area text-center text-lg-start" dir="ltr"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#C4F500" data-duration="1">Members</span> <img src="assets/img/icons/vs-icon-title-star.svg"
+                    <div class="title-area text-center text-lg-start" dir="ltr"><span class="title-area__title--sub"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#C4F500" data-duration="1">Members</span> <img src="img/icons/vs-icon-title-star.svg"
                         alt="vs-icon-title-star"></span>
                         <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #C4F500)" data-duration="2">Our Most Experience Team Members</h2></div>
                 </div>
@@ -506,7 +506,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-1.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="img/team/team-member-h1-1.jpg" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -518,7 +518,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.4" data-duration="1">
                         <div class="vs-team__item">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-2.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="img/team/team-member-h1-2.jpg" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -530,7 +530,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.6" data-duration="1">
                         <div class="vs-team__item">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-3.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="img/team/team-member-h1-3.jpg" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -586,11 +586,11 @@
         </div>
     </section>
     <section class="vs-facts vs-facts--layout1 z-index-common overflow-hidden space-extra-bottom">
-        <div class="vs-facts__bg" data-ele-move="zoom" data-ele-move-speed="0.5" data-bg-src="assets/img/facts/facts-bg-h1-1.jpg"></div>
+        <div class="vs-facts__bg" data-ele-move="zoom" data-ele-move-speed="0.5" data-bg-src="img/facts/facts-bg-h1-1.jpg"></div>
         <div class="container">
             <div class="row justify-content-between gy-3">
                 <div class="col-xl-5 col-lg-6 col-md-7 mb-30">
-                    <div class="title-area title-area--white text-start mb-0" dir="ltr"><span class="title-area__title--sub vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80"><img src="assets/img/icons/vs-icon-title-star-black.svg" alt="vs-icon-title-star"> Fun Facts <img src="assets/img/icons/vs-icon-title-star-black.svg" alt="vs-icon-title-star"></span>
+                    <div class="title-area title-area--white text-start mb-0" dir="ltr"><span class="title-area__title--sub vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80"><img src="img/icons/vs-icon-title-star-black.svg" alt="vs-icon-title-star"> Fun Facts <img src="img/icons/vs-icon-title-star-black.svg" alt="vs-icon-title-star"></span>
                         <h2
                         class="title-area__title textify-style15" data-duration="1.2" data-delay="0.5">We Are Providing Best Services</h2><a href="blog-details.html" class="vs-btn vs-btn--style2 vs-fade-in-up" data-duration="0.80" data-delay="0.7" data-yposition="1.4" data-scale="1">Explore More <i class="fa-solid fa-arrow-right"></i></a></div>
                 </div>
@@ -604,7 +604,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <div class="title-area text-center" dir="ltr"><span class="title-area__title--sub vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> Testimonials <img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"></span>
+                    <div class="title-area text-center" dir="ltr"><span class="title-area__title--sub vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> Testimonials <img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"></span>
                         <h2
                         class="title-area__title textify-style15" data-duration="1.2" data-delay="0.5">What Our Clients Review & Feedback</h2>
                     </div>
@@ -617,7 +617,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Emma Hayes</span>
                                     <p class="vs-clients__role">Developer, VecuroSoft</p>
@@ -630,7 +630,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-2.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="img/client/client-user-img-h1-2.jpg" alt="Emma Hayes wearing a hat"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Rodja Heartmann</span>
                                     <p class="vs-clients__role">CEO, VecuroSoft</p>
@@ -643,7 +643,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-3.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="img/client/client-user-img-h1-3.jpg" alt="Emma Hayes wearing a hat"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Rivanur R. Rafi</span>
                                     <p class="vs-clients__role">Designer, VecuroSoft</p>
@@ -656,7 +656,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-4.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="img/client/client-user-img-h1-4.jpg" alt="Emma Hayes wearing a hat"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Emma Hayes</span>
                                     <p class="vs-clients__role">Developer, VecuroSoft</p>
@@ -669,7 +669,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-5.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="img/client/client-user-img-h1-5.jpg" alt="Emma Hayes wearing a hat"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Tonoy Ahmmed</span>
                                     <p class="vs-clients__role">UI, VecuroSoft</p>
@@ -682,7 +682,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-6.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="img/client/client-user-img-h1-6.jpg" alt="Emma Hayes wearing a hat"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Emma Hayes</span>
                                     <p class="vs-clients__role">Developer, VecuroSoft</p>
@@ -695,7 +695,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Emma Hayes</span>
                                     <p class="vs-clients__role">Developer, VecuroSoft</p>
@@ -715,7 +715,7 @@
         <div class="container">
             <div class="row justify-content-between align-items-end">
                 <div class="col-lg-6">
-                    <div class="title-area text-center text-lg-start" dir="ltr"><span class="title-area__title--sub vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> Portfolios <img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"></span>
+                    <div class="title-area text-center text-lg-start" dir="ltr"><span class="title-area__title--sub vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> Portfolios <img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"></span>
                         <h2
                         class="title-area__title textify-style15" data-duration="1.2" data-delay="0.5">Explore Our Successfully Done Projects</h2>
                     </div>
@@ -733,7 +733,7 @@
                 <div class="grid-sizer col-lg-3 col-md-6"></div>
                 <div class="vs-portfolio__item grid-item col-lg-6 brand vs-fade-in-up" data-duration="1" data-delay="0.3">
                     <div class="vs-portfolio__content magnet-wrapper">
-                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="assets/img/portfolio/p-h1-1.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
+                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="img/portfolio/p-h1-1.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
                         <a href="index.html" class="vs-portfolio__overlay">
                             <button class="vs-portfolio__button">View More <i class="fa-regular fa-arrow-up-right"></i></button>
                         </a>
@@ -741,7 +741,7 @@
                 </div>
                 <div class="vs-portfolio__item grid-item col-lg-3 col-sm-6 mockup vs-fade-in-up" data-duration="1" data-delay="0.4">
                     <div class="vs-portfolio__content magnet-wrapper">
-                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="assets/img/portfolio/p-h1-2.jpg" class="vs-portfolio__img vs-image-effect__image" alt="Portfolio Item 1"> </a>
+                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="img/portfolio/p-h1-2.jpg" class="vs-portfolio__img vs-image-effect__image" alt="Portfolio Item 1"> </a>
                         <a href="index.html" class="vs-portfolio__overlay">
                             <button class="vs-portfolio__button">View More <i class="fa-regular fa-arrow-up-right"></i></button>
                         </a>
@@ -749,7 +749,7 @@
                 </div>
                 <div class="vs-portfolio__item grid-item col-lg-3 col-sm-6 logo vs-fade-in-up" data-duration="1" data-delay="0.5">
                     <div class="vs-portfolio__content magnet-wrapper">
-                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="assets/img/portfolio/p-h1-3.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
+                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="img/portfolio/p-h1-3.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
                         <a href="index.html" class="vs-portfolio__overlay">
                             <button class="vs-portfolio__button">View More <i class="fa-regular fa-arrow-up-right"></i></button>
                         </a>
@@ -757,7 +757,7 @@
                 </div>
                 <div class="vs-portfolio__item grid-item col-lg-6 col-sm-12 consulting vs-fade-in-up" data-duration="1" data-delay="0.6">
                     <div class="vs-portfolio__content magnet-wrapper">
-                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="assets/img/portfolio/p-h1-6.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
+                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="img/portfolio/p-h1-6.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
                         <a href="index.html" class="vs-portfolio__overlay">
                             <button class="vs-portfolio__button">View More <i class="fa-regular fa-arrow-up-right"></i></button>
                         </a>
@@ -765,7 +765,7 @@
                 </div>
                 <div class="vs-portfolio__item grid-item col-lg-3 col-sm-6 brand vs-fade-in-up" data-duration="1" data-delay="0.7">
                     <div class="vs-portfolio__content magnet-wrapper">
-                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="assets/img/portfolio/p-h1-4.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
+                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="img/portfolio/p-h1-4.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
                         <a href="index.html" class="vs-portfolio__overlay">
                             <button class="vs-portfolio__button">View More <i class="fa-regular fa-arrow-up-right"></i></button>
                         </a>
@@ -773,7 +773,7 @@
                 </div>
                 <div class="vs-portfolio__item grid-item col-lg-3 col-sm-6 logo mockup vs-fade-in-up" data-duration="1" data-delay="0.8">
                     <div class="vs-portfolio__content magnet-wrapper">
-                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="assets/img/portfolio/p-h1-5.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
+                        <a class="vs-portfolio__link--img" href="portfolio-details.html"><img src="img/portfolio/p-h1-5.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"> </a>
                         <a href="index.html" class="vs-portfolio__overlay">
                             <button class="vs-portfolio__button">View More <i class="fa-regular fa-arrow-up-right"></i></button>
                         </a>
@@ -786,7 +786,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xxl-7 col-xl-6 col-lg-6">
-                    <div class="title-area text-center" dir="ltr"><span class="title-area__title--sub vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> News & Blog <img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"></span>
+                    <div class="title-area text-center" dir="ltr"><span class="title-area__title--sub vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> News & Blog <img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"></span>
                         <h2
                         class="title-area__title textify-style15" data-duration="1.2" data-delay="0.5">Our Most Ultimate News & Blogs Area</h2>
                     </div>
@@ -797,7 +797,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80">
                         <div class="vs-blog vs-blog--style2 vs-image-effect">
                             <figure class="vs-blog__figure">
-                                <a class="vs-blog__figure__link" href="blog-details.html" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-1.jpg" alt="Blog Image">
+                                <a class="vs-blog__figure__link" href="blog-details.html" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal"><img class="vs-blog__img vs-image-effect__image" src="img/blog/vs-blog-h1-1.jpg" alt="Blog Image">
                                     <div class="vs-image-effect__overlay"></div>
                                 </a><span class="vs-blog__date">16 <sub>Jan</sub></span></figure>
                             <div class="vs-blog__content">
@@ -814,7 +814,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.5" data-yposition="80">
                         <div class="vs-blog vs-blog--style2 vs-image-effect">
                             <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal">
-                                <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-2.jpg" alt="Blog Image">
+                                <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="img/blog/vs-blog-h1-2.jpg" alt="Blog Image">
                                     <div class="vs-image-effect__overlay"></div>
                                 </a><span class="vs-blog__date">16 <sub>Jan</sub></span></figure>
                             <div class="vs-blog__content">
@@ -831,7 +831,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.7" data-yposition="80">
                         <div class="vs-blog vs-blog--style2 vs-image-effect">
                             <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal">
-                                <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-3.jpg" alt="Blog Image">
+                                <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="img/blog/vs-blog-h1-3.jpg" alt="Blog Image">
                                     <div class="vs-image-effect__overlay"></div>
                                 </a><span class="vs-blog__date">16 <sub>Jan</sub></span></figure>
                             <div class="vs-blog__content">
@@ -848,7 +848,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.9" data-yposition="80">
                         <div class="vs-blog vs-blog--style2 vs-image-effect">
                             <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal">
-                                <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-4.jpg" alt="Blog Image">
+                                <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="img/blog/vs-blog-h1-4.jpg" alt="Blog Image">
                                     <div class="vs-image-effect__overlay"></div>
                                 </a><span class="vs-blog__date">16 <sub>Jan</sub></span></figure>
                             <div class="vs-blog__content">
@@ -870,30 +870,30 @@
         <div class="container-fluid p-0">
             <div class="it-carousel" id="it-carousel-2" data-direction="left" data-autoplay="true" data-autoplay-speed="0.5">
                 <div class="it-carousel__wrapper it-carousel__wrapper--style3">
-                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--stroke"><img src="assets/img/brand/brand-icon-1.svg" alt="Brand Logo 1" class="img-fluid">
+                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--stroke"><img src="img/brand/brand-icon-1.svg" alt="Brand Logo 1" class="img-fluid">
                         <h3 class="it-carousel__item__text">Brand Consultation</h3></div>
-                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--text"><img src="assets/img/brand/brand-icon-2.svg" alt="Brand Logo 1" class="img-fluid">
+                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--text"><img src="img/brand/brand-icon-2.svg" alt="Brand Logo 1" class="img-fluid">
                         <h3 class="it-carousel__item__text">Brand Strategy</h3></div>
-                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--stroke"><img src="assets/img/brand/brand-icon-1.svg" alt="Brand Logo 1" class="img-fluid">
+                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--stroke"><img src="img/brand/brand-icon-1.svg" alt="Brand Logo 1" class="img-fluid">
                         <h3 class="it-carousel__item__text">Brand Management</h3></div>
-                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--text"><img src="assets/img/brand/brand-icon-2.svg" alt="Brand Logo 1" class="img-fluid">
+                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--text"><img src="img/brand/brand-icon-2.svg" alt="Brand Logo 1" class="img-fluid">
                         <h3 class="it-carousel__item__text">IT Consultation</h3></div>
-                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--stroke"><img src="assets/img/brand/brand-icon-1.svg" alt="Brand Logo 1" class="img-fluid">
+                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--stroke"><img src="img/brand/brand-icon-1.svg" alt="Brand Logo 1" class="img-fluid">
                         <h3 class="it-carousel__item__text">Brand Analysis</h3></div>
-                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--text"><img src="assets/img/brand/brand-icon-2.svg" alt="Brand Logo 1" class="img-fluid">
+                    <div class="it-carousel__item it-carousel__item--style3 it-carousel__item--text"><img src="img/brand/brand-icon-2.svg" alt="Brand Logo 1" class="img-fluid">
                         <h3 class="it-carousel__item__text">Startup Consultation</h3></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="vs-footer bg-title space-top" data-bg-src="assets/img/footer/footer-bg.svg" dir="ltr">
+    <div class="vs-footer bg-title space-top" data-bg-src="img/footer/footer-bg.svg" dir="ltr">
         <div class="vs-footer__top pb-30 z-index-common">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-lg-4 mb-30 vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80" data-scale="1">
                         <div class="vs-footer__widget">
                             <div class="vs-footer__logo mb-30">
-                                <a href="index.html" class="vs-footer__logo-link"><img src="assets/img/logo-version-2.svg" alt="BigBiz Logo"></a>
+                                <a href="index.html" class="vs-footer__logo-link"><img src="img/logo-version-2.svg" alt="BigBiz Logo"></a>
                             </div>
                             <p class="vs-footer__desc text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                             <form action="https://html.vecurosoft.com/bigbiz/demo/mail.php"
@@ -932,12 +932,12 @@
                         <div class="vs-footer__widget">
                             <h3 class="vs-footer__title">Instagram <span class="vs-footer__title--dividers"><span class="vs-footer__title--divider"></span> <span class="vs-footer__title--divider"></span> <span class="vs-footer__title--divider"></span></span></h3>
                             <div class="sidebar-gallery">
-                                <div class="gallery-thumb"><img src="assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-1-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gal-1-2.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-2-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gal-1-3.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-3-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gal-1-4.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-4-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gal-1-5.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-5-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gal-1-6.jpg" alt="Gallery Image" class="w-100"> <a href="assets/img/widget/gal-1-6-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                                <div class="gallery-thumb"><img src="img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-1-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                                <div class="gallery-thumb"><img src="img/widget/gal-1-2.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-2-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                                <div class="gallery-thumb"><img src="img/widget/gal-1-3.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-3-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                                <div class="gallery-thumb"><img src="img/widget/gal-1-4.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-4-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                                <div class="gallery-thumb"><img src="img/widget/gal-1-5.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-5-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
+                                <div class="gallery-thumb"><img src="img/widget/gal-1-6.jpg" alt="Gallery Image" class="w-100"> <a href="img/widget/gal-1-6-big.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -949,21 +949,21 @@
                 <div class="vs-footer__middle--row">
                     <div class="vs-footer__middle--col">
                         <div class="vs-info">
-                            <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="assets/img/icons/vs-icon-location.svg" alt="Location Icon"></i></div>
+                            <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="img/icons/vs-icon-location.svg" alt="Location Icon"></i></div>
                             <div class="vs-info__content">
                                 <h6 class="vs-info__title">Office Address</h6><span class="vs-info__label">12th Street, New York, USA</span></div>
                         </div>
                     </div>
                     <div class="vs-footer__middle--col">
                         <div class="vs-info">
-                            <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="assets/img/icons/vs-icon-email.svg" alt="Location Icon"></i></div>
+                            <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="img/icons/vs-icon-email.svg" alt="Location Icon"></i></div>
                             <div class="vs-info__content">
                                 <h6 class="vs-info__title">Email Address</h6><a class="vs-info__label" href="mailto:info@bigbiz.com">info@bigbiz.com</a></div>
                         </div>
                     </div>
                     <div class="vs-footer__middle--col">
                         <div class="vs-info">
-                            <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="assets/img/icons/vs-icon-support.svg" alt="Location Icon"></i></div>
+                            <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="img/icons/vs-icon-support.svg" alt="Location Icon"></i></div>
                             <div class="vs-info__content">
                                 <h6 class="vs-info__title">For Support</h6><a class="vs-info__label" href="tel:+0019280009">+(00) 1928 0009</a></div>
                         </div>
@@ -986,25 +986,25 @@
     </div>
     <button class="back-to-top" id="backToTop" aria-label="Back to Top"><span class="progress-circle"><svg viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="40"></circle><circle class="progress" cx="50" cy="50" r="40"></circle></svg> <span class="progress-percentage" id="progressPercentage">0%</span></span>
     </button>
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/ScrollToPlugin.min.js"></script>
-    <script src="assets/js/lenis.min.js"></script>
-    <script src="assets/js/SplitText.min.js"></script>
-    <script src="assets/js/animation-text-style.js"></script>
-    <script src="assets/js/Observer.min.js"></script>
-    <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/draggableCarousel.js"></script>
-    <script src="assets/js/mkk360-cursor.js"></script>
-    <script src="assets/js/vs-animation.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/ScrollToPlugin.min.js"></script>
+    <script src="js/lenis.min.js"></script>
+    <script src="js/SplitText.min.js"></script>
+    <script src="js/animation-text-style.js"></script>
+    <script src="js/Observer.min.js"></script>
+    <script src="js/parallax-scroll.js"></script>
+    <script src="js/draggableCarousel.js"></script>
+    <script src="js/mkk360-cursor.js"></script>
+    <script src="js/vs-animation.js"></script>
+    <script src="js/main.js"></script>
 </body>
 <!-- Mirrored from html.vecurosoft.com/bigbiz/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Jun 2026 06:43:30 GMT -->
 
