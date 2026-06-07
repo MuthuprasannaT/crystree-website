@@ -6779,7 +6779,6 @@ position:static
 display:flex;
 justify-content:space-between;
 border-radius: 25px;
-top: 10px !important;
 text-align:left;
 width:100%;
 max-width:var(--vs-main-container);
