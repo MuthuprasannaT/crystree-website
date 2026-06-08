@@ -6,11 +6,11 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
+                <h1 class="breadcrumb-wrapper__title">Web Applications</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-wrapper__menu--item">Services Details</li>
+                        <li class="breadcrumb-wrapper__menu--item">Web Applications</li>
                     </ul>
                 </div>
             </div>
@@ -25,22 +25,24 @@
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
-                            <h3 class="vs-blog__title mb-2">Retirement Planning Services</h3>
+                            <h3 class="vs-blog__title mb-2">Transform Your Business with Professional Website Design in Trichy</h3>
                             <svg width="120" height="10" viewBox="0 0 120 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 2C0 0.89543 0.895431 0 2 0H59.1716C59.702 0 60.2107 0.210714 60.5858 0.585786L66.5858 6.58579C67.8457 7.84572 66.9534 10 65.1716 10H2C0.89543 10 0 9.10457 0 8V2Z" fill="#014E4E" />
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">A website is more than just an online presence—it is a powerful business tool that helps attract customers, build trust, and generate enquiries. Whether you are a startup, small business, or established enterprise, having a professionally designed website can significantly improve your visibility and credibility in the digital marketplace.</p>
+                            <p class="pt-40">As a leading web design company in Trichy, we create modern, responsive, and user-focused websites that help businesses connect with their target audience and achieve their growth objectives. Our websites are designed to deliver exceptional user experiences while maintaining high performance and search engine compatibility.</p>
+                            <h4 class="mt-4 mb-15">Custom Web Design Solutions for Every Business</h4>
+                            <p class="mb-20">Every brand has a unique identity, and your website should reflect that uniqueness. We provide customized website design solutions tailored to your industry, goals, and customer expectations. From corporate websites to service-based platforms and business portfolios, we develop websites that represent your brand professionally.</p>
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Creative and Modern Designs</li>
+                                <li>Responsive User Interfaces</li>
+                                <li>Easy Navigation Structure</li>
+                                <li>Fast Website Performance</li>
+                                <li>SEO-Friendly Development</li>                                <li>Secure Website Architecture</li>
+                                <li>Conversion-Oriented Layouts</li>
+                                <li>Mobile-Optimized Experiences</li>
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -147,98 +149,7 @@ Yes, every website is developed with SEO-friendly architecture and technical opt
                     </div>
                 </div>
             </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqSix">
-                        What technologies do you use for website development?
-                    </button>
-                </h2>
-                <div id="faqSix" class="accordion-collapse collapse"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-                        We use modern technologies such as Laravel, PHP,
-                        HTML5, CSS3, Bootstrap, JavaScript, MySQL, and other
-                        advanced frameworks based on project requirements.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqSeven">
-                        Will I be able to update my website content?
-                    </button>
-                </h2>
-                <div id="faqSeven" class="accordion-collapse collapse"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-                        Yes. We can provide an easy-to-use content management system (CMS)
-                        that allows you to update text, images, blogs, and other content.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqEight">
-                        Do you offer eCommerce website development?
-                    </button>
-                </h2>
-                <div id="faqEight" class="accordion-collapse collapse"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-                        Yes. We develop secure and scalable eCommerce websites
-                        with payment gateway integration, inventory management,
-                        and customer-friendly shopping experiences.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqNine">
-                        How much does website development cost?
-                    </button>
-                </h2>
-                <div id="faqNine" class="accordion-collapse collapse"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-                        Website development costs vary depending on design,
-                        features, functionality, and project scope.
-                        Contact us for a customized quotation.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqTen">
-                        Why choose Crystree Solutions for website development in Trichy?
-                    </button>
-                </h2>
-                <div id="faqTen" class="accordion-collapse collapse"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-                        Crystree Solutions delivers custom website development,
-                        responsive design, SEO optimization, ongoing support,
-                        and business-focused digital solutions that help companies
-                        grow online successfully.
-                    </div>
-                </div>
-            </div>
-
-                                  <div class="col-12 mt-4">
+       <div class="col-12 mt-4">
     <div class="vs-header__action d-flex justify-content-center">
         <a href="#websiteFaq" class="vs-btn vs-btn--gradient">
             Explore FAQs
@@ -253,8 +164,8 @@ Yes, every website is developed with SEO-friendly architecture and technical opt
 </div>
 
 <!-- FAQ Section End -->
-                            <h4 class="mb-15 mt-5">Why Choose Crystree Solutions for Website Development?</h4>
-                            <p class="mb-20">Crystree Solutions is a professional website development company based in Trichy, Tamil Nadu, dedicated to creating high-performance websites that help businesses strengthen their online presence and achieve long-term growth. We combine modern design, advanced technology, and strategic digital solutions to deliver websites that are visually appealing, user-friendly, and results-driven.</p>
+                            <h4 class="mb-15 mt-5">Why Choose Us for Website Design in Trichy?</h4>
+                            <p class="mb-20">We combine creativity, technology, and digital marketing expertise to create websites that deliver measurable business value. Our focus is not only on aesthetics but also on performance, user engagement, and search engine visibility.</p>
                             {{-- <ul class="vs-list style2">
                                 <li>Personalized Retirement Roadmap</li>
                                 <li>Social Security & Pension Planning</li>
