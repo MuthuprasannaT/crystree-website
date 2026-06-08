@@ -37,3 +37,17 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script src="{{ asset('assets/js/main.js') }}"></script>
+
+@verbatim
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Crystree Solutions Pvt Ltd",
+  "url":"https://www.crystreesolutions.com",
+  "logo":"https://www.crystreesolutions.com/assets/img/logo/newlogo1.png",
+  "telephone":"+91-9566968212",
+  "email":"support@crystreesolutions.com"
+}
+</script>
+@endverbatim

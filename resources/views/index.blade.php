@@ -359,8 +359,6 @@ margin-top: -10px
     .vs-service__biz-text {
         height: 204px !important;
     }
-
-
 }
                     </style>
                     <!-- SEO -->

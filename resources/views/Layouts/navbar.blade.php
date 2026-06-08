@@ -8,7 +8,9 @@
                         <div class="col-lg-auto col-auto">
                             <div class="vs-header__logo">
                                 <a href="{{ route('home') }}">
-                                    <img src="{{ asset('assets/img/logo/newlogo1.png') }}" alt="Crystree Solutions" class="logo">
+                                    <img src="{{ asset('assets/img/logo/newlogo1.png') }}"
+     alt="Crystree Solutions Pvt Ltd - Software Development Company in Trichy"
+     class="logo">
                                 </a>
                             </div>
                         </div>
