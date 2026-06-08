@@ -52,21 +52,221 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
-                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
-                                you retire comfortably.</p>
-                            <ul class="vs-list style2">
+            <!-- FAQ Section Start -->
+<div class="row  mt-60 ">
+    <div class="col-lg-11">
+        <div class="title-area text-center mb-40">
+            <h4 class="mt-4 mb-15">Frequently Asked Questions</h4>
+            {{-- <h3 class="vs-blog__title mb-2"></h3> --}}
+            {{-- <span class="sec-subtitle"></span> --}}
+            {{-- <h2 class="sec-title">Website Development FAQ</h2> --}}
+        </div>
+
+        <div class="accordion style3" id="websiteFaq">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button " type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqOne">
+What is web design?
+                    </button>
+                </h2>
+                <div id="faqOne" class="accordion-collapse collapse show"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+Web design is the process of creating the visual layout, structure, and user experience of a website.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqTwo">
+Do you provide responsive website design?
+                    </button>
+                </h2>
+                <div id="faqTwo" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+Yes, all websites are fully responsive and optimized for mobile, tablet, and desktop devices.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqThree">
+Is SEO included in website design?
+                    </button>
+                </h2>
+                <div id="faqThree" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+Yes, every website is developed with SEO-friendly architecture and technical optimization.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqFour">
+                        Is SEO included with website development?
+                    </button>
+                </h2>
+                <div id="faqFour" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+                        Yes. We implement on-page SEO best practices including
+                        optimized page structure, meta tags, mobile optimization,
+                        fast loading speed, and search-engine-friendly coding.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqFive">
+                        Can you redesign my existing website?
+                    </button>
+                </h2>
+                <div id="faqFive" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+                        Absolutely. We can modernize your existing website,
+                        improve performance, enhance user experience,
+                        and optimize it for better search engine rankings.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqSix">
+                        What technologies do you use for website development?
+                    </button>
+                </h2>
+                <div id="faqSix" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+                        We use modern technologies such as Laravel, PHP,
+                        HTML5, CSS3, Bootstrap, JavaScript, MySQL, and other
+                        advanced frameworks based on project requirements.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqSeven">
+                        Will I be able to update my website content?
+                    </button>
+                </h2>
+                <div id="faqSeven" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+                        Yes. We can provide an easy-to-use content management system (CMS)
+                        that allows you to update text, images, blogs, and other content.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqEight">
+                        Do you offer eCommerce website development?
+                    </button>
+                </h2>
+                <div id="faqEight" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+                        Yes. We develop secure and scalable eCommerce websites
+                        with payment gateway integration, inventory management,
+                        and customer-friendly shopping experiences.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqNine">
+                        How much does website development cost?
+                    </button>
+                </h2>
+                <div id="faqNine" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+                        Website development costs vary depending on design,
+                        features, functionality, and project scope.
+                        Contact us for a customized quotation.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqTen">
+                        Why choose Crystree Solutions for website development in Trichy?
+                    </button>
+                </h2>
+                <div id="faqTen" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+                        Crystree Solutions delivers custom website development,
+                        responsive design, SEO optimization, ongoing support,
+                        and business-focused digital solutions that help companies
+                        grow online successfully.
+                    </div>
+                </div>
+            </div>
+
+                                  <div class="col-12 mt-4">
+    <div class="vs-header__action d-flex justify-content-center">
+        <a href="#websiteFaq" class="vs-btn vs-btn--gradient">
+            Explore FAQs
+            {{-- <i class="fa-solid fa-arrow-right"></i> --}}
+        </a>
+    </div>
+</div>
+
+        </div>
+    </div>
+      
+</div>
+
+<!-- FAQ Section End -->
+                            <h4 class="mb-15 mt-5">Why Choose Crystree Solutions for Website Development?</h4>
+                            <p class="mb-20">Crystree Solutions is a professional website development company based in Trichy, Tamil Nadu, dedicated to creating high-performance websites that help businesses strengthen their online presence and achieve long-term growth. We combine modern design, advanced technology, and strategic digital solutions to deliver websites that are visually appealing, user-friendly, and results-driven.</p>
+                            {{-- <ul class="vs-list style2">
                                 <li>Personalized Retirement Roadmap</li>
                                 <li>Social Security & Pension Planning</li>
                                 <li>Investment & Savings Guidance</li>
                                 <li>Risk Management & Insurance Planning</li>
                                 <li>Tax Optimization Strategies</li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="sidebar-area">
+                    <div class="sidebar-area sticky-top">
                         <div class="widget widget_block widget_services">
                             <h3 class="widget__heading">Our Services</h3>
                             <ul class="wp-block-categories-list wp-block-categories">
