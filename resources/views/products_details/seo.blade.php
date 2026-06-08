@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
+                <h1 class="breadcrumb-wrapper__title">Search Engine Optimization (SEO) Services</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -19,7 +19,7 @@
     <section class="vs-blog--layout1 space space-extra-bottom" dir="ltr">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="vs-blog vs-blog--single">
                         <figure class="vs-blog__figure"><img class="vs-blog__img" src="assets/img/blog/vs-blog-details-img-1.jpg" alt="Blog Image">
                             <div class="overlay"></div>
@@ -31,16 +31,14 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">Search Engine Optimization (SEO) is one of the most effective digital marketing strategies for improving your website's visibility on search engines and attracting qualified organic traffic. Our SEO services help businesses rank higher on Google, increase online visibility, generate quality leads, and achieve sustainable business growth. Through strategic keyword research, on-page SEO, technical SEO, content optimization, and link-building techniques, we help your business reach the right audience and stay ahead of competitors in search results.</p>
+                            <h4 class="mt-4 mb-15">Why SEO is Essential</h4>
+                            <p class="mb-20">In today's competitive digital landscape, having a website alone is not enough. SEO helps businesses improve search engine rankings, increase brand awareness, and attract potential customers actively searching for products and services. A well-optimized website delivers long-term results, improves credibility, and provides a higher return on investment compared to many traditional marketing methods. Effective SEO also enhances user experience, website performance, and online authority.:</p>
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Improve Search Engine Rankings</li>
+                                <li>Increase Organic Website Traffic</li>
+                                <li>Generate Quality Leads</li>
+                                <li>Strengthen Brand Visibility</li>
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -52,20 +50,19 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
-                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
-                                you retire comfortably.</p>
+                            <h4 class="mb-15">Our Comprehensive SEO Services</h4>
+                            <p class="mb-20">We provide complete Search Engine Optimization solutions tailored to your business goals and industry requirements. Our SEO process includes keyword research, website audits, on-page optimization, technical SEO improvements, content marketing strategies, local SEO optimization, and high-quality link-building campaigns. Our team continuously monitors performance, tracks rankings, and implements data-driven strategies to maximize search visibility and long-term growth.</p>
                             <ul class="vs-list style2">
-                                <li>Personalized Retirement Roadmap</li>
-                                <li>Social Security & Pension Planning</li>
-                                <li>Investment & Savings Guidance</li>
-                                <li>Risk Management & Insurance Planning</li>
-                                <li>Tax Optimization Strategies</li>
+                                <li>On-Page & Technical SEO</li>
+                                <li>Keyword Research & Content Optimization</li>
+                                <li>Local SEO & Google Business Profile Optimization</li>
+                                <li>Link Building & Performance Tracking</li>
+                              
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                {{-- <div class="col-lg-4">
                     <div class="sidebar-area">
                         <div class="widget widget_block widget_services">
                             <h3 class="widget__heading">Our Services</h3>
@@ -88,7 +85,7 @@
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>

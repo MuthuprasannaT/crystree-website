@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
+                <h1 class="breadcrumb-wrapper__title">WhatsApp Marketing Services</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -31,16 +31,15 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">WhatsApp Marketing is one of the most effective communication and customer engagement strategies for businesses looking to connect directly with their audience. With billions of active users worldwide, WhatsApp provides a powerful platform for promoting products, sharing updates, generating leads, and building strong customer relationships. Our WhatsApp Marketing Services help businesses deliver personalized messages, automate customer interactions, increase engagement, and drive conversions through targeted marketing campaigns and real-time communication.</p>
+                            <h4 class="mt-4 mb-15">Why WhatsApp Marketing is Essential</h4>
+                            <p class="mb-20">In today's digital world, customers prefer fast and direct communication. WhatsApp Marketing enables businesses to reach customers instantly, improve response rates, and deliver personalized experiences. It helps increase customer engagement, strengthen brand loyalty, generate qualified leads, and improve sales performance. With features such as broadcast messaging, automated responses, and customer support integration, businesses can communicate more effectively and achieve better marketing results:</p>
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Increase Customer Engagement</li>
+                                <li>Generate Quality Leads</li>
+                                <li>Improve Customer Communication</li>
+                                <li>Boost Sales & Conversions</li>
+                                
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -52,15 +51,14 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
-                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
-                                you retire comfortably.</p>
+                            <h4 class="mb-15">Our Comprehensive WhatsApp Marketing Services</h4>
+                            <p class="mb-20">We provide end-to-end WhatsApp Marketing solutions designed to help businesses maximize customer interactions and marketing effectiveness. Our services include WhatsApp campaign management, broadcast messaging, chatbot integration, automated customer responses, lead generation campaigns, promotional messaging, customer support solutions, and performance tracking. We focus on creating personalized communication strategies that improve engagement, strengthen customer relationships, and deliver measurable business growth.</p>
                             <ul class="vs-list style2">
-                                <li>Personalized Retirement Roadmap</li>
-                                <li>Social Security & Pension Planning</li>
-                                <li>Investment & Savings Guidance</li>
-                                <li>Risk Management & Insurance Planning</li>
-                                <li>Tax Optimization Strategies</li>
+                                <li>WhatsApp Campaign Management</li>
+                                <li>Broadcast Messaging & Promotions</li>
+                                <li>Chatbot Automation & Customer Support</li>
+                                <li>Lead Generation & Performance Tracking</li>
+                                
                             </ul>
                         </div>
                     </div>

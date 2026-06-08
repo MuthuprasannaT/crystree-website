@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
+                <h1 class="breadcrumb-wrapper__title">UI/UX Design Services</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -31,16 +31,16 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">
+UI/UX Design is the foundation of creating engaging, user-friendly, and successful digital experiences. A well-designed user interface (UI) combined with an intuitive user experience (UX) helps businesses attract users, improve engagement, and increase customer satisfaction. Our UI/UX Design Services focus on creating visually appealing, functional, and user-centric designs for websites, mobile applications, and software platforms. We combine creativity, usability, and modern design principles to deliver digital experiences that align with business goals and user expectations.</p>
+                            <h4 class="mt-4 mb-15">Why UI/UX Design is Essential</h4>
+                            <p class="mb-20">In today's digital landscape, users expect seamless and intuitive experiences across all platforms. Effective UI/UX design helps businesses improve customer engagement, reduce user frustration, and increase conversion rates. A user-focused design approach enhances accessibility, strengthens brand perception, and encourages customers to interact with your products and services more effectively. Good UI/UX design not only improves aesthetics but also contributes to business growth and customer retention:</p>
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Improve User Experience</li>
+                                <li>Increase Customer Engagement</li>
+                                <li>Enhance Conversion Rates</li>
+                                <li>Strengthen Brand Identity</li>
+                                {{-- <li>Minimize Taxes</li> --}}
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -52,15 +52,14 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
-                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
-                                you retire comfortably.</p>
+                            <h4 class="mb-15">Our Comprehensive UI/UX Design Services</h4>
+                            <p class="mb-20">We provide end-to-end UI/UX design solutions tailored to your business requirements and target audience. Our services include user research, wireframing, prototyping, user interface design, user experience optimization, mobile app design, website design, usability testing, and design system development. We focus on creating intuitive and visually compelling digital experiences that improve usability, customer satisfaction, and overall business performance.</p>
                             <ul class="vs-list style2">
-                                <li>Personalized Retirement Roadmap</li>
-                                <li>Social Security & Pension Planning</li>
-                                <li>Investment & Savings Guidance</li>
-                                <li>Risk Management & Insurance Planning</li>
-                                <li>Tax Optimization Strategies</li>
+                                <li>User Research & Wireframing</li>
+                                <li>Website & Mobile App UI Design</li>
+                                <li>UX Optimization & Prototyping</li>
+                                <li>Usability Testing & Design Systems</li>
+                                {{-- <li>Tax Optimization Strategies</li> --}}
                             </ul>
                         </div>
                     </div>

@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
+                <h1 class="breadcrumb-wrapper__title">SMS Marketing Services</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -31,16 +31,15 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">SMS Marketing is one of the most reliable and cost-effective digital marketing strategies for reaching customers instantly. With high open rates and direct communication capabilities, SMS marketing helps businesses promote products, share offers, send important updates, and engage customers effectively. Our SMS Marketing Services are designed to help businesses increase customer engagement, generate leads, improve communication, and drive business growth through targeted and personalized messaging campaigns.</p>
+                            <h4 class="mt-4 mb-15">Why SMS Marketing is Essential</h4>
+                            <p class="mb-20">In today's fast-paced digital environment, businesses need a communication channel that delivers messages quickly and efficiently. SMS marketing allows businesses to reach customers directly on their mobile devices, ensuring faster response rates and improved customer interaction. Whether it's promotional campaigns, transactional messages, appointment reminders, or customer notifications, SMS marketing helps improve customer engagement, strengthen brand awareness, and increase conversion opportunities:</p>
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Reach Customers Instantly</li>
+                                <li>Improve Customer Engagement</li>
+                                <li>Increase Lead Generation</li>
+                                <li>Boost Sales & Conversions</li>
+                                {{-- <li>Minimize Taxes</li> --}}
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -52,15 +51,14 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
-                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
-                                you retire comfortably.</p>
+                            <h4 class="mb-15">Our Comprehensive SMS Marketing Services</h4>
+                            <p class="mb-20">We provide end-to-end SMS marketing solutions tailored to your business goals and target audience. Our services include bulk SMS campaigns, promotional messaging, transactional SMS services, customer notification systems, automated messaging workflows, campaign management, audience segmentation, and performance tracking. We focus on delivering personalized and result-driven SMS campaigns that help businesses improve communication, maximize customer reach, and achieve measurable marketing success.</p>
                             <ul class="vs-list style2">
-                                <li>Personalized Retirement Roadmap</li>
-                                <li>Social Security & Pension Planning</li>
-                                <li>Investment & Savings Guidance</li>
-                                <li>Risk Management & Insurance Planning</li>
-                                <li>Tax Optimization Strategies</li>
+                                <li>Bulk SMS & Promotional Campaigns</li>
+                                <li>Transactional & Notification Messaging</li>
+                                <li>Automated SMS Marketing Workflows</li>
+                                <li>Campaign Analytics & Performance Tracking</li>
+                                {{-- <li>Tax Optimization Strategies</li> --}}
                             </ul>
                         </div>
                     </div>
