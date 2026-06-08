@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
+                <h1 class="breadcrumb-wrapper__title">Reel Marketing Services</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -31,16 +31,15 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">Reel Marketing is one of the most powerful digital marketing strategies for increasing brand visibility, audience engagement, and social media reach. Short-form videos on platforms like Instagram Reels, Facebook Reels, and YouTube Shorts help businesses capture attention quickly and communicate their message effectively. Our Reel Marketing Services focus on creating engaging, trend-driven, and brand-focused video content that helps businesses connect with their target audience, improve online presence, and generate meaningful engagement.</p>
+                            <h4 class="mt-4 mb-15">Why Reel Marketing is Essential</h4>
+                            <p class="mb-20">In today's fast-paced digital world, short-form video content has become a preferred way for audiences to consume information. Reel marketing helps businesses increase visibility, improve audience interaction, strengthen brand awareness, and reach potential customers organically. Creative and well-optimized reels can significantly boost engagement rates, support social media campaigns, and help businesses stay relevant in a competitive online environment:</p>
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Increase Brand Visibility</li>
+                                <li>Improve Social Media Engagement</li>
+                                <li>Reach a Wider Audience</li>
+                                <li>Strengthen Brand Awareness</li>
+                                {{-- <li>Minimize Taxes</li> --}}
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -52,15 +51,14 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
-                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
-                                you retire comfortably.</p>
+                            <h4 class="mb-15">Our Comprehensive Reel Marketing Services</h4>
+                            <p class="mb-20">We provide end-to-end Reel Marketing solutions designed to help businesses create impactful short-form video content. Our services include content planning, creative concept development, script writing, professional video editing, motion graphics, text animations, audio synchronization, platform optimization, and performance-focused delivery. Whether your goal is brand awareness, customer engagement, product promotion, or lead generation, our reel marketing strategies are tailored to maximize reach and deliver measurable results across social media platforms.</p>
                             <ul class="vs-list style2">
-                                <li>Personalized Retirement Roadmap</li>
-                                <li>Social Security & Pension Planning</li>
-                                <li>Investment & Savings Guidance</li>
-                                <li>Risk Management & Insurance Planning</li>
-                                <li>Tax Optimization Strategies</li>
+                                <li>Instagram Reels & Facebook Reels Creation</li>
+                                <li>YouTube Shorts & Promotional Videos</li>
+                                <li>Creative Editing & Motion Graphics</li>
+                                <li>Reel Strategy & Performance Optimization</li>
+                                {{-- <li>Tax Optimization Strategies</li> --}}
                             </ul>
                         </div>
                     </div>

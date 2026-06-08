@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">WhatsApp Marketing</h1>
+                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -31,21 +31,16 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">WhatsApp has become one of the most effective communication platforms for businesses to connect with customers instantly. Our WhatsApp Marketing Services in Trichy help businesses engage their audience, generate quality leads, automate customer interactions, and improve conversion rates through personalized messaging strategies. Businesses can build stronger customer relationships by reaching customers directly on a platform they use daily.</p>
-                            <h4 class="mt-4 mb-15">Our WhatsApp Marketing Solutions</h4>
-                            <p class="mb-20">We provide comprehensive WhatsApp marketing solutions designed to improve customer engagement and streamline business communication.</p>
+                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
+                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
+                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
+                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
                             <ul class="vs-list style2">
-                                <li>WhatsApp Business Account Setup</li>
-                                <li>Bulk Message Campaign Management</li>
-                                <li>Automated Customer Responses</li>
-                                <li>Lead Generation Campaigns</li>
-                                <li>Promotional Message Broadcasting</li>                            
-                                <li>Customer Support Automation</li>
-                                <li>WhatsApp Chatbot Integration</li>
-                                <li>Order and Service Notifications</li>
-                                <li>Customer Follow-Up Campaigns</li>
-                                <li>Performance Monitoring and Reporting</li>
-
+                                <li>Ensure a Steady Income</li>
+                                <li>Protect Against Inflation</li>
+                                <li>Maximize Your Savings</li>
+                                <li>Provide Financial Security for Your Family</li>
+                                <li>Minimize Taxes</li>
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -57,121 +52,16 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-      <!-- FAQ Section Start -->
-<div class="row  mt-60 ">
-    <div class="col-lg-11">
-        <div class="title-area text-center mb-40">
-            <h4 class="mt-4 mb-15">Frequently Asked Questions</h4>
-            {{-- <h3 class="vs-blog__title mb-2"></h3> --}}
-            {{-- <span class="sec-subtitle"></span> --}}
-            {{-- <h2 class="sec-title">Website Development FAQ</h2> --}}
-        </div>
-
-        <div class="accordion style3" id="websiteFaq">
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button " type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqOne">
-What is WhatsApp Marketing?
-                    </button>
-                </h2>
-                <div id="faqOne" class="accordion-collapse collapse show"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-                       WhatsApp marketing is a digital marketing strategy that uses WhatsApp to promote products, communicate with customers, generate leads, and improve customer engagement.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqTwo">
-How does WhatsApp Marketing help businesses?
-                    </button>
-                </h2>
-                <div id="faqTwo" class="accordion-collapse collapse"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-It helps businesses reach customers directly, improve response rates, increase engagement, and generate more sales opportunities.                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqThree">
-Can WhatsApp marketing be automated?
-                    </button>
-                </h2>
-                <div id="faqThree" class="accordion-collapse collapse"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-Yes. Automated messages, chatbots, quick replies, and workflow automation can streamline customer communication.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqFour">
-Is WhatsApp Marketing suitable for small businesses?
-                    </button>
-                </h2>
-                <div id="faqFour" class="accordion-collapse collapse"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-Absolutely. Small businesses can use WhatsApp marketing to build customer relationships and generate leads at a low cost.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faqFive">
-Can promotional messages be sent through WhatsApp?
-                    </button>
-                </h2>
-                <div id="faqFive" class="accordion-collapse collapse"
-                    data-bs-parent="#websiteFaq">
-                    <div class="accordion-body">
-Yes. Businesses can send promotional offers, product updates, announcements, and customer engagement messages through WhatsApp campaigns.
-                    </div>
-                </div>
-            </div>
-                                  <div class="col-12 mt-4">
-    <div class="vs-header__action d-flex justify-content-center">
-        <a href="#websiteFaq" class="vs-btn vs-btn--gradient">
-            Explore FAQs
-            {{-- <i class="fa-solid fa-arrow-right"></i> --}}
-        </a>
-    </div>
-</div>
-
-        </div>
-    </div>
-      
-</div>
-
-<!-- FAQ Section End -->
-                            <h4 class="mb-15 mt-5">Why Choose Us for Social Media Marketing?</h4>
-                            <p class="mb-20"> Modern customers expect fast and convenient communication. WhatsApp marketing allows businesses to deliver messages directly to customers, resulting in higher open rates and faster responses compared to traditional communication channels. Whether you want to promote offers, nurture leads, or provide customer support, WhatsApp offers a powerful platform to achieve your business goals.
-</p>
-                            {{-- <ul class="vs-list style2">
+                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
+                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
+                                you retire comfortably.</p>
+                            <ul class="vs-list style2">
                                 <li>Personalized Retirement Roadmap</li>
                                 <li>Social Security & Pension Planning</li>
                                 <li>Investment & Savings Guidance</li>
                                 <li>Risk Management & Insurance Planning</li>
                                 <li>Tax Optimization Strategies</li>
-                            </ul> --}}
+                            </ul>
                         </div>
                     </div>
                 </div>

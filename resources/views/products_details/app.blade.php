@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
+                <h1 class="breadcrumb-wrapper__title">Mobile App Development Services</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -19,7 +19,7 @@
     <section class="vs-blog--layout1 space space-extra-bottom" dir="ltr">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="vs-blog vs-blog--single">
                         <figure class="vs-blog__figure"><img class="vs-blog__img" src="assets/img/blog/vs-blog-details-img-1.jpg" alt="Blog Image">
                             <div class="overlay"></div>
@@ -31,16 +31,15 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">Mobile App Development is one of the most effective ways for businesses to connect with customers, improve engagement, and accelerate digital growth. A professionally developed mobile application helps businesses provide seamless user experiences, strengthen brand visibility, and streamline operations through mobile-first solutions. We develop secure, scalable, and high-performance Android and iOS applications tailored to your business goals and customer needs. Our focus is on delivering user-friendly, reliable, and future-ready mobile applications that support long-term business success.</p>
+                            <h4 class="mt-4 mb-15">Why Mobile App Development is Essential</h4>
+                            <p class="mb-20">Mobile applications help businesses improve customer engagement, increase accessibility, and provide a better user experience. A well-designed app allows businesses to stay connected with customers, automate processes, and create new revenue opportunities in today's competitive digital marketplace. High-performance mobile applications also improve brand loyalty, operational efficiency, and business growth:</p>
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Improve Customer Engagement</li>
+                                <li>Increase Brand Visibility</li>
+                                <li>Enhance User Experience</li>
+                                <li>Drive Business Growth</li>
+                              
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -52,20 +51,19 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
-                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
-                                you retire comfortably.</p>
+                            <h4 class="mb-15">Our Comprehensive Mobile App Development Services</h4>
+                            <p class="mb-20">We provide end-to-end mobile application development services designed to help businesses build powerful digital solutions. From requirement analysis and UI/UX design to development, testing, deployment, and maintenance, our team ensures every application is secure, scalable, and optimized for performance. Whether you need Android App Development, iOS App Development, Flutter App Development, or Custom Mobile App Development, we deliver innovative solutions that align with your business objectives and industry requirements.</p>
                             <ul class="vs-list style2">
-                                <li>Personalized Retirement Roadmap</li>
-                                <li>Social Security & Pension Planning</li>
-                                <li>Investment & Savings Guidance</li>
-                                <li>Risk Management & Insurance Planning</li>
-                                <li>Tax Optimization Strategies</li>
+                                <li>Android & iOS App Development</li>
+                                <li>Flutter & Cross-Platform Development</li>
+                                <li>Custom Mobile App Solutions</li>
+                                <li>App Maintenance & Support</li>
+                               
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                {{-- <div class="col-lg-4">
                     <div class="sidebar-area">
                         <div class="widget widget_block widget_services">
                             <h3 class="widget__heading">Our Services</h3>
@@ -88,7 +86,7 @@
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>

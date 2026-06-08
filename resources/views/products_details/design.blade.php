@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
+                <h1 class="breadcrumb-wrapper__title">Graphic Design Services</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -31,16 +31,15 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">Graphic Design plays a crucial role in building a strong brand identity and creating a lasting impression on your target audience. Professional graphic design helps businesses communicate their message effectively through visually appealing and engaging creative assets. Our Graphic Design Services focus on delivering high-quality digital and print designs that enhance brand recognition, improve customer engagement, and support marketing objectives. From logos and social media creatives to brochures and promotional materials, we create designs that align with your brand identity and business goals.</p>
+                            <h4 class="mt-4 mb-15">Why Graphic Design is Essential</h4>
+                            <p class="mb-20">In today's competitive marketplace, visual communication is a key factor in attracting and retaining customers. Effective graphic design helps businesses establish credibility, strengthen brand awareness, and improve audience engagement. Consistent and professional designs create a positive brand perception while supporting marketing campaigns across digital and offline platforms. Strong visual identity also helps businesses stand out from competitors and build long-term customer trust:</p>
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Build Strong Brand Identity</li>
+                                <li>Improve Customer Engagement</li>
+                                <li>Increase Brand Recognition</li>
+                                <li>Enhance Marketing Effectiveness</li>
+                                {{-- <li>Minimize Taxes</li> --}}
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -52,15 +51,14 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
-                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
-                                you retire comfortably.</p>
+                            <h4 class="mb-15">Our Comprehensive Graphic Design Services</h4>
+                            <p class="mb-20">We provide end-to-end graphic design solutions tailored to your business requirements. Our services include logo design, social media creatives, marketing materials, business cards, brochures, banners, presentation designs, website graphics, and custom branding assets. We follow a strategic design process that focuses on creativity, consistency, and visual impact to ensure every design supports your business objectives and strengthens your brand presence across all channels.</p>
                             <ul class="vs-list style2">
-                                <li>Personalized Retirement Roadmap</li>
-                                <li>Social Security & Pension Planning</li>
-                                <li>Investment & Savings Guidance</li>
-                                <li>Risk Management & Insurance Planning</li>
-                                <li>Tax Optimization Strategies</li>
+                                <li>Logo & Brand Identity Design</li>
+                                <li>Social Media & Marketing Creatives</li>
+                                <li>Brochures, Flyers & Print Designs</li>
+                                <li>Website & Digital Graphic Design</li>
+                                {{-- <li>Tax Optimization Strategies</li> --}}
                             </ul>
                         </div>
                     </div>
