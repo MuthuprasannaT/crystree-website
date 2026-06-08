@@ -9733,7 +9733,7 @@ position:relative;
 overflow:hidden;
 border-radius:30px;
 z-index:1;
-padding:350px 0 203px 0
+padding:250px 0 100px 0
 }
 
 @media(max-width: 1500px) {
@@ -11910,6 +11910,7 @@ color:var(--vs-theme-color-5)
 .vs-service__biz-text {
 color:var(--vs-white-color);
 margin:0 0 20px 0;
+text-align: justify;
 font-size:14px;
 line-height:24px
 }
@@ -12487,10 +12488,9 @@ color:var(--vs-white-color)
 }
 
 .vs-divider-line {
-width:100%;
-height:1px;
-background-color:var(--vs-white-color);
-opacity:.2
+    width: 100%;
+    height: 0;
+    border-top: 1px solid rgba(var(--vs-white-color-rgb), 20%);
 }
 
 @media(max-width: 991px) {
@@ -15052,8 +15052,8 @@ z-index:3
 }
 
 .vs-brand__content {
-padding:0 100px;
-min-height:200px;
+padding:0 70px;
+min-height:150px;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -17340,11 +17340,11 @@ margin-bottom:50px
 }
 
 .space,.space-top {
-padding-top:120px
+padding-top:80px
 }
 
 .space,.space-bottom {
-padding-bottom:120px
+padding-bottom:80px
 }
 
 .space-extra,.space-extra-top {
