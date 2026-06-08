@@ -35,9 +35,10 @@
                                                 <ul>
                                                     <li><a href="{{ route('products.website') }}">Website Development</a></li>
                                                     <li><a href="{{ route('products.app') }}">Mobile App Development</a></li>
-                                                    <li><a href="{{ route('products.erp') }}">ERP Solutions</a></li>
                                                     <li><a href="{{ route('products.web') }}">Web Applications</a></li>
-                                                    <li><a href="{{ route('products.software') }}">Custom Software Development</a></li>
+                                                     <li><a href="{{ route('products.ecommerce') }}">E-Commerce Solutions</a></li>
+                                                    <li><a href="{{ route('products.maintenance') }}">Website Maintenance</a></li>
+                                                    <li><a href="{{ route('products.ppc') }}">PPC Advertising</a></li>
                                                 </ul>
                                             </li>
 
@@ -49,17 +50,20 @@
                                                     <li><a href="{{ route('products.ads') }}">Google & Meta Ads</a></li>
                                                     <li><a href="{{ route('products.email') }}">Email Marketing</a></li>
                                                     <li><a href="{{ route('products.whatsapp') }}">WhatsApp Marketing</a></li>
+                                                    <li><a href="{{ route('products.sms') }}">Bulk SMS Services</a></li>
+                                                    <li><a href="{{ route('products.gbp') }}">Google Business Profile</a></li>
                                                 </ul>
                                             </li>
 
                                             <li>
                                                 <a href="javascript:void(0)">Business Solutions</a>
                                                 <ul>
+                                                    <li><a href="{{ route('products.erp') }} ">iCrystal ERP Solution</a></li>
+                                                    <li><a href="{{ route('products.erp') }}">Oracle ERP Solution</a></li>
                                                     <li><a href="{{ route('products.crm') }}">CRM Software</a></li>
                                                     <li><a href="{{ route('products.saas') }}">SaaS Solutions</a></li>
                                                     <li><a href="{{ route('products.cloud') }}">Cloud Solutions</a></li>
-                                                    <li><a href="{{ route('products.sms') }}">Bulk SMS Services</a></li>
-                                                    <li><a href="{{ route('products.gbp') }}">Google Business Profile</a></li>
+                                                    <li><a href="{{ route('products.software') }}">Custom Software Development</a></li>
                                                 </ul>
                                             </li>
 
@@ -72,9 +76,7 @@
                                                     <li><a href="{{ route('products.uiux') }}">UI/UX Design</a></li>
                                                     <li><a href="{{ route('products.reel') }}">Reels & Video Marketing</a></li>
                                                     <li><a href="{{ route('products.ai') }}">AI Solutions</a></li>
-                                                    <li><a href="{{ route('products.ecommerce') }}">E-Commerce Solutions</a></li>
-                                                    <li><a href="{{ route('products.maintenance') }}">Website Maintenance</a></li>
-                                                    <li><a href="{{ route('products.ppc') }}">PPC Advertising</a></li>
+                                                   
                                                 </ul>
                                             </li>
 

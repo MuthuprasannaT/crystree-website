@@ -2666,7 +2666,12 @@ font-weight:400
 }
 
 .fw-medium {
-font-weight:500
+font-weight:500;
+text-align: justify;
+}
+
+.title-area p{
+    text-align: justify;
 }
 
 .fw-semibold {
@@ -13658,7 +13663,7 @@ border-radius:20px
 
 @media(max-width: 767px) {
 .vs-clients__item--style2 {
-padding:55px 15px 30px 15px
+padding:45px 15px 30px 15px
 }
 
 }
@@ -13676,6 +13681,7 @@ color:var(--vs-theme-color-5)
 }
 
 .vs-clients__item--style2 .vs-clients__quote {
+    text-align: justify;
 color:var(--vs-white-color)
 }
 
@@ -17866,5 +17872,9 @@ background-color:var(--vs-smoke-color)
 
 [data-theme=dark] .title-area--white .title-area__title {
 color:var(--vs-black-color)
+}
+
+.vs-hero__content p{
+    text-align: justify;
 }
 
