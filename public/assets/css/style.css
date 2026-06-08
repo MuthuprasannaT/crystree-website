@@ -9724,6 +9724,13 @@ padding:40px 40px 0 40px
 padding:15px 15px 0 15px
 }
 
+.vs-service__biz-text{
+    height: 170px;
+    margin: 10px;
+}
+
+
+
 }
 
 @media(max-width: 767px) {
@@ -11814,10 +11821,12 @@ display:none
 }
 
 .vs-service__biz-contain {
-padding:40px;
+padding:38px;
 position:relative;
 z-index:1
 }
+
+
 
 @media(max-width: 1199px) {
 .vs-service__biz-contain {
@@ -11893,12 +11902,14 @@ font-size:clamp(1.25rem,0.575rem + 0.09375vw,0.875rem);
 margin:0 0 15px 0
 }
 
+
 @media(max-width: 1199px) {
 .vs-service__biz-heading {
 font-size:clamp(1.125rem,0.5175rem + 0.084375vw,0.7875rem)
 }
 
 }
+
 
 .vs-service__biz-heading__link {
 color:var(--vs-white-color)
@@ -11917,8 +11928,10 @@ color:var(--vs-white-color);
 margin:0 0 20px 0;
 text-align: justify;
 font-size:14px;
-line-height:24px
+line-height:24px;
 }
+
+
 
 [data-theme=dark] .vs-service__biz-text {
 color:var(--vs-black-color-2)
@@ -12155,6 +12168,8 @@ padding:24px
 }
 
 }
+
+
 
 .vs-service__dental-heading {
 font-size:24px;
@@ -13665,7 +13680,6 @@ border-radius:20px
 .vs-clients__item--style2 {
 padding:45px 15px 30px 15px
 }
-
 }
 
 .vs-clients .swiper-slide.swiper-slide-active .vs-clients__item--style2 {

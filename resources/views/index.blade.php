@@ -143,7 +143,7 @@
         <div class="space-bottom">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-7 col-xl-6">
+                    <div class="col-lg-6 col-xl-6">
                         <div class="title-area title-area--style2 white-style">
                             <span class="title-area__title--sub">Our Digital Products & Services</span>
                             <h2 class="title-area__title">
@@ -152,7 +152,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-5 col-lg-5">
+                    <div class="col-xl-5 col-lg-6">
                         <div class="title-area">
                             <p class="text-white mb-0">
                                 Crystree Solutions delivers innovative digital products,
@@ -277,14 +277,14 @@
                                 </div>
                                 <h3 class="vs-service__biz-heading">
                                     <a class="vs-service__biz-heading__link" href="#">
-                                        Customer CRM Management Solutions
+                                        Customer Management Solutions
                                     </a>
                                 </h3>
                                 <p class="vs-service__biz-text">
                                     Powerful CRM software solutions for customer management, lead tracking and sales automation that strengthen relationships, improve conversions and increase customer retention.
 
                                 </p>
-                                <a href="#" class="vs-btn vs-btn--style4">
+                                <a href="#"  class="vs-btn vs-btn--style4 business_1">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -333,13 +333,36 @@
                                 <p class="vs-service__biz-text">
                                     Google Business Profile optimization services that improve Google Maps visibility, local search rankings, customer engagement and online credibility to attract more nearby customers.
                                 </p>
-                                <a href="#" class="vs-btn vs-btn--style4">
+                                <a href="#"  class="vs-btn vs-btn--style4 business">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
 
+                    <style>
+                        
+@media (max-width: 1300px) {
+    .vs-service__biz-text {
+        height: 204px !important;
+    }
+
+    .business {
+        margin-top: 25px !important;
+    }
+    .business_1{
+margin-top: -10px
+    }
+}
+
+@media (max-width: 1600px) {
+    .vs-service__biz-text {
+        height: 204px !important;
+    }
+
+
+}
+                    </style>
                     <!-- SEO -->
                     <div class="col-lg-3 vs-service__biz vs-active">
                         <div class="vs-service__biz-contain">
