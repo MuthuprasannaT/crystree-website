@@ -102,7 +102,7 @@
                 <div class="container">
                     <div class="row justify-content-center justify-content-lg-between align-items-center gy-3 flex-column-reverse flex-lg-row">
                         <div class="col-auto">
-                            <p class="vs-footer__copyright mb-0">Copyright © <span id="currentYear"></span> <a href="http://html.vecurosoft.com/toddly">BigBiz</a>. All rights reserved By <a href="https://themeforest.net/user/vecuro_themes">Vecuro</a>.</p>
+                            <p class="vs-footer__copyright mb-0"> © <span id="currentYear"></span> All rights reserved By <a href="https://www.crystreesolutions.com/">Crystree Solutions Pvt Ltd</a>.</p>
                         </div>
                         <div class="col-auto">
                             <div class="social-style style3"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-youtube"></i></a></div>
