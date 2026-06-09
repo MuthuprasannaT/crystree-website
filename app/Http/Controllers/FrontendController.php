@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Faq;
+
 
 class FrontendController extends Controller
 {
@@ -38,7 +39,9 @@ class FrontendController extends Controller
 
     public function faq()
     {
-        return view('faq');
+        $faqs = Faq::orderBy('id', 'asc')->paginate(10);
+
+        return view('faq', compact('faqs'));
     }
 
     public function testimonials()

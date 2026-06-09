@@ -14,3 +14,5 @@
 <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/flaticon.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">

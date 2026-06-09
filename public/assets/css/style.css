@@ -2031,7 +2031,12 @@ margin-bottom:calc(var(--vs-section-title-space) - 45px)
 text-transform:inherit;
 margin:-0.25em 0 30px 0;
 font-size:clamp(1.5rem,1.2rem + 1.5vw,3rem);
-line-height:1.2083333333em
+line-height:1.2083333333em;
+color: whitesmoke;
+}
+
+.vs-btn{
+    background: whitesmoke;
 }
 
 .title-area__title--sub {
@@ -2274,12 +2279,12 @@ margin-bottom:0
 .vs-info__label {
 font-family:var(--vs-title-font);
 font-weight:700;
-font-size:19px;
+font-size:17px;
 }
 
 @media(max-width: 767px) {
 .vs-info__label {
-font-size:clamp(1.125rem,0.5175rem + 0.084375vw,0.7875rem)
+font-size:13px;
 }
 
 }
@@ -7150,7 +7155,7 @@ border-width:0px 5px;
 border-style:solid;
 border-color:var(--vs-theme-color-2);
 border-radius:20px;
-padding:15px 65px
+padding:15px 70px
 }
 
 
@@ -7185,7 +7190,8 @@ gap:20px
 flex:auto;
 border-right:1px solid var(--vs-white-color);
 margin-right:15px;
-padding-right:10px
+padding-right:10px;
+width: 100%;
 }
 
 @media(max-width: 1399px) {
@@ -14876,11 +14882,13 @@ background-color:color-mix(in srgb, var(--vs-white-color) 10%, transparent)
 .vs-contact__block {
 background-color:var(--vs-theme-color-19);
 position:relative;
+height: 220px;
 z-index:1;
 padding:40px 30px 40px 30px;
 border-radius:20px;
 overflow:hidden;
-transition:all .3s ease-in-out
+transition:all .3s ease-in-out;
+border: 1px solid #014E4E;
 }
 
 @media(max-width: 1199px) {
@@ -14892,8 +14900,8 @@ min-height:218px
 }
 
 .vs-contact__block-heading {
-font-size:30px;
-max-width:60%;
+font-size:27px;
+max-width:100%;
 margin:0 0 12px 0;
 color:var(--vs-theme-color-17);
 transition:all .3s ease-in-out
@@ -14906,12 +14914,14 @@ font-size:20px
 
 }
 
+
 .vs-contact__block-text {
 max-width:76%;
 margin-bottom:0;
 display:block;
 transition:all .3s ease-in-out;
-color:var(--vs-gray-color-3)
+color:var(--vs-gray-color-3);
+font-size: 17px;
 }
 
 @media(max-width: 1500px) {
@@ -15020,7 +15030,7 @@ color:var(--vs-white-color)
 
 .vs-contact__wrapper {
 padding:100px 80px;
-background-color:var(--vs-theme-color-19);
+background-color:#196164;
 border-radius:20px
 }
 
@@ -17377,7 +17387,7 @@ padding-top:calc(var(--vs-section-space) - 40px)
 }
 
 .space-extra,.space-extra-bottom {
-padding-bottom:calc(var(--vs-section-space) - 40px)
+padding-bottom:calc(var(--vs-section-space) - 65px)
 }
 
 @media(max-width: 991px) {

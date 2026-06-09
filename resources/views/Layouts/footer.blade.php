@@ -82,7 +82,7 @@
                                 <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="{{ asset('assets/img/icons/vs-icon-location-h2.svg') }}" alt="Location Icon"></i></div>
                                 <div class="vs-info__content">
                                    <span class="vs-info__label">
-                                    No:F9 , J.C. Abode, <br> Karur Bypass Road, <br> Annamalai Nagar, <br> Trichy - 620018</span></div>
+                                   Flat No:F9, No:20, J.C. ABODES, Karur Bypass Rd, Annamalai Nagar, Tiruchirappalli, Tamil Nadu 620018</span></div>
                             </div>
                         </div>
                         <div class="vs-footer__middle--col">
