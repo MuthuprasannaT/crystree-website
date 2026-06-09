@@ -1281,7 +1281,7 @@ background-color:color-mix(in srgb, var(--vs-theme-color-1) 100%, transparent)
 }
 
 .vs-home2 .preloader {
-background-color:color-mix(in srgb, #e1e4e4 100%, transparent)
+background-color:color-mix(in srgb, var(--vs-theme-color-4) 100%, transparent)
 }
 
 .vs-home3 .preloader {
@@ -1314,16 +1314,16 @@ background-color:var(--vs-theme-color-5)
 background-color:var(--vs-theme-color-7)
 }
 
-/* .vs-loader {
+.vs-loader {
 position:relative;
 width:40px;
 height:40px;
 border-radius:50%;
 display:block;
 margin:0 auto
-} */
+}
 
-/* .vs-loader::before,.vs-loader::after {
+.vs-loader::before,.vs-loader::after {
 content:"";
 position:absolute;
 border-radius:inherit
@@ -1334,16 +1334,16 @@ width:100%;
 height:100%;
 background-image:linear-gradient(0deg, #196164 0%, #C4F500 100%);
 animation:load012323 .5s infinite linear
-} */
+}
 
-/* .vs-loader::after {
+.vs-loader::after {
 width:85%;
 height:85%;
 background-color:color-mix(in srgb, var(--vs-theme-color-1) 50%, transparent);
 top:50%;
 left:50%;
 transform:translate(-50%, -50%)
-} */
+}
 
 @keyframes load012323 {
 to {
@@ -7153,16 +7153,19 @@ border-radius:20px;
 padding:15px 65px
 }
 
+
 @media(max-width: 1399px) {
 .vs-footer__middle {
 padding:20px 30px
 }
+
 }
 
 @media(max-width: 767px) {
 .vs-footer__middle {
 padding:15px
 }
+
 }
 
 .vs-footer__middle--row {

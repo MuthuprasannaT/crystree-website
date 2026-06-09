@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">ERP Software Services</h1>
+                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -31,15 +31,16 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">ERP Software helps businesses streamline operations, improve productivity, and manage multiple departments through a single centralized platform. Our ERP solutions are designed to integrate finance, inventory, sales, procurement, HR, and reporting into one secure and scalable system. By automating routine business processes and providing real-time access to critical information, ERP software enables organizations to make smarter decisions, reduce manual errors, and achieve sustainable business growth.
-</p>
-                            <h4 class="mt-4 mb-15">Why ERP Software is Essential</h4>
-                            <p class="mb-20">As businesses grow, managing operations through spreadsheets and disconnected systems becomes inefficient. A modern Enterprise Resource Planning (ERP) solution helps organizations gain complete visibility into business activities, improve coordination between departments, and optimize resources for maximum efficiency. ERP software provides accurate reporting, workflow automation, and centralized data management to support informed decision-making and long-term growth.</p>
+                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
+                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
+                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
+                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
                             <ul class="vs-list style2">
-                                <li>Centralized Business Management</li>
-                                <li>Real-Time Data & Reporting</li>
-                                <li>Improved Operational Efficiency</li>
-                                <li>Better Decision-Making</li>
+                                <li>Ensure a Steady Income</li>
+                                <li>Protect Against Inflation</li>
+                                <li>Maximize Your Savings</li>
+                                <li>Provide Financial Security for Your Family</li>
+                                <li>Minimize Taxes</li>
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -51,14 +52,15 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Search Engine Optimization (SEO) Services</h4>
-                            <p class="mb-20">We provide customized ERP software solutions tailored to your business requirements. Our ERP implementation process includes requirement analysis, workflow mapping, customization, deployment, training, and ongoing support. Whether you are a small business or a growing enterprise, our ERP system helps automate operations, improve productivity, and ensure seamless data flow across departments. Our solutions are secure, scalable, and designed to adapt as your business expands.</p>
+                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
+                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
+                                you retire comfortably.</p>
                             <ul class="vs-list style2">
-                                <li>Finance & Accounting Management</li>
-                                <li>Inventory & Stock Management</li>
-                                <li>HR & Payroll Management</li>
-                                <li>Sales, CRM & Business Analytics</li>
-                                
+                                <li>Personalized Retirement Roadmap</li>
+                                <li>Social Security & Pension Planning</li>
+                                <li>Investment & Savings Guidance</li>
+                                <li>Risk Management & Insurance Planning</li>
+                                <li>Tax Optimization Strategies</li>
                             </ul>
                         </div>
                     </div>

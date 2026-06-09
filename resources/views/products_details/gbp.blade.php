@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Google Business Profile Services</h1>
+                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -31,15 +31,16 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Google Business Profile (GBP) is one of the most powerful tools for improving local online visibility and attracting nearby customers. A professionally optimized Google Business Profile helps your business appear in Google Search and Google Maps, making it easier for potential customers to find your products and services. Our Google Business Profile services focus on profile optimization, local SEO enhancement, review management, and business information accuracy to improve local search rankings and customer engagement.</p>
-                            <h4 class="mt-4 mb-15">Why Google Business Profile is Essential</h4>
-                            <p class="mb-20">Today, customers search online before choosing a business. An optimized Google Business Profile increases your visibility in local search results, strengthens customer trust, and helps generate more calls, website visits, and enquiries. By maintaining accurate business information, strategic keyword optimization, and regular profile updates, businesses can improve their local presence and attract more qualified customers from their target area:</p>
+                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
+                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
+                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
+                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
                             <ul class="vs-list style2">
-                                <li>Improve Local Search Visibility</li>
-                                <li>Increase Google Maps Rankings</li>
-                                <li>Generate More Customer Enquiries</li>
-                                <li>Build Trust Through Reviews</li>
-                                
+                                <li>Ensure a Steady Income</li>
+                                <li>Protect Against Inflation</li>
+                                <li>Maximize Your Savings</li>
+                                <li>Provide Financial Security for Your Family</li>
+                                <li>Minimize Taxes</li>
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -51,14 +52,15 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Google Business Profile Services</h4>
-                            <p class="mb-20">We provide complete Google Business Profile management solutions tailored to your business needs. Our services include profile creation and verification, business information optimization, category selection, service and product updates, keyword-focused descriptions, image uploads, review management, Google Posts publishing, performance tracking, and continuous optimization. We help businesses strengthen their local SEO presence and achieve consistent growth through effective Google Business Profile management.</p>
+                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
+                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
+                                you retire comfortably.</p>
                             <ul class="vs-list style2">
-                                <li>Google Business Profile Setup & Verification</li>
-                                <li>Local SEO & Profile Optimization</li>
-                                <li>Review Management & Customer Engagement</li>
-                                <li>Google Maps Ranking Improvement</li>
-                               
+                                <li>Personalized Retirement Roadmap</li>
+                                <li>Social Security & Pension Planning</li>
+                                <li>Investment & Savings Guidance</li>
+                                <li>Risk Management & Insurance Planning</li>
+                                <li>Tax Optimization Strategies</li>
                             </ul>
                         </div>
                     </div>

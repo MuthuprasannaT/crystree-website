@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Cloud Support Services</h1>
+                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
@@ -31,15 +31,16 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Cloud Support Services help businesses manage, optimize, and secure their cloud infrastructure for improved performance, scalability, and reliability. Modern cloud solutions enable organizations to reduce infrastructure costs, improve operational efficiency, and ensure business continuity through flexible and secure cloud environments. Our Cloud Support Services focus on cloud infrastructure management, migration, monitoring, security, backup solutions, and performance optimization to help businesses scale confidently in the digital era. We provide reliable cloud solutions that support growth, flexibility, and long-term business success.</p>
-                            <h4 class="mt-4 mb-15">Why Cloud Support Services are Essential</h4>
-                            <p class="mb-20">As businesses increasingly rely on digital platforms and cloud-based applications, managing cloud infrastructure effectively becomes critical. Cloud support services help organizations improve system availability, strengthen security, optimize resource usage, and ensure seamless business operations. With proper cloud management, businesses can achieve higher performance, reduce downtime, enhance data protection, and adapt quickly to changing business requirements while maintaining operational efficiency:</p>
+                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
+                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
+                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
+                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
                             <ul class="vs-list style2">
-                                <li>Improve Infrastructure Scalability</li>
-                                <li>Enhance Cloud Security</li>
-                                <li>Ensure Business Continuity</li>
-                                <li>Optimize System Performance</li>
-                                {{-- <li>Minimize Taxes</li> --}}
+                                <li>Ensure a Steady Income</li>
+                                <li>Protect Against Inflation</li>
+                                <li>Maximize Your Savings</li>
+                                <li>Provide Financial Security for Your Family</li>
+                                <li>Minimize Taxes</li>
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -51,14 +52,15 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Cloud Support Services</h4>
-                            <p class="mb-20">We provide end-to-end cloud support solutions tailored to your business needs and infrastructure requirements. Our services include cloud migration, cloud infrastructure setup, server management, cloud security implementation, backup and disaster recovery planning, performance monitoring, application deployment, and ongoing technical support. We help businesses build secure, scalable, and cost-effective cloud environments that improve operational efficiency and support long-term digital growth. Every solution is designed to maximize reliability, performance, and data protection.</p>
+                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
+                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
+                                you retire comfortably.</p>
                             <ul class="vs-list style2">
-                                <li>Cloud Infrastructure Setup & Management</li>
-                                <li>Cloud Migration & Deployment Services</li>
-                                <li>Security, Backup & Disaster Recovery</li>
-                                <li>Performance Monitoring & Technical Support</li>
-                                {{-- <li>Tax Optimization Strategies</li> --}}
+                                <li>Personalized Retirement Roadmap</li>
+                                <li>Social Security & Pension Planning</li>
+                                <li>Investment & Savings Guidance</li>
+                                <li>Risk Management & Insurance Planning</li>
+                                <li>Tax Optimization Strategies</li>
                             </ul>
                         </div>
                     </div>
