@@ -6,11 +6,11 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">WhatsApp Marketing Services in Trichy</h1>
+                <h1 class="breadcrumb-wrapper__title">Advertising Services</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-wrapper__menu--item">Services Details</li>
+                        <li class="breadcrumb-wrapper__menu--item">Advertising Services</li>
                     </ul>
                 </div>
             </div>
@@ -31,17 +31,19 @@
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">Performance marketing is one of the most effective digital marketing strategies for businesses looking to generate measurable results, qualified leads, and higher revenue. At Crystree Solutions, we help businesses achieve their marketing goals through strategic advertising campaigns that focus on performance, conversions, and return on investment.</p>                        
+                            <p class="pt-40">Our performance marketing services combine advanced audience targeting, creative advertising, campaign optimization, and real-time analytics to ensure every marketing investment contributes to business growth. We focus on delivering campaigns that generate leads, increase sales, and maximize profitability. Inspired by industry best practices used by leading digital marketing agencies and performance-driven strategies.</p>
+                            <h4 class="mt-4 mb-15">Advertising Platforms We Manage</h4>
+
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Google Search Ads</li>
+                                <li>Google Display Ads</li>
+                                <li>Google Shopping Ads</li>
+                                <li>YouTube video ads</li>
+                                <li>Meta Ads including Facebook and Instagram</li>
+                                <li>Remarketing and retargeting campaigns</li>
                             </ul>
+                         <p class="mb-20 mt-3">Each platform is selected based on your audience behavior and business goals.</p>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
@@ -75,7 +77,7 @@ What is performance marketing?
                 <div id="faqOne" class="accordion-collapse collapse show"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-Performance marketing is a digital marketing approach where businesses pay for measurable actions such as clicks, leads, conversions, or sales, making campaign performance easy to track and optimize.
+Performance marketing is a digital marketing approach where campaigns are optimized based on measurable actions such as leads, clicks, conversions, or sales.
                     </div>
                 </div>
             </div>
@@ -91,8 +93,7 @@ How does performance marketing help businesses?
                 <div id="faqTwo" class="accordion-collapse collapse"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-Performance marketing helps businesses generate qualified leads, increase sales, improve brand visibility, and maximize return on investment through targeted advertising campaigns.
-                    </div>
+It helps businesses generate qualified leads, improve conversion rates, increase sales, and achieve better ROI.                    </div>
                 </div>
             </div>
 
@@ -107,7 +108,7 @@ Which platforms are used for performance marketing?
                 <div id="faqThree" class="accordion-collapse collapse"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-Common platforms include Google Ads, Facebook Ads, Instagram Ads, LinkedIn Ads, YouTube Ads, and other digital advertising networks.
+Popular platforms include Google Ads, Facebook Ads, Instagram Ads, LinkedIn Ads, YouTube Ads, and other digital advertising networks.
                     </div>
                 </div>
             </div>
@@ -117,13 +118,13 @@ Common platforms include Google Ads, Facebook Ads, Instagram Ads, LinkedIn Ads, 
                     <button class="accordion-button collapsed" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#faqFour">
-How soon can I see results from performance marketing?
+How do you measure campaign success?
                     </button>
                 </h2>
                 <div id="faqFour" class="accordion-collapse collapse"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-Most performance marketing campaigns begin generating traffic and leads shortly after launch, while optimization improves results over time.                    </div>
+Success is measured using key performance indicators such as clicks, conversions, cost per lead, return on ad spend, and revenue growth. </div>
                 </div>
             </div>
 
@@ -132,13 +133,13 @@ Most performance marketing campaigns begin generating traffic and leads shortly 
                     <button class="accordion-button collapsed" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#faqFive">
-Do you provide campaign performance reports?
+Is performance marketing suitable for small businesses?
                     </button>
                 </h2>
                 <div id="faqFive" class="accordion-collapse collapse"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-Yes. We provide detailed performance reports, conversion tracking, and campaign insights to help businesses understand their marketing results.                    </div>
+Yes. Performance marketing allows businesses of all sizes to reach their target audience efficiently and achieve measurable growth.                 </div>
                 </div>
             </div>
        <div class="col-12 mt-4">
@@ -156,15 +157,17 @@ Yes. We provide detailed performance reports, conversion tracking, and campaign 
 </div>
 
 <!-- FAQ Section End -->
-                            <h4 class="mb-15 mt-5">Why Choose Freshora Digital Technologies for Performance Marketing?</h4>
-                            <p class="mb-20">Freshora Digital Technologies is a trusted performance marketing company in Trichy, focused on helping businesses achieve measurable growth through strategic digital advertising. Our team develops data-driven campaigns that prioritize lead generation, customer acquisition, and revenue growth while maintaining cost efficiency.</p>
-                            <ul class="vs-list style2">
+                            <h4 class="mb-15 mt-5">Why Choose Crystree Solutions for Performance Marketing?</h4>
+                            <p class="mb-20">Crystree Solutions delivers result-driven performance marketing solutions designed to help businesses attract qualified leads, increase conversions, and achieve sustainable growth. We leverage data-driven advertising strategies, audience insights, and continuous campaign optimization to ensure every marketing investment delivers measurable outcomes.</p>
+                            <p class="mb-20">Our team focuses on transparency, strategic execution, and performance tracking. From campaign planning and audience targeting to optimization and reporting, every stage is managed with precision to improve marketing effectiveness, reduce acquisition costs, and maximize return on investment.</p>
+                           <p class="mb-20">We help businesses build stronger online visibility, generate consistent leads, and achieve long-term success through innovative and performance-focused digital marketing strategies.</p>
+                            {{-- <ul class="vs-list style2">
                                 <li>Personalized Retirement Roadmap</li>
                                 <li>Social Security & Pension Planning</li>
                                 <li>Investment & Savings Guidance</li>
                                 <li>Risk Management & Insurance Planning</li>
                                 <li>Tax Optimization Strategies</li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
