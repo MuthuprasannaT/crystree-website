@@ -6,11 +6,11 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Services Details</h1>
+                <h1 class="breadcrumb-wrapper__title">Website Maintenance</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-wrapper__menu--item">Services Details</li>
+                        <li class="breadcrumb-wrapper__menu--item">Website Maintenance</li>
                     </ul>
                 </div>
             </div>
@@ -25,22 +25,27 @@
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
-                            <h3 class="vs-blog__title mb-2">Retirement Planning Services</h3>
+                            <h3 class="vs-blog__title mb-2">Website Maintenance Services in Trichy</h3>
                             <svg width="120" height="10" viewBox="0 0 120 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 2C0 0.89543 0.895431 0 2 0H59.1716C59.702 0 60.2107 0.210714 60.5858 0.585786L66.5858 6.58579C67.8457 7.84572 66.9534 10 65.1716 10H2C0.89543 10 0 9.10457 0 8V2Z" fill="#014E4E" />
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">Retirement is a major life milestone that requires careful financial planning to ensure you can maintain your desired lifestyle without financial stress. Our Retirement Planning Services help you navigate the complexities of
-                                retirement savings, investments, tax strategies, and income planning so you can enjoy your golden years with confidence.</p>
-                            <h4 class="mt-4 mb-15">Why Retirement Planning is Essentialr</h4>
-                            <p class="mb-20">Many people underestimate how much they need for retirement or fail to account for inflation, healthcare costs, and unforeseen expenses. A well-structured retirement plan helps:</p>
+                            <p class="pt-40">A website is one of the most valuable digital assets for any business. Regular website maintenance ensures that your website remains secure, fast, updated, and fully functional at all times. At Crystree Solutions, we provide comprehensive website maintenance services that help businesses improve performance, enhance user experience, and maintain a strong online presence.</p>
+                            <h4 class="mt-4 mb-15">Professional Website Maintenance Solutions</h4>
+                            <p class="mb-20">Our website maintenance services are designed to keep your website running smoothly while minimizing downtime and security risks. We continuously monitor, update, and optimize your website to ensure it delivers the best experience for visitors and supports your business goals.</p>
+                            <p class="mb-20">Whether you operate a corporate website, e-commerce store, portfolio site, or business portal, our maintenance team ensures that your website remains reliable, secure, and up to date.</p>
                             <ul class="vs-list style2">
-                                <li>Ensure a Steady Income</li>
-                                <li>Protect Against Inflation</li>
-                                <li>Maximize Your Savings</li>
-                                <li>Provide Financial Security for Your Family</li>
-                                <li>Minimize Taxes</li>
+                                <li>Website Content Updates</li>
+                                <li>Security Monitoring & Protection</li>
+                                <li>Website Backup Management</li>
+                                <li>Performance Optimization</li>
+                                <li>Bug Fixing & Troubleshooting</li>
+                                                                <li>Plugin & Software Updates</li>
+                                <li>Database Maintenance</li>
+                                <li>Technical Support & Assistance</li>
+                                <li>Broken Link Monitoring</li>
+                                <li>Website Speed Enhancement</li>
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -52,9 +57,116 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            <h4 class="mb-15">Our Comprehensive Retirement Planning Services</h4>
-                            <p class="mb-20">We provide a holistic approach to retirement planning, ensuring that every aspect of your financial future is covered. Our services focus on strategic savings, smart investments, tax efficiency, and risk management to help
-                                you retire comfortably.</p>
+  <!-- FAQ Section Start -->
+<div class="row  mt-60 ">
+    <div class="col-lg-11">
+        <div class="title-area text-center mb-40">
+            <h4 class="mt-4 mb-15">Frequently Asked Questions</h4>
+            {{-- <h3 class="vs-blog__title mb-2"></h3> --}}
+            {{-- <span class="sec-subtitle"></span> --}}
+            {{-- <h2 class="sec-title">Website Development FAQ</h2> --}}
+        </div>
+
+        <div class="accordion style3" id="websiteFaq">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button " type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqOne">
+How often should a website be maintained?
+                    </button>
+                </h2>
+                <div id="faqOne" class="accordion-collapse collapse show"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+Website maintenance should be performed regularly, including monthly updates, security checks, backups, and performance monitoring.   </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqTwo">
+Do you provide website backup services?
+                    </button>
+                </h2>
+                <div id="faqTwo" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+Yes, we offer scheduled backup solutions to protect your website data and enable quick recovery when needed.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqThree">
+Can you maintain websites developed by other companies?
+                    </button>
+                </h2>
+                <div id="faqThree" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+Yes, our team can maintain and support websites developed using various technologies and platforms.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqFour">
+Will website maintenance improve SEO performance?
+                    </button>
+                </h2>
+                <div id="faqFour" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+Regular maintenance helps improve website speed, security, and technical health, which positively impacts SEO performance.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqFive">
+Do you provide emergency website support?
+                    </button>
+                </h2>
+                <div id="faqFive" class="accordion-collapse collapse"
+                    data-bs-parent="#websiteFaq">
+                    <div class="accordion-body">
+Yes, we offer troubleshooting and support services to quickly resolve website issues and minimize downtime.
+                    </div>
+                </div>
+            </div>
+       <div class="col-12 mt-4">
+    <div class="vs-header__action d-flex justify-content-center">
+        <a href="#websiteFaq" class="vs-btn vs-btn--gradient">
+            Explore FAQs
+            {{-- <i class="fa-solid fa-arrow-right"></i> --}}
+        </a>
+    </div>
+</div>
+
+        </div>
+    </div>
+      
+</div>
+
+<!-- FAQ Section End -->
+
+                            <h4 class="mb-15 mt-5">Why Regular Website Maintenance is Important</h4>
+                            <p class="mb-20">A website that is not regularly maintained can experience security vulnerabilities, 
+                                slow performance, broken functionality, and poor search engine rankings. Regular maintenance ensures your website stays 
+                                competitive, secure, and optimized for business growth.</p>
                             <ul class="vs-list style2">
                                 <li>Personalized Retirement Roadmap</li>
                                 <li>Social Security & Pension Planning</li>
@@ -66,7 +178,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="sidebar-area">
+                    <div class="sidebar-area sticky-top">
                         <div class="widget widget_block widget_services">
                             <h3 class="widget__heading">Our Services</h3>
                             <ul class="wp-block-categories-list wp-block-categories">
