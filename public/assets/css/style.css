@@ -166,7 +166,8 @@ display:none
 }
 
 p {
-color:var(--vs-body-color)
+color:var(--vs-body-color);
+text-align: justify;
 }
 
 @media(max-width: 767px) {
@@ -7026,7 +7027,8 @@ text-align:center
 
 @media(max-width: 991px) {
 .vs-footer__desc {
-text-align:center
+text-align:center;
+text-align: justify;
 }
 
 }
