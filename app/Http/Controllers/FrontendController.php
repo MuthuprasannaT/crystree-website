@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Faq;
+use App\Models\Testimonial;
 
 
 class FrontendController extends Controller
@@ -46,7 +47,10 @@ class FrontendController extends Controller
 
     public function testimonials()
     {
-        return view('testimonials');
+        $testimonials = Testimonial::orderBy('id', 'desc')
+            ->simplePaginate(8);
+
+        return view('testimonials', compact('testimonials'));
     }
 
     public function contact()
