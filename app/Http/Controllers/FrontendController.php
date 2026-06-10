@@ -5,6 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\Faq;
 use App\Models\Logo;
 use App\Models\Testimonial;
+use App\Models\Gallery;
+use App\Models\Bts;
+use App\Models\Blog;
+
+
 
 
 class FrontendController extends Controller
@@ -30,18 +35,40 @@ return view('index', compact('logos'));
 
     public function gallery()
     {
-        return view('gallery');
-    }
+        $galleries = Gallery::orderBy('id', 'asc')->paginate(10);
 
+        return view('gallery', compact('galleries'));
+    }
     public function bts()
     {
-        return view('bts');
-    }
+        $teams = Bts::orderBy('id', 'asc')->paginate(10);
 
+        return view('bts', compact('teams'));
+    }
     public function blog()
     {
-        return view('blog');
+        $blogs = Blog::where('status', 1)
+            ->latest()
+            ->get();
+
+        return view('blog', compact('blogs'));
     }
+
+    public function blogDetails($slug)
+    {
+        $blog = Blog::where('slug', $slug)
+            ->where('status', 1)
+            ->firstOrFail();
+
+        $recentBlogs = Blog::where('status', 1)
+            ->where('id', '!=', $blog->id)
+            ->latest()
+            ->take(5)
+            ->get();
+
+        return view('blog-detail', compact('blog', 'recentBlogs'));
+    }
+
 
     public function faq()
     {

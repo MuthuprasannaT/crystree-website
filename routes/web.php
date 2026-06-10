@@ -27,7 +27,8 @@ Route::get('/gallery', [FrontendController::class, 'gallery'])->name('gallery');
 Route::get('/bts', [FrontendController::class, 'bts'])->name('bts');
 
 Route::get('/blog', [FrontendController::class, 'blog'])->name('blog');
-
+Route::get('/blog/{slug}', [FrontendController::class, 'blogDetails'])
+    ->name('blog.details');
 Route::get('/faq', [FrontendController::class, 'faq'])->name('faq');
 
 Route::get('/testimonials', [FrontendController::class, 'testimonials'])->name('testimonials');
@@ -73,7 +74,9 @@ Route::prefix('products')->group(function () {
 
 
 
-Route::get('/admin/login', function () { return view('admin.auth.login');})->name('admin.login');
+Route::get('/admin/login', function () {
+    return view('admin.auth.login');
+})->name('admin.login');
 
 // Public Contact Routes
 Route::get('/contact', [PublicContactController::class, 'index'])->name('contact');
@@ -91,7 +94,7 @@ Route::get('/admin/logout', [AuthController::class, 'logout']);
 // Admin Protected Routes
 Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-    
+
     Route::resource('contact-us', ContactController::class)->parameters(['contact-us' => 'contact']);
     Route::resource('testimonials', TestimonialController::class);
     Route::resource('faqs', FaqController::class);

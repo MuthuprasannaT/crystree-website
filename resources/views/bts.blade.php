@@ -17,107 +17,86 @@
             </div>
         </div>
     </div>
-    <section class="vs-team space space-extra-bottom bg-white">
-        <div class="container">
-            <div class="row vs-active-wrapper">
-                <div class="col-lg-3 col-md-4 vs-fade-in-up" data-delay="0.2" data-duration="1">
+<section class="vs-team space space-extra-bottom bg-white">
+    <div class="container">
+        <div class="row vs-active-wrapper">
+
+            @forelse($teams as $team)
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+
                     <div class="vs-team__item vs-team__item--style6 vs-active">
+
                         <figure class="vs-team__item-figure">
-                            <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-9.jpg" alt="Team Member Image"></a>
+
+                            <a class="vs-team__item-img-link" href="javascript:void(0)">
+
+                                @if(!empty($team->image))
+                                    <img class="vs-team__item-img"
+                                         src="{{ asset($team->image) }}"
+                                         alt="{{ $team->title }}">
+                                @else
+                                    <img class="vs-team__item-img"
+                                         src="{{ asset('assets/img/team/default-user.jpg') }}"
+                                         alt="{{ $team->name }}">
+                                @endif
+
+                            </a>
+
                         </figure>
+
                         <div class="vs-team__item-body">
+
                             <div class="vs-team__item-content">
-                                <h3 class="vs-team__item-name"><a href="team-details.html">Emma Watson</a></h3><a href="team-details.html" class="vs-team__item-role">Designer, BigBiz</a></div>
-                            <div class="vs-team__item-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
+
+                                <h3 class="vs-team__item-name">
+                                    {{ $team->title }}
+                                </h3>
+
+                              {{-- <div class="vs-team__item-role">
+    {!! $team->description !!}
+</div> --}}
+
+                            </div>
+
+                            <div class="vs-team__item-social">
+
+                                @if($team->facebook)
+                                    <a href="{{ $team->facebook }}" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                @endif
+
+                                @if($team->linkedin)
+                                    <a href="{{ $team->linkedin }}" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                @endif
+
+                                @if($team->instagram)
+                                    <a href="{{ $team->instagram }}" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                @endif
+
+                            </div>
+
                         </div>
+
                     </div>
+
                 </div>
-                <div class="col-lg-3 col-md-4 vs-fade-in-up" data-delay="0.2" data-duration="1">
-                    <div class="vs-team__item vs-team__item--style6 vs-active active">
-                        <figure class="vs-team__item-figure">
-                            <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-10.jpg" alt="Team Member Image"></a>
-                        </figure>
-                        <div class="vs-team__item-body">
-                            <div class="vs-team__item-content">
-                                <h3 class="vs-team__item-name"><a href="team-details.html">Rivanur R. Rafi</a></h3><a href="team-details.html" class="vs-team__item-role">Designer, BigBiz</a></div>
-                            <div class="vs-team__item-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
-                        </div>
-                    </div>
+
+            @empty
+
+                <div class="col-12 text-center">
+                    <h4>No Team Members Found</h4>
                 </div>
-                <div class="col-lg-3 col-md-4 vs-fade-in-up" data-delay="0.2" data-duration="1">
-                    <div class="vs-team__item vs-team__item--style6 vs-active">
-                        <figure class="vs-team__item-figure">
-                            <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-11.jpg" alt="Team Member Image"></a>
-                        </figure>
-                        <div class="vs-team__item-body">
-                            <div class="vs-team__item-content">
-                                <h3 class="vs-team__item-name"><a href="team-details.html">Margot Robbie</a></h3><a href="team-details.html" class="vs-team__item-role">Designer, BigBiz</a></div>
-                            <div class="vs-team__item-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 vs-fade-in-up" data-delay="0.2" data-duration="1">
-                    <div class="vs-team__item vs-team__item--style6 vs-active">
-                        <figure class="vs-team__item-figure">
-                            <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-12.jpg" alt="Team Member Image"></a>
-                        </figure>
-                        <div class="vs-team__item-body">
-                            <div class="vs-team__item-content">
-                                <h3 class="vs-team__item-name"><a href="team-details.html">Jhon China</a></h3><a href="team-details.html" class="vs-team__item-role">Designer, BigBiz</a></div>
-                            <div class="vs-team__item-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 vs-fade-in-up" data-delay="0.2" data-duration="1">
-                    <div class="vs-team__item vs-team__item--style6 vs-active">
-                        <figure class="vs-team__item-figure">
-                            <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-5.jpg" alt="Team Member Image"></a>
-                        </figure>
-                        <div class="vs-team__item-body">
-                            <div class="vs-team__item-content">
-                                <h3 class="vs-team__item-name"><a href="team-details.html">Emma Watson</a></h3><a href="team-details.html" class="vs-team__item-role">Designer, BigBiz</a></div>
-                            <div class="vs-team__item-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 vs-fade-in-up" data-delay="0.2" data-duration="1">
-                    <div class="vs-team__item vs-team__item--style6 vs-active active">
-                        <figure class="vs-team__item-figure">
-                            <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-6.jpg" alt="Team Member Image"></a>
-                        </figure>
-                        <div class="vs-team__item-body">
-                            <div class="vs-team__item-content">
-                                <h3 class="vs-team__item-name"><a href="team-details.html">Rivanur R. Rafi</a></h3><a href="team-details.html" class="vs-team__item-role">Designer, BigBiz</a></div>
-                            <div class="vs-team__item-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 vs-fade-in-up" data-delay="0.2" data-duration="1">
-                    <div class="vs-team__item vs-team__item--style6 vs-active">
-                        <figure class="vs-team__item-figure">
-                            <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-7.jpg" alt="Team Member Image"></a>
-                        </figure>
-                        <div class="vs-team__item-body">
-                            <div class="vs-team__item-content">
-                                <h3 class="vs-team__item-name"><a href="team-details.html">Margot Robbie</a></h3><a href="team-details.html" class="vs-team__item-role">Designer, BigBiz</a></div>
-                            <div class="vs-team__item-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 vs-fade-in-up" data-delay="0.2" data-duration="1">
-                    <div class="vs-team__item vs-team__item--style6 vs-active">
-                        <figure class="vs-team__item-figure">
-                            <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-8.jpg" alt="Team Member Image"></a>
-                        </figure>
-                        <div class="vs-team__item-body">
-                            <div class="vs-team__item-content">
-                                <h3 class="vs-team__item-name"><a href="team-details.html">Jhon China</a></h3><a href="team-details.html" class="vs-team__item-role">Designer, BigBiz</a></div>
-                            <div class="vs-team__item-social"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            @endforelse
+
         </div>
-    </section>
+    </div>
+</section>
     
 @endsection
