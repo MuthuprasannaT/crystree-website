@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Faq;
+use App\Models\Logo;
 use App\Models\Testimonial;
 
 
@@ -10,7 +11,11 @@ class FrontendController extends Controller
 {
     public function home()
     {
-        return view('index');
+$logos = \App\Models\Logo::latest()
+            ->get()
+            ->unique('image');
+
+return view('index', compact('logos'));
     }
 
     public function about()

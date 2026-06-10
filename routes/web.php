@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LogoController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
@@ -63,6 +64,7 @@ Route::prefix('products')->group(function () {
     Route::get('/software', [ProductController::class, 'software'])->name('products.software');
     Route::get('/ai', [ProductController::class, 'ai'])->name('products.ai');
     Route::get('/ppc', [ProductController::class, 'ppc'])->name('products.ppc');
+
 });
 
 
@@ -96,4 +98,5 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
     Route::resource('blogs', BlogController::class);
     Route::resource('bts', BtsController::class);
     Route::resource('gallery', GalleryController::class);
+    Route::resource('logos', LogoController::class);
 });
