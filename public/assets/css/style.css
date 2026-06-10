@@ -8028,7 +8028,7 @@ padding:0 0 20px 0
 font-size:clamp(1.25rem,1.159rem + .45vw,1.5rem);
 line-height:1.4166666667em;
 color:var(--vs-title-color);
-margin:0 0 25px 0;
+margin:0 0 2px 0;
 transition:all .3s ease-in-out
 }
 
@@ -8048,7 +8048,7 @@ transition:all .3s ease-in-out
 .vs-blog--style1 .vs-blog__buttons,.vs-blog--style2 .vs-blog__buttons,.vs-blog--style3 .vs-blog__buttons,.vs-blog--style4 .vs-blog__buttons,.vs-blog--style5 .vs-blog__buttons,.vs-blog--style6 .vs-blog__buttons,.vs-blog--style7 .vs-blog__buttons,.vs-blog--single .vs-blog__buttons,.vs-blog--style8 .vs-blog__buttons {
 display:flex;
 align-items:center;
-justify-content:space-between
+
 }
 
 .vs-blog--style1 .vs-blog__button,.vs-blog--style2 .vs-blog__button,.vs-blog--style3 .vs-blog__button,.vs-blog--style4 .vs-blog__button,.vs-blog--style5 .vs-blog__button,.vs-blog--style6 .vs-blog__button,.vs-blog--style7 .vs-blog__button,.vs-blog--single .vs-blog__button,.vs-blog--style8 .vs-blog__button {
@@ -8455,7 +8455,8 @@ color:var(--vs-theme-color-13)
 
 .vs-blog--style6 .vs-btn,.vs-blog--style7 .vs-btn,.vs-blog--style8 .vs-btn {
 background-color:var(--vs-theme-color-14);
-border-radius:10px
+border-radius:10px;
+width: 100%;
 }
 
 .vs-blog--style6 .vs-btn__icon,.vs-blog--style7 .vs-btn__icon,.vs-blog--style8 .vs-btn__icon {
@@ -8472,9 +8473,23 @@ background-color:var(--vs-theme-color-13)
 background-color:var(--vs-theme-color-13)
 }
 
-.vs-blog--style6:hover,.vs-blog--style6.active,.vs-blog--style7:hover,.vs-blog--style7.active,.vs-blog--style8:hover,.vs-blog--style8.active {
-border:0;
-background-color:var(--vs-theme-color-14)
+.vs-blog--style6:hover,
+.vs-blog--style6.active,
+.vs-blog--style7:hover,
+.vs-blog--style7.active,
+.vs-blog--style8:hover,
+.vs-blog--style8.active {
+    border: 0;
+    background-color: var(--vs-theme-color-14);
+}
+
+.vs-blog--style6:hover p,
+.vs-blog--style6.active p,
+.vs-blog--style7:hover p,
+.vs-blog--style7.active p,
+.vs-blog--style8:hover p,
+.vs-blog--style8.active p {
+    color: #fff !important;
 }
 
 .vs-blog--style6:hover .vs-blog__date,.vs-blog--style6.active .vs-blog__date,.vs-blog--style7:hover .vs-blog__date,.vs-blog--style7.active .vs-blog__date,.vs-blog--style8:hover .vs-blog__date,.vs-blog--style8.active .vs-blog__date {
@@ -12891,9 +12906,19 @@ flex-direction:column
 
 }
 
-.vs-team__item--style2:hover,.vs-team__item--style2.active,.vs-team__item--style6:hover,.vs-team__item--style6.active {
-background-color:var(--vs-black-color-3);
-border-bottom:3px solid var(--vs-theme-color-5)
+.vs-team__item--style2:hover .vs-team__item-name,
+.vs-team__item--style2.active .vs-team__item-name,
+.vs-team__item--style6:hover .vs-team__item-name,
+.vs-team__item--style6.active .vs-team__item-name {
+    color: #fff !important;
+}
+
+.vs-team__item--style2:hover,
+.vs-team__item--style2.active,
+.vs-team__item--style6:hover,
+.vs-team__item--style6.active {
+    background-color: var(--vs-black-color-3);
+    border-bottom: 3px solid var(--vs-theme-color-5);
 }
 
 .vs-team__item--style2:hover .vs-team__item-figure,.vs-team__item--style2.active .vs-team__item-figure,.vs-team__item--style6:hover .vs-team__item-figure,.vs-team__item--style6.active .vs-team__item-figure {
