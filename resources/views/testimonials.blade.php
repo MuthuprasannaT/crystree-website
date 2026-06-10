@@ -377,110 +377,7 @@
 
 
 
-    {{-- <style>
-        .vs-clients__item--style2 {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.vs-clients__quote {
-    flex-grow: 1;
-}
-
-.vs-clients__author {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.vs-clients__author-img {
-    width: 70px;
-    height: 70px;
-    min-width: 70px;
-}
-
-.vs-clients__avatar {
-    width: 70px !important;
-    height: 70px !important;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    border: 3px solid #fff;
-}
-
-.vs-clients__avatar-placeholder {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background: #ff6b35;
-    color: #fff;
-    font-size: 22px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    border: 3px solid #fff;
-}
-
-.vs-clients__quote p {
-    margin-bottom: 0;
-}
-
-#testimonialTop,
-#testimonialBottom {
-    overflow: hidden;
-}
-
-#testimonialTop .swiper-wrapper,
-#testimonialBottom .swiper-wrapper {
-    transition-timing-function: linear !important;
-}
-    .vs-active-wrapper .vs-service__biz:nth-child(4),
-.vs-active-wrapper .vs-service__biz:nth-child(8){
-    border-right: 0 !important;
-}
-.vs-service__biz:nth-child(4)::after,
-.vs-service__biz:nth-child(8)::after {
-    display: none !important;
-}
-
-.vs-clients__carousel .swiper-wrapper {
-    transition-timing-function: linear !important;
-}
-
-.vs-clients__item--style2 {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.vs-clients__quote {
-    flex-grow: 1;
-}
-
-#testimonialTop,
-#testimonialBottom {
-    overflow: hidden;
-}
-
-#testimonialTop,
-#testimonialBottom {
-    overflow: hidden;
-    cursor: pointer;
-}
-
-#testimonialTop .swiper-wrapper,
-#testimonialBottom .swiper-wrapper {
-    transition-timing-function: linear !important;
-}
-
-#testimonialTop .swiper-wrapper,
-#testimonialBottom .swiper-wrapper {
-    transition-timing-function: linear !important;
-}
-</style> --}}
+   
 
 <style>
     .vs-clients__carousel {
@@ -556,113 +453,21 @@
 }
 </style>
 
- 
-{{-- <script>
-document.addEventListener("DOMContentLoaded", function () {
-
-    const topSwiper = new Swiper("#testimonialTop", {
-        slidesPerView: 2,
-        spaceBetween: 30,
-        loop: true,
-        speed: 5000,
-        allowTouchMove: true,
-        watchSlidesProgress: true,
-
-        autoplay: {
-            delay: 1,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true
-        },
-
-        breakpoints: {
-            0: {
-                slidesPerView: 1
-            },
-            992: {
-                slidesPerView: 2
-            }
-        },
-
-        on: {
-            init: function () {
-                this.wrapperEl.style.transitionTimingFunction = "linear";
-            }
-        }
-    });
-
-
-    const bottomSwiper = new Swiper("#testimonialBottom", {
-        slidesPerView: 2,
-        spaceBetween: 30,
-        loop: true,
-        speed: 5000,
-        allowTouchMove: true,
-        watchSlidesProgress: true,
-
-        autoplay: {
-            delay: 1,
-            disableOnInteraction: false,
-            reverseDirection: true,
-            pauseOnMouseEnter: true
-        },
-
-        breakpoints: {
-            0: {
-                slidesPerView: 1
-            },
-            992: {
-                slidesPerView: 2
-            }
-        },
-
-        on: {
-            init: function () {
-                this.wrapperEl.style.transitionTimingFunction = "linear";
-            }
-        }
-    });
-
-
-    // Force Stop Immediately On Hover
-    const topContainer = document.querySelector("#testimonialTop");
-    const bottomContainer = document.querySelector("#testimonialBottom");
-
-    topContainer.addEventListener("mouseenter", function () {
-        topSwiper.setTranslate(topSwiper.getTranslate());
-        topSwiper.autoplay.stop();
-    });
-
-    topContainer.addEventListener("mouseleave", function () {
-        topSwiper.autoplay.start();
-    });
-
-    bottomContainer.addEventListener("mouseenter", function () {
-        bottomSwiper.setTranslate(bottomSwiper.getTranslate());
-        bottomSwiper.autoplay.stop();
-    });
-
-    bottomContainer.addEventListener("mouseleave", function () {
-        bottomSwiper.autoplay.start();
-    });
-
-});
-</script> --}}
-
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
+    // Initialize Top Swiper
     const topSwiper = new Swiper("#testimonialTop", {
         slidesPerView: 2,
         spaceBetween: 30,
         loop: true,
-        speed: 6000,
+        speed: 3000, // Reduced for smoother hover stop
         allowTouchMove: true,
-
         autoplay: {
-            delay: 1,
-            disableOnInteraction: false
+            delay: 0,
+            disableOnInteraction: false,
+            stopOnLastSlide: false
         },
-
         breakpoints: {
             0: {
                 slidesPerView: 1
@@ -673,19 +478,19 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    // Initialize Bottom Swiper
     const bottomSwiper = new Swiper("#testimonialBottom", {
         slidesPerView: 2,
         spaceBetween: 30,
         loop: true,
-        speed: 6000,
+        speed: 3000,
         allowTouchMove: true,
-
         autoplay: {
-            delay: 1,
+            delay: 0,
             disableOnInteraction: false,
-            reverseDirection: true
+            reverseDirection: true,
+            stopOnLastSlide: false
         },
-
         breakpoints: {
             0: {
                 slidesPerView: 1
@@ -696,29 +501,38 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // TOP SLIDER ONLY
-    const topSection = document.getElementById("testimonialTop");
+    // Add linear transition
+    topSwiper.wrapperEl.style.transitionTimingFunction = "linear";
+    bottomSwiper.wrapperEl.style.transitionTimingFunction = "linear";
 
-    topSection.addEventListener("mouseenter", function () {
-        topSwiper.autoplay.stop();
-    });
+    // HOVER FUNCTIONALITY - Stop on hover, resume on leave
+    const topElement = document.querySelector("#testimonialTop");
+    const bottomElement = document.querySelector("#testimonialBottom");
 
-    topSection.addEventListener("mouseleave", function () {
-        topSwiper.autoplay.start();
-    });
+    if (topElement) {
+        topElement.addEventListener("mouseenter", function() {
+            topSwiper.autoplay.stop();
+            console.log("Top slider stopped"); // Debug
+        });
+        
+        topElement.addEventListener("mouseleave", function() {
+            topSwiper.autoplay.start();
+            console.log("Top slider started"); // Debug
+        });
+    }
 
-    // BOTTOM SLIDER ONLY
-    const bottomSection = document.getElementById("testimonialBottom");
-
-    bottomSection.addEventListener("mouseenter", function () {
-        bottomSwiper.autoplay.stop();
-    });
-
-    bottomSection.addEventListener("mouseleave", function () {
-        bottomSwiper.autoplay.start();
-    });
+    if (bottomElement) {
+        bottomElement.addEventListener("mouseenter", function() {
+            bottomSwiper.autoplay.stop();
+            console.log("Bottom slider stopped"); // Debug
+        });
+        
+        bottomElement.addEventListener("mouseleave", function() {
+            bottomSwiper.autoplay.start();
+            console.log("Bottom slider started"); // Debug
+        });
+    }
 
 });
 </script>
-
 @endsection

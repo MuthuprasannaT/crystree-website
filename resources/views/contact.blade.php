@@ -43,7 +43,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="title-area title-area--style6 mb-30 text-center"><span class="title-area__title--sub"><img src="/assets/img/icons/vs-icon-title-h6-1.svg" alt=""> Contact Us <img src="/assets/img/icons/vs-icon-title-h6-1.svg" alt=""></span>
-                            <h2 class="title-area__title">Get In Touch With BigBiz</h2></div>
+                            <h2 class="title-area__title" style="color: whitesmoke">Get In Touch With BigBiz</h2></div>
                     </div>
                 </div>
                 @if(session('success'))
@@ -69,7 +69,7 @@
                         <div class="col-md-6 form-group">
                             <input class="form-control" type="email" name="email" id="email" placeholder="Email Address" value="{{ old('email') }}" required> <i class="fa-solid fa-envelope"></i></div>
                         <div class="col-md-6 form-group">
-                            <input class="form-control" type="tel" name="phone" id="phone" placeholder="Phone Number" value="{{ old('phone') }}" required>
+                            <input class="form-control" type="tel" name="phone" id="phone" placeholder="Phone Number" value="{{ old('phone') }}" required><i class="fas fa-phone"></i>
                         </div>
                         <div class="col-12 form-group">
                             <textarea class="form-control" name="message" id="message" placeholder="Message Here..." rows="5" required>{{ old('message') }}</textarea>
