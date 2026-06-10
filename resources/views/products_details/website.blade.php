@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.png"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.jpg"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -26,22 +26,21 @@
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
-                            <h3 class="vs-blog__title mb-2">Transform Your Business with Professional Website Development Services</h3>
+                            <h3 class="vs-blog__title mb-2">Website Development Company </h3>
                             <svg width="120" height="10" viewBox="0 0 120 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 2C0 0.89543 0.895431 0 2 0H59.1716C59.702 0 60.2107 0.210714 60.5858 0.585786L66.5858 6.58579C67.8457 7.84572 66.9534 10 65.1716 10H2C0.89543 10 0 9.10457 0 8V2Z" fill="#014E4E" />
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40 justify-content">In today's digital world, your website is more than just an online presence—it's your business's most powerful marketing tool. At Crystree Solutions, we help businesses build modern, responsive, and conversion-focused websites that attract customers, increase credibility, and drive growth.
-As a leading Website Development Company in Trichy, we specialize in creating custom websites that combine stunning design, seamless functionality, and search engine optimization to deliver measurable business results.</p>
+                            <p class="pt-40 justify-content">A website is often the first interaction customers have with your business. Our website development solutions focus on creating visually appealing, fast-loading, and user-friendly websites that reflect your brand identity and engage your audience effectively.</p>
                             <h4 class="mt-4 mb-15">Why Your Business Needs a Professional Website</h4>
                             <p class="mb-20">A professionally developed website helps your business:</p>
                             <ul class="vs-list style2">
-                                <li>Build customer trust and credibility</li>
-                                <li>Reach potential customers 24/7</li>
-                                <li>Improve search engine visibility</li>
-                                <li>Increase sales and business growth</li>
-                                <li>Showcase products and services effectively</li>
+                                <li>Custom Website Development</li>
+                                <li>Corporate Website Development</li>
+                                <li>E-Commerce Website Development</li>
+                                <li>Business Website Design</li>
+                                <li>CMS Website Development</li>
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -169,7 +168,7 @@ As a leading Website Development Company in Trichy, we specialize in creating cu
 
 <!-- FAQ Section End -->
                             <h4 class="mb-15 mt-5">Why Choose Crystree Solutions for Website Development?</h4>
-                            <p class="mb-20">Crystree Solutions is a professional website development company based in Trichy, Tamil Nadu, dedicated to creating high-performance websites that help businesses strengthen their online presence and achieve long-term growth. We combine modern design, advanced technology, and strategic digital solutions to deliver websites that are visually appealing, user-friendly, and results-driven.</p>
+                            <p class="mb-20">Crystree Solutions is a professional website development company based , Tamil Nadu, dedicated to creating high-performance websites that help businesses strengthen their online presence and achieve long-term growth. We combine modern design, advanced technology, and strategic digital solutions to deliver websites that are visually appealing, user-friendly, and results-driven.</p>
                             {{-- <ul class="vs-list style2">
                                 <li>Personalized Retirement Roadmap</li>
                                 <li>Social Security & Pension Planning</li>

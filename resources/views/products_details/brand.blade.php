@@ -25,13 +25,13 @@
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
-                            <h3 class="vs-blog__title mb-2">Branding Agency in Trichy</h3>
+                            <h3 class="vs-blog__title mb-2">Branding Agency</h3>
                             <svg width="120" height="10" viewBox="0 0 120 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 2C0 0.89543 0.895431 0 2 0H59.1716C59.702 0 60.2107 0.210714 60.5858 0.585786L66.5858 6.58579C67.8457 7.84572 66.9534 10 65.1716 10H2C0.89543 10 0 9.10457 0 8V2Z" fill="#014E4E" />
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40">A strong brand is more than just a logo—it is the identity, personality, and reputation of your business. At Crystree Solutions, we provide professional branding services in Trichy that help businesses create a memorable brand presence, build customer trust, and stand out in a competitive marketplace.</p>
+                            <p class="pt-40">A strong brand is more than just a logo—it is the identity, personality, and reputation of your business. At Crystree Solutions, we provide professional branding services that help businesses create a memorable brand presence, build customer trust, and stand out in a competitive marketplace.</p>
                             <h4 class="mt-4 mb-15">Build a Powerful Brand Identity</h4>
                             <p class="mb-20">Successful brands create lasting impressions and meaningful connections with customers. Our branding solutions focus on developing a unique identity that reflects your business values, vision, and goals while ensuring consistency across all marketing channels.</p>
                             <ul class="vs-list style2">

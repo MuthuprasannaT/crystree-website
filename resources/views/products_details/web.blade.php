@@ -25,14 +25,14 @@
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
-                            <h3 class="vs-blog__title mb-2">Transform Your Business with Professional Website Design in Trichy</h3>
+                            <h3 class="vs-blog__title mb-2">Transform Your Business with Professional Website Design </h3>
                             <svg width="120" height="10" viewBox="0 0 120 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 2C0 0.89543 0.895431 0 2 0H59.1716C59.702 0 60.2107 0.210714 60.5858 0.585786L66.5858 6.58579C67.8457 7.84572 66.9534 10 65.1716 10H2C0.89543 10 0 9.10457 0 8V2Z" fill="#014E4E" />
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
                             <p class="pt-40">A website is more than just an online presence—it is a powerful business tool that helps attract customers, build trust, and generate enquiries. Whether you are a startup, small business, or established enterprise, having a professionally designed website can significantly improve your visibility and credibility in the digital marketplace.</p>
-                            <p class="pt-40">As a leading web design company in Trichy, we create modern, responsive, and user-focused websites that help businesses connect with their target audience and achieve their growth objectives. Our websites are designed to deliver exceptional user experiences while maintaining high performance and search engine compatibility.</p>
+                            <p class="pt-40">As a leading web design company , we create modern, responsive, and user-focused websites that help businesses connect with their target audience and achieve their growth objectives. Our websites are designed to deliver exceptional user experiences while maintaining high performance and search engine compatibility.</p>
                             <h4 class="mt-4 mb-15">Custom Web Design Solutions for Every Business</h4>
                             <p class="mb-20">Every brand has a unique identity, and your website should reflect that uniqueness. We provide customized website design solutions tailored to your industry, goals, and customer expectations. From corporate websites to service-based platforms and business portfolios, we develop websites that represent your brand professionally.</p>
                             <ul class="vs-list style2">
@@ -164,7 +164,7 @@ Yes, every website is developed with SEO-friendly architecture and technical opt
 </div>
 
 <!-- FAQ Section End -->
-                            <h4 class="mb-15 mt-5">Why Choose Us for Website Design in Trichy?</h4>
+                            <h4 class="mb-15 mt-5">Why Choose Us for Website Design ?</h4>
                             <p class="mb-20">We combine creativity, technology, and digital marketing expertise to create websites that deliver measurable business value. Our focus is not only on aesthetics but also on performance, user engagement, and search engine visibility.</p>
                             {{-- <ul class="vs-list style2">
                                 <li>Personalized Retirement Roadmap</li>
