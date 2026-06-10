@@ -48,12 +48,13 @@
                                                 <a href="javascript:void(0)">Digital Marketing</a>
                                                 <ul>
                                                     <li><a href="{{ route('products.seo') }}">SEO Services</a></li>
+                                                    <li><a href="{{ route('products.gbp') }}">Google Business Profile</a></li>
                                                     <li><a href="{{ route('products.smm') }}">Social Media Marketing</a></li>
                                                     <li><a href="{{ route('products.ads') }}">Google & Meta Ads</a></li>
                                                     <li><a href="{{ route('products.email') }}">Email Marketing</a></li>
                                                     <li><a href="{{ route('products.whatsapp') }}">WhatsApp Marketing</a></li>
                                                     <li><a href="{{ route('products.sms') }}">Bulk SMS Services</a></li>
-                                                    <li><a href="{{ route('products.gbp') }}">Google Business Profile</a></li>
+
                                                 </ul>
                                             </li>
 
@@ -61,7 +62,7 @@
                                                 <a href="javascript:void(0)">Business Solutions</a>
                                                 <ul>
                                                     <li><a href="{{ route('products.erp') }} ">iCrystal ERP Solution</a></li>
-                                                    <li><a href="{{ route('products.erp') }}">Oracle ERP Solution</a></li>
+                                                    <li><a href="{{ route('products.oracle') }}">Oracle ERP Solution</a></li>
                                                     <li><a href="{{ route('products.crm') }}">CRM Software</a></li>
                                                     <li><a href="{{ route('products.saas') }}">SaaS Solutions</a></li>
                                                     <li><a href="{{ route('products.cloud') }}">Cloud Solutions</a></li>

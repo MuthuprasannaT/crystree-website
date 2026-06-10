@@ -26,7 +26,7 @@
             <div class="vs-carousel swiper" data-xl="1" data-lg="1" data-md="1" data-sm="1" data-effect="fade" data-grab-cursor="true" data-loop="false">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="vs-hero__bg" data-bg-src="assets/img/hero/h2-hero-bg-1.jpg">
+                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/bg/breadcrumb-bg-1-1.jpeg') }}">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xl-6">
