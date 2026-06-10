@@ -33,233 +33,692 @@
     </div>
 </div>
 
-<!-- Testimonials Section -->
-<section class="space space-extra-bottom">
-    <div class="container">
+                {{-- <section class="vs-clients vs-clients--area space overflow-hidden">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6">
+                                    <div class="title-area title-area--style2 text-center" dir="ltr"><span class="title-area__title--sub title-area__title--sub-center">Testimonials</span>
+                                        <h2 class="title-area__title">What Our Clients Review & Feedback</h2></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="vs-clients__carousel overflow-visible" id="testimonialBottom" data-xl="2" data-lg="2" data-md="1" data-autoplay="true" data-autoplay-delay="5000" data-loop="true" data-centered-slides="true" data-grab-cursor="true" dir="ltr">
+                                    <div class="swiper-wrapper">
 
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-7 text-center">
-                <span class="title-area__title--sub">
-                    Testimonials
-                </span>
+                    @foreach($testimonials as $testimonial)
+                        <div class="swiper-slide">
+                            <div class="vs-clients__item vs-clients__item--style2">
 
-                <h2 class="title-area__title">
-                    What Our Clients Review & Feedback
-                </h2>
+                                <img src="{{ asset('assets/img/icons/vs-icon-quote-h2-1.svg') }}"
+                                    alt="quote-icon"
+                                    class="vs-clients__quote-icon">
+
+                                <div class="vs-clients__rating" data-rate="{{ $testimonial->rating ?? 5 }}"></div>
+
+                            <div class="vs-clients__quote">
+                                    <span>"</span>
+                                    {!! $testimonial->testimonial !!}
+                                    <span>"</span>
+                                </div>
+
+                                <div class="vs-clients__author">
+
+                                    <div class="vs-clients__author-img">
+
+                                        @if(!empty($testimonial->image) && file_exists(public_path($testimonial->image)))
+                                            <img class="vs-clients__avatar"
+                                                src="{{ asset($testimonial->image) }}"
+                                                alt="{{ $testimonial->name }}">
+                                        @else
+                                            <div class="vs-clients__avatar-placeholder">
+                                                {{ strtoupper(substr($testimonial->name, 0, 2)) }}
+                                            </div>
+                                        @endif
+
+                                    </div>
+
+                                    <div class="vs-clients__details">
+                                        <span class="vs-clients__name">
+                                            {{ $testimonial->name }}
+                                        </span>
+
+                                        <p class="vs-clients__role">
+                                            {{ $testimonial->designation }}
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    @endforeach
+
+                </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="row g-4">
 
-            @forelse($testimonials as $testimonial)
-
-                <div class="col-xl-3 col-lg-3 col-md-6">
-
-                    <div class="testimonial-card">
-
-                        <div class="quote-icon">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-
-                        <div class="testimonial-content">
-                            {!! Str::limit(strip_tags($testimonial->testimonial), 180) !!}
-                        </div>
-
-                        <div class="testimonial-author">
-
-                            <div class="author-avatar">
-                                {{ strtoupper(substr($testimonial->name,0,1)) }}
-                            </div>
-
-                            <div class="author-info">
-                                <h4>{{ $testimonial->name }}</h4>
-                                <span>{{ $testimonial->designation }}</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            @empty
-
+    <section class="vs-clients vs-clients--area space overflow-hidden">
+        
+        <div class="container">
+            <div class="row">
                 <div class="col-12">
-                    <div class="alert alert-info text-center">
-                        No Testimonials Found.
+                    <div class="vs-clients__carousel overflow-visible" id="testimonialTop" data-xl="2" data-lg="2" data-md="1" data-autoplay="true" data-autoplay-delay="5000" data-loop="true" data-centered-slides="true" data-grab-cursor="true" dir="ltr">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
+                                    <div class="vs-clients__rating" data-rate="4.5"></div>
+                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <div class="vs-clients__author">
+                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
+                                        <div class="vs-clients__details"><span class="vs-clients__name">Emma Hayes</span>
+                                            <p class="vs-clients__role">Developer, VecuroSoft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
+                                    <div class="vs-clients__rating" data-rate="4.5"></div>
+                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <div class="vs-clients__author">
+                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-2.jpg" alt="Emma Hayes wearing a hat"></div>
+                                        <div class="vs-clients__details"><span class="vs-clients__name">John Deo</span>
+                                            <p class="vs-clients__role">Team Member, Vecuro</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
+                                    <div class="vs-clients__rating" data-rate="4.5"></div>
+                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <div class="vs-clients__author">
+                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-3.jpg" alt="Emma Hayes wearing a hat"></div>
+                                        <div class="vs-clients__details"><span class="vs-clients__name">Paul Andrew</span>
+                                            <p class="vs-clients__role">Developer, VecuroSoft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
+                                    <div class="vs-clients__rating" data-rate="4.5"></div>
+                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <div class="vs-clients__author">
+                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-4.jpg" alt="Emma Hayes wearing a hat"></div>
+                                        <div class="vs-clients__details"><span class="vs-clients__name">Bipin Hayes</span>
+                                            <p class="vs-clients__role">Member, VecuroSoft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
+                                    <div class="vs-clients__rating" data-rate="4.5"></div>
+                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <div class="vs-clients__author">
+                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-5.jpg" alt="Emma Hayes wearing a hat"></div>
+                                        <div class="vs-clients__details"><span class="vs-clients__name">Emma Hayes</span>
+                                            <p class="vs-clients__role">Developer, VecuroSoft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
+                                    <div class="vs-clients__rating" data-rate="4.5"></div>
+                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <div class="vs-clients__author">
+                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-6.jpg" alt="Emma Hayes wearing a hat"></div>
+                                        <div class="vs-clients__details"><span class="vs-clients__name">Mark Wing</span>
+                                            <p class="vs-clients__role">Painter, VecuroSoft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
+                                    <div class="vs-clients__rating" data-rate="4.5"></div>
+                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <div class="vs-clients__author">
+                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
+                                        <div class="vs-clients__details"><span class="vs-clients__name">Sara Rahman</span>
+                                            <p class="vs-clients__role">Leader, VecuroSoft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
+                                    <div class="vs-clients__rating" data-rate="4.5"></div>
+                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <div class="vs-clients__author">
+                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-2.jpg" alt="Emma Hayes wearing a hat"></div>
+                                        <div class="vs-clients__details"><span class="vs-clients__name">Rose Marry</span>
+                                            <p class="vs-clients__role">Developer, VecuroSoft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
+                                    <div class="vs-clients__rating" data-rate="4.5"></div>
+                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <div class="vs-clients__author">
+                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-3.jpg" alt="Emma Hayes wearing a hat"></div>
+                                        <div class="vs-clients__details"><span class="vs-clients__name">Sophie Mark</span>
+                                            <p class="vs-clients__role">SEO Lead, VecuroSoft</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-            @endforelse
-
+            </div>
         </div>
+    </section> --}}
 
-        <!-- Pagination -->
-        <div class="d-flex justify-content-center mt-5">
-            {{ $testimonials->links() }}
+    <section class="vs-clients vs-clients--area space overflow-hidden">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="title-area title-area--style2 text-center">
+                    <span class="title-area__title--sub title-area__title--sub-center">
+                        Testimonials
+                    </span>
+                    <h2 class="title-area__title">
+                        What Our Clients Review & Feedback
+                    </h2>
+                </div>
+            </div>
         </div>
+    </div>
 
+    {{-- Bottom Slider --}}
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="vs-clients__carousel" id="testimonialBottom">
+                    <div class="swiper-wrapper">
+
+                        @foreach($testimonials as $testimonial)
+                        <div class="swiper-slide">
+                            <div class="vs-clients__item vs-clients__item--style2">
+
+                                <img src="{{ asset('assets/img/icons/vs-icon-quote-h2-1.svg') }}"
+                                     alt="quote"
+                                     class="vs-clients__quote-icon">
+
+                                <div class="vs-clients__rating"
+                                     data-rate="{{ $testimonial->rating ?? 5 }}">
+                                </div>
+
+                                <div class="vs-clients__quote">
+                                    {!! $testimonial->testimonial !!}
+                                </div>
+
+                                <div class="vs-clients__author">
+
+                                    <div class="vs-clients__author-img">
+
+                                        @if(!empty($testimonial->image) && file_exists(public_path($testimonial->image)))
+
+                                            <img
+                                                class="vs-clients__avatar"
+                                                src="{{ asset($testimonial->image) }}"
+                                                alt="{{ $testimonial->name }}">
+
+                                        @else
+
+                                            <div class="vs-clients__avatar-placeholder">
+                                                {{ strtoupper(substr($testimonial->name,0,2)) }}
+                                            </div>
+
+                                        @endif
+
+                                    </div>
+
+                                    <div class="vs-clients__details">
+                                        <span class="vs-clients__name">
+                                            {{ $testimonial->name }}
+                                        </span>
+
+                                        <p class="vs-clients__role">
+                                            {{ $testimonial->designation }}
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        @endforeach
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Top Slider --}}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="vs-clients__carousel" id="testimonialTop">
+                    <div class="swiper-wrapper">
+
+                        @foreach($testimonials as $testimonial)
+                        <div class="swiper-slide">
+                            <div class="vs-clients__item vs-clients__item--style2">
+
+                                <img src="{{ asset('assets/img/icons/vs-icon-quote-h2-1.svg') }}"
+                                     alt="quote"
+                                     class="vs-clients__quote-icon">
+
+                                <div class="vs-clients__rating"
+                                     data-rate="{{ $testimonial->rating ?? 5 }}">
+                                </div>
+
+                                <div class="vs-clients__quote">
+                                    {!! $testimonial->testimonial !!}
+                                </div>
+
+                                <div class="vs-clients__author">
+
+                                    <div class="vs-clients__author-img">
+
+                                        @if(!empty($testimonial->image) && file_exists(public_path($testimonial->image)))
+
+                                            <img
+                                                class="vs-clients__avatar"
+                                                src="{{ asset($testimonial->image) }}"
+                                                alt="{{ $testimonial->name }}">
+
+                                        @else
+
+                                            <div class="vs-clients__avatar-placeholder">
+                                                {{ strtoupper(substr($testimonial->name,0,2)) }}
+                                            </div>
+
+                                        @endif
+
+                                    </div>
+
+                                    <div class="vs-clients__details">
+                                        <span class="vs-clients__name">
+                                            {{ $testimonial->name }}
+                                        </span>
+
+                                        <p class="vs-clients__role">
+                                            {{ $testimonial->designation }}
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        @endforeach
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-@endsection
 
-@push('styles')
+
+    {{-- <style>
+        .vs-clients__item--style2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vs-clients__quote {
+    flex-grow: 1;
+}
+
+.vs-clients__author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.vs-clients__author-img {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+}
+
+.vs-clients__avatar {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    border: 3px solid #fff;
+}
+
+.vs-clients__avatar-placeholder {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ff6b35;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+}
+
+.vs-clients__quote p {
+    margin-bottom: 0;
+}
+
+#testimonialTop,
+#testimonialBottom {
+    overflow: hidden;
+}
+
+#testimonialTop .swiper-wrapper,
+#testimonialBottom .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+    .vs-active-wrapper .vs-service__biz:nth-child(4),
+.vs-active-wrapper .vs-service__biz:nth-child(8){
+    border-right: 0 !important;
+}
+.vs-service__biz:nth-child(4)::after,
+.vs-service__biz:nth-child(8)::after {
+    display: none !important;
+}
+
+.vs-clients__carousel .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+.vs-clients__item--style2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vs-clients__quote {
+    flex-grow: 1;
+}
+
+#testimonialTop,
+#testimonialBottom {
+    overflow: hidden;
+}
+
+#testimonialTop,
+#testimonialBottom {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#testimonialTop .swiper-wrapper,
+#testimonialBottom .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+#testimonialTop .swiper-wrapper,
+#testimonialBottom .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+</style> --}}
 
 <style>
-
-.testimonial-card{
-    background:#012f33;
-    border-radius:30px;
-    padding:35px;
-    height:100%;
-    position:relative;
-    overflow:hidden;
-    transition:all .4s ease;
-    box-shadow:0 15px 35px rgba(0,0,0,.15);
+    .vs-clients__carousel {
+    overflow: hidden;
+    position: relative;
 }
 
-.testimonial-card::before{
-    content:"\f10e";
-    font-family:"Font Awesome 6 Free";
-    font-weight:900;
-    position:absolute;
-    right:-20px;
-    bottom:-30px;
-    font-size:170px;
-    color:rgba(255,255,255,.05);
+#testimonialTop {
+    z-index: 2;
 }
 
-.testimonial-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 25px 50px rgba(0,0,0,.25);
+#testimonialBottom {
+    z-index: 1;
 }
 
-/* Quote Icon */
-
-.quote-icon{
-    text-align:center;
-    margin-bottom:15px;
+.vs-clients__carousel .swiper-wrapper {
+    transition-timing-function: linear !important;
 }
 
-.quote-icon i{
-    font-size:55px;
-    color:#39d353;
-    transition:.4s;
+.vs-clients__item--style2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.testimonial-card:hover .quote-icon i{
-    transform:rotate(15deg) scale(1.1);
+.vs-clients__quote {
+    flex-grow: 1;
 }
 
-/* Rating */
-
-.rating{
-    text-align:center;
-    margin-bottom:20px;
+.vs-clients__author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-.rating i{
-    color:#39d353;
-    font-size:18px;
-    margin:0 2px;
+.vs-clients__author-img {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
 }
 
-/* Content */
-
-.testimonial-content{
-    color:#ffffff;
-    text-align:center;
-    line-height:1.9;
-    font-size:15px;
-    min-height:140px;
-    margin-bottom:30px;
+.vs-clients__avatar,
+.vs-clients__avatar-placeholder {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
 }
 
-/* Author */
-
-.testimonial-author{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:15px;
+.vs-clients__avatar {
+    object-fit: cover;
+    display: block;
+    border: 3px solid #fff;
 }
 
-.author-avatar{
-    width:75px;
-    height:75px;
-    border-radius:15px;
-    background:#39d353;
-    color:#012f33;
-    font-size:28px;
-    font-weight:700;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    transition:.4s;
+.vs-clients__avatar-placeholder {
+    background: #ff6b35;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border: 3px solid #fff;
 }
 
-.testimonial-card:hover .author-avatar{
-    transform:scale(1.1);
+.vs-clients__quote p {
+    margin-bottom: 0;
 }
 
-.author-info h4{
-    margin:0;
-    color:#39d353;
-    font-size:24px;
-    font-weight:700;
+.swiper-slide {
+    pointer-events: auto;
 }
-
-.author-info span{
-    color:#e5e5e5;
-    font-size:15px;
-}
-
-/* Pagination */
-
-.pagination{
-    gap:8px;
-}
-
-.pagination .page-link{
-    border:none;
-    border-radius:10px;
-    padding:10px 15px;
-    color:#012f33;
-}
-
-.pagination .active .page-link{
-    background:#012f33;
-    color:#fff;
-}
-
-/* Responsive */
-
-@media(max-width:991px){
-
-    .testimonial-content{
-        min-height:auto;
-    }
-
-    .author-avatar{
-        width:65px;
-        height:65px;
-        font-size:24px;
-    }
-
-    .author-info h4{
-        font-size:20px;
-    }
-}
-
 </style>
 
-@endpush
+ 
+{{-- <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const topSwiper = new Swiper("#testimonialTop", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        loop: true,
+        speed: 5000,
+        allowTouchMove: true,
+        watchSlidesProgress: true,
+
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true
+        },
+
+        breakpoints: {
+            0: {
+                slidesPerView: 1
+            },
+            992: {
+                slidesPerView: 2
+            }
+        },
+
+        on: {
+            init: function () {
+                this.wrapperEl.style.transitionTimingFunction = "linear";
+            }
+        }
+    });
+
+
+    const bottomSwiper = new Swiper("#testimonialBottom", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        loop: true,
+        speed: 5000,
+        allowTouchMove: true,
+        watchSlidesProgress: true,
+
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: false,
+            reverseDirection: true,
+            pauseOnMouseEnter: true
+        },
+
+        breakpoints: {
+            0: {
+                slidesPerView: 1
+            },
+            992: {
+                slidesPerView: 2
+            }
+        },
+
+        on: {
+            init: function () {
+                this.wrapperEl.style.transitionTimingFunction = "linear";
+            }
+        }
+    });
+
+
+    // Force Stop Immediately On Hover
+    const topContainer = document.querySelector("#testimonialTop");
+    const bottomContainer = document.querySelector("#testimonialBottom");
+
+    topContainer.addEventListener("mouseenter", function () {
+        topSwiper.setTranslate(topSwiper.getTranslate());
+        topSwiper.autoplay.stop();
+    });
+
+    topContainer.addEventListener("mouseleave", function () {
+        topSwiper.autoplay.start();
+    });
+
+    bottomContainer.addEventListener("mouseenter", function () {
+        bottomSwiper.setTranslate(bottomSwiper.getTranslate());
+        bottomSwiper.autoplay.stop();
+    });
+
+    bottomContainer.addEventListener("mouseleave", function () {
+        bottomSwiper.autoplay.start();
+    });
+
+});
+</script> --}}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const topSwiper = new Swiper("#testimonialTop", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        loop: true,
+        speed: 6000,
+        allowTouchMove: true,
+
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: false
+        },
+
+        breakpoints: {
+            0: {
+                slidesPerView: 1
+            },
+            992: {
+                slidesPerView: 2
+            }
+        }
+    });
+
+    const bottomSwiper = new Swiper("#testimonialBottom", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        loop: true,
+        speed: 6000,
+        allowTouchMove: true,
+
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: false,
+            reverseDirection: true
+        },
+
+        breakpoints: {
+            0: {
+                slidesPerView: 1
+            },
+            992: {
+                slidesPerView: 2
+            }
+        }
+    });
+
+    // TOP SLIDER ONLY
+    const topSection = document.getElementById("testimonialTop");
+
+    topSection.addEventListener("mouseenter", function () {
+        topSwiper.autoplay.stop();
+    });
+
+    topSection.addEventListener("mouseleave", function () {
+        topSwiper.autoplay.start();
+    });
+
+    // BOTTOM SLIDER ONLY
+    const bottomSection = document.getElementById("testimonialBottom");
+
+    bottomSection.addEventListener("mouseenter", function () {
+        bottomSwiper.autoplay.stop();
+    });
+
+    bottomSection.addEventListener("mouseleave", function () {
+        bottomSwiper.autoplay.start();
+    });
+
+});
+</script>
+
+@endsection

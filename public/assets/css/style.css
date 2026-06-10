@@ -13687,6 +13687,9 @@ padding:60px;
 border-radius:20px
 }
 
+.vs-clients__quote p{
+    color: whitesmoke;
+}
 @media(max-width: 767px) {
 .vs-clients__item--style2 {
 padding:45px 15px 30px 15px
