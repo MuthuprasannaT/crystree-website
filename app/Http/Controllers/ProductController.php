@@ -10,6 +10,7 @@ class ProductController extends Controller
     public function website(){ return view('products_details.website'); }
     public function app(){ return view('products_details.app'); }
     public function erp(){ return view('products_details.erp'); }
+    public function oracle(){ return view('products_details.oracle'); }
     public function seo(){ return view('products_details.seo'); }
     public function gbp(){ return view('products_details.gbp'); }
 public function email(){ return view('products_details.email'); }

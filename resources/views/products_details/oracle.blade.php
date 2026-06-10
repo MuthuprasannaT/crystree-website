@@ -2,21 +2,20 @@
 
 @section('content')
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.jpg"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.png"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Website Development</h1>
+                <h1 class="breadcrumb-wrapper__title">Oracle ERP</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-wrapper__menu--item">Website Development</li>
+                        <li class="breadcrumb-wrapper__menu--item">Oracle ERP</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
     <section class="vs-blog--layout1 space space-extra-bottom" dir="ltr">
         <div class="container">
             <div class="row">
@@ -26,21 +25,21 @@
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
-                            <h3 class="vs-blog__title mb-2">Website Development Company in Trichy</h3>
+                            <h3 class="vs-blog__title mb-2">Oracle ERP Solution Services</h3>
                             <svg width="120" height="10" viewBox="0 0 120 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 2C0 0.89543 0.895431 0 2 0H59.1716C59.702 0 60.2107 0.210714 60.5858 0.585786L66.5858 6.58579C67.8457 7.84572 66.9534 10 65.1716 10H2C0.89543 10 0 9.10457 0 8V2Z" fill="#014E4E" />
                                 <path d="M73.4142 3.41421C72.1543 2.15428 73.0466 0 74.8284 0H109.172C109.702 0 110.211 0.210714 110.586 0.585786L116.586 6.58579C117.846 7.84572 116.953 10 115.172 10H80.8284C80.298 10 79.7893 9.78929 79.4142 9.41421L73.4142 3.41421Z"
                                 fill="#FACF61" />
                             </svg>
-                            <p class="pt-40 justify-content">A website is often the first interaction customers have with your business. Our website development solutions focus on creating visually appealing, fast-loading, and user-friendly websites that reflect your brand identity and engage your audience effectively.</p>
-                            <h4 class="mt-4 mb-15">Why Your Business Needs a Professional Website</h4>
-                            <p class="mb-20">A professionally developed website helps your business:</p>
+                            <p class="pt-40">Modern businesses require intelligent and integrated systems to manage finance, operations, procurement, human resources, and supply chain activities efficiently. At Crystree Solutions, we provide Oracle ERP solutions that help organizations streamline business processes, improve operational visibility, and accelerate digital transformation through a unified enterprise management platform.</p>
+                            <h4 class="mt-4 mb-15">Transform Business Operations with Oracle ERP</h4>
+                            <p class="mb-20">Oracle ERP is a comprehensive enterprise resource planning solution designed to automate workflows, improve productivity, and provide real-time business insights. By integrating core business functions into a single system, organizations can make faster decisions, reduce operational costs, and improve overall efficiency.</p>
                             <ul class="vs-list style2">
-                                <li>Custom Website Development</li>
-                                <li>Corporate Website Development</li>
-                                <li>E-Commerce Website Development</li>
-                                <li>Business Website Design</li>
-                                <li>CMS Website Development</li>
+                                <li>Oracle ERP Implementation</li>
+                                <li>Oracle ERP Consulting</li>
+                                <li>Oracle ERP Customization</li>
+                                <li>Oracle ERP Support & Maintenance</li>
+                                <li>Oracle Supply Chain Management</li>
                             </ul>
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
@@ -52,12 +51,11 @@
                                         <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
                                 </div>
                             </div>
-                            
-                <!-- FAQ Section Start -->
+<!-- FAQ Section Start -->
 <div class="row  mt-60 ">
     <div class="col-lg-11">
         <div class="title-area text-center mb-40">
-            <h4 class="mt-4 mb-15">Frequently Asked Questions Website Development</h4>
+            <h4 class="mt-4 mb-15">Frequently Asked Questions</h4>
             {{-- <h3 class="vs-blog__title mb-2"></h3> --}}
             {{-- <span class="sec-subtitle"></span> --}}
             {{-- <h2 class="sec-title">Website Development FAQ</h2> --}}
@@ -70,15 +68,14 @@
                     <button class="accordion-button " type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#faqOne">
-                        Why does my business need a professional website?
+What is Oracle ERP?
                     </button>
                 </h2>
                 <div id="faqOne" class="accordion-collapse collapse show"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-                        A professional website helps establish credibility, attract new customers,
-                        improve online visibility, and generate leads 24/7 for your business.
-                    </div>
+Oracle ERP is an enterprise resource planning solution that integrates finance, procurement, human resources, project management, and other business functions into a unified platform.
+</div>
                 </div>
             </div>
 
@@ -87,16 +84,13 @@
                     <button class="accordion-button collapsed" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#faqTwo">
-                        How long does it take to develop a website?
+Is Oracle ERP suitable for large organizations?
                     </button>
                 </h2>
                 <div id="faqTwo" class="accordion-collapse collapse"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-                        The timeline depends on project complexity. Most business websites
-                        can be completed within 2 to 6 weeks, while custom web applications
-                        may require additional development time.
-                    </div>
+Yes. Oracle ERP is designed for businesses of all sizes, including large enterprises that require scalable and advanced business management capabilities.                    </div>
                 </div>
             </div>
 
@@ -105,14 +99,12 @@
                     <button class="accordion-button collapsed" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#faqThree">
-                        Do you provide responsive mobile-friendly websites?
-                    </button>
+Can Oracle ERP be customized?      </button>
                 </h2>
                 <div id="faqThree" class="accordion-collapse collapse"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-                        Yes. Every website we build is fully responsive and optimized
-                        for desktops, tablets, and smartphones to ensure the best user experience.
+Yes. Oracle ERP can be configured and customized according to specific business processes and operational requirements.
                     </div>
                 </div>
             </div>
@@ -122,15 +114,13 @@
                     <button class="accordion-button collapsed" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#faqFour">
-                        Is SEO included with website development?
+Does Oracle ERP support cloud deployment?
                     </button>
                 </h2>
                 <div id="faqFour" class="accordion-collapse collapse"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-                        Yes. We implement on-page SEO best practices including
-                        optimized page structure, meta tags, mobile optimization,
-                        fast loading speed, and search-engine-friendly coding.
+Yes. Oracle offers cloud-based ERP solutions that provide flexibility, security, and remote accessibility.
                     </div>
                 </div>
             </div>
@@ -140,19 +130,15 @@
                     <button class="accordion-button collapsed" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#faqFive">
-                        Can you redesign my existing website?
-                    </button>
+Do you provide Oracle ERP support services?</button>
                 </h2>
                 <div id="faqFive" class="accordion-collapse collapse"
                     data-bs-parent="#websiteFaq">
                     <div class="accordion-body">
-                        Absolutely. We can modernize your existing website,
-                        improve performance, enhance user experience,
-                        and optimize it for better search engine rankings.
-                    </div>
+Yes. We offer implementation, customization, migration, maintenance, and technical support services for Oracle ERP solutions.  </div>
                 </div>
             </div>
-                                  <div class="col-12 mt-4">
+       <div class="col-12 mt-4">
     <div class="vs-header__action d-flex justify-content-center">
         <a href="#websiteFaq" class="vs-btn vs-btn--gradient">
             Explore FAQs
@@ -167,19 +153,19 @@
 </div>
 
 <!-- FAQ Section End -->
-                            <h4 class="mb-15 mt-5">Why Choose Crystree Solutions for Website Development?</h4>
-                            <p class="mb-20">Crystree Solutions is a professional website development company based in Trichy, Tamil Nadu, dedicated to creating high-performance websites that help businesses strengthen their online presence and achieve long-term growth. We combine modern design, advanced technology, and strategic digital solutions to deliver websites that are visually appealing, user-friendly, and results-driven.</p>
-                            {{-- <ul class="vs-list style2">
-                                <li>Personalized Retirement Roadmap</li>
-                                <li>Social Security & Pension Planning</li>
-                                <li>Investment & Savings Guidance</li>
-                                <li>Risk Management & Insurance Planning</li>
-                                <li>Tax Optimization Strategies</li>
-                            </ul> --}}
+
+                            <h4 class="mb-15 mt-5">Why Choose Crystree Solutions for Oracle ERP?</h4>
+                            <p class="mb-20">At Crystree Solutions, we help businesses maximize the value of Oracle ERP through strategic implementation, customization, and ongoing support. Our team focuses on delivering ERP solutions that improve efficiency, reduce complexity, and support business growth.</p>
+                            <ul class="vs-list style2">
+                                <li>Customized Implementation Approach</li>
+                                <li>Experienced ERP Consultants</li>
+                                <li>Industry-Specific Expertise</li>
+                                <li>Secure Data Migration Services</li>
+                                <li>End-to-End ERP Support</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4">
                     <div class="sidebar-area sticky-top">
                         <div class="widget widget_block widget_services">

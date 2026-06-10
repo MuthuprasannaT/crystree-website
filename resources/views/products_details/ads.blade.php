@@ -172,7 +172,7 @@ Yes. Performance marketing allows businesses of all sizes to reach their target 
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="sidebar-area">
+                    <div class="sidebar-area sticky-top">
                         <div class="widget widget_block widget_services">
                             <h3 class="widget__heading">Our Services</h3>
                             <ul class="wp-block-categories-list wp-block-categories">

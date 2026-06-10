@@ -40,6 +40,7 @@ Route::prefix('products')->group(function () {
     Route::get('/website', [ProductController::class, 'website'])->name('products.website');
     Route::get('/app', [ProductController::class, 'app'])->name('products.app');
     Route::get('/erp', [ProductController::class, 'erp'])->name('products.erp');
+    Route::get('/oracle', [ProductController::class, 'oracle'])->name('products.oracle');
     Route::get('/seo', [ProductController::class, 'seo'])->name('products.seo');
     Route::get('/gbp', [ProductController::class, 'gbp'])->name('products.gbp');
     Route::get('/email', [ProductController::class, 'email'])->name('products.email');
