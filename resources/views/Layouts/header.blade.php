@@ -6,8 +6,8 @@
 <link rel="icon" type="image/png" href="{{ asset('assets/img/logo/fevlogo.png') }}">
 <link rel="shortcut icon" type="image/png" href="{{ asset('assets/img/logo/fevlogo.png') }}">
 
-<link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <!-- CSS -->
 <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
