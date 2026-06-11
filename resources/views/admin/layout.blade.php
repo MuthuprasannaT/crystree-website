@@ -196,6 +196,12 @@
                         <i class="fas fa-images"></i> Gallery
                     </a>
                 </li>
+                     <li class="nav-item">
+    <a class="nav-link {{ Route::is('admin.logos.*') ? 'active' : '' }}"
+       href="{{ route('admin.logos.index') }}">
+        <i class="fas fa-layer-group"></i> Logo Management
+    </a>
+</li>
 
                 <li class="nav-item" style="margin-top: 24px; border-top: 1px solid rgba(255,255,255,.1); padding-top: 8px;">
                     <form id="logout-form" action="{{ route('admin.logout') }}" method="POST">
