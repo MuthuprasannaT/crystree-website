@@ -397,49 +397,56 @@ margin-top: -10px
 
         <div class="container">
             <hr class="vs-service__divider">
+         <style>
+.it-carousel__item--style2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:15px;
+}
 
-            <div class="vs-brand m-0" dir="ltr">
-                <div class="vs-brand__content vs-brand__content--style2 z-index-common bg-black-3">
-                    <div class="vs-brand__ele vs-brand__ele--left vs-brand__ele--style2"></div>
-                    <div class="vs-brand__ele vs-brand__ele--right vs-brand__ele--style2"></div>
+.it-carousel__item--style2 img{
+    max-height:80px;
+    max-width:180px;
+    width:auto;
+    height:auto;
+    object-fit:contain;
+}
+</style>
 
-                    <div class="it-carousel"
-                        id="it-carousel-1"
-                        data-direction="right"
-                        data-autoplay="true"
-                        data-autoplay-speed="0.5">
+<div class="vs-brand m-0" dir="ltr">
+    <div class="vs-brand__content vs-brand__content--style2 z-index-common bg-black-3">
+        
+        <div class="vs-brand__ele vs-brand__ele--left vs-brand__ele--style2"></div>
+        <div class="vs-brand__ele vs-brand__ele--right vs-brand__ele--style2"></div>
 
-                        <div class="it-carousel__wrapper it-carousel__wrapper--style2">
+        <div class="it-carousel"
+             id="it-carousel-1"
+             data-direction="right"
+             data-autoplay="true"
+             data-autoplay-speed="0.5">
 
-                            <div class="it-carousel__item it-carousel__item--style2">
-                                <img src="assets/img/brand/brand-6.svg" alt="Partner Brand Logo" class="img-fluid">
-                            </div>
+            <div class="it-carousel__wrapper it-carousel__wrapper--style2">
 
-                            <div class="it-carousel__item it-carousel__item--style2">
-                                <img src="assets/img/brand/brand-2.svg" alt="Partner Brand Logo" class="img-fluid">
-                            </div>
+@forelse($logos as $logo)
+    <div class="it-carousel__item it-carousel__item--style2">
+        <img
+            src="{{ asset('uploads/logos/'.$logo->image) }}"
+            alt="{{ $logo->title }}"
+            loading="lazy">
+    </div>
+@empty
+    <div class="it-carousel__item it-carousel__item--style2">
+        <p class="text-white mb-0">No Logos Found</p>
+    </div>
+@endforelse
 
-                            <div class="it-carousel__item it-carousel__item--style2">
-                                <img src="assets/img/brand/brand-3.svg" alt="Partner Brand Logo" class="img-fluid">
-                            </div>
-
-                            <div class="it-carousel__item it-carousel__item--style2">
-                                <img src="assets/img/brand/brand-4.svg" alt="Partner Brand Logo" class="img-fluid">
-                            </div>
-
-                            <div class="it-carousel__item it-carousel__item--style2">
-                                <img src="assets/img/brand/brand-5.svg" alt="Partner Brand Logo" class="img-fluid">
-                            </div>
-
-                            <div class="it-carousel__item it-carousel__item--style2">
-                                <img src="assets/img/brand/brand-1.svg" alt="Partner Brand Logo" class="img-fluid">
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
             </div>
+
+        </div>
+
+    </div>
+</div>
 
         </div>
     </div>

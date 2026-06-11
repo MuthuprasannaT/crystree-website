@@ -888,6 +888,12 @@ height:150px;
 transform:scale(1);
 transition:all .3s ease-in-out
 }
+ /* .it-carousel__item img{
+    height: 150px;
+    /* width: 150px; 
+transform:scale(1);
+transition:all .3s ease-in-out
+} */
 
 .it-carousel__item:hover img {
 transform:scale(1.1);
@@ -2793,7 +2799,7 @@ background-color:var(--vs-black-color-2)
 }
 
 .bg-black-3 {
-background-color:var(--vs-black-color-3)
+background-color:White
 }
 
 .bg-title {
@@ -15148,8 +15154,8 @@ border-right:4px solid var(--vs-theme-color-5)
 .vs-brand__ele {
 position:absolute;
 --circle-size: 250px;
-height:var(--circle-size);
-width:var(--circle-size);
+/* height:var(--circle-size);
+width:var(--circle-size); */
 background:radial-gradient(50% 50% at 50% 50%, #C4F500 34.47%, #196164 100%);
 opacity:.1;
 top:50%;
