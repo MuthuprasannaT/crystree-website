@@ -386,6 +386,8 @@
             </div>
         </div>
     </section>
+
+
     <section class="vs-service vs-service--layout1 bg-theme-3 space space-extra-bottom">
         <div class="container">
             <div class="row justify-content-center">
@@ -491,6 +493,8 @@
         </div>
         </div>
     </section>
+
+    
     <section class="vs-team space space-extra-bottom">
         <div class="container">
             <div class="row justify-content-between align-items-end">
