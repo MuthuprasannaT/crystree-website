@@ -9753,15 +9753,15 @@ padding:40px 40px 0 40px
 .vs-hero--home2,.vs-hero--home3,.vs-hero--home6 {
 padding:15px 15px 0 15px
 }
+}
+
+
 
 .vs-service__biz-text{
     height: 170px;
     margin: 10px;
 }
 
-
-
-}
 
 @media(max-width: 767px) {
 .vs-hero--home2,.vs-hero--home3,.vs-hero--home6 {
@@ -9796,7 +9796,9 @@ padding:270px 0 80px 0
 .vs-hero--home2 .vs-hero__bg,.vs-hero--home3 .vs-hero__bg,.vs-hero--home6 .vs-hero__bg {
 padding:160px 0 60px 0
 }
-
+.vs-contact__block-icon1{
+    margin-top: -20px;
+}
 }
 
 .vs-hero--home2 .vs-hero__bg::before,.vs-hero--home3 .vs-hero__bg::before,.vs-hero--home6 .vs-hero__bg::before {
@@ -11851,7 +11853,7 @@ display:none
 }
 
 .vs-service__biz-contain {
-padding:38px;
+padding:15px;
 position:relative;
 z-index:1
 }
@@ -13781,7 +13783,7 @@ color:var(--vs-white-color)
 }
 
 .vs-clients__item--style2 .vs-clients__quote+.vs-clients__author {
-padding-top:40px;
+padding-top:10px;
 color:var(--vs-white-color)
 }
 
@@ -14945,7 +14947,11 @@ transition:all .3s ease-in-out
 .vs-contact__block-heading {
 font-size:20px
 }
-
+.vs-contact__block a.vs-contact__block-text {
+    position: relative;
+    display: inline-block;
+    margin-top: 4px;
+}
 }
 
 
@@ -14960,7 +14966,9 @@ font-size: 17px;
 
 @media(max-width: 1500px) {
 .vs-contact__block-text {
-max-width:100%
+max-width:100%;
+margin-top: 30px;
+font-size: 18px;
 }
 
 }
@@ -15016,9 +15024,9 @@ transition:all .3s ease-in-out
 
 @media(max-width: 1500px) {
 .vs-contact__block-icon1 {
---icon-size: 70px
-}
+--icon-size: 60px;
 
+}
 }
 
 .vs-contact__block-icon1 i {
@@ -15144,6 +15152,11 @@ min-height:140px
 padding:0 20px
 }
 
+.vs-contact__block-icon1 {
+--icon-size: 60px;
+width: 50px;
+height: 50px;
+}
 }
 
 .vs-brand__content--style2 {

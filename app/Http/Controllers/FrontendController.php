@@ -16,11 +16,21 @@ class FrontendController extends Controller
 {
     public function home()
     {
-$logos = \App\Models\Logo::latest()
+        $logos = \App\Models\Logo::orderBy('id', 'desc')
             ->get()
             ->unique('image');
 
-return view('index', compact('logos'));
+        $testimonials = Testimonial::orderBy('id', 'desc')
+            ->simplePaginate(8);
+
+        $galleries = Gallery::orderBy('id', 'asc')
+            ->paginate(10);
+        $blogs = Blog::where('status', 1)
+            ->latest()
+            ->take(6)
+            ->get();
+
+        return view('index', compact('logos', 'testimonials', 'galleries', 'blogs'));
     }
 
     public function about()
