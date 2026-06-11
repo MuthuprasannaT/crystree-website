@@ -62,19 +62,23 @@
                             </span>
                         </div>
 
-                        <h2 class="vs-blog__title">
+                       <h2 class="vs-blog__title">
                             {{ $blog->title }}
                         </h2>
 
+                        <div class="blog-content">
+                            {!! preg_replace('/<h1[^>]*>.*?<\/h1>/is', '', $blog->content, 1) !!}
+                        </div>
+{{-- 
                         @if(!empty($blog->short_description))
                             <p class="mb-4">
                                 {{ $blog->short_description }}
                             </p>
-                        @endif
+                        @endif --}}
 
-                        <div class="blog-content">
+                        {{-- <div class="blog-content">
                             {!! $blog->content !!}
-                        </div>
+                        </div> --}}
 
                     </div>
 
