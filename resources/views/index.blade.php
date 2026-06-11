@@ -184,7 +184,7 @@
                                 <p class="vs-service__biz-text">
                                     Professional website development services including responsive web design, eCommerce websites, custom web applications and SEO - friendly solutions that help businesses grow and attract clients.
                                 </p>
-                                <a href="#" class="vs-btn vs-btn--style4">
+                               <a href="{{ route('products.website') }}" class="vs-btn vs-btn--style4">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -209,7 +209,7 @@
                                     Custom Android and iOS mobile app development services with modern UI design, secure architecture and scalable features that improve customer engagement and support business growth.
 
                                 </p>
-                                <a href="#" class="vs-btn vs-btn--style4">
+                                <a href="{{ route('products.app') }}" class="vs-btn vs-btn--style4">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -234,7 +234,7 @@
                                     Custom software development solutions designed to automate workflows, improve productivity and streamline business operations through secure, scalable and efficient technology systems.
 
                                 </p>
-                                <a href="#" class="vs-btn vs-btn--style4">
+                                <a href="{{ route('products.software') }}" class="vs-btn vs-btn--style4">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -259,7 +259,7 @@
                                     Advanced ERP software solutions for inventory management, finance, HR and business operations that improve efficiency, reduce manual work and support organizational growth.
 
                                 </p>
-                                <a href="#" class="vs-btn vs-btn--style4">
+                                <a href="{{ route('products.erp') }}" class="vs-btn vs-btn--style4">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -284,7 +284,7 @@
                                     Powerful CRM software solutions for customer management, lead tracking and sales automation that strengthen relationships, improve conversions and increase customer retention.
 
                                 </p>
-                                <a href="#"  class="vs-btn vs-btn--style4 business_1">
+                                <a href="{{ route('products.oracle') }}"  class="vs-btn vs-btn--style4 business_1">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -309,7 +309,7 @@
                                     Strategic social media marketing services focused on brand awareness, audience engagement, lead generation and digital growth across major social media platforms.
 
                                 </p>
-                                <a href="#" class="vs-btn vs-btn--style4">
+                                <a href="{{ route('products.smm') }}" class="vs-btn vs-btn--style4">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -333,7 +333,7 @@
                                 <p class="vs-service__biz-text">
                                     Google Business Profile optimization services that improve Google Maps visibility, local search rankings, customer engagement and online credibility to attract more nearby customers.
                                 </p>
-                                <a href="#"  class="vs-btn vs-btn--style4 business">
+                                <a href="{{ route('products.gbp') }}"  class="vs-btn vs-btn--style4 business">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -342,24 +342,24 @@
 
                     <style>
                         
-@media (max-width: 1300px) {
-    .vs-service__biz-text {
-        height: 204px !important;
-    }
+                            @media (max-width: 1300px) {
+                                .vs-service__biz-text {
+                                    height: 150px !important;
+                                }
 
-    .business {
-        margin-top: 25px !important;
-    }
-    .business_1{
-margin-top: -10px
-    }
-}
+                                .business {
+                                    margin-top: 25px !important;
+                                }
+                                .business_1{
+                            margin-top: -10px
+                                }
+                            }
 
-@media (max-width: 1600px) {
-    .vs-service__biz-text {
-        height: 204px !important;
-    }
-}
+                            @media (max-width: 1600px) {
+                                .vs-service__biz-text {
+                                    height: 150px !important;
+                                }
+                            }
                     </style>
                     <!-- SEO -->
                     <div class="col-lg-3 vs-service__biz vs-active">
@@ -378,7 +378,7 @@ margin-top: -10px
                                 <p class="vs-service__biz-text">
                                     Professional SEO services including keyword research, on-page optimization, technical SEO and link building that improve search rankings, organic traffic and qualified business leads.
                                 </p>
-                                <a href="#" class="vs-btn vs-btn--style4">
+                                <a href="{{ route('products.seo') }}" class="vs-btn vs-btn--style4">
                                     Learn More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -398,21 +398,21 @@ margin-top: -10px
         <div class="container">
             <hr class="vs-service__divider">
          <style>
-.it-carousel__item--style2{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:15px;
-}
+                .it-carousel__item--style2{
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    padding:15px;
+                }
 
-.it-carousel__item--style2 img{
-    max-height:80px;
-    max-width:180px;
-    width:auto;
-    height:auto;
-    object-fit:contain;
-}
-</style>
+                .it-carousel__item--style2 img{
+                    max-height:80px;
+                    max-width:180px;
+                    width:auto;
+                    height:auto;
+                    object-fit:contain;
+                }
+                </style>
 
 <div class="vs-brand m-0" dir="ltr">
     <div class="vs-brand__content vs-brand__content--style2 z-index-common bg-black-3">
@@ -447,7 +447,6 @@ margin-top: -10px
 
     </div>
 </div>
-
         </div>
     </div>
 </section>
@@ -475,120 +474,66 @@ margin-top: -10px
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="vs-clients__carousel overflow-visible" id="testislidev2" data-xl="2" data-lg="2" data-md="1" data-autoplay="true" data-autoplay-delay="5000" data-loop="true" data-centered-slides="true" data-grab-cursor="true" dir="ltr">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
-                                    <div class="vs-clients__rating" data-rate="4.5"></div>
-                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-                                    <div class="vs-clients__author">
-                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
-                                        <div class="vs-clients__details"><span class="vs-clients__name">Emma Hayes</span>
-                                            <p class="vs-clients__role">Developer, VecuroSoft</p>
-                                        </div>
-                                    </div>
+               <div class="col-12">
+                <div class="vs-clients__carousel" id="testimonialBottom">
+                    <div class="swiper-wrapper">
+
+                        @foreach($testimonials as $testimonial)
+                        <div class="swiper-slide">
+                            <div class="vs-clients__item vs-clients__item--style2">
+
+                                <img src="{{ asset('assets/img/icons/vs-icon-quote-h2-1.svg') }}"
+                                     alt="quote"
+                                     class="vs-clients__quote-icon">
+
+                                <div class="vs-clients__rating"
+                                     data-rate="{{ $testimonial->rating ?? 5 }}">
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
-                                    <div class="vs-clients__rating" data-rate="4.5"></div>
-                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-                                    <div class="vs-clients__author">
-                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-2.jpg" alt="Emma Hayes wearing a hat"></div>
-                                        <div class="vs-clients__details"><span class="vs-clients__name">John Deo</span>
-                                            <p class="vs-clients__role">Team Member, Vecuro</p>
-                                        </div>
-                                    </div>
+
+                                <div class="vs-clients__quote">
+                                    {!! $testimonial->testimonial !!}
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
-                                    <div class="vs-clients__rating" data-rate="4.5"></div>
-                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-                                    <div class="vs-clients__author">
-                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-3.jpg" alt="Emma Hayes wearing a hat"></div>
-                                        <div class="vs-clients__details"><span class="vs-clients__name">Paul Andrew</span>
-                                            <p class="vs-clients__role">Developer, VecuroSoft</p>
-                                        </div>
+
+                                <div class="vs-clients__author">
+
+                                    <div class="vs-clients__author-img">
+
+                                        @if(!empty($testimonial->image) && file_exists(public_path($testimonial->image)))
+
+                                            <img
+                                                class="vs-clients__avatar"
+                                                src="{{ asset($testimonial->image) }}"
+                                                alt="{{ $testimonial->name }}">
+
+                                        @else
+
+                                            <div class="vs-clients__avatar-placeholder">
+                                                {{ strtoupper(substr($testimonial->name,0,2)) }}
+                                            </div>
+
+                                        @endif
+
                                     </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
-                                    <div class="vs-clients__rating" data-rate="4.5"></div>
-                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-                                    <div class="vs-clients__author">
-                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-4.jpg" alt="Emma Hayes wearing a hat"></div>
-                                        <div class="vs-clients__details"><span class="vs-clients__name">Bipin Hayes</span>
-                                            <p class="vs-clients__role">Member, VecuroSoft</p>
-                                        </div>
+
+                                    <div class="vs-clients__details">
+                                        <span class="vs-clients__name">
+                                            {{ $testimonial->name }}
+                                        </span>
+
+                                        <p class="vs-clients__role">
+                                            {{ $testimonial->designation }}
+                                        </p>
                                     </div>
+
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
-                                    <div class="vs-clients__rating" data-rate="4.5"></div>
-                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-                                    <div class="vs-clients__author">
-                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-5.jpg" alt="Emma Hayes wearing a hat"></div>
-                                        <div class="vs-clients__details"><span class="vs-clients__name">Emma Hayes</span>
-                                            <p class="vs-clients__role">Developer, VecuroSoft</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
-                                    <div class="vs-clients__rating" data-rate="4.5"></div>
-                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-                                    <div class="vs-clients__author">
-                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-6.jpg" alt="Emma Hayes wearing a hat"></div>
-                                        <div class="vs-clients__details"><span class="vs-clients__name">Mark Wing</span>
-                                            <p class="vs-clients__role">Painter, VecuroSoft</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
-                                    <div class="vs-clients__rating" data-rate="4.5"></div>
-                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-                                    <div class="vs-clients__author">
-                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
-                                        <div class="vs-clients__details"><span class="vs-clients__name">Sara Rahman</span>
-                                            <p class="vs-clients__role">Leader, VecuroSoft</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
-                                    <div class="vs-clients__rating" data-rate="4.5"></div>
-                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-                                    <div class="vs-clients__author">
-                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-2.jpg" alt="Emma Hayes wearing a hat"></div>
-                                        <div class="vs-clients__details"><span class="vs-clients__name">Rose Marry</span>
-                                            <p class="vs-clients__role">Developer, VecuroSoft</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="vs-clients__item vs-clients__item--style2"><img src="assets/img/icons/vs-icon-quote-h2-1.svg" alt="quote-icon" class="vs-clients__quote-icon">
-                                    <div class="vs-clients__rating" data-rate="4.5"></div>
-                                    <p class="vs-clients__quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-                                    <div class="vs-clients__author">
-                                        <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-3.jpg" alt="Emma Hayes wearing a hat"></div>
-                                        <div class="vs-clients__details"><span class="vs-clients__name">Sophie Mark</span>
-                                            <p class="vs-clients__role">SEO Lead, VecuroSoft</p>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
+                        @endforeach
+
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </section>
@@ -710,179 +655,264 @@ margin-top: -10px
                             <h2 class="title-area__title">Explore Our Web, Software & Digital Marketing Solutions</h2></div>
                     </div>
                 </div>
-                <!-- <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-8 text-center vs-fade-in-up" data-duration="1.3" data-delay="0.7" data-yposition="80" dir="ltr">
-                        <div class="vs-portfolio__tabs vs-portfolio__tabs--style2 d-flex flex-wrap justify-content-center">
-                            <button class="vs-portfolio__tab active" data-filter="*">All</button>
-                            <button class="vs-portfolio__tab" data-filter=".brand">Websites</button>
-                            <button class="vs-portfolio__tab" data-filter=".mockup">Mobile Apps</button>
-                            <button class="vs-portfolio__tab" data-filter=".logo">Digital Marketing</button>
-                            <button class="vs-portfolio__tab" data-filter=".consulting">SEO Services</button> <span class="vs-portfolio__indicator"></span></div>
-                    </div>
-                </div> -->
-                <div class="vs-portfolio__grids row grid">
-                    <div class="grid-sizer col-lg-4 col-md-6"></div>
-                    <div class="vs-portfolio__item vs-portfolio__item--style2 grid-item col-lg-4 col-md-6 brand vs-fade-in-up" data-duration="1" data-delay="0.3">
-                        <div class="vs-portfolio__content">
-                            <a class="vs-portfolio__link--img d-inline-block" href="portfolio-details.html"><img src="assets/img/portfolio/p-h2-1.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"></a>
-                            <div class="vs-portfolio__item-overlay">
-                                <div class="vs-portfolio__item-text"><a href="portfolio-details.html" class="vs-portfolio__item-tag">Website Development</a>
-                                    <h3 class="vs-portfolio__item-heading"><a href="portfolio-details.html" class="vs-portfolio__item-heading__link">Custom Business Website Development</a></h3><a href="portfolio-details.html" class="vs-portfolio__item-view"><i class="fa-solid fa-plus"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vs-portfolio__item vs-portfolio__item--style2 grid-item col-lg-4 col-md-6 mockup vs-fade-in-up" data-duration="1" data-delay="0.4">
-                        <div class="vs-portfolio__content">
-                            <a class="vs-portfolio__link--img d-inline-block" href="portfolio-details.html"><img src="assets/img/portfolio/p-h2-2.jpg" class="vs-portfolio__img vs-image-effect__image" alt="Portfolio Item 1"></a>
-                            <div class="vs-portfolio__item-overlay">
-                                <div class="vs-portfolio__item-text"><a href="portfolio-details.html" class="vs-portfolio__item-tag">Software Development</a>
-                                    <h3 class="vs-portfolio__item-heading"><a href="portfolio-details.html" class="vs-portfolio__item-heading__link">ERP & CRM Software Development</a></h3><a href="portfolio-details.html" class="vs-portfolio__item-view"><i class="fa-solid fa-plus"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vs-portfolio__item vs-portfolio__item--style2 grid-item col-lg-4 col-md-6 logo vs-fade-in-up" data-duration="1" data-delay="0.5">
-                        <div class="vs-portfolio__content">
-                            <a class="vs-portfolio__link--img d-inline-block" href="portfolio-details.html"><img src="assets/img/portfolio/p-h2-3.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"></a>
-                            <div class="vs-portfolio__item-overlay">
-                                <div class="vs-portfolio__item-text"><a href="portfolio-details.html" class="vs-portfolio__item-tag">Mobile Apps</a>
-                                    <h3 class="vs-portfolio__item-heading"><a href="portfolio-details.html" class="vs-portfolio__item-heading__link">Android & iOS App Development</a></h3><a href="portfolio-details.html" class="vs-portfolio__item-view"><i class="fa-solid fa-plus"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vs-portfolio__item vs-portfolio__item--style2 grid-item col-lg-4 col-md-6 consulting vs-fade-in-up" data-duration="1" data-delay="0.6">
-                        <div class="vs-portfolio__content">
-                            <a class="vs-portfolio__link--img d-inline-block" href="portfolio-details.html"><img src="assets/img/portfolio/p-h2-4.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"></a>
-                            <div class="vs-portfolio__item-overlay">
-                                <div class="vs-portfolio__item-text"><a href="portfolio-details.html" class="vs-portfolio__item-tag">SEO Services</a>
-                                    <h3 class="vs-portfolio__item-heading"><a href="portfolio-details.html" class="vs-portfolio__item-heading__link">Search Engine Optimization Services</a></h3><a href="portfolio-details.html" class="vs-portfolio__item-view"><i class="fa-solid fa-plus"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vs-portfolio__item vs-portfolio__item--style2 grid-item col-lg-4 col-md-6 brand vs-fade-in-up" data-duration="1" data-delay="0.7">
-                        <div class="vs-portfolio__content">
-                            <a class="vs-portfolio__link--img d-inline-block" href="portfolio-details.html"><img src="assets/img/portfolio/p-h2-5.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"></a>
-                            <div class="vs-portfolio__item-overlay">
-                                <div class="vs-portfolio__item-text"><a href="portfolio-details.html" class="vs-portfolio__item-tag">Digital Marketing</a>
-                                    <h3 class="vs-portfolio__item-heading"><a href="portfolio-details.html" class="vs-portfolio__item-heading__link">Digital Marketing & Lead Generation</a></h3><a href="portfolio-details.html" class="vs-portfolio__item-view"><i class="fa-solid fa-plus"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vs-portfolio__item vs-portfolio__item--style2 grid-item col-lg-4 col-md-6 logo mockup vs-fade-in-up" data-duration="1" data-delay="0.8">
-                        <div class="vs-portfolio__content">
-                            <a class="vs-portfolio__link--img d-inline-block" href="portfolio-details.html"><img src="assets/img/portfolio/p-h2-6.jpg" class="vs-portfolio__img" alt="Portfolio Item 1"></a>
-                            <div class="vs-portfolio__item-overlay">
-                                <div class="vs-portfolio__item-text"><a href="portfolio-details.html" class="vs-portfolio__item-tag">Software Development</a>
-                                    <h3 class="vs-portfolio__item-heading"><a href="portfolio-details.html" class="vs-portfolio__item-heading__link">Custom Business Software Solutions</a></h3><a href="portfolio-details.html" class="vs-portfolio__item-view"><i class="fa-solid fa-plus"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="vs-portfolio__grids row grid">
+
+    <div class="grid-sizer col-lg-4 col-md-6"></div>
+
+    @foreach($galleries as $gallery)
+
+    <div class="vs-portfolio__item vs-portfolio__item--style2 grid-item col-lg-4 col-md-6 vs-fade-in-up"
+        data-duration="1"
+        data-delay="0.3">
+
+        <div class="vs-portfolio__content">
+
+            <a class="vs-portfolio__link--img d-inline-block"
+                href="{{ asset($gallery->image) }}">
+
+                <img src="{{ asset($gallery->image) }}"
+                    class="vs-portfolio__img"
+                    alt="{{ $gallery->title }}">
+            </a>
+
+            <div class="vs-portfolio__item-overlay">
+
+                <div class="vs-portfolio__item-text">
+
+                    <a href="#"
+                        class="vs-portfolio__item-tag">
+                        {{ $gallery->category ?? 'Portfolio' }}
+                    </a>
+
+                    <h3 class="vs-portfolio__item-heading">
+                        <a href="#"
+                            class="vs-portfolio__item-heading__link">
+                            {{ $gallery->title }}
+                        </a>
+                    </h3>
+
+                    <a href="{{ asset($gallery->image) }}"
+                        class="vs-portfolio__item-view">
+
+                        <i class="fa-solid fa-plus"></i>
+
+                    </a>
+
                 </div>
+
             </div>
+
+        </div>
+
+    </div>
+
+    @endforeach
+
+</div>
+
+<style>
+    .vs-portfolio__img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.vs-portfolio__content{
+    overflow:hidden;
+    border-radius:15px;
+}
+</style>
+</div>
         </div>
     </section>
+
+
     <section class="vs-blog--layout1 space space-extra-bottom" dir="ltr">
-        <div class="container">
-            <div class="row justify-content-between align-items-end">
-                <div class="col-xl-5 col-lg-6 text-center text-lg-start">
-                    <div class="title-area title-area--style2" dir="ltr"><span class="title-area__title--sub">News & Blog</span>
-                        <h2 class="title-area__title">Our Most Latest News And Blogs</h2></div>
+    <div class="container">
+
+        <div class="row">
+
+            @foreach($blogs->take(6) as $blog)
+
+            <div class="col-lg-4 col-md-6 mb-4 d-flex">
+
+                <div class="vs-blog vs-blog--style8 blog-card w-100">
+
+                    <figure class="vs-blog__figure blog-card-image">
+
+                        <a class="vs-blog__figure__link"
+                            href="{{ route('blog.details', $blog->slug) }}">
+
+                            <img class="vs-blog__img"
+                                src="{{ asset($blog->featured_image) }}"
+                                alt="{{ $blog->title }}">
+
+                        </a>
+
+                        <span class="vs-blog__date">
+                            {{ optional($blog->created_at)->format('d') }}
+                            <sub>{{ optional($blog->created_at)->format('M') }}</sub>
+                        </span>
+
+                    </figure>
+
+                    <div class="vs-blog__content blog-card-content">
+
+                        <h3 class="vs-blog__title blog-title">
+                            <a class="vs-blog__title__link"
+                                href="{{ route('blog.details', $blog->slug) }}">
+                                {{ $blog->title }}
+                            </a>
+                        </h3>
+
+                        <p class="blog-description">
+                            {{ Str::limit(strip_tags($blog->short_description), 140) }}
+                        </p>
+
+                        <hr class="vs-blog__divider">
+
+                        <div class="vs-blog__buttons">
+
+                            <a href="{{ route('blog.details', $blog->slug) }}"
+                                class="vs-btn vs-blog__button">
+                                Read More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
                 </div>
-                <div class="col-xl-auto col-lg-auto title-area text-center text-lg-end"><a href="blog-details.html" class="vs-btn vs-btn--style3 vs-fade-in-up" data-delay="0.4" data-duration="1">Explore More <i class="fa-solid fa-arrow-right"></i></a></div>
+
             </div>
-            <div class="vs-carousel swiper vs-active-wrapper" data-xl="3" data-lg="2" data-space-xl="30" data-loop="false" data-autoplay="false">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80">
-                        <div class="vs-blog vs-blog--style3 vs-image-effect vs-active"><span class="vs-blog__date">16 <sub>Jan</sub></span>
-                            <figure class="vs-blog__figure">
-                                <a class="vs-blog__figure__link" href="blog-details.html" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-1.jpg" alt="Blog Image">
-                                    <div class="vs-image-effect__overlay"></div>
-                                </a>
-                            </figure>
-                            <div class="vs-blog__content">
-                                <div class="vs-blog__meta"><a href="blog-details.html" class="vs-blog__meta__text"><i class="fa-solid fa-user"></i> By Admin </a><a href="blog-details.html" class="vs-blog__meta__text"><i class="fa-solid fa-comments"></i> (03) Comments</a></div>
-                                <h3
-                                class="vs-blog__title"><a class="vs-blog__title__link" href="blog-details.html">Lorem ipsum dolor sit amet consectetur.</a></h3>
-                                    <hr class="vs-blog__divider">
-                                    <div class="vs-blog__buttons"><a href="blog-details.html" class="vs-btn vs-blog__button">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <div class="vs-blog__social"><a class="vs-blog__social__link" href="#"><i class="fa-solid fa-share-nodes"></i></a></div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.5" data-yposition="80">
-                        <div class="vs-blog vs-blog--style3 vs-image-effect vs-active active"><span class="vs-blog__date">16 <sub>Jan</sub></span>
-                            <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal">
-                                <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-2.jpg" alt="Blog Image">
-                                    <div class="vs-image-effect__overlay"></div>
-                                </a>
-                            </figure>
-                            <div class="vs-blog__content">
-                                <div class="vs-blog__meta"><a href="blog-details.html" class="vs-blog__meta__text"><i class="fa-solid fa-user"></i> By Admin </a><a href="blog-details.html" class="vs-blog__meta__text"><i class="fa-solid fa-comments"></i> (03) Comments</a></div>
-                                <h3
-                                class="vs-blog__title"><a class="vs-blog__title__link" href="blog-details.html">Lorem ipsum dolor sit amet consectetur.</a></h3>
-                                    <hr class="vs-blog__divider">
-                                    <div class="vs-blog__buttons"><a href="blog-details.html" class="vs-btn vs-blog__button">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <div class="vs-blog__social"><a class="vs-blog__social__link" href="#"><i class="fa-solid fa-share-nodes"></i></a></div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.7" data-yposition="80">
-                        <div class="vs-blog vs-blog--style3 vs-image-effect vs-active"><span class="vs-blog__date">16 <sub>Jan</sub></span>
-                            <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal">
-                                <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-3.jpg" alt="Blog Image">
-                                    <div class="vs-image-effect__overlay"></div>
-                                </a>
-                            </figure>
-                            <div class="vs-blog__content">
-                                <div class="vs-blog__meta"><a href="blog-details.html" class="vs-blog__meta__text"><i class="fa-solid fa-user"></i> By Admin </a><a href="blog-details.html" class="vs-blog__meta__text"><i class="fa-solid fa-comments"></i> (03) Comments</a></div>
-                                <h3
-                                class="vs-blog__title"><a class="vs-blog__title__link" href="blog-details.html">Lorem ipsum dolor sit amet consectetur.</a></h3>
-                                    <hr class="vs-blog__divider">
-                                    <div class="vs-blog__buttons"><a href="blog-details.html" class="vs-btn vs-blog__button">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <div class="vs-blog__social"><a class="vs-blog__social__link" href="#"><i class="fa-solid fa-share-nodes"></i></a></div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.7" data-yposition="80">
-                        <div class="vs-blog vs-blog--style3 vs-image-effect vs-active"><span class="vs-blog__date">16 <sub>Jan</sub></span>
-                            <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal">
-                                <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-4.jpg" alt="Blog Image">
-                                    <div class="vs-image-effect__overlay"></div>
-                                </a>
-                            </figure>
-                            <div class="vs-blog__content">
-                                <div class="vs-blog__meta"><a href="blog-details.html" class="vs-blog__meta__text"><i class="fa-solid fa-user"></i> By Admin </a><a href="blog-details.html" class="vs-blog__meta__text"><i class="fa-solid fa-comments"></i> (03) Comments</a></div>
-                                <h3
-                                class="vs-blog__title"><a class="vs-blog__title__link" href="blog-details.html">Lorem ipsum dolor sit amet consectetur.</a></h3>
-                                    <hr class="vs-blog__divider">
-                                    <div class="vs-blog__buttons"><a href="blog-details.html" class="vs-btn vs-blog__button">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                                        <div class="vs-blog__social"><a class="vs-blog__social__link" href="#"><i class="fa-solid fa-share-nodes"></i></a></div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            @endforeach
+
         </div>
-    </section>
+
+    </div>
+</section>
+
+<style>
+
+/* Card */
+.blog-card{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+/* Image Section */
+.blog-card-image{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.blog-card-image img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:all .4s ease;
+}
+
+.blog-card:hover .blog-card-image img{
+    transform:scale(1.05);
+}
+
+/* Content */
+.blog-card-content{
+    /* display:flex; */
+    flex-direction:column;
+    flex:1;
+    padding:0 10px;
+}
+
+/* Title */
+.blog-title{
+    min-height:70px;
+    margin-bottom:15px;
+}
+
+.blog-title a{
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+    text-decoration:none;
+}
+
+/* Description */
+.blog-description{
+    min-height:90px;
+    line-height:1.8;
+
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+/* Divider */
+.vs-blog__divider{
+    margin-top:auto;
+}
+
+/* Button */
+.vs-blog__buttons{
+    margin-top:20px;
+}
+
+.vs-blog__button{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+
+/* Mobile */
+@media(max-width:991px){
+
+    .blog-card-image img{
+        height:250px;
+    }
+
+    .blog-title{
+        min-height:auto;
+    }
+
+    .blog-description{
+        min-height:auto;
+    }
+}
+
+</style>
+    
 
 
-
-    <script>
+   <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-    new Swiper("#testislidev2", {
+    new Swiper("#testimonialBottom", {
         slidesPerView: 2,
         spaceBetween: 30,
         loop: true,
-        speed: 4000, // smooth continuous movement
+        speed: 4000,
         grabCursor: true,
 
         autoplay: {
             delay: 0,
             disableOnInteraction: false,
+            pauseOnMouseEnter: true
         },
 
         breakpoints: {
@@ -900,5 +930,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
-
 @endsection
