@@ -82,12 +82,12 @@
 
                 <div class="vs-blog__content">
 
-                    <div class="vs-blog__meta mb-2">
+                    {{-- <div class="vs-blog__meta mb-2">
                         <span class="vs-blog__meta__text">
                             <i class="fa-solid fa-user"></i>
                             By Admin
                         </span>
-                    </div>
+                    </div> --}}
 
                     <h3 class="vs-blog__title">
                         <a class="vs-blog__title__link"
