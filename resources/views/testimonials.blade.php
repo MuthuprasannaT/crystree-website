@@ -241,7 +241,7 @@
             </div>
         </div>
     </div>
-
+    
     {{-- Bottom Slider --}}
     <div class="container mb-5">
         <div class="row">
