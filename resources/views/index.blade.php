@@ -553,7 +553,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-1.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind8.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -564,7 +564,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-2.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind7.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -575,7 +575,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-3.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img"src="{{ asset('uploads/ind/Ind1.webp') }}"alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -586,7 +586,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-4.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind2.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -597,7 +597,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-4.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind3.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -608,7 +608,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-4.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind4.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -619,7 +619,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-4.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind5.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -630,7 +630,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team-member-h1-4.jpg" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind6.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">

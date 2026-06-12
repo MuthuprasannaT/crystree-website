@@ -13528,7 +13528,8 @@ border:2px solid var(--vs-theme-color-13)
 }
 
 .vs-clients__avatar {
-border-radius:10px
+border-radius:50%;
+width: 75px;
 }
 
 @media(max-width: 767px) {
@@ -13716,7 +13717,7 @@ width:20px
 .vs-clients__item--style2 {
 text-align:center;
 background-color:var(--vs-black-color-3);
-padding:60px;
+padding:30px;
 border-radius:20px
 }
 
@@ -13799,7 +13800,6 @@ background-color:var(--vs-theme-color-6)
 .vs-clients__item--style3,.vs-clients__item--style4 {
 gap:15px
 }
-
 }
 
 @media(max-width: 767px) {
