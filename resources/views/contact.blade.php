@@ -43,7 +43,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="title-area title-area--style6 mb-30 text-center"><span class="title-area__title--sub"><img src="/assets/img/icons/vs-icon-title-h6-1.svg" alt=""> Contact Us <img src="/assets/img/icons/vs-icon-title-h6-1.svg" alt=""></span>
-                            <h2 class="title-area__title" style="color: whitesmoke">Get In Touch With BigBiz</h2></div>
+                            <h2 class="title-area__title" style="color: whitesmoke">Get In Touch With Crystree</h2></div>
                     </div>
                 </div>
                 @if(session('success'))
