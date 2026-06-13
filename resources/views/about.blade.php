@@ -413,7 +413,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7 col-xl-6">
-                <div class="title-area text-center px-4" dir="ltr"><span class="title-area__title--sub"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#C4F500" data-duration="0.8">Services</span> <img src="img/icons/vs-icon-title-star.svg"
+                <div class="title-area text-center px-4" dir="ltr"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#C4F500" data-duration="0.8">Services</span> <img src="assets/img/icons/vs-icon-title-star.svg"
                     alt="vs-icon-title-star"></span>
                     <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #C4F500)" data-duration="1">Ensure The Best Service For Clients.</h2></div>
             </div>

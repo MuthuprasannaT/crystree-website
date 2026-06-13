@@ -15019,7 +15019,7 @@ transition:all .3s ease-in-out
 --icon-size: 80px;
 position:absolute;
 top:30px;
-right:30px;
+right:11px;
 display:inline-flex;
 align-items:center;
 width:var(--icon-size);
