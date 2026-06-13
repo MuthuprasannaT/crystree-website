@@ -415,7 +415,7 @@
             <div class="col-lg-7 col-xl-6">
                 <div class="title-area text-center px-4" dir="ltr"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#C4F500" data-duration="0.8">Services</span> <img src="assets/img/icons/vs-icon-title-star.svg"
                     alt="vs-icon-title-star"></span>
-                    <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #C4F500)" data-duration="1">Ensure The Best Service For Clients.</h2></div>
+                    <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #C4F500)" data-duration="1">Empowering Businesses Through Innovative Digital Solutions</h2></div>
             </div>
         </div>
         <div class="vs-service__grid vs-service__grid-row1">
@@ -427,9 +427,9 @@
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title"><a class="vs-service__card-title__link" href="service-details.html">Brand Strategy</a></h3>
-                        <p class="vs-service__card-text">Lorem ipsum dolor sit amet, conse pns elit. Ut elit tellus, luctus nec corper matis, pulvinar dapibus leo.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__card-icon"><i class="flaticon flaticon-target-market"></i></div>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">Website Development</a></h3>
+                        <p class="vs-service__card-text">Build fast, responsive websites that strengthen your online presence.</p>
+                        <a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -441,9 +441,8 @@
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title"><a class="vs-service__card-title__link" href="service-details.html">Logo Design</a></h3>
-                        <p class="vs-service__card-text">Lorem ipsum dolor sit amet, conse pns elit. Ut elit tellus, luctus nec corper matis, pulvinar dapibus leo.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__card-icon"><i class="flaticon flaticon-layer"></i></div>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">Mobile App Development</a></h3>
+                        <p class="vs-service__card-text">Create powerful Android and iOS apps with seamless user experiences.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -455,9 +454,8 @@
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title"><a class="vs-service__card-title__link" href="service-details.html">Visual Identity</a></h3>
-                        <p class="vs-service__card-text">Lorem ipsum dolor sit amet, conse pns elit. Ut elit tellus, luctus nec corper matis, pulvinar dapibus leo.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__card-icon"><i class="flaticon flaticon-brand"></i></div>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html"> Digital Marketing</a></h3>
+                        <p class="vs-service__card-text">Grow your business through SEO, social media, and online advertising.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -471,9 +469,8 @@
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title"><a class="vs-service__card-title__link" href="service-details.html">Brand Messaging</a></h3>
-                        <p class="vs-service__card-text">Lorem ipsum dolor sit amet, conse pns elit. Ut elit tellus, luctus nec corper matis, pulvinar dapibus leo.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__card-icon"><i class="flaticon flaticon-promotion"></i></div>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">Software Development</a></h3>
+                        <p class="vs-service__card-text">Develop secure, scalable software solutions tailored to your business.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -485,9 +482,8 @@
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title"><a class="vs-service__card-title__link" href="service-details.html">Creative Campaigns</a></h3>
-                        <p class="vs-service__card-text">Lorem ipsum dolor sit amet, conse pns elit. Ut elit tellus, luctus nec corper matis, pulvinar dapibus leo.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__card-icon"><i class="flaticon flaticon-consultant"></i></div>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">IT Consulting</a></h3>
+                        <p class="vs-service__card-text">Expert IT guidance and support to improve efficiency and growth.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -499,9 +495,8 @@
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title"><a class="vs-service__card-title__link" href="service-details.html">Brand Consultation</a></h3>
-                        <p class="vs-service__card-text">Lorem ipsum dolor sit amet, conse pns elit. Ut elit tellus, luctus nec corper matis, pulvinar dapibus leo.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__card-icon"><i class="flaticon flaticon-branding"></i></div>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">Graphic Design & Branding</a></h3>
+                        <p class="vs-service__card-text">Creative branding, logo design, and marketing materials that stand out.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -509,13 +504,20 @@
     </div>
 </section>
 
+<style>
+
+    .titleservice{
+        font-size:20px;
+    }
+</style>
+
 
 <section class="vs-service bg-theme-9 space space-extra-bottom">
     <div class="container">
         <div class="row align-items-end justify-content-between">
             <div class="col-lg-7 col-xl-6">
-                <div class="title-area title-area--style6 mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""> Services <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""></span>
-                    <h2 class="title-area__title">Ensure The Best Service For Clients.</h2></div>
+                <div class="title-area title-area--style6 mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="">   Digital Marketing <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""></span>
+                    <h2 class="title-area__title">Accelerate Growth With Digital Marketing</h2></div>
             </div>
             <div class="col-md-auto">
                 <div class="carousel-arrows style4 vs-active-wrapper mb-title">
@@ -529,40 +531,48 @@
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
                         <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-financial-growth"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Investment & Wealth Management</a></h3>
-                            <p class="vs-service__financial-text">Helping clients grow and protect their wealth with personalized investment strategies.</p>
+                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">SEO Optimization</a></h3>
+                            <p class="vs-service__financial-text">Improve rankings and increase website traffic.</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
                         <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-retirement-plan"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Retirement Planning Services</a></h3>
-                            <p class="vs-service__financial-text">Helping clients grow and protect their wealth with personalized investment strategies.</p>
+                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Social Media Marketing</a></h3>
+                            <p class="vs-service__financial-text">Grow your brand across social platforms.</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
                         <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-taxes"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Tax Planning And Preparation</a></h3>
-                            <p class="vs-service__financial-text">Helping clients grow and protect their wealth with personalized investment strategies.</p>
+                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Google Ads</a></h3>
+                            <p class="vs-service__financial-text">Drive leads with targeted ad campaigns.</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
                         <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-risk-management"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Risk & Insurance Advisory</a></h3>
-                            <p class="vs-service__financial-text">Helping clients grow and protect their wealth with personalized investment strategies.</p>
+                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Content Marketing</a></h3>
+                            <p class="vs-service__financial-text">Create content that attracts customers.</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
                         <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-financial-growth"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Investment & Wealth Management</a></h3>
-                            <p class="vs-service__financial-text">Helping clients grow and protect their wealth with personalized investment strategies.</p>
+                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Email Marketing</a></h3>
+                            <p class="vs-service__financial-text">Reach customers through email campaigns.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide mb-30">
+                    <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-financial-growth"></i></span>
+                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Lead Generation</a></h3>
+                            <p class="vs-service__financial-text">Convert visitors into qualified leads.</p>
                         </div>
                     </div>
                 </div>
