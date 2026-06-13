@@ -1220,7 +1220,8 @@ max-width:270px
 }
 
 .vs-menu-wrapper .vs-menu-area .mobile-logo img {
-max-width:120px
+max-width:120px;
+border-radius: 18px;
 }
 
 .vs-mobile-menu>ul {
@@ -1287,7 +1288,7 @@ background-color:color-mix(in srgb, var(--vs-theme-color-1) 100%, transparent)
 }
 
 .vs-home2 .preloader {
-background-color:color-mix(in srgb, var(--vs-theme-color-4) 100%, transparent)
+background-color:whitesmoke;
 }
 
 .vs-home3 .preloader {
@@ -1437,7 +1438,7 @@ color:var(--vs-black-color)
 }
 
 .vs-btn--style3 {
-background-color:var(--vs-theme-color-4)
+background-color:linear-gradient(90deg, #011548 0%, #59ac00 100%);
 }
 
 .vs-btn--style3::before,.vs-btn--style3::after {
@@ -1450,11 +1451,11 @@ color:var(--vs-white-color)
 }
 
 .vs-btn--gradient {
-background:linear-gradient(90deg, var(--vs-theme-color-4) 0%, var(--vs-theme-color-5) 100%)
+background:linear-gradient(90deg, #011548 0%, #59ac00 100%);
 }
 
 .vs-btn--gradient::before,.vs-btn--gradient::after {
-background:linear-gradient(90deg, var(--vs-theme-color-5) 0%, var(--vs-theme-color-4) 100%)
+background:linear-gradient(90deg, #011548 0%, #011548 100%)
 }
 
 .vs-btn--gradient:hover {
@@ -1463,7 +1464,7 @@ color:var(--vs-white-color)
 
 .vs-btn--style4 {
 padding:12px 20px;
-background-color:var(--vs-theme-color-4)
+background-color:#59ac00;
 }
 
 .vs-btn--style4::before,.vs-btn--style4::after {
@@ -9849,7 +9850,7 @@ color:var(--vs-black-color-2)
 }
 
 .vs-hero--home2 .vs-hero__title span.text-gradient,.vs-hero--home3 .vs-hero__title span.text-gradient,.vs-hero--home6 .vs-hero__title span.text-gradient {
-background:linear-gradient(90deg, var(--vs-theme-color-4) 0%, #71E97B 100%);
+background:linear-gradient(90deg, #198754 0%, #71E97B 100%);
 -webkit-background-clip:text;
 -webkit-text-fill-color:rgba(0,0,0,0);
 background-clip:text;
@@ -9857,7 +9858,7 @@ color:rgba(0,0,0,0)
 }
 
 .vs-hero--home2 .vs-hero__title-sub,.vs-hero--home3 .vs-hero__title-sub,.vs-hero--home6 .vs-hero__title-sub {
-background:linear-gradient(90deg, var(--vs-theme-color-4) 0%, #71E97B 100%);
+background:linear-gradient(90deg, #011548  0%, #011548 100%);
 color:var(--vs-white-color);
 padding:10px 30px;
 font-size:clamp(1.25rem,0.575rem + 0.09375vw,0.875rem);
@@ -10837,7 +10838,7 @@ left:0
 .vs-about__images .vs-about__review::after {
 width:100%;
 height:100%;
-background:linear-gradient(90deg, #019297 0%, #4EC057 100%);
+background:linear-gradient(90deg, #011548 0%, #59ac00 100%);
 z-index:2
 }
 
@@ -11124,7 +11125,7 @@ background:linear-gradient(270deg, var(--vs-theme-color-4) 0%, var(--vs-theme-co
 .vs-about__video .play-btn>i {
 --icon-size: 50px;
 --vs-icon-font-size: 20px;
-background:linear-gradient(270deg, var(--vs-theme-color-4) 0%, var(--vs-theme-color-5) 100%);
+background:linear-gradient(270deg, #011548 0%, #3de12f 100%);
 transition:all .3s ease-in-out
 }
 

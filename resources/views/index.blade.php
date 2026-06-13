@@ -30,7 +30,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xl-6">
-                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"><img src="assets/img/icons/vs-logo-icon.svg" alt="BigBiz"> Crystree Solutions Digital Services</span>
+                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Crystree Solutions Digital Services</span>
                                             <h1 class="vs-hero__title vs-swiper-animation">Grow Your Business <span class="text-gradient">With Crystree Solutions</span></h1>
                                             <p class="vs-hero__text vs-swiper-animation">Crystree Solutions provides website development, mobile app development, ERP software, CRM solutions and custom business software services that help companies improve efficiency, increase visibility and accelerate digital growth.</p><a href="blog-details.html"
                                             class="vs-btn vs-btn--style3 vs-swiper-animation">Explore Services <i class="fa-solid fa-arrow-right"></i></a></div>
@@ -44,7 +44,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xl-6">
-                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"><img src="assets/img/icons/vs-logo-icon.svg" alt="BigBiz"> Local SEO & Digital Marketing Experts </span>
+                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Local SEO & Digital Marketing Experts </span>
                                             <h1 class="vs-hero__title vs-swiper-animation">Boost Your Brand <span class="text-gradient">With Local SEO Solutions</span></h1>
                                             <p class="vs-hero__text vs-swiper-animation">Crystree Solutions delivers SEO services, Google Business Profile optimization, social media marketing and digital growth solutions that help businesses improve rankings, attract local customers and increase online visibility.</p><a href="blog-details.html"
                                             class="vs-btn vs-btn--style3 vs-swiper-animation">Explore Services <i class="fa-solid fa-arrow-right"></i></a></div>
@@ -547,95 +547,95 @@
                     <div class="title-area title-area--style2" dir="ltr"><span class="title-area__title--sub">Industries We Serve</span>
                         <h2 class="title-area__title">Industries We Serve with Custom Web, Software & Digital Marketing Solutions</h2></div>
                 </div>
-                <div class="col-xl-auto col-lg-auto title-area text-center text-lg-end"><a href="blog-details.html" class="vs-btn vs-btn--style3 vs-fade-in-up" data-delay="0.4" data-duration="1">Explore More <i class="fa-solid fa-arrow-right"></i></a></div>
+                <div class="col-xl-auto col-lg-auto title-area text-center text-lg-end"><a href="{{ route('blog') }}" class="vs-btn vs-btn--style3 vs-fade-in-up" data-delay="0.4" data-duration="1">Explore More <i class="fa-solid fa-arrow-right"></i></a></div>
             </div>
             <div class="vs-carousel swiper vs-active-wrapper" data-xl="4" data-lg="4" data-md="2" data-sm="2" data-xs="1" data-loop="true" data-autoplay="true" data-autoplay-delay="1000">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind8.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind8.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Startup & Enterprise</a></h3><a href="team-details.html" class="vs-team__item-role">Web, App & Software Solutions</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Startup & Enterprise</a></h3><p class="vs-team__item-role">Web, App & Software Solutions</></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind7.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind7.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Finance & Business</a></h3><a href="team-details.html" class="vs-team__item-role">CRM & Digital Marketing Solutions</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Finance & Business</a></h3><a href="#" class="vs-team__item-role">CRM & Digital Marketing Solutions</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img"src="{{ asset('uploads/ind/Ind1.webp') }}"alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img"src="{{ asset('uploads/ind/Ind1.webp') }}"alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Retail & eCommerce</a></h3><a href="team-details.html" class="vs-team__item-role">Online Store & Web Solutions</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Retail & eCommerce</a></h3><a href="#" class="vs-team__item-role">Online Store & Web Solutions</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind2.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind2.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Real Estate Services</a></h3><a href="team-details.html" class="vs-team__item-role">Property & Lead Generations</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Real Estate Services</a></h3><a href="#" class="vs-team__item-role">Property & Lead Generations</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind3.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind3.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Healthcare & Clinics</a></h3><a href="team-details.html" class="vs-team__item-role">Patient & Booking Management</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Healthcare & Clinics</a></h3><a href="#" class="vs-team__item-role">Patient & Booking Management</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind4.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind4.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Education & Training</a></h3><a href="team-details.html" class="vs-team__item-role">Student & Learning Management</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Education & Training</a></h3><a href="#" class="vs-team__item-role">Student & Learning Management</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind5.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind5.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Manufacturing Sector</a></h3><a href="team-details.html" class="vs-team__item-role">ERP & Business Automations</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Manufacturing Sector</a></h3><a href="#" class="vs-team__item-role">ERP & Business Automations</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind6.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind6.webp') }}" alt="Team Member Image"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Hotels & Restaurants</a></h3><a href="team-details.html" class="vs-team__item-role">Local SEO & Digital solutions</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Hotels & Restaurants</a></h3><a href="#" class="vs-team__item-role">Local SEO & Digital solutions</a></div>
                             </div>
                         </div>
                     </div>
@@ -643,6 +643,61 @@
             </div>
         </div>
     </section>
+    <style>
+        /* Equal height cards */
+.vs-carousel .swiper-slide {
+    height: auto;
+    display: flex;
+}
+
+.vs-team__item--style2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* Image height */
+.vs-team__item--style2 .vs-team__item-figure {
+    margin: 0;
+}
+
+.vs-team__item--style2 .vs-team__item-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Content area */
+.vs-team__item--style2 .vs-team__item-body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+.vs-team__item--style2 .vs-team__item-name {
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Subtitle */
+.vs-team__item--style2 .vs-team__item-role {
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    </style>
 
     
     <section class="vs-portfolio section-outer space-top">
