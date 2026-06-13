@@ -49,7 +49,7 @@
                                     <li><a href="about.html">Mobile App Development</a></li>
                                      <li><a href="about.html">Google Business Profile</a></li>
                                     <li><a href="blog.html">SEO Services</a></li>
-                                    <li><a href="faq.html">iCrystal ERP Solution</a></li>
+                                    <li><a href="faq.html">iCRYSTAL ERP Solution</a></li>
                                     <li><a href="contact.html">CRM Software</a></li>
                                      <li><a href="contact.html">Graphic Design</a></li>
                                       <li><a href="contact.html">UI/UX Design</a></li>
