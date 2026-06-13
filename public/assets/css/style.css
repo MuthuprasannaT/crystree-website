@@ -4949,12 +4949,23 @@ font-size:14px
 
 }
 
+
+
+        .breadcrumb-wrapper::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1;
+}
+
 .widget {
 padding:10px 10px 40px 10px;
 background-color:var(--vs-theme-color-19);
 position:relative;
 margin-bottom:40px;
-border-radius:20px
+border-radius:20px;
+ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .widget select,.widget input {
@@ -8575,6 +8586,7 @@ background-color:var(--vs-theme-color-19)
 
 .vs-blog--style1,.vs-blog--single {
 padding:40px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 background-color:var(--vs-theme-color-19)
 }
 

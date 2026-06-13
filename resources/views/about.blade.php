@@ -163,12 +163,13 @@
     </Style>
 </section>
 
+
 <section class="vs-features z-index-common space" data-bg-src="assets/img/features/h5-features-bg-1.jpg">
     <div class="overlay bg-theme-14 z-index-n1" data-opacity="93%"></div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <div class="title-area title-area--style5 text-center mb-20"><span class="title-area__title--sub text-white"><img src="assets/img/icons/vs-icon-sec-h5-1.svg" alt="Icon"> Leadership Team <img src="assets/img/icons/vs-icon-sec-h5-1.svg" alt="Icon"></span>
+                <div class="title-area title-area--style5 text-center mb-20"><span class="title-area__title--sub text-white"><img src="assets/img/icons/vs-icon-sec-h5-1.svg" alt="Icon"> Our Features <img src="assets/img/icons/vs-icon-sec-h5-1.svg" alt="Icon"></span>
                     <h2 class="title-area__title text-white">Meet The Leaders Behind Crystree Solutions</h2></div>
             </div>
         </div>
@@ -177,27 +178,29 @@
                 <div class="col-md-6 col-lg-4 order-0">
                     <div class="vs-features__charging">
                         <div class="vs-features__charging-icon"><i class="flaticon flaticon-gdpr"></i></div>
-                        <h3 class="vs-features__charging-title">Managing Director</h3>
+                        <h3 class="vs-features__charging-title">High Quality</h3>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="vs-features__charging">
+                        <h3 class="vs-features__charging-title">Global Compatibility</h3>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-lg-auto order-2 order-lg-1">
-                    <div class="vs-features__img"><img src="assets/img/logo/crystree-11.png" alt="vs-features"></div>
+                    <div class="vs-features__img"><img src="assets/img/logo/crystree-11.pn" alt="vs-features"></div>
                 </div>
                 <div class="col-md-6 col-lg-4 order-1 order-lg-2">
                     <div class="vs-features__charging vs-features__charging--right">
                         <div class="vs-features__charging-icon"><i class="flaticon flaticon-operation"></i></div>
-                        <h3 class="vs-features__charging-title">Chief Executive Officer</h3>
+                        <h3 class="vs-features__charging-title">Easy Process</h3>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="vs-features__charging vs-features__charging--right">
+                        <h3 class="vs-features__charging-title">User-Friendly</h3>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -207,6 +210,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="vs-team space space-extra-bottom">
     <div class="container">
