@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" class="" data-bg-src="{{ asset('assets/img/bg/website-development.webp')}}"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" class="" data-bg-src="{{ asset('assets/img/bg/website-development.webp')}}">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">

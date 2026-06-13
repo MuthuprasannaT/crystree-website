@@ -61,7 +61,7 @@
                                             <li>
                                                 <a href="javascript:void(0)">Business Solutions</a>
                                                 <ul>
-                                                    <li><a href="{{ route('products.erp') }} ">iCrystal ERP Solution</a></li>
+                                                    <li><a href="{{ route('products.erp') }} ">iCRYSTAL ERP Solution</a></li>
                                                     <li><a href="{{ route('products.oracle') }}">Oracle ERP Solution</a></li>
                                                     <li><a href="{{ route('products.crm') }}">CRM Software</a></li>
                                                     <li><a href="{{ route('products.saas') }}">SaaS Solutions</a></li>
