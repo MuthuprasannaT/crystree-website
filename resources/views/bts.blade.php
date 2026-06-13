@@ -3,15 +3,15 @@
 @section('content')
 
 
-    <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.png">
+    <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/bts.webp')}}">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Team Members</h1>
+                <h1 class="breadcrumb-wrapper__title">BTS</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
-                        <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-wrapper__menu--item">Team Members</li>
+                        <li class="breadcrumb-wrapper__menu--item"><a href="{{route('home')}}">Home</a></li>
+                        <li class="breadcrumb-wrapper__menu--item">BTS</li>
                     </ul>
                 </div>
             </div>
