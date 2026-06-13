@@ -30,14 +30,14 @@
                             <div class="vs-footer__widget">
                                 <h3 class="vs-footer__title">Quick Link <span class="vs-footer__title--dividers"><span class="vs-footer__title--divider"></span> <span class="vs-footer__title--divider"></span> <span class="vs-footer__title--divider"></span></span></h3>
                                 <ul class="vs-footer__menu--list style2">
-                                    <li><a href="about.html">Home</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="team.html">Gallery</a></li>
-                                    <li><a href="blog.html">BTS</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog.html">FAQ</a></li>
-                                    <li><a href="blog.html">Testimonials</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="{{ route('home') }}">Home</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{ route('gallery') }}">Gallery</a></li>
+                                    <li><a href="{{ route('bts') }}">BTS</a></li>
+                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('faq') }}">FAQ</a></li>
+                                    <li><a href="{{ route('testimonials') }}">Testimonials</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -45,14 +45,14 @@
                             <div class="vs-footer__widget">
                                 <h3 class="vs-footer__title">Popular <span class="vs-footer__title--dividers"><span class="vs-footer__title--divider"></span> <span class="vs-footer__title--divider"></span> <span class="vs-footer__title--divider"></span></span></h3>
                                 <ul class="vs-footer__menu--list style2">
-                                    <li><a href="about.html">Website Development</a></li>
-                                    <li><a href="about.html">Mobile App Development</a></li>
-                                     <li><a href="about.html">Google Business Profile</a></li>
-                                    <li><a href="blog.html">SEO Services</a></li>
-                                    <li><a href="faq.html">iCRYSTAL ERP Solution</a></li>
-                                    <li><a href="contact.html">CRM Software</a></li>
-                                     <li><a href="contact.html">Graphic Design</a></li>
-                                      <li><a href="contact.html">UI/UX Design</a></li>
+                                    <li><a href="{{ route('products.website') }}">Website Development</a></li>
+                                    <li><a href="{{ route('products.app') }}">Mobile App Development</a></li>
+                                     <li><a href="{{ route('products.gbp') }}">Google Business Profile</a></li>
+                                    <li><a href="{{ route('products.seo') }}">SEO Services</a></li>
+                                    <li><a href="{{ route('products.erp') }}">iCRYSTAL ERP Solution</a></li>
+                                    <li><a href="{{ route('products.crm') }}">CRM Software</a></li>
+                                     <li><a href="{{ route('products.design') }}">Graphic Design</a></li>
+                                      <li><a href="{{ route('products.uiux') }}">UI/UX Design</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -60,14 +60,14 @@
                             <div class="vs-footer__widget">
                                 <h3 class="vs-footer__title">Explore <span class="vs-footer__title--dividers"><span class="vs-footer__title--divider"></span> <span class="vs-footer__title--divider"></span> <span class="vs-footer__title--divider"></span></span></h3>
                                <ul class="vs-footer__menu--list style2">
-                                    <li><a href="about.html">Social Media Marketing</a></li>
-                                    <li><a href="about.html">Poster Design</a></li>
-                                     <li><a href="about.html">AI Solutions</a></li>
-                                     <li><a href="faq.html">Bulk SMS Services</a></li>
-                                     <li><a href="contact.html">Google & Meta Ads</a></li>
-                                     <li><a href="blog.html">Cloud Solutions</a></li>
-                                    <li><a href="contact.html">SaaS Solutions</a></li>
-                                    <li><a href="contact.html">Custom Software Development</a></li>
+                                    <li><a href="{{ route('products.smm') }}">Social Media Marketing</a></li>
+                                    <li><a href="{{ route('products.poster') }}">Poster Design</a></li>
+                                     <li><a href="{{ route('products.ai') }}">AI Solutions</a></li>
+                                     <li><a href="{{ route('products.sms') }}">Bulk SMS Services</a></li>
+                                     <li><a href="{{ route('products.ads') }}">Google & Meta Ads</a></li>
+                                     <li><a href="{{ route('products.cloud') }}">Cloud Solutions</a></li>
+                                    <li><a href="{{ route('products.saas') }}">SaaS Solutions</a></li>
+                                    <li><a href="{{ route('products.software') }}">Custom Software Development</a></li>
                                 </ul>
                             </div>
                         </div>
