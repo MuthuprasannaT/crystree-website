@@ -45,11 +45,15 @@
                     <tr>
                         <td>{{ $blog->id }}</td>
                         <td>
-                            @if($blog->featured_image)
-                                <img src="{{ asset($blog->featured_image) }}" class="rounded border" style="width: 80px; height: 50px; object-fit: cover;" alt="{{ $blog->title }}">
-                            @else
-                                <span class="badge bg-secondary">No Image</span>
-                            @endif
+                           @if($blog->featured_image)
+    <img src="{{ url($blog->featured_image) }}"
+         class="rounded border"
+         width="80"
+         height="50"
+         alt="{{ $blog->title }}">
+@else
+    <span>No Image</span>
+@endif
                         </td>
                         <td>
                             <strong>{{ $blog->title }}</strong>

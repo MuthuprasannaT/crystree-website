@@ -25,7 +25,7 @@ class LogoController extends Controller
             'image' => 'required|image'
         ]);
 
-        $imageName = time().'.'.$request->image->extension();
+        $imageName = time() . '.' . $request->image->extension();
 
         $request->image->move(
             public_path('uploads/logos'),
@@ -57,16 +57,19 @@ class LogoController extends Controller
 
         if ($request->hasFile('image')) {
 
-            if (file_exists(public_path('uploads/logos/'.$logo->image))) {
-                unlink(public_path('uploads/logos/'.$logo->image));
+            if ($logo->image && file_exists($_SERVER['DOCUMENT_ROOT'] . '/uploads/logos/' . $logo->image)) {
+                unlink($_SERVER['DOCUMENT_ROOT'] . '/uploads/logos/' . $logo->image);
             }
 
-            $imageName = time().'.'.$request->image->extension();
+            $imageName = time() . '.' . $request->image->extension();
 
-            $request->image->move(
-                public_path('uploads/logos'),
-                $imageName
-            );
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/logos';
+
+            if (!is_dir($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+
+            $request->image->move($destinationPath, $imageName);
         }
 
         $logo->update([
@@ -81,8 +84,8 @@ class LogoController extends Controller
 
     public function destroy(Logo $logo)
     {
-        if (file_exists(public_path('uploads/logos/'.$logo->image))) {
-            unlink(public_path('uploads/logos/'.$logo->image));
+        if ($logo->image && file_exists($_SERVER['DOCUMENT_ROOT'] . '/uploads/logos/' . $logo->image)) {
+            unlink($_SERVER['DOCUMENT_ROOT'] . '/uploads/logos/' . $logo->image);
         }
 
         $logo->delete();

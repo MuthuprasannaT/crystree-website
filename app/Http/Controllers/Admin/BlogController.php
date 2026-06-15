@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Blog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Storage;
 
 class BlogController extends Controller
 {
@@ -20,8 +21,8 @@ class BlogController extends Controller
         if ($search) {
             $query->where(function ($q) use ($search) {
                 $q->where('title', 'like', "%{$search}%")
-                  ->orWhere('short_description', 'like', "%{$search}%")
-                  ->orWhere('content', 'like', "%{$search}%");
+                    ->orWhere('short_description', 'like', "%{$search}%")
+                    ->orWhere('content', 'like', "%{$search}%");
             });
         }
 
@@ -64,11 +65,21 @@ class BlogController extends Controller
 
         // Default status if not set
         $validated['status'] = $request->has('status') ? (bool)$request->status : true;
-
         if ($request->hasFile('featured_image')) {
+
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/blogs';
+
+            // Create uploads/blogs directory if it doesn't exist
+            if (!file_exists($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+
             $file = $request->file('featured_image');
+
             $filename = time() . '_' . uniqid() . '.' . $file->getClientOriginalExtension();
-            $file->move(public_path('uploads/blogs'), $filename);
+
+            $file->move($destinationPath, $filename);
+
             $validated['featured_image'] = 'uploads/blogs/' . $filename;
         }
 
@@ -121,14 +132,20 @@ class BlogController extends Controller
         $validated['status'] = $request->has('status') ? (bool)$request->status : false;
 
         if ($request->hasFile('featured_image')) {
-            // Delete old image
-            if ($blog->featured_image && file_exists(public_path($blog->featured_image))) {
-                @unlink(public_path($blog->featured_image));
+
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/blogs';
+
+            // Create uploads/blogs directory if it doesn't exist
+            if (!file_exists($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
             }
 
             $file = $request->file('featured_image');
+
             $filename = time() . '_' . uniqid() . '.' . $file->getClientOriginalExtension();
-            $file->move(public_path('uploads/blogs'), $filename);
+
+            $file->move($destinationPath, $filename);
+
             $validated['featured_image'] = 'uploads/blogs/' . $filename;
         }
 

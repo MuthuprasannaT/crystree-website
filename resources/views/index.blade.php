@@ -871,7 +871,7 @@
 
 .blog-card-image img{
     width:100%;
-    height:280px;
+    height:100%;
     object-fit:cover;
     border-radius:20px;
     transition:all .4s ease;
