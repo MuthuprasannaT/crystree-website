@@ -1288,7 +1288,11 @@ background-color:color-mix(in srgb, var(--vs-theme-color-1) 100%, transparent)
 }
 
 .vs-home2 .preloader {
+<<<<<<< Updated upstream
 background-color:whitesmoke;
+=======
+background-color:color-mix(in srgb, white 100%, transparent)
+>>>>>>> Stashed changes
 }
 
 .vs-home3 .preloader {
@@ -6588,7 +6592,7 @@ color:var(--vs-theme-color-2)
 }
 
 .vs-header--style2 .main-menu a:hover {
-color:var(--vs-theme-color-5)
+color:#174a90;
 }
 
 .main-menu>ul>li {
@@ -6644,7 +6648,7 @@ color:var(--vs-theme-color-2)
 }
 
 .vs-header--style2 .main-menu>ul>li.active>a:hover,.vs-header--style2 .main-menu>ul>li.active>a.active {
-color:var(--vs-theme-color-5)
+color:#174a90;
 }
 
 .main-menu>ul>li.active>a:hover svg path,.main-menu>ul>li.active>a.active svg path {
@@ -9850,7 +9854,11 @@ color:var(--vs-black-color-2)
 }
 
 .vs-hero--home2 .vs-hero__title span.text-gradient,.vs-hero--home3 .vs-hero__title span.text-gradient,.vs-hero--home6 .vs-hero__title span.text-gradient {
+<<<<<<< Updated upstream
 background:linear-gradient(90deg, #198754 0%, #71E97B 100%);
+=======
+background:linear-gradient(90deg, #facf61 0%, #ffc107 100%);
+>>>>>>> Stashed changes
 -webkit-background-clip:text;
 -webkit-text-fill-color:rgba(0,0,0,0);
 background-clip:text;
@@ -9858,7 +9866,11 @@ color:rgba(0,0,0,0)
 }
 
 .vs-hero--home2 .vs-hero__title-sub,.vs-hero--home3 .vs-hero__title-sub,.vs-hero--home6 .vs-hero__title-sub {
+<<<<<<< Updated upstream
 background:linear-gradient(90deg, #011548  0%, #011548 100%);
+=======
+background:linear-gradient(90deg, #011548 100%, #011548 100%);
+>>>>>>> Stashed changes
 color:var(--vs-white-color);
 padding:10px 30px;
 font-size:clamp(1.25rem,0.575rem + 0.09375vw,0.875rem);

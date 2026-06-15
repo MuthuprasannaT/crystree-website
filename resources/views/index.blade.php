@@ -58,7 +58,6 @@
         </div>
     </section>
 
-
     <section class="vs-about space space-extra-bottom overflow-hidden">
         <div class="container">
             <div class="row align-items-center justify-content-center gx-60">
