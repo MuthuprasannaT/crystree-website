@@ -1288,11 +1288,7 @@ background-color:color-mix(in srgb, var(--vs-theme-color-1) 100%, transparent)
 }
 
 .vs-home2 .preloader {
-<<<<<<< Updated upstream
 background-color:whitesmoke;
-=======
-background-color:color-mix(in srgb, white 100%, transparent)
->>>>>>> Stashed changes
 }
 
 .vs-home3 .preloader {
