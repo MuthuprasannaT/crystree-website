@@ -19,8 +19,8 @@ class TestimonialController extends Controller
         if ($search) {
             $query->where(function ($q) use ($search) {
                 $q->where('name', 'like', "%{$search}%")
-                  ->orWhere('designation', 'like', "%{$search}%")
-                  ->orWhere('testimonial', 'like', "%{$search}%");
+                    ->orWhere('designation', 'like', "%{$search}%")
+                    ->orWhere('testimonial', 'like', "%{$search}%");
             });
         }
 
@@ -50,9 +50,19 @@ class TestimonialController extends Controller
         ]);
 
         if ($request->hasFile('image')) {
+
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/testimonials';
+
+            if (!is_dir($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+
             $file = $request->file('image');
+
             $filename = time() . '_' . uniqid() . '.' . $file->getClientOriginalExtension();
-            $file->move(public_path('uploads/testimonials'), $filename);
+
+            $file->move($destinationPath, $filename);
+
             $validated['image'] = 'uploads/testimonials/' . $filename;
         }
 
@@ -92,13 +102,22 @@ class TestimonialController extends Controller
 
         if ($request->hasFile('image')) {
             // Delete old image if exists
-            if ($testimonial->image && file_exists(public_path($testimonial->image))) {
-                @unlink(public_path($testimonial->image));
+            if ($testimonial->image && file_exists($_SERVER['DOCUMENT_ROOT'] . '/' . $testimonial->image)) {
+                @unlink($_SERVER['DOCUMENT_ROOT'] . '/' . $testimonial->image);
+            }
+
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/testimonials';
+
+            if (!is_dir($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
             }
 
             $file = $request->file('image');
+
             $filename = time() . '_' . uniqid() . '.' . $file->getClientOriginalExtension();
-            $file->move(public_path('uploads/testimonials'), $filename);
+
+            $file->move($destinationPath, $filename);
+
             $validated['image'] = 'uploads/testimonials/' . $filename;
         }
 

@@ -46,7 +46,14 @@ class GalleryController extends Controller
         if ($request->hasFile('image')) {
             $file = $request->file('image');
             $filename = time() . '_' . uniqid() . '.' . $file->getClientOriginalExtension();
-            $file->move(public_path('uploads/gallery'), $filename);
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/gallery';
+
+            if (!is_dir($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+
+            $file->move($destinationPath, $filename);
+
             $validated['image'] = 'uploads/gallery/' . $filename;
         }
 
@@ -76,13 +83,22 @@ class GalleryController extends Controller
 
         if ($request->hasFile('image')) {
             // Delete old image
-            if ($gallery->image && file_exists(public_path($gallery->image))) {
-                @unlink(public_path($gallery->image));
+            if ($gallery->image && file_exists($_SERVER['DOCUMENT_ROOT'] . '/' . $gallery->image)) {
+                @unlink($_SERVER['DOCUMENT_ROOT'] . '/' . $gallery->image);
+            }
+
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/gallery';
+
+            if (!is_dir($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
             }
 
             $file = $request->file('image');
+
             $filename = time() . '_' . uniqid() . '.' . $file->getClientOriginalExtension();
-            $file->move(public_path('uploads/gallery'), $filename);
+
+            $file->move($destinationPath, $filename);
+
             $validated['image'] = 'uploads/gallery/' . $filename;
         }
 

@@ -11,7 +11,7 @@
     }
 
     .vs-blog__figure {
-        height: 250px;
+        height: 150px;
         overflow: hidden;
         margin-bottom: 0;
     }

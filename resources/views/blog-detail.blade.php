@@ -141,7 +141,7 @@
 <style>
 .vs-blog--single .vs-blog__img{
     width:100%;
-    height:500px;
+    height:100%;
     object-fit:cover;
     border-radius:15px;
 }
@@ -201,8 +201,8 @@
 }
 
 .recent-blog-thumb img{
-    width:90px;
-    height:80px;
+    width:100%;
+    height:100%;
     object-fit:cover;
     border-radius:10px;
 }
