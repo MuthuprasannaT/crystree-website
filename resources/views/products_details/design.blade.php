@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="vs-blog vs-blog--single">
-                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/graphic-designer.webp')}}" alt="Blog Image">
+                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/ban-1.webp')}}" alt="Blog Image">
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
