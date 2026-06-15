@@ -1,11 +1,11 @@
 :root {
---vs-theme-color-1: #196164;
---vs-theme-color-2: #C4F500;
+--vs-theme-color-1: #00030e;
+--vs-theme-color-2: #84ff00;
 --vs-theme-color-3: #E1DFCF;
---vs-theme-color-4: #019297;
---vs-theme-color-5: #4EC057;
---vs-theme-color-6: #01433D;
---vs-theme-color-7: #FFE06F;
+--vs-theme-color-4: #00030e;
+--vs-theme-color-5: #84ff00;
+--vs-theme-color-6: #00030e;
+--vs-theme-color-7: #84ff00;
 --vs-theme-color-8: #F2F1ED;
 --vs-theme-color-9: #F8F8F0;
 --vs-theme-color-10: #0B0B3C;
@@ -15,18 +15,18 @@
 --vs-theme-color-14: #293139;
 --vs-theme-color-15: #EFEFEF;
 --vs-theme-color-16: #2A3239;
---vs-theme-color-17: #014E4E;
---vs-theme-color-18: #FACF61;
+--vs-theme-color-17: #00030e;
+--vs-theme-color-18: #84ff00;
 --vs-theme-color-19: #F1F1F1;
 --vs-theme-color-20: #26265E;
---vs-title-color: #042A2D;
+--vs-title-color: #00030e;
 --vs-title-color-rgb: 4, 42, 45;
 --vs-text-color: #565555;
 --vs-body-color: #565555;
 --vs-smoke-color: #eff1f5;
 --vs-black-color: #000000;
 --vs-black-color-2: #303030;
---vs-black-color-3: #133739;
+--vs-black-color-3: #00030e;
 --vs-white-color: #ffffff;
 --vs-white-color-rgb: 255, 255, 255;
 --vs-yellow-color: #fec624;
@@ -1339,7 +1339,7 @@ border-radius:inherit
 .vs-loader::before {
 width:100%;
 height:100%;
-background-image:linear-gradient(0deg, #196164 0%, #C4F500 100%);
+background-image:linear-gradient(0deg, #00030e 0%, #84ff00 100%);
 animation:load012323 .5s infinite linear
 }
 
@@ -1464,7 +1464,7 @@ color:var(--vs-white-color)
 
 .vs-btn--style4 {
 padding:12px 20px;
-background-color:#196164;
+background-color:#00030e;
 }
 
 .vs-btn--style4::before,.vs-btn--style4::after {
@@ -2508,7 +2508,7 @@ width:var(--circle-size);
 height:var(--circle-size);
 z-index:-1;
 position:absolute;
-background:radial-gradient(50% 50% at 50% 50%, #C4F500 34.47%, #E1DFCF 100%);
+background:radial-gradient(50% 50% at 50% 50%, #84ff00 34.47%, #E1DFCF 100%);
 opacity:.1;
 border-radius:50%
 }
@@ -2633,7 +2633,7 @@ position:absolute
 .vs-ele--circle {
 width:500px;
 height:500px;
-background:radial-gradient(50% 50% at 50% 50%, #4EC057 34.47%, #042A2D 100%);
+background:radial-gradient(50% 50% at 50% 50%, #84ff00 34.47%, #00030e 100%);
 opacity:.1;
 transform:matrix(1, 0, 0, -1, 0, 0);
 border-radius:50%
@@ -6588,7 +6588,7 @@ color:var(--vs-theme-color-2)
 }
 
 .vs-header--style2 .main-menu a:hover {
-color:#174a90;
+color:#84ff00;
 }
 
 .main-menu>ul>li {
@@ -6606,7 +6606,7 @@ margin:0 13px
 padding:20px 0;
 position:relative;
 z-index:1;
-color:#042a2d
+color:#00030e
 }
 
 [data-theme=dark] .main-menu>ul>li>a {
@@ -6644,7 +6644,7 @@ color:var(--vs-theme-color-2)
 }
 
 .vs-header--style2 .main-menu>ul>li.active>a:hover,.vs-header--style2 .main-menu>ul>li.active>a.active {
-color:#174a90;
+color:#84ff00;
 }
 
 .main-menu>ul>li.active>a:hover svg path,.main-menu>ul>li.active>a.active svg path {
@@ -7359,7 +7359,7 @@ background-color:var(--vs-theme-color-5)
 }
 
 .vs-footer--layout3 .vs-footer__overlay,.vs-footer--layout4 .vs-footer__overlay {
-background:radial-gradient(50% 50% at 50% 50%, rgba(1, 67, 61, 0.9) 64.23%, #01433D 100%)
+background:radial-gradient(50% 50% at 50% 50%, rgba(1, 67, 61, 0.9) 64.23%, #00030e 100%)
 }
 
 .vs-footer--layout3 .vs-footer__ele1,.vs-footer--layout3 .vs-footer__ele2,.vs-footer--layout4 .vs-footer__ele1,.vs-footer--layout4 .vs-footer__ele2 {
@@ -7532,15 +7532,16 @@ list-style-type:none;
 display:flex
 }
 
-.breadcrumb-wrapper__menu--wrap {
-position:absolute;
-bottom:0;
-right:0;
-padding:18px 40px;
-text-transform:capitalize;
-background-color:var(--vs-theme-color-17);
-border-radius:10px 10px 0 0;
-border-top:2px solid var(--vs-theme-color-18)
+.breadcrumb-wrapper__menu--wrap{
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:18px 40px;
+    text-transform:capitalize;
+    border-radius:10px 10px 0 0;
+    border-top:2px solid #84ff00;
+
+    background: #00030e;
 }
 
 @media(max-width: 767px) {
@@ -12980,7 +12981,7 @@ right:0;
 bottom:0;
 width:100%;
 height:100%;
-background:linear-gradient(180deg, rgba(4, 42, 45, 0.2) 0%, #042A2D 100%);
+background:linear-gradient(180deg, rgba(4, 42, 45, 0.2) 0%, #00030e 100%);
 opacity:.5;
 border-radius:20px;
 z-index:1
@@ -13219,7 +13220,7 @@ position:relative
 .vs-team__item--style5 .vs-team__item-figure::before {
 position:absolute;
 content:"";
-background:linear-gradient(180deg, rgba(4, 42, 45, 0.2) 0%, #042A2D 100%);
+background:linear-gradient(180deg, rgba(4, 42, 45, 0.2) 0%, #00030e 100%);
 opacity:.5;
 border-radius:20px;
 width:100%;
@@ -14365,13 +14366,13 @@ border-right:0
 .vs-portfolio__tabs--style2::before {
 left:0;
 background:linear-gradient(90deg, rgba(4, 42, 45, 0.15) 1.42%, rgba(78, 192, 87, 0.15) 49.5%);
-border-image-source:linear-gradient(90deg, #042A2D 5%, #4EC057 60%)
+border-image-source:linear-gradient(90deg, #00030e 5%, #84ff00 60%)
 }
 
 .vs-portfolio__tabs--style2::after {
 right:0;
 background:linear-gradient(-90deg, rgba(4, 42, 45, 0.15) 1.42%, rgba(78, 192, 87, 0.15) 49.5%);
-border-image-source:linear-gradient(-90deg, #042A2D 5%, #4EC057 60%)
+border-image-source:linear-gradient(-90deg, #00030e 5%, #84ff00 60%)
 }
 
 .vs-portfolio__indicator {
@@ -14515,7 +14516,7 @@ position:absolute;
 inset:0;
 padding:4px;
 border-radius:inherit;
-background:linear-gradient(180deg, #c4f500 0%, #196164 73%, #196164 95%);
+background:linear-gradient(180deg, #84ff00 0%, #00030e 73%, #00030e 95%);
 -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
 mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
 -webkit-mask-composite:xor;
@@ -15085,7 +15086,7 @@ color:var(--vs-white-color)
 
 .vs-contact__wrapper {
 padding:100px 80px;
-background-color:#196164;
+background-color:#00030e;
 border-radius:20px
 }
 
@@ -15182,7 +15183,7 @@ position:absolute;
 --circle-size: 250px;
 /* height:var(--circle-size);
 width:var(--circle-size); */
-background:radial-gradient(50% 50% at 50% 50%, #C4F500 34.47%, #196164 100%);
+background:radial-gradient(50% 50% at 50% 50%, #84ff00 34.47%, #00030e 100%);
 opacity:.1;
 top:50%;
 transform:translateY(-50%);
@@ -15200,7 +15201,7 @@ right:-125px
 
 .vs-brand__ele--style2 {
 --circle-size: 200px;
-background:radial-gradient(50% 50% at 50% 50%, #4EC057 34.47%, #133739 100%);
+background:radial-gradient(50% 50% at 50% 50%, #84ff00 34.47%, #00030e 100%);
 opacity:.1
 }
 

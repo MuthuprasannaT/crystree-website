@@ -3,19 +3,19 @@
 <rect x="25" width="98" height="98" fill="url(#pattern0_2102_5598)"/>
 </mask>
 <g mask="url(#mask0_2102_5598)">
-<rect x="25" width="98" height="98" fill="#196164"/>
+<rect x="25" width="98" height="98" fill="#00030e"/>
 </g>
 <mask id="mask1_2102_5598" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="98" width="50" height="50">
 <rect y="98" width="50" height="50" fill="url(#pattern1_2102_5598)"/>
 </mask>
 <g mask="url(#mask1_2102_5598)">
-<rect y="98" width="50" height="50" fill="#196164"/>
+<rect y="98" width="50" height="50" fill="#00030e"/>
 </g>
 <mask id="mask2_2102_5598" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="74" y="148" width="25" height="25">
 <rect x="74" y="148" width="25" height="25" fill="url(#pattern2_2102_5598)"/>
 </mask>
 <g mask="url(#mask2_2102_5598)">
-<rect x="74" y="148" width="25" height="25" fill="#196164"/>
+<rect x="74" y="148" width="25" height="25" fill="#00030e"/>
 </g>
 <defs>
 <pattern id="pattern0_2102_5598" patternContentUnits="objectBoundingBox" width="1" height="1">
