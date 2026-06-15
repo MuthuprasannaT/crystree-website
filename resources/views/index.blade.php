@@ -30,7 +30,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xl-6">
-                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Crystree Solutions Digital Services</span>
+                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Crystree Solutions Digital Service</span>
                                             <h1 class="vs-hero__title vs-swiper-animation">Grow Your Business <span class="text-gradient">With Crystree Solutions</span></h1>
                                             <p class="vs-hero__text vs-swiper-animation">Crystree Solutions provides website development, mobile app development, ERP software, CRM solutions and custom business software services that help companies improve efficiency, increase visibility and accelerate digital growth.</p><a href="blog-details.html"
                                             class="vs-btn vs-btn--style3 vs-swiper-animation">Explore Services <i class="fa-solid fa-arrow-right"></i></a></div>
