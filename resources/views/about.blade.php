@@ -177,7 +177,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6 col-lg-4 order-0">
                     <div class="vs-features__charging">
-                        <div class="vs-features__charging-icon"><i class="flaticon flaticon-gdpr"></i></div>
+                        <div class="vs-features__charging-icon"><img src="assets/img/team/MD.png" alt="Managing Director"></div>
                         <h3 class="vs-features__charging-title">High Quality</h3>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -194,7 +194,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 order-1 order-lg-2">
                     <div class="vs-features__charging vs-features__charging--right">
-                        <div class="vs-features__charging-icon"><i class="flaticon flaticon-operation"></i></div>
+                        <div class="vs-features__charging-icon"><img src="assets/img/team/CEO.png" alt="Chief Executive Officer"></div>
                         <h3 class="vs-features__charging-title">Easy Process</h3>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -210,6 +210,92 @@
         </div>
     </div>
 </section>
+
+<Style>
+    /* MD & CEO Image */
+.vs-features__charging-icon {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.vs-features__charging-icon img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease;
+}
+
+.vs-features__charging-icon img:hover {
+    transform: scale(1.05);
+}
+
+/* Left Side Content */
+.vs-features__charging {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Right Side Content */
+.vs-features__charging--right {
+    text-align: center;
+}
+
+/* Title */
+.vs-features__charging-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Content */
+.vs-features__charging-text {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Center Logo */
+.vs-features__img {
+    text-align: center;
+}
+
+.vs-features__img img {
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .vs-features__charging-icon img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .vs-features__img img {
+        width: 300px;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .vs-features__charging-icon img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .vs-features__charging-title {
+        font-size: 24px;
+    }
+
+    .vs-features__charging-text {
+        font-size: 16px;
+    }
+}
+</Style>
 
 
 <section class="vs-team space space-extra-bottom">
