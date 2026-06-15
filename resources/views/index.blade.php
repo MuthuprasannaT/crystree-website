@@ -26,11 +26,11 @@
             <div class="vs-carousel swiper" data-xl="1" data-lg="1" data-md="1" data-sm="1" data-effect="fade" data-grab-cursor="true" data-loop="false">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/bg/breadcrumb-bg-1-1.jpeg') }}">
+                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/home/Banner_1.webp') }}">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xl-6">
-                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Crystree Solutions Digital Services</span>
+                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Crystree Solutions Digital Service</span>
                                             <h1 class="vs-hero__title vs-swiper-animation">Grow Your Business <span class="text-gradient">With Crystree Solutions</span></h1>
                                             <p class="vs-hero__text vs-swiper-animation">Crystree Solutions provides website development, mobile app development, ERP software, CRM solutions and custom business software services that help companies improve efficiency, increase visibility and accelerate digital growth.</p><a href="blog-details.html"
                                             class="vs-btn vs-btn--style3 vs-swiper-animation">Explore Services <i class="fa-solid fa-arrow-right"></i></a></div>
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="vs-hero__bg" data-bg-src="assets/img/hero/h2-hero-bg-2.jpg">
+                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/home/Banner_2.webp') }}">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xl-6">
@@ -80,8 +80,8 @@
                                     </div>
                                 </div>
                             </div><span class="vs-about__review-radius"></span></div>
-                        <div class="vs-about__images-one"><img src="assets/img/about/about-image-h2-1.jpg" alt="about image"></div>
-                        <div class="vs-about__images-two"><img src="assets/img/about/about-image-h2-2.jpg" alt="about image"></div>
+                        <div class="vs-about__images-one"><img src="{{ asset('assets/img/home/About_1.webp') }}" alt="about image"></div>
+                        <div class="vs-about__images-two"><img src="{{ asset('assets/img/home/About_2.webp') }}" alt="about image"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-30">
@@ -647,7 +647,7 @@
         /* Equal height cards */
 .vs-carousel .swiper-slide {
     height: auto;
-    display: flex;
+
 }
 
 .vs-team__item--style2 {
