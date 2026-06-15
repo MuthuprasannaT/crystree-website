@@ -163,139 +163,302 @@
     </Style>
 </section>
 
-
-<section class="vs-features z-index-common space" data-bg-src="assets/img/features/h5-features-bg-1.jpg">
-    <div class="overlay bg-theme-14 z-index-n1" data-opacity="93%"></div>
+<section class="vs-features py-5">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="title-area title-area--style5 text-center mb-20"><span class="title-area__title--sub text-white"><img src="assets/img/icons/vs-icon-sec-h5-1.svg" alt="Icon"> Our Features <img src="assets/img/icons/vs-icon-sec-h5-1.svg" alt="Icon"></span>
-                    <h2 class="title-area__title text-white">Meet The Leaders Behind Crystree Solutions</h2></div>
-            </div>
+
+        <div class="text-center mb-5">
+            <h2 class="text-white fw-bold">
+                Meet The Leaders Behind <br>
+                Crystree Solutions
+            </h2>
         </div>
-        <div class="vs-features__wrapper" data-bg-src="assets/img/elements/vs-featured-bg.svg">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-4 order-0">
-                    <div class="vs-features__charging">
-                        <div class="vs-features__charging-icon"><img src="assets/img/team/MD.png" alt="Managing Director"></div>
-                        <h3 class="vs-features__charging-title">High Quality</h3>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="vs-features__charging">
-                        <h3 class="vs-features__charging-title">Global Compatibility</h3>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto order-2 order-lg-1">
-                    <div class="vs-features__img"><img src="assets/img/logo/crystree-11.pn" alt="vs-features"></div>
-                </div>
-                <div class="col-md-6 col-lg-4 order-1 order-lg-2">
-                    <div class="vs-features__charging vs-features__charging--right">
-                        <div class="vs-features__charging-icon"><img src="assets/img/team/CEO.png" alt="Chief Executive Officer"></div>
-                        <h3 class="vs-features__charging-title">Easy Process</h3>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="vs-features__charging vs-features__charging--right">
-                        <h3 class="vs-features__charging-title">User-Friendly</h3>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p class="vs-features__charging-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="leadership-box">
+
+            <div class="row align-items-center justify-content-center">
+
+                <!-- Managing Director -->
+                <div class="col-lg-4 col-md-12 text-center mb-5">
+                    <div class="leader-card">
+
+                        <img src="assets/img/team/MD2.png"
+                             alt="Managing Director"
+                             class="leader-image">
+
+                        <h3>Lakshmi Narayanan V</h3>
+                        <h3>Managing Director</h3>
+
+
+                        <p> Founder and Managing Director of Crystree Solutions Private Limited with over 25 years of experience in ERP delivery, Oracle Fusion Cloud, SAP, and digital transformation, driving operational excellence, innovation, and sustainable business growth across industries.</p>
+
                     </div>
                 </div>
+
+                <!-- Center Logo -->
+                <div class="col-lg-4 col-md-12 text-center mb-5">
+
+                    <div class="center-logo">
+                        <img src="assets/img/logo/crystree-11.png"
+                             alt="Crystree Solutions">
+                    </div>
+
+                </div>
+
+                <!-- CEO -->
+                <div class="col-lg-4 col-md-12 text-center mb-5">
+                    <div class="leader-card">
+
+                        <img src="assets/img/team/CEO1.png"
+                             alt="Chief Executive Officer"
+                             class="leader-image">
+
+                        <h3>Suganya</h3>
+                        <h3>Chief Executive Officer</h3>
+                        <p> Founder and Chief Executive Officer of Crystree Solutions Private Limited, dedicated to driving innovation, customer success, and digital transformation while building trusted partnerships that create long-term business value.</p>
+                    
+                    </div>
+                </div>
+
             </div>
+
         </div>
+
     </div>
 </section>
 
-<Style>
-    /* MD & CEO Image */
-.vs-features__charging-icon {
-    text-align: center;
-    margin-bottom: 25px;
+
+<style>
+
+    .leader-card p strong{
+    color:#D4AF37;
+    font-weight:700;
+    font-size:16px;
 }
 
-.vs-features__charging-icon img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 6px solid #ffffff;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-    transition: all 0.4s ease;
+/* Section */
+.vs-features{
+    background:#202b38;
+    padding:100px 0;
+    overflow:hidden;
 }
 
-.vs-features__charging-icon img:hover {
-    transform: scale(1.05);
+/* Main Box */
+.leadership-box{
+    background:linear-gradient(
+        180deg,
+        #67b800 0%,
+        #2e7d32 35%,
+        #02245b 70%,
+        #011548 100%
+    );
+    border-radius:40px;
+    padding:60px 40px;
+    position:relative;
+    overflow:hidden;
 }
 
-/* Left Side Content */
-.vs-features__charging {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-/* Right Side Content */
-.vs-features__charging--right {
-    text-align: center;
-}
-
-/* Title */
-.vs-features__charging-title {
-    margin-top: 20px;
-    margin-bottom: 15px;
-    font-size: 32px;
-    font-weight: 700;
+/* Curved Top Design */
+.leadership-box::before{
+    content:'';
+    position:absolute;
+    top:-207px;
+    left:50%;
+    transform:translateX(-50%);
+    width:400px;
+    height:400px;
+    background:#202b38;
+    border-radius:50%;
 }
 
 /* Content */
-.vs-features__charging-text {
-    font-size: 18px;
-    line-height: 1.8;
+.leader-card,
+.center-logo{
+    position:relative;
+    z-index:2;
+    text-align:center;
+}
+
+.leader-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:100%;
+}
+
+/* Images */
+.leader-image{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:12px;
+    border:2px solid #D4AF37;
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.20),
+        0 0 12px rgba(212,175,55,.30);
+    margin:0 auto 20px;
+    display:block;
+    transition:all .3s ease;
+}
+
+.leader-image:hover{
+    transform:translateY(-5px);
+}
+
+.leader-card h3:first-of-type{
+    font-size:30px;
+    font-weight:700;
+    margin-bottom:5px;
+
+    background:linear-gradient(
+        180deg,
+        #FFF8DC 0%,
+        #fcd80a 30%,
+        #dcae22 60%,
+        #c9a326 80%,
+        #876b06 100%
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+    color:transparent;
+}
+
+/* Designation */
+.leader-card h3:last-of-type{
+    font-size:18px;
+    font-weight:600;
+    color:#ffffff;
+    margin-bottom:15px;
+    background:none;
+    -webkit-text-fill-color:#ffffff;
+}
+
+/* Content */
+.leader-card p{
+    font-size:15px;
+    color:#f5f5f5;
+    max-width:320px;
+    min-height:140px;
+    margin:0 auto;
+    text-align:justify;
 }
 
 /* Center Logo */
-.vs-features__img {
-    text-align: center;
+.center-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
 }
 
-.vs-features__img img {
-    width: 450px;
-    max-width: 100%;
-    height: auto;
+.center-logo img{
+    width:280px;
+    max-width:100%;
+    height:auto;
+    border-radius:50%;
+    background:#fff;
+    padding:8px;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
 }
 
-/* Responsive */
-@media (max-width: 991px) {
-    .vs-features__charging-icon img {
-        width: 220px;
-        height: 220px;
+/* Desktop */
+@media (min-width:992px){
+
+    .row.align-items-center{
+        display:flex;
+        align-items:flex-start !important;
     }
 
-    .vs-features__img img {
-        width: 300px;
-        margin: 30px 0;
+    .center-logo{
+        margin-top:30px;
+    }
+
+    .leader-image{
+        width:300px;
+        height:400px;
+    }
+
+    .col-lg-4{
+        margin-bottom:0 !important;
     }
 }
 
-@media (max-width: 767px) {
-    .vs-features__charging-icon img {
-        width: 180px;
-        height: 180px;
+/* Tablet */
+@media (max-width:991px){
+
+    .leadership-box{
+        padding:50px 25px;
     }
 
-    .vs-features__charging-title {
-        font-size: 24px;
+    .leadership-box::before{
+        display:none;
     }
 
-    .vs-features__charging-text {
-        font-size: 16px;
+    .leader-image{
+        width:240px;
+        height:320px;
+    }
+
+    .leader-card h3:first-of-type{
+        font-size:26px;
+    }
+
+    .leader-card h3:last-of-type{
+        font-size:17px;
+    }
+
+    .leader-card p{
+        max-width:450px;
+        min-height:auto;
+        text-align:center;
+    }
+
+    .center-logo{
+        margin:30px 0;
+    }
+
+    .center-logo img{
+        width:220px;
     }
 }
-</Style>
+
+/* Mobile */
+@media (max-width:767px){
+
+    .vs-features{
+        padding:60px 0;
+    }
+
+    .leadership-box{
+        padding:30px 15px;
+        border-radius:20px;
+    }
+
+    .leader-image{
+        width:220px;
+        height:280px;
+    }
+
+    .leader-card h3:first-of-type{
+        font-size:24px;
+    }
+
+    .leader-card h3:last-of-type{
+        font-size:16px;
+    }
+
+    .leader-card p{
+        font-size:14px;
+        text-align:center;
+        min-height:auto;
+    }
+
+    .center-logo img{
+        width:180px;
+    }
+}
+</style>
 
 
 <section class="vs-team space space-extra-bottom">
@@ -363,7 +526,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team2.png" alt="Sangeetha"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team2.jpeg" alt="Sangeetha"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -396,7 +559,7 @@
                 </div>
 
 
-                <!-- <div class="swiper-slide">
+                <div class="swiper-slide">
                         <div class="vs-team__item vs-team__item--style3 social-clickable">
                             <div class="vs-team__item-social">
                                 <ul class="vs-team__item-social__list">
@@ -418,7 +581,7 @@
                                     <h3 class="vs-team__item-name"><a href="team-details.html">Swathi</a></h3><a href="team-details.html" class="vs-team__item-role">Lead Digital Marketing</a></div>
                             </div>
                         </div>
-                </div> -->
+                </div>
 
                 <div class="swiper-slide">
                         <div class="vs-team__item vs-team__item--style3 social-clickable">
@@ -671,20 +834,51 @@
     <div class="container">
         <div class="row align-items-end justify-content-between">
             <div class="col-lg-7 col-xl-6">
-                <div class="title-area title-area--style6 mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""> FAQs <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""></span>
-                    <h2 class="title-area__title">Frequently Asked Any Questions</h2></div>
+                <div class="title-area title-area--style6 mb-title">
+                    <span class="title-area__title--sub">
+                        <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="">
+                        FAQ
+                        <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="">
+                    </span>
+                    <h2 class="title-area__title">
+                        Frequently Asked Questions
+                    </h2>
+                </div>
             </div>
+
             <div class="col-md-auto">
-                <div class="mb-title"><a href="blog-details.html" class="vs-btn vs-btn--style13">Explore More</a></div>
+                <div class="mb-title">
+                    <a href="contact.html" class="vs-btn vs-btn--style13">
+                        Contact Us
+                    </a>
+                </div>
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row gx-60">
+
+            <!-- Left Side Card -->
             <div class="col-lg-4 mb-30">
-                <div class="vs-clients__card-review style2 text-center"><img class="vs-clients__card-review__logo" src="assets/img/logo-version-5.svg" alt="BigBiz Logo">
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div class="vs-clients__rating" data-rate="5"></div><span class="vs-about__review-text">Customer Review <span>30.000</span></span>
+                <div class="vs-clients__card-review style2 text-center">
+
+                    <img class="vs-clients__card-review__logo"
+                         src="assets/img/logo/crystree-11.png"
+                         alt="Crystree Solutions"style="width:200px;height:auto;">
+
+                    <p class="text-white">
+                        Have questions about our web development, mobile app
+                        development, digital marketing, and software solutions?
+                        Find answers to the most frequently asked questions below.
+                    </p>
+
+                    <div class="vs-clients__rating" data-rate="5"></div>
+
+                    <span class="vs-about__review-text">
+                        Trusted by <span>100+</span> Clients
+                    </span>
+
                     <div class="vs-about__facts">
                         <div class="vs-about__facts-images vs-active-wrapper">
                             <a href="#" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-1.jpg" alt="about"> </a>
@@ -693,50 +887,175 @@
                             <a href="#" class="vs-about__facts-img vs-active active"><img src="assets/img/about/about-facts-h1-4.jpg" alt="about"></a>
                         </div>
                     </div>
+
                 </div>
             </div>
+
+            <!-- FAQ -->
             <div class="col-lg-8 mb-30">
+
                 <div class="accordion style3" id="faqVersion1">
+
                     <div class="accordion-item">
-                        <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How can you help me grow my investments?</button></h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqVersion1">
-                            <div class="accordion-body">No! Financial planning is essential for everyone, regardless of income level. Whether you’re just starting your financial journey or managing significant assets, we offer customized solutions to help you achieve financial stability
-                                and growth.</div>
+                        <h2 class="accordion-header">
+                            <button class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne"
+                                    aria-expanded="true">
+
+                                What services does Crystree Solutions offer?
+
+                            </button>
+                        </h2>
+
+                        <div id="collapseOne"
+                             class="accordion-collapse collapse show"
+                             data-bs-parent="#faqVersion1">
+
+                            <div class="accordion-body">
+                                Crystree Solutions provides Web Development,
+                                Mobile App Development, Digital Marketing,
+                                Software Development, UI/UX Design, Cloud
+                                Solutions, and IT Consulting services.
+                            </div>
+
                         </div>
                     </div>
+
                     <div class="accordion-item">
-                        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Do I need a high income to work with a financial advisor?</button></h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqVersion1">
-                            <div class="accordion-body">No! Financial planning is essential for everyone, regardless of income level. Whether you’re just starting your financial journey or managing significant assets, we offer customized solutions to help you achieve financial stability
-                                and growth.</div>
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo">
+
+                                Do you develop custom websites?
+
+                            </button>
+                        </h2>
+
+                        <div id="collapseTwo"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#faqVersion1">
+
+                            <div class="accordion-body">
+                                Yes. We create fully customized websites that
+                                are responsive, SEO-friendly, fast-loading,
+                                and tailored to your business goals.
+                            </div>
+
                         </div>
                     </div>
+
                     <div class="accordion-item">
-                        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Who can benefit from your financial advisory services?</button></h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqVersion1">
-                            <div class="accordion-body">No! Financial planning is essential for everyone, regardless of income level. Whether you’re just starting your financial journey or managing significant assets, we offer customized solutions to help you achieve financial stability
-                                and growth.</div>
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree">
+
+                                Can you build Android and iOS mobile apps?
+
+                            </button>
+                        </h2>
+
+                        <div id="collapseThree"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#faqVersion1">
+
+                            <div class="accordion-body">
+                                Yes. We develop high-performance Android and
+                                iOS applications with modern UI/UX and scalable
+                                architecture.
+                            </div>
+
                         </div>
                     </div>
+
                     <div class="accordion-item">
-                        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">What is retirement planning, and when should I start?</button></h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqVersion1">
-                            <div class="accordion-body">No! Financial planning is essential for everyone, regardless of income level. Whether you’re just starting your financial journey or managing significant assets, we offer customized solutions to help you achieve financial stability
-                                and growth.</div>
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour">
+
+                                Do you provide Digital Marketing services?
+
+                            </button>
+                        </h2>
+
+                        <div id="collapseFour"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#faqVersion1">
+
+                            <div class="accordion-body">
+                                Yes. Our Digital Marketing services include SEO,
+                                Social Media Marketing, Google Ads, Branding,
+                                Content Marketing, and Lead Generation.
+                            </div>
+
                         </div>
                     </div>
+
                     <div class="accordion-item">
-                        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">How much do your financial advisory services cost?</button></h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqVersion1">
-                            <div class="accordion-body">No! Financial planning is essential for everyone, regardless of income level. Whether you’re just starting your financial journey or managing significant assets, we offer customized solutions to help you achieve financial stability
-                                and growth.</div>
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive">
+
+                                Do you provide support and maintenance?
+
+                            </button>
+                        </h2>
+
+                        <div id="collapseFive"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#faqVersion1">
+
+                            <div class="accordion-body">
+                                Yes. We provide ongoing maintenance, security
+                                updates, bug fixes, performance optimization,
+                                and technical support.
+                            </div>
+
                         </div>
                     </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix">
+
+                                Why choose Crystree Solutions?
+
+                            </button>
+                        </h2>
+
+                        <div id="collapseSix"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#faqVersion1">
+
+                            <div class="accordion-body">
+                                We combine innovation, technical expertise,
+                                customer-focused solutions, and industry best
+                                practices to deliver measurable business results.
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
+
         </div>
     </div>
 </section>
+
 
 
 @endsection

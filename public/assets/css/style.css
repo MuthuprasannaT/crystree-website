@@ -12444,7 +12444,7 @@ display:inline-flex
 }
 
 .vs-service__financial-heading {
-font-size:24px;
+font-size:20px;
 margin-bottom:0;
 line-height:1.45;
 transition:all .3s ease-in-out
@@ -13965,7 +13965,7 @@ font-size:18px
 }
 
 .vs-clients__card-review.style2 {
-padding:80px 40px
+padding:50px 40px
 }
 
 .vs-clients__carousel-h4 {
