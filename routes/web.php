@@ -12,7 +12,9 @@ use App\Http\Controllers\Admin\BtsController;
 use App\Http\Controllers\Admin\GalleryController;
 use App\Http\Controllers\ContactController as PublicContactController;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\CareerController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\Admin\CareerApplicationController;
 
 
 
@@ -21,6 +23,12 @@ Route::get('/', [FrontendController::class, 'home'])->name('home');
 Route::get('/about', [FrontendController::class, 'about'])->name('about');
 
 Route::get('/products', [FrontendController::class, 'products'])->name('products');
+
+Route::get('/career', [CareerController::class, 'index'])->name('career');
+
+
+Route::post('/career/apply', [CareerController::class, 'apply'])
+    ->name('career.apply');
 
 Route::get('/gallery', [FrontendController::class, 'gallery'])->name('gallery');
 
@@ -101,4 +109,19 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
     Route::resource('bts', BtsController::class);
     Route::resource('gallery', GalleryController::class);
     Route::resource('logos', LogoController::class);
+});
+
+Route::prefix('admin')->name('admin.')->group(function () {
+
+    Route::get('/career-applications', [CareerApplicationController::class, 'index'])
+        ->name('career.index');
+
+    Route::delete('/career-applications/{id}', [CareerApplicationController::class, 'destroy'])
+        ->name('career.destroy');
+});
+
+
+Route::prefix('admin')->name('admin.')->group(function () {
+
+    Route::resource('careers', App\Http\Controllers\Admin\CareerController::class);
 });
