@@ -11,7 +11,7 @@
     }
 
     .vs-blog__figure {
-        height: 250px;
+        height: 150px;
         overflow: hidden;
         margin-bottom: 0;
     }
@@ -42,15 +42,15 @@
         margin-top: 10px;
     }
 </style>
-    <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.png"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
+    <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/blog.webp')}}">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Blog Sidebar</h1>
+                <h1 class="breadcrumb-wrapper__title">Blog</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
-                        <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-wrapper__menu--item">Blog Sidebar</li>
+                        <li class="breadcrumb-wrapper__menu--item"><a href="{{route('home')}}">Home</a></li>
+                        <li class="breadcrumb-wrapper__menu--item">Blog</li>
                     </ul>
                 </div>
             </div>

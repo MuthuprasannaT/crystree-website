@@ -65,7 +65,6 @@ Route::prefix('products')->group(function () {
     Route::get('/software', [ProductController::class, 'software'])->name('products.software');
     Route::get('/ai', [ProductController::class, 'ai'])->name('products.ai');
     Route::get('/ppc', [ProductController::class, 'ppc'])->name('products.ppc');
-
 });
 
 

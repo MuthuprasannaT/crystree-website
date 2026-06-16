@@ -19,7 +19,7 @@ class BtsController extends Controller
         if ($search) {
             $query->where(function ($q) use ($search) {
                 $q->where('title', 'like', "%{$search}%")
-                  ->orWhere('description', 'like', "%{$search}%");
+                    ->orWhere('description', 'like', "%{$search}%");
             });
         }
 
@@ -48,9 +48,19 @@ class BtsController extends Controller
         ]);
 
         if ($request->hasFile('image')) {
+
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/bts';
+
+            if (!is_dir($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+
             $file = $request->file('image');
+
             $filename = time() . '_' . uniqid() . '.' . $file->getClientOriginalExtension();
-            $file->move(public_path('uploads/bts'), $filename);
+
+            $file->move($destinationPath, $filename);
+
             $validated['image'] = 'uploads/bts/' . $filename;
         }
 
@@ -81,14 +91,24 @@ class BtsController extends Controller
         ]);
 
         if ($request->hasFile('image')) {
+
             // Delete old image
-            if ($bt->image && file_exists(public_path($bt->image))) {
-                @unlink(public_path($bt->image));
+            if ($bt->image && file_exists($_SERVER['DOCUMENT_ROOT'] . '/' . $bt->image)) {
+                @unlink($_SERVER['DOCUMENT_ROOT'] . '/' . $bt->image);
+            }
+
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/bts';
+
+            if (!is_dir($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
             }
 
             $file = $request->file('image');
+
             $filename = time() . '_' . uniqid() . '.' . $file->getClientOriginalExtension();
-            $file->move(public_path('uploads/bts'), $filename);
+
+            $file->move($destinationPath, $filename);
+
             $validated['image'] = 'uploads/bts/' . $filename;
         }
 

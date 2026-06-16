@@ -8,7 +8,7 @@
                         <div class="col-lg-auto col-auto">
                             <div class="vs-header__logo">
                                 <a href="{{ route('home') }}">
-                                    <img src="{{ asset('assets/img/logo/newlogo1.png') }}"
+                                    <img src="{{ asset('assets/img/logo/logo1.png') }}"
      alt="Crystree Solutions Pvt Ltd - Software Development Company in Trichy"
      class="logo">
                                 </a>
@@ -61,7 +61,7 @@
                                             <li>
                                                 <a href="javascript:void(0)">Business Solutions</a>
                                                 <ul>
-                                                    <li><a href="{{ route('products.erp') }} ">iCrystal ERP Solution</a></li>
+                                                    <li><a href="{{ route('products.erp') }} ">iCRYSTAL ERP Solution</a></li>
                                                     <li><a href="{{ route('products.oracle') }}">Oracle ERP Solution</a></li>
                                                     <li><a href="{{ route('products.crm') }}">CRM Software</a></li>
                                                     <li><a href="{{ route('products.saas') }}">SaaS Solutions</a></li>

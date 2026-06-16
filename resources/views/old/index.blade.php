@@ -392,9 +392,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-xl-6">
-                    <div class="title-area text-center px-4" dir="ltr"><span class="title-area__title--sub"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#C4F500" data-duration="0.8">Services</span> <img src="img/icons/vs-icon-title-star.svg"
+                    <div class="title-area text-center px-4" dir="ltr"><span class="title-area__title--sub"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#84ff00" data-duration="0.8">Services</span> <img src="img/icons/vs-icon-title-star.svg"
                         alt="vs-icon-title-star"></span>
-                        <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #C4F500)" data-duration="1">Ensure The Best Service For Clients.</h2></div>
+                        <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #84ff00)" data-duration="1">Ensure The Best Service For Clients.</h2></div>
                 </div>
             </div>
             <div class="vs-service__grid vs-service__grid-row1">
@@ -499,9 +499,9 @@
         <div class="container">
             <div class="row justify-content-between align-items-end">
                 <div class="col-xl-5 col-lg-6">
-                    <div class="title-area text-center text-lg-start" dir="ltr"><span class="title-area__title--sub"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#C4F500" data-duration="1">Members</span> <img src="img/icons/vs-icon-title-star.svg"
+                    <div class="title-area text-center text-lg-start" dir="ltr"><span class="title-area__title--sub"><img src="img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#84ff00" data-duration="1">Members</span> <img src="img/icons/vs-icon-title-star.svg"
                         alt="vs-icon-title-star"></span>
-                        <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #C4F500)" data-duration="2">Our Most Experience Team Members</h2></div>
+                        <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #84ff00)" data-duration="2">Our Most Experience Team Members</h2></div>
                 </div>
                 <div class="col-xl-auto col-lg-auto title-area text-center text-lg-end"><a href="blog-details.html" class="vs-btn vs-fade-in-up" data-delay="0.4" data-duration="1">Explore More <i class="fa-solid fa-arrow-right"></i></a></div>
             </div>
@@ -801,7 +801,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80">
                         <div class="vs-blog vs-blog--style2 vs-image-effect">
                             <figure class="vs-blog__figure">
-                                <a class="vs-blog__figure__link" href="blog-details.html" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal"><img class="vs-blog__img vs-image-effect__image" src="img/blog/vs-blog-h1-1.jpg" alt="Blog Image">
+                                <a class="vs-blog__figure__link" href="blog-details.html" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#00030e" data-cursor-size="60px" data-cursor-blend="normal"><img class="vs-blog__img vs-image-effect__image" src="img/blog/vs-blog-h1-1.jpg" alt="Blog Image">
                                     <div class="vs-image-effect__overlay"></div>
                                 </a><span class="vs-blog__date">16 <sub>Jan</sub></span></figure>
                             <div class="vs-blog__content">
@@ -817,7 +817,7 @@
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.5" data-yposition="80">
                         <div class="vs-blog vs-blog--style2 vs-image-effect">
-                            <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal">
+                            <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#00030e" data-cursor-size="60px" data-cursor-blend="normal">
                                 <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="img/blog/vs-blog-h1-2.jpg" alt="Blog Image">
                                     <div class="vs-image-effect__overlay"></div>
                                 </a><span class="vs-blog__date">16 <sub>Jan</sub></span></figure>
@@ -834,7 +834,7 @@
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.7" data-yposition="80">
                         <div class="vs-blog vs-blog--style2 vs-image-effect">
-                            <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal">
+                            <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#00030e" data-cursor-size="60px" data-cursor-blend="normal">
                                 <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="img/blog/vs-blog-h1-3.jpg" alt="Blog Image">
                                     <div class="vs-image-effect__overlay"></div>
                                 </a><span class="vs-blog__date">16 <sub>Jan</sub></span></figure>
@@ -851,7 +851,7 @@
                     </div>
                     <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.9" data-yposition="80">
                         <div class="vs-blog vs-blog--style2 vs-image-effect">
-                            <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#196164" data-cursor-size="60px" data-cursor-blend="normal">
+                            <figure class="vs-blog__figure" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#00030e" data-cursor-size="60px" data-cursor-blend="normal">
                                 <a class="vs-blog__figure__link" href="blog-details.html"><img class="vs-blog__img vs-image-effect__image" src="img/blog/vs-blog-h1-4.jpg" alt="Blog Image">
                                     <div class="vs-image-effect__overlay"></div>
                                 </a><span class="vs-blog__date">16 <sub>Jan</sub></span></figure>

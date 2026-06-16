@@ -399,7 +399,7 @@ class ConsoleCursor
                 'ff0087', 'ff00af', 'ff00d7', 'ff00ff', 'ff5f00', 'ff5f5f',
                 'ff5f87', 'ff5faf', 'ff5fd7', 'ff5fff', 'ff8700', 'ff875f',
                 'ff8787', 'ff87af', 'ff87d7', 'ff87ff', 'ffaf00', 'ffaf5f',
-                'ffaf87', 'ffafaf', 'ffafd7', 'ffafff', 'ffd700', 'ffd75f',
+                'ffaf87', 'ffafaf', 'ffafd7', 'ffafff', '84ff00', 'ffd75f',
                 'ffd787', 'ffd7af', 'ffd7d7', 'ffd7ff', 'ffff00', 'ffff5f',
                 'ffff87', 'ffffaf', 'ffffd7', 'ffffff', '080808', '121212',
                 '1c1c1c', '262626', '303030', '3a3a3a', '444444', '4e4e4e',

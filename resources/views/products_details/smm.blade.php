@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.png"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/smm-banner.webp')}}">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="vs-blog vs-blog--single">
-                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="assets/img/blog/vs-blog-details-img-1.jpg" alt="Blog Image">
+                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/smm-poster.webp')}}" alt="Blog Image">
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
@@ -53,11 +53,11 @@
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-3.jpg" alt="video"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/smm.webp')}}" alt="video"></div>
                                 </div>
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/social-media.webp')}}" alt="video"></div>
                                 </div>
                             </div>
             <!-- FAQ Section Start -->
@@ -184,23 +184,23 @@ Yes. We manage targeted social media advertising campaigns to increase reach, le
                         <div class="widget widget_block widget_services">
                             <h3 class="widget__heading">Our Services</h3>
                             <ul class="wp-block-categories-list wp-block-categories">
-                                <li class="cat-item cat-item-17"><a href="#">Investment & Wealth Management</a></li>
-                                <li class="cat-item cat-item-26"><a href="#">Retirement Planning Services</a></li>
-                                <li class="cat-item cat-item-24"><a href="#">Tax Planning And Preparation</a></li>
-                                <li class="cat-item cat-item-24"><a href="#">Risk & Insurance Advisory</a></li>
-                                <li class="cat-item cat-item-24"><a href="#">Business Financial Consulting</a></li>
+                                <li class="cat-item cat-item-17"><a href="{{ route('products.crm') }}">CRM Software</a></li>
+                                <li class="cat-item cat-item-26"><a href="{{ route('products.brand') }}">Branding Solutions</a></li>
+                                <li class="cat-item cat-item-24"><a href="{{ route('products.reel') }}">Reel Marketing</a></li>
+                                <li class="cat-item cat-item-24"><a href="{{ route('products.email') }}">Email Marketing</a></li>
+                                <li class="cat-item cat-item-24"><a href="{{ route('products.gbp') }}">Google Business Profile</a></li>
                             </ul>
                         </div>
-                        <div class="widget widget_block widget_newsletter bg-theme-17" data-bg-src="assets/img/elements/vs-bg-blog-sidebar-ele1.svg">
+                        <!-- <div class="widget widget_block widget_newsletter bg-theme-17" data-bg-src="assets/img/elements/vs-bg-blog-sidebar-ele1.svg">
                             <h3 class="widget__heading">News Letter</h3>
-                            <form action="#">
+                            <form action="{{ route('products.crm') }}">
                                 <div class="wp-block-search__inside-wrapper">
                                     <p class="text-white">Subscribe email and get recent news and updates or offers.</p>
                                     <input placeholder="Search Here..." type="text" name="search" id="wp-search">
                                     <button class="vs-btn vs-btn--style14">Subscribe</button>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
