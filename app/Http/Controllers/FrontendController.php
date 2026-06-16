@@ -42,6 +42,10 @@ class FrontendController extends Controller
     {
         return view('products');
     }
+    public function Career()
+    {
+        return view('career');
+    }
 
     public function gallery()
     {

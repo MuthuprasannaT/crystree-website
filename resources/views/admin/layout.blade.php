@@ -203,6 +203,22 @@
     </a>
 </li>
 
+
+<li class="nav-item">
+    <a class="nav-link {{ Route::is('admin.career.*') ? 'active' : '' }}"
+       href="{{ route('admin.careers.index') }}">
+        <i class="fas fa-briefcase"></i> Job Posts
+    </a>
+</li>
+
+
+<li class="nav-item">
+    <a class="nav-link {{ Route::is('admin.career.*') ? 'active' : '' }}"
+       href="{{ route('admin.career.index') }}">
+        <i class="fas fa-briefcase"></i> Career Applications
+    </a>
+</li>
+
                 <li class="nav-item" style="margin-top: 24px; border-top: 1px solid rgba(255,255,255,.1); padding-top: 8px;">
                     <form id="logout-form" action="{{ route('admin.logout') }}" method="POST">
                         @csrf
