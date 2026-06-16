@@ -341,9 +341,9 @@
 
                     <style>
                         
-                            @media (max-width: 1300px) {
+                            @media (min-width: 1300px) {
                                 .vs-service__biz-text {
-                                    height: 150px !important;
+                                    height: 140px !important;
                                 }
 
                                 /* .business {
@@ -355,11 +355,17 @@
                                 }
                             }
 
-                            @media (max-width: 1600px) {
+                            @media (min-width: 1600px) {
                                 .vs-service__biz-text {
-                                    height: 150px !important;
+                                    height: 120px !important;
                                 }
                             }
+
+                              @media (max-width: 1200px) {
+                                 .vs-service__biz-text {
+                                    height: 120px !important;
+                                }
+                              }
                     </style>
                     <!-- SEO -->
                     <div class="col-lg-3 vs-service__biz vs-active">
@@ -938,7 +944,7 @@
 @media(max-width:991px){
 
     .blog-card-image img{
-        height:250px;
+        height:100%;
     }
 
     .blog-title{
