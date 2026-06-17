@@ -11446,7 +11446,7 @@ background-color:var(--vs-theme-color-17)
 @media(max-width: 767px) {
 .vs-ex.style3 {
 left:0;
-transform:translate(0%, -50%)
+transform:translate(55%, -50%)
 }
 
 }
@@ -12439,7 +12439,7 @@ transition:all .3s ease-in-out
 .vs-service__financial-icon {
 width:var(--icon-size);
 height:var(--icon-size);
-background-color:var(--vs-theme-color-17);
+background-color:#84ff00;
 display:inline-flex;
 align-items:center;
 justify-content:center;
@@ -12546,13 +12546,17 @@ transition:all .3s ease-in-out
 }
 
 .vs-service__financial:hover,.vs-service__financial.active {
-background-color:var(--vs-theme-color-17);
+background:linear-gradient(
+        180deg,
+        #559b0b  10%,
+        #00030e  90%
+    );
 border-bottom:2px solid var(--vs-theme-color-18);
 transition:all .3s ease-in-out
 }
 
 .vs-service__financial:hover .vs-service__financial-icon,.vs-service__financial.active .vs-service__financial-icon {
-background-color:var(--vs-theme-color-18);
+background-color:#fff;
 color:var(--vs-theme-color-17)
 }
 

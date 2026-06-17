@@ -8,7 +8,7 @@
             <h1 class="breadcrumb-wrapper__title">About Us</h1>
             <div class="breadcrumb-wrapper__menu--wrap">
                 <ul class="breadcrumb-wrapper__menu">
-                    <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-wrapper__menu--item"><a href="{{ route('home') }}">Home</a></li>
                     <li class="breadcrumb-wrapper__menu--item">About Us</li>
                 </ul>
             </div>
@@ -32,11 +32,11 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="vs-about__imgs-h6__img1"><img src="assets/img/about/about-h6-1.jpg" alt="about img"></div>
+                            <div class="vs-about__imgs-h6__img1"><img src="assets/img/about/about_us1.webp" alt="about img"></div>
                         </div>
                         <div class="col-md-6">
-                            <div class="vs-about__imgs-h6__img2"><img src="assets/img/about/about-h6-2.jpg" alt="about img"></div>
-                            <div class="vs-about__imgs-h6__img3"><img src="assets/img/about/about-h6-3.jpg" alt="about img"></div>
+                            <div class="vs-about__imgs-h6__img2"><img src="assets/img/about/about_us2.webp" alt="about img"></div>
+                            <div class="vs-about__imgs-h6__img3"><img src="assets/img/about/about_us3.webp" alt="about img"></div>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <p class="vs-about__text style2 text-white">"Transforming ideas into innovative digital solutions that drive growth and long-term success."</p>
-                    <div class="vs-about__footer"><a href="blog-details.html" class="vs-btn vs-btn--style13">Explore Services</a>
+                    <div class="vs-about__footer"><a href="{{ route('products.website') }}" class="vs-btn vs-btn--style13">Explore Services</a>
                         <div class="vs-info style9 d-none d-xl-flex">
                             <div class="vs-info__content">
                                 <h6 class="vs-info__title">Talk To Our Experts</h6><a class="vs-info__label" style="text-decoration:none;" href="tel:+916381324611">+91-63813 24611</a>
@@ -78,8 +78,161 @@
     </div>
 </section>
 
+<style>
 
-<section class="vs-about space space-extra-bottom overflow-hidden z-index-common">
+    .vs-about__cards{
+    display:flex;
+    align-items:stretch;
+}
+
+.vs-about__card{
+    flex:1;
+    display:flex;
+    align-items:flex-start;
+    min-height:120px;
+}
+
+.vs-about__card-icon img{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+}
+
+.vs-about__card-content{
+    flex:1;
+}
+
+.vs-about__card-title{
+    min-height:52px;
+}
+
+.vs-about__card-text{
+    min-height:48px;
+}
+
+@media(max-width:767px){
+    .vs-about__cards{
+        flex-direction:column;
+    }
+
+    .vs-about__card{
+        min-height:auto;
+    }
+
+    .vs-about__cards-divider{
+        display:none;
+    }
+}
+.vs-about__imgs-h6 img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.vs-about__imgs-h6{
+    position:relative;
+}
+
+.vs-about__content{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+/* Tablet */
+@media (max-width: 991px){
+
+    .row.gx-60{
+        --bs-gutter-x: 1.5rem !important;
+    }
+
+    .vs-about__imgs-h6{
+        margin-bottom:30px;
+    }
+
+    .vs-about__footer{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:20px;
+    }
+
+    .vs-about__text.style2{
+        font-size:16px;
+        line-height:1.7;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px){
+
+    .title-area__title{
+        font-size:30px !important;
+        line-height:1.3;
+    }
+
+    .title-area__title--sub{
+        font-size:14px;
+    }
+
+    .vs-about__card{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .vs-about__card-icon{
+        margin-bottom:15px;
+    }
+
+    .vs-about__card-content{
+        width:100%;
+    }
+
+    .vs-about__cards-divider{
+        display:none;
+    }
+
+    .vs-about__footer{
+        text-align:center;
+        align-items:center;
+    }
+
+    .vs-btn{
+        width:100%;
+    }
+
+    .vs-about__text.style2{
+        padding:20px;
+        font-size:15px;
+    }
+}
+
+/* Extra Small */
+@media (max-width: 575px){
+
+    .vs-ex.style3{
+        position:relative;
+        width:100%;
+        margin-bottom:20px;
+    }
+
+    .vs-ex__counter{
+        width:100%;
+        text-align:center;
+    }
+
+    .title-area__title{
+        font-size:24px !important;
+    }
+
+    .vs-about{
+        overflow:hidden;
+    }
+}
+</style>
+
+
+<section class="vs-about space-extra-bottom overflow-hidden z-index-common">
     <div class="vs-ele vs-ele--ele1">
         <img data-parallax='{"y":150,"smoothness":5}' src="assets/img/elements/vs-about-ele-h3-1.svg" alt="BigBiz">
     </div>
@@ -125,7 +278,7 @@
                 </div>
             </div>
             <div class="col-xl-4 mb-30">
-                <div class="vs-about__img-home3"><img class="rounded-20" src="assets/img/about/about-image-h3-1.jpg" alt="BigBiz"></div>
+                <div class="vs-about__img-home3"><img class="rounded-20" src="assets/img/about/vision_mission.webp" alt="BigBiz"></div>
             </div>
 
         </div>
@@ -160,6 +313,95 @@
             height: auto;
             display: block;
         }
+
+
+        /* Mobile & Tablet Responsive Fix */
+
+@media (max-width: 1199px) {
+    .vs-about .row.align-items-center {
+        flex-direction: column;
+    }
+
+    .vs-about__img-home3 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .vs-about__img-home3 img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .title-area__title {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+
+    .col-lg-6 {
+        margin-bottom: 25px;
+    }
+
+    .vs-ele--ele1 {
+        display: none;
+    }
+
+    .vs-about__img-home3 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .title-area__title {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    .title-area__title--sub {
+        font-size: 14px;
+    }
+
+    .fw-medium {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .vs-list li {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 8px;
+    }
+
+    .col-lg-6 h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .vs-about__img-home3 img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .title-area__title {
+        font-size: 24px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .vs-about {
+        padding-bottom: 40px;
+    }
+}
     </Style>
 </section>
 
@@ -373,7 +615,7 @@
     }
 
     .leader-image{
-        width:300px;
+        width:200px;
         height:400px;
     }
 
@@ -394,7 +636,7 @@
     }
 
     .leader-image{
-        width:240px;
+        width:300px;
         height:320px;
     }
 
@@ -501,11 +743,11 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team1.png" alt="Muthu Prasanna T"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team1.png" alt="Muthu Prasanna T"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Muthu Prasanna T</a></h3><a href="team-details.html" class="vs-team__item-role">Team Lead</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Muthu Prasanna T</a></h3><a href="#" class="vs-team__item-role">Team Lead</a></div>
                             </div>
                         </div>
                 </div>
@@ -524,11 +766,11 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team2.jpeg" alt="Sangeetha R"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team2.jpeg" alt="Sangeetha R"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Sangeetha R</a></h3><a href="team-details.html" class="vs-team__item-role">Lead Creative Designer</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Sangeetha R</a></h3><a href="#" class="vs-team__item-role">Lead Creative Designer</a></div>
                             </div>
                         </div>
                 </div>
@@ -547,59 +789,11 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team3.png" alt="Gopala Krishnan T"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team3.png" alt="Gopala Krishnan T"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Gopala Krishnan T</a></h3><a href="team-details.html" class="vs-team__item-role">Lead Software Engineer</a></div>
-                            </div>
-                        </div>
-                </div>
-
-
-                <div class="swiper-slide">
-                        <div class="vs-team__item vs-team__item--style3 social-clickable">
-                            <div class="vs-team__item-social">
-                                <ul class="vs-team__item-social__list">
-                                    <li>
-                                        <button class="social-clickable__button"><i class="fa-solid fa-share-nodes"></i></button>
-                                        <ul class="social-clickable__toggle">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team4.png" alt="Swathi"></a>
-                            </figure>
-                            <div class="vs-team__item-body">
-                                <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Swathi</a></h3><a href="team-details.html" class="vs-team__item-role">Lead Digital Marketing</a></div>
-                            </div>
-                        </div>
-                </div>
-
-                <div class="swiper-slide">
-                        <div class="vs-team__item vs-team__item--style3 social-clickable">
-                            <div class="vs-team__item-social">
-                                <ul class="vs-team__item-social__list">
-                                    <li>
-                                        <button class="social-clickable__button"><i class="fa-solid fa-share-nodes"></i></button>
-                                        <ul class="social-clickable__toggle">
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team5.png" alt="Dharani A"></a>
-                            </figure>
-                            <div class="vs-team__item-body">
-                                <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Dharani A</a></h3><a href="team-details.html" class="vs-team__item-role">Sr. App Developer</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Gopala Krishnan T</a></h3><a href="#" class="vs-team__item-role">Lead Software Engineer</a></div>
                             </div>
                         </div>
                 </div>
@@ -619,11 +813,11 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team6.png" alt="Lakshana R"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team4.png" alt="Swathi"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Lakshana R</a></h3><a href="team-details.html" class="vs-team__item-role">Sr. UI/UX Designer</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Swathi</a></h3><a href="#" class="vs-team__item-role">Lead Digital Marketing</a></div>
                             </div>
                         </div>
                 </div>
@@ -642,11 +836,35 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team8.png" alt="Sathi Guchait"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team5.png" alt="Dharani A"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Sathi Guchait</a></h3><a href="team-details.html" class="vs-team__item-role">Sr. Wordpress Developer</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Dharani A</a></h3><a href="#" class="vs-team__item-role">Sr. App Developer</a></div>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                        <div class="vs-team__item vs-team__item--style3 social-clickable">
+                            <div class="vs-team__item-social">
+                                <ul class="vs-team__item-social__list">
+                                    <li>
+                                        <button class="social-clickable__button"><i class="fa-solid fa-share-nodes"></i></button>
+                                        <ul class="social-clickable__toggle">
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <figure class="vs-team__item-figure">
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team6.png" alt="Lakshana R"></a>
+                            </figure>
+                            <div class="vs-team__item-body">
+                                <div class="vs-team__item-content">
+                                    <h3 class="vs-team__item-name"><a href="#">Lakshana R</a></h3><a href="#" class="vs-team__item-role">Sr. UI/UX Designer</a></div>
                             </div>
                         </div>
                 </div>
@@ -665,11 +883,34 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team7.png" alt="Premkumar R"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team8.png" alt="Sathi Guchait"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="team-details.html">Premkumar R</a></h3><a href="team-details.html" class="vs-team__item-role">Sr. Software Engineer</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Sathi Guchait</a></h3><a href="#" class="vs-team__item-role">Sr. Wordpress Developer</a></div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="swiper-slide">
+                        <div class="vs-team__item vs-team__item--style3 social-clickable">
+                            <div class="vs-team__item-social">
+                                <ul class="vs-team__item-social__list">
+                                    <li>
+                                        <button class="social-clickable__button"><i class="fa-solid fa-share-nodes"></i></button>
+                                        <ul class="social-clickable__toggle">
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <figure class="vs-team__item-figure">
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team7.png" alt="Premkumar R"></a>
+                            </figure>
+                            <div class="vs-team__item-body">
+                                <div class="vs-team__item-content">
+                                    <h3 class="vs-team__item-name"><a href="#">Premkumar R</a></h3><a href="#" class="vs-team__item-role">Sr. Software Engineer</a></div>
                             </div>
                         </div>
                 </div>
@@ -695,13 +936,13 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="{{ asset('assets/img/services/service-img-h1-1.jpg') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.website') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/websitedevelopment.webp') }}" alt="Service Image"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">Website Development</a></h3>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="{{ route('products.website') }}">Website Development</a></h3>
                         <p class="vs-service__card-text">Build fast, responsive websites that strengthen your online presence.</p>
-                        <a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="{{ route('products.website') }}" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -709,12 +950,12 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="{{ asset('assets/img/services/service-img-h1-2.jpg') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.app') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/mobileappdevelopment.webp') }}" alt="Service Image"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">Mobile App Development</a></h3>
-                        <p class="vs-service__card-text">Create powerful Android and iOS apps with seamless user experiences.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="{{ route('products.app') }}">App Development</a></h3>
+                        <p class="vs-service__card-text">Create powerful Android and iOS apps with seamless user experiences.</p><a href="{{ route('products.app') }}" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -722,12 +963,12 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="{{ asset('assets/img/services/service-img-h1-3.jpg') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.seo') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/digitalmarketing.webp') }}" alt="Service Image"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html"> Digital Marketing</a></h3>
-                        <p class="vs-service__card-text">Grow your business through SEO, social media, and online advertising.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="{{ route('products.seo') }}"> Digital Marketing</a></h3>
+                        <p class="vs-service__card-text">Grow your business through SEO, social media, and online advertising.</p><a href="{{ route('products.seo') }}" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -737,12 +978,12 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="{{ asset('assets/img/services/service-img-h1-4.jpg') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.software') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/softwaredevelopment.webp') }}" alt="Service Image"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">Software Development</a></h3>
-                        <p class="vs-service__card-text">Develop secure, scalable software solutions tailored to your business.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="{{ route('products.software') }}">Software Development</a></h3>
+                        <p class="vs-service__card-text">Develop secure, scalable software solutions tailored to your business.</p><a href="{{ route('products.software') }}" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -750,12 +991,12 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="{{ asset('assets/img/services/service-img-h1-5.jpg') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.erp') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/itconsulting.webp') }}" alt="Service Image"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">IT Consulting</a></h3>
-                        <p class="vs-service__card-text">Expert IT guidance and support to improve efficiency and growth.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="{{ route('products.erp') }}">IT Consulting</a></h3>
+                        <p class="vs-service__card-text">Expert IT guidance and support to improve efficiency and growth.</p><a href="{{ route('products.erp') }}" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -763,12 +1004,12 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="service-details.html"><img class="vs-service__card-img" src="{{ asset('assets/img/services/service-img-h1-6.jpg') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.design') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/graphicdesign_branding.webp') }}" alt="Service Image"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
-                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="service-details.html">Graphic Design & Branding</a></h3>
-                        <p class="vs-service__card-text">Creative branding, logo design, and marketing materials that stand out.</p><a href="service-details.html" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
+                        <h3 class="vs-service__card-title titleservice"><a class="vs-service__card-title__link" href="{{ route('products.design') }}">Graphic Design & UI/UX</a></h3>
+                        <p class="vs-service__card-text">Creative branding, logo design, and marketing materials that stand out.</p><a href="{{ route('products.brand') }}" class="vs-service__card-link"><span class="vs-service__card-link__text">View Details </span><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -800,50 +1041,53 @@
         </div>
         <div class="vs-carousel swiper vs-active-wrapper" data-xl="4" data-lg="3" data-md="2.5" data-loop="false" data-autoplay="false" data-nav-next="#service-carousel-next" data-nav-prev="#service-carousel-prev">
             <div class="swiper-wrapper">
+            
                 <div class="swiper-slide mb-30">
-                    <div class="vs-service__financial vs-active active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><img src="" alt="">
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">SEO Optimization</a></h3>
+                    <div class="vs-service__financial vs-active"><a href="{{ route('products.seo') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/seo.png') }}" alt="SEO Optimization in No-1 Tollgat"></span>
+                            <h3 class="vs-service__financial-heading"><a href="{{ route('products.seo') }}" class="vs-service__financial-heading__link">SEO Optimization</a></h3>
                             <p class="vs-service__financial-text">Improve rankings and increase website traffic.</p>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="swiper-slide mb-30">
-                    <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-retirement-plan"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Social Media Marketing</a></h3>
+                    <div class="vs-service__financial vs-active"><a href="{{ route('products.smm') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/smm.png') }}" alt=" best Social Media Marketing in Trichy"></span>
+                            <h3 class="vs-service__financial-heading"><a href="{{ route('products.smm') }}" class="vs-service__financial-heading__link">Social Media Marketing</a></h3>
                             <p class="vs-service__financial-text">Grow your brand across social platforms.</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide mb-30">
-                    <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-taxes"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Google Ads</a></h3>
+                    <div class="vs-service__financial vs-active"><a href="{{ route('products.ads') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/googleads.png') }}" alt="best Google Ads company in Tricy"></span>
+                            <h3 class="vs-service__financial-heading"><a href="{{ route('products.ads') }}" class="vs-service__financial-heading__link">Google Ads</a></h3>
                             <p class="vs-service__financial-text">Drive leads with targeted ad campaigns.</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide mb-30">
-                    <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-risk-management"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Content Marketing</a></h3>
+                    <div class="vs-service__financial vs-active"><a href="{{ route('products.brand') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/contentwrite.png') }}" alt="Content Marketing in Chathram Bus Stand"></span>
+                            <h3 class="vs-service__financial-heading"><a href="{{ route('products.brand') }}" class="vs-service__financial-heading__link">Content Marketing</a></h3>
                             <p class="vs-service__financial-text">Create content that attracts customers.</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide mb-30">
-                    <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-financial-growth"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Email Marketing</a></h3>
+                    <div class="vs-service__financial vs-active"><a href="{{ route('products.email') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/emailmarketing.png') }}" alt="Bes Email Marketing company Crystree Solution"></span>
+                            <h3 class="vs-service__financial-heading"><a href="{{ route('products.email') }}" class="vs-service__financial-heading__link">Email Marketing</a></h3>
                             <p class="vs-service__financial-text">Reach customers through email campaigns.</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide mb-30">
-                    <div class="vs-service__financial vs-active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-financial-growth"></i></span>
-                            <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">Lead Generation</a></h3>
+                    <div class="vs-service__financial vs-active"><a href="{{ route('products.brand') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/lead_generation.png') }}" alt="Bestr Lead Generation Company in Crystree Solutions"></span>
+                            <h3 class="vs-service__financial-heading"><a href="{{ route('products.brand') }}" class="vs-service__financial-heading__link">Lead Generation</a></h3>
                             <p class="vs-service__financial-text">Convert visitors into qualified leads.</p>
                         </div>
                     </div>
@@ -871,7 +1115,7 @@
 
             <div class="col-md-auto">
                 <div class="mb-title">
-                    <a href="contact.html" class="vs-btn vs-btn--style13">
+                    <a href="{{ route('contact') }}" class="vs-btn vs-btn--style13">
                         Contact Us
                     </a>
                 </div>
@@ -904,10 +1148,10 @@
 
                     <div class="vs-about__facts">
                         <div class="vs-about__facts-images vs-active-wrapper">
-                            <a href="#" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-1.jpg" alt="about"> </a>
-                            <a href="#" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-2.jpg" alt="about"> </a>
-                            <a href="#" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-3.jpg" alt="about"> </a>
-                            <a href="#" class="vs-about__facts-img vs-active active"><img src="assets/img/about/about-facts-h1-4.jpg" alt="about"></a>
+                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-1.jpg" alt="about"> </a>
+                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-2.jpg" alt="about"> </a>
+                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-3.jpg" alt="about"> </a>
+                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active active"><img src="assets/img/about/about-facts-h1-4.jpg" alt="about"></a>
                         </div>
                     </div>
 

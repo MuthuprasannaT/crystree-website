@@ -19,11 +19,15 @@
     Digital Marketing, Cloud Solutions, AI Solutions and
     Custom Software Development services across India.
 </p>
-                                <form action="https://html.vecurosoft.com/bigbiz/demo/mail.php"
+                                <!-- <form action="https://html.vecurosoft.com/bigbiz/demo/mail.php"
                                 class="vs-subscribe vs-subscribe--style2 mt-40" method="post">
                                     <input type="text" class="vs-subscribe__field" placeholder="Your Email Address" name="email" autocomplete="email">
                                     <button class="vs-subscribe__btn vs-btn"><i class="fa-solid fa-paper-plane"></i><span>Subscribe</span></button>
-                                </form>
+                                </form> -->
+
+                                <div class="col-auto mt-5 text-center text-lg-start w-100 w-lg-auto">
+                            <div class="social-style style3"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-youtube"></i></a></div>
+                        </div>
                             </div>
                         </div>
                         <div class="col-lg-auto col-md-auto mb-30 vs-fade-in-up" data-duration="1" data-delay="0.5" data-yposition="80" data-scale="1">
@@ -110,9 +114,7 @@
                         <div class="col-auto">
                             <p class="vs-footer__copyright mb-0"> © <span id="currentYear"></span> All rights reserved By <a href="https://www.crystreesolutions.com/">Crystree Solutions Pvt Ltd</a>.</p>
                         </div>
-                        <div class="col-auto">
-                            <div class="social-style style3"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-youtube"></i></a></div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
