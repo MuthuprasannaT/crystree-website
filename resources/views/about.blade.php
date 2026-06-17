@@ -501,7 +501,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team1.png" alt="Muthu"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team1.png" alt="Muthu Prasanna T"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -524,7 +524,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team2.jpeg" alt="Sangeetha"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team2.jpeg" alt="Sangeetha R"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -547,7 +547,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team3.png" alt="Muthu"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team3.png" alt="Gopala Krishnan T"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -572,7 +572,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team4.png" alt="Muthu"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team4.png" alt="Swathi"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -595,7 +595,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team5.png" alt="Muthu"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team5.png" alt="Dharani A"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -619,7 +619,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team6.png" alt="Muthu"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team6.png" alt="Lakshana R"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -642,7 +642,30 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team7.png" alt="Muthu"></a>
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team8.png" alt="Sathi Guchait"></a>
+                            </figure>
+                            <div class="vs-team__item-body">
+                                <div class="vs-team__item-content">
+                                    <h3 class="vs-team__item-name"><a href="team-details.html">Sathi Guchait</a></h3><a href="team-details.html" class="vs-team__item-role">Sr. Wordpress Developer</a></div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="swiper-slide">
+                        <div class="vs-team__item vs-team__item--style3 social-clickable">
+                            <div class="vs-team__item-social">
+                                <ul class="vs-team__item-social__list">
+                                    <li>
+                                        <button class="social-clickable__button"><i class="fa-solid fa-share-nodes"></i></button>
+                                        <ul class="social-clickable__toggle">
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <figure class="vs-team__item-figure">
+                                <a class="vs-team__item-img-link" href="team-details.html"><img class="vs-team__item-img" src="assets/img/team/team7.png" alt="Premkumar R"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -650,6 +673,8 @@
                             </div>
                         </div>
                 </div>
+
+                
             </div>
         </div>
     </div>
