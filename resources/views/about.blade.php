@@ -18,7 +18,7 @@
 
 
 
-<section class="vs-about space space-bottom z-index-common overflow-hidden">
+<section class="vs-about space z-index-common overflow-hidden">
     <div class="container">
         <div class="row gx-60">
             <div class="col-lg-6">
@@ -409,7 +409,7 @@
     .leader-card p{
         max-width:450px;
         min-height:auto;
-        text-align:center;
+        text-align:justify;
     }
 
     .center-logo{
@@ -448,7 +448,7 @@
 
     .leader-card p{
         font-size:14px;
-        text-align:center;
+        text-align:justify;
         min-height:auto;
     }
 
