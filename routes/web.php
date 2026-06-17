@@ -15,6 +15,8 @@ use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\CareerController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Admin\CareerApplicationController;
+use Illuminate\Support\Facades\Mail;
+
 
 
 
@@ -124,4 +126,16 @@ Route::prefix('admin')->name('admin.')->group(function () {
 Route::prefix('admin')->name('admin.')->group(function () {
 
     Route::resource('careers', App\Http\Controllers\Admin\CareerController::class);
+});
+
+
+Route::get('/test-mail', function () {
+
+    Mail::raw('SMTP Working Successfully', function ($message) {
+
+        $message->to('yourgmail@gmail.com')
+            ->subject('SMTP Test');
+    });
+
+    return 'Mail Sent';
 });
