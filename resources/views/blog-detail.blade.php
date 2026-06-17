@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="breadcrumb-wrapper z-index-common overflow-hidden"
-    data-bg-src="{{ asset('assets/img/bg/breadcrumb-bg-1-1.png') }}">
+    data-bg-src="{{ asset('assets/img/bg/blog.webp')}}">
 
     <img class="breadcrumb-wrapper__ele1"
         src="{{ asset('assets/img/elements/breadcumb-element-bar.svg') }}"
