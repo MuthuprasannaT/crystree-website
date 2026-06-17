@@ -49,7 +49,7 @@
                     </div>
                     <div class="vs-about__cards">
                         <div class="vs-about__card">
-                            <div class="vs-about__card-icon"><img src="assets/img/favicons/innovation.png" alt="vs-icon"></div>
+                            <div class="vs-about__card-icon"><img src="assets/img/favicons/Innovation.png" alt="vs-icon"></div>
                             <div class="vs-about__card-content">
                                 <h3 class="vs-about__card-title">Innovation & Excellence</h3>
                                 <p class="vs-about__card-text">Creating smart digital solutions for modern businesses.</p>

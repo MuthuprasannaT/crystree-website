@@ -26,13 +26,13 @@
             <div class="vs-carousel swiper" data-xl="1" data-lg="1" data-md="1" data-sm="1" data-effect="fade" data-grab-cursor="true" data-loop="false">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/home/Banner_1.webp') }}">
+                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/home/Home2.webp') }}">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xl-6">
                                         <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Crystree Solutions Digital Service</span>
                                             <h1 class="vs-hero__title vs-swiper-animation">Grow Your Business <span class="text-gradient">With Crystree Solutions</span></h1>
-                                            <p class="vs-hero__text vs-swiper-animation">Crystree Solutions provides website development, mobile app development, ERP software, CRM solutions and custom business software services that help companies improve efficiency, increase visibility and accelerate digital growth.</p><a href="blog-details.html"
+                                            <p class="vs-hero__text vs-swiper-animation">Crystree Solutions provides website development, mobile app development, ERP software, CRM solutions and custom business software services that help companies improve efficiency, increase visibility and accelerate digital growth.</p><a href="{{ route('blog') }}"
                                             class="vs-btn vs-btn--style3 vs-swiper-animation">Explore Services <i class="fa-solid fa-arrow-right"></i></a></div>
                                     </div>
                                 </div>
@@ -40,13 +40,13 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/home/Banner_2.webp') }}">
+                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/home/Home1.webp') }}">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xl-6">
                                         <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Local SEO & Digital Marketing Experts </span>
                                             <h1 class="vs-hero__title vs-swiper-animation">Boost Your Brand <span class="text-gradient">With Local SEO Solutions</span></h1>
-                                            <p class="vs-hero__text vs-swiper-animation">Crystree Solutions delivers SEO services, Google Business Profile optimization, social media marketing and digital growth solutions that help businesses improve rankings, attract local customers and increase online visibility.</p><a href="blog-details.html"
+                                            <p class="vs-hero__text vs-swiper-animation">Crystree Solutions delivers SEO services, Google Business Profile optimization, social media marketing and digital growth solutions that help businesses improve rankings, attract local customers and increase online visibility.</p><a href="{{ route('blog') }}"
                                             class="vs-btn vs-btn--style3 vs-swiper-animation">Explore Services <i class="fa-solid fa-arrow-right"></i></a></div>
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade active show" id="history-tab-pane" role="tabpanel" aria-labelledby="history-tab" tabindex="0">
                                     <div class="vs-about--story__tab-content">
-                                        <div class="vs-about__video"><img src="assets/img/about/video-thumb-1-1.jpg" alt="about"> <a href="https://www.youtube.com/watch?v=mQwIYf0xmV8" class="play-btn popup-video"><i class="fa-solid fa-play"></i></a></div>
+                                        <div class="vs-about__video"><img src="assets/img/about/mission.png" alt="about"></div>
                                         <ul class="vs-list">
                                             <li>Deliver innovative and scalable digital solutions. </li>
                                             <li>Improve business productivity through automation.</li>
@@ -114,7 +114,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                                     <div class="vs-about--story__tab-content">
-                                        <div class="vs-about__video"><img src="assets/img/about/video-thumb-1-1.jpg" alt="about"> <a href="#" class="play-btn"><i class="fa-solid fa-play"></i></a></div>
+                                        <div class="vs-about__video"><img src="assets/img/about/vision.png" alt="about"></div>
                                         <ul class="vs-list">
                                             <li>Build strong and lasting client relationships. </li>
                                             <li>Drive innovation through modern technology.</li>
@@ -172,7 +172,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/favicons/web.png"
+                                    <img src="assets/img/favicons/Web.png"
                                          alt="Website Development Company">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -385,7 +385,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/favicons/icon2.png"
+                                    <img src="assets/img/favicons/Icon2.png"
                                          alt="SEO Services Company">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -803,6 +803,23 @@
 
     <section class="vs-blog--layout1 space space-extra-bottom" dir="ltr">
     <div class="container">
+         <div class="row justify-content-between align-items-end">
+               <div class="col-xl-8 col-lg-6 text-center text-lg-start">
+    <div class="title-area title-area--style2" dir="ltr">
+
+        <span class="title-area__title--sub">
+            Latest Blogs & Insights
+        </span>
+
+        <h2 class="title-area__title">
+            Explore Our Latest Articles, Technology Trends & Business Insights
+        </h2>
+
+
+    </div>
+</div>
+                <div class="col-xl-auto col-lg-auto title-area text-center text-lg-end"><a href="{{ route('blog') }}" class="vs-btn vs-btn--style3 vs-fade-in-up" data-delay="0.4" data-duration="1">Explore More <i class="fa-solid fa-arrow-right"></i></a></div>
+            </div>
 
         <div class="row">
 

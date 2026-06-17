@@ -9,7 +9,7 @@
                 <h1 class="breadcrumb-wrapper__title">Google Business Profile</h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
-                        <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-wrapper__menu--item"><a href="{{route('home')}}">Home</a></li>
                         <li class="breadcrumb-wrapper__menu--item">GBP</li>
                     </ul>
                 </div>
@@ -187,16 +187,16 @@ Yes. We offer guidance and strategies to help businesses manage and improve cust
                                 <li class="cat-item cat-item-24"><a href="{{ route('products.crm') }}">CRM Software</a></li>
                             </ul>
                         </div>
-                        <div class="widget widget_block widget_newsletter bg-theme-17" data-bg-src="assets/img/elements/vs-bg-blog-sidebar-ele1.svg">
+                        <!-- <div class="widget widget_block widget_newsletter bg-theme-17" data-bg-src="assets/img/elements/vs-bg-blog-sidebar-ele1.svg">
                             <h3 class="widget__heading">News Letter</h3>
-                            <form action="#">
+                            <form action="{{ route('products.crm') }}">
                                 <div class="wp-block-search__inside-wrapper">
                                     <p class="text-white">Subscribe email and get recent news and updates or offers.</p>
                                     <input placeholder="Search Here..." type="text" name="search" id="wp-search">
                                     <button class="vs-btn vs-btn--style14">Subscribe</button>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
