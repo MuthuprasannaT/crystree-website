@@ -110,7 +110,7 @@
             </div>
             <div class="vs-footer__bottom">
                 <div class="container">
-                    <div class="row justify-content-center justify-content-lg-between align-items-center gy-3 flex-column-reverse flex-lg-row">
+                    <div class="row justify-content-center  align-items-center gy-3 flex-column-reverse flex-lg-row">
                         <div class="col-auto">
                             <p class="vs-footer__copyright mb-0"> © <span id="currentYear"></span> All rights reserved By <a href="https://www.crystreesolutions.com/">Crystree Solutions Pvt Ltd</a>.</p>
                         </div>
