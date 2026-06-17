@@ -49,7 +49,7 @@
                     </div>
                     <div class="vs-about__cards">
                         <div class="vs-about__card">
-                            <div class="vs-about__card-icon"><img src="assets/img/icons/vs-icon-about-h6-1.svg" alt="vs-icon"></div>
+                            <div class="vs-about__card-icon"><img src="assets/img/favicons/innovation.png" alt="vs-icon"></div>
                             <div class="vs-about__card-content">
                                 <h3 class="vs-about__card-title">Innovation & Excellence</h3>
                                 <p class="vs-about__card-text">Creating smart digital solutions for modern businesses.</p>
@@ -57,7 +57,7 @@
                         </div>
                         <div class="vs-about__cards-divider"></div>
                         <div class="vs-about__card">
-                            <div class="vs-about__card-icon"><img src="assets/img/icons/vs-icon-about-h6-2.svg" alt="vs-icon"></div>
+                            <div class="vs-about__card-icon"><img src="assets/img/favicons/Customer.png" alt="vs-icon"></div>
                             <div class="vs-about__card-content">
                                 <h3 class="vs-about__card-title">Customer Success</h3>
                                 <p class="vs-about__card-text">Focused on delivering value, quality, and trust.</p>
@@ -802,7 +802,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active active"><a href="service-details.html" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><i class="flaticon flaticon-financial-growth"></i></span>
+                        <div class="vs-service__financial-content"><img src="" alt="">
                             <h3 class="vs-service__financial-heading"><a href="service-details.html" class="vs-service__financial-heading__link">SEO Optimization</a></h3>
                             <p class="vs-service__financial-text">Improve rankings and increase website traffic.</p>
                         </div>
