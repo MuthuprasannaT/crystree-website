@@ -172,7 +172,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/favicons/web.png"
+                                    <img src="assets/img/favicons/Web.png"
                                          alt="Website Development Company">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -385,7 +385,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/favicons/icon2.png"
+                                    <img src="assets/img/favicons/Icon2.png"
                                          alt="SEO Services Company">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
