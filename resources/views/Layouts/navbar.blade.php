@@ -9,8 +9,8 @@
                             <div class="vs-header__logo">
                                 <a href="{{ route('home') }}">
                                     <img src="{{ asset('assets/img/logo/logo1.png') }}"
-     alt="Crystree Solutions Pvt Ltd - Software Development Company in Trichy"
-     class="logo">
+                                        alt="Crystree Solutions Pvt Ltd - Software Development Company in Trichy"
+                                        class="logo">
                                 </a>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                         <div class="col-lg-auto col-auto">
                             <div class="vs-header__action">
                                 <div class="d-none d-xl-inline-flex align-items-center">
-                                    <a href="{{ route('contact') }}" class="vs-btn vs-btn--gradient">
+                                    <a href="{{ route('career') }}" class="vs-btn vs-btn--gradient">
                                         Get In Touch
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </a>
