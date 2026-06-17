@@ -34,7 +34,7 @@ class ContactController extends Controller
         $contact = Contact::create($validated);
 
         // Send Mail To Admin
-        Mail::to('gopalakrishnanhky@gmail.com')
+        Mail::to('leads@crystreesolutions.com')
             ->send(new AdminContactMail($validated));
 
         // Send Thank You Mail To User

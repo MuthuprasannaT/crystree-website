@@ -14284,7 +14284,8 @@ border:1px solid var(--vs-theme-color-17)
 }
 
 .form-style .vs-btn {
-margin-top:24px
+    margin-top: 24px;
+    background: linear-gradient(90deg, #011548, #84ff00);
 }
 
 .form-style .form-group {
