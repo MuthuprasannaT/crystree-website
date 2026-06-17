@@ -995,8 +995,8 @@ visibility:hidden
 }
 
 .vs-menu-wrapper .mobile-logo {
-padding-bottom:30px;
-padding-top:40px;
+padding-bottom:20px;
+padding-top:30px;
 display:block;
 text-align:center;
 background-color:color-mix(in srgb, var(--vs-title-color) 80%, transparent)
@@ -1220,9 +1220,10 @@ max-width:270px
 }
 
 .vs-menu-wrapper .vs-menu-area .mobile-logo img {
-max-width:120px;
-border-radius: 18px;
+max-width:150px;
+border-radius: 10px;
 }
+
 
 .vs-mobile-menu>ul {
 padding:0 20px
@@ -6407,8 +6408,10 @@ padding:22px 0
 
 @media(max-width: 767px) {
 .vs-header__logo {
-max-width:160px
+max-width:160px;
+    padding: 5px 0;
 }
+
 
 }
 
@@ -7603,7 +7606,8 @@ max-width:70%
 @media(max-width: 991px) {
 .breadcrumb-wrapper__title {
 max-width:100%;
-font-size:28px
+font-size:28px;
+margin-top: 27px;
 }
 
 }
