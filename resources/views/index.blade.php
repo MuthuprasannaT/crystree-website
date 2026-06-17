@@ -172,7 +172,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/icons/h2-service-icon-1.svg"
+                                    <img src="assets/img/favicons/web.png"
                                          alt="Website Development Company">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -196,7 +196,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/icons/h2-service-icon-2.svg"
+                                    <img src="assets/img/favicons/App.png"
                                          alt="Mobile App Development Services">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -221,7 +221,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/icons/h2-service-icon-3.svg"
+                                    <img src="assets/img/favicons/Software.png"
                                          alt="Custom Software Development">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -246,7 +246,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/icons/h2-service-icon-4.svg"
+                                    <img src="assets/img/favicons/ERP.png"
                                          alt="SEO Services Company">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -271,7 +271,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/icons/h2-service-icon-1.svg"
+                                    <img src="assets/img/favicons/CRM.png"
                                          alt="CRM Software Solutions">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -296,7 +296,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/icons/h2-service-icon-2.svg"
+                                    <img src="assets/img/favicons/SMM.png"
                                          alt="Social Media Marketing Services">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -321,7 +321,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/icons/h2-service-icon-3.svg"
+                                    <img src="assets/img/favicons/GBP.png"
                                          alt="Google Business Profile Optimization">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -341,9 +341,9 @@
 
                     <style>
                         
-                            @media (max-width: 1300px) {
+                            @media (min-width: 1300px) {
                                 .vs-service__biz-text {
-                                    height: 150px !important;
+                                    height: 140px !important;
                                 }
 
                                 /* .business {
@@ -355,11 +355,29 @@
                                 }
                             }
 
-                            @media (max-width: 1600px) {
+                            @media (min-width: 1600px) {
                                 .vs-service__biz-text {
-                                    height: 150px !important;
+                                    height: 120px !important;
                                 }
                             }
+
+                              @media (min-width: 1200px) {
+                                 .vs-service__biz-text {
+                                    height: 130px !important;
+                                }
+                              }
+
+                               @media (max-width: 768px) {
+                                 .vs-service__biz-text {
+                                    height: 60px !important;
+                                }
+                              }
+                              
+                               @media (max-width: 425px) {
+                                 .vs-service__biz-text {
+                                    height: 125px !important;
+                                }
+                              }
                     </style>
                     <!-- SEO -->
                     <div class="col-lg-3 vs-service__biz vs-active">
@@ -367,7 +385,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/icons/h2-service-icon-4.svg"
+                                    <img src="assets/img/favicons/icon2.png"
                                          alt="SEO Services Company">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
@@ -542,7 +560,7 @@
     <section class="vs-team space space-extra-bottom bg-white">
         <div class="container">
             <div class="row justify-content-between align-items-end">
-                <div class="col-xl-5 col-lg-6 text-center text-lg-start">
+                <div class="col-xl-8 col-lg-6 text-center text-lg-start">
                     <div class="title-area title-area--style2" dir="ltr"><span class="title-area__title--sub">Industries We Serve</span>
                         <h2 class="title-area__title">Industries We Serve with Custom Web, Software & Digital Marketing Solutions</h2></div>
                 </div>
@@ -938,7 +956,7 @@
 @media(max-width:991px){
 
     .blog-card-image img{
-        height:250px;
+        height:100%;
     }
 
     .blog-title{
