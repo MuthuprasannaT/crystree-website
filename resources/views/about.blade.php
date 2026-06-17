@@ -1,7 +1,7 @@
 @extends('Layouts.app') @section('content')
 
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.png"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/about/aboutus.webp"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
     <div class="overlay"></div>
     <div class="container">
         <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -175,10 +175,10 @@
         font-size:14px;
     }
 
-    .vs-about__card{
+    /* .vs-about__card{
         flex-direction:column;
         text-align:center;
-    }
+    } */
 
     .vs-about__card-icon{
         margin-bottom:15px;
@@ -209,12 +209,6 @@
 
 /* Extra Small */
 @media (max-width: 575px){
-
-    .vs-ex.style3{
-        position:relative;
-        width:100%;
-        margin-bottom:20px;
-    }
 
     .vs-ex__counter{
         width:100%;
