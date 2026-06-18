@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-7 col-xl-6">
-                    <div class="title-area title-area--style6 text-center mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""> Services <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""></span>
+                    <div class="title-area title-area--style6 text-center mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy"> Services <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy"></span>
                         <h2 class="title-area__title">Ensure The Best Service For Clients.</h2></div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
         <div class="container">
             <div class="row justify-content-center text-center align-items-end">
                 <div class="col-lg-6">
-                    <div class="title-area title-area--style6 mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""> Testimonials <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""></span>
+                    <div class="title-area title-area--style6 mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy"> Testimonials <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy"></span>
                         <h2 class="title-area__title">What Our Clients Review & Feedback</h2></div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item style3">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat" loading="lazy"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Emma Hayes</span>
                                     <p class="vs-clients__role">Developer, VecuroSoft</p>
@@ -121,7 +121,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item style3">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-2.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-2.jpg" alt="Emma Hayes wearing a hat" loading="lazy"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Rodja Heartmann</span>
                                     <p class="vs-clients__role">CEO, VecuroSoft</p>
@@ -134,7 +134,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item style3">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-3.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-3.jpg" alt="Emma Hayes wearing a hat" loading="lazy"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Rivanur R. Rafi</span>
                                     <p class="vs-clients__role">Designer, VecuroSoft</p>
@@ -147,7 +147,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item style3">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-4.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-4.jpg" alt="Emma Hayes wearing a hat" loading="lazy"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Emma Hayes</span>
                                     <p class="vs-clients__role">Developer, VecuroSoft</p>
@@ -160,7 +160,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item style3">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-5.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-5.jpg" alt="Emma Hayes wearing a hat" loading="lazy"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Tonoy Ahmmed</span>
                                     <p class="vs-clients__role">UI, VecuroSoft</p>
@@ -173,7 +173,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item style3">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-6.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-6.jpg" alt="Emma Hayes wearing a hat" loading="lazy"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Emma Hayes</span>
                                     <p class="vs-clients__role">Developer, VecuroSoft</p>
@@ -186,7 +186,7 @@
                     <div class="swiper-slide">
                         <div class="vs-clients__item style3">
                             <div class="vs-clients__author">
-                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat"></div>
+                                <div class="vs-clients__author-img"><img class="vs-clients__avatar" src="assets/img/client/client-user-img-h1-1.jpg" alt="Emma Hayes wearing a hat" loading="lazy"></div>
                                 <div class="vs-clients__details">
                                     <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-clients__name">Emma Hayes</span>
                                     <p class="vs-clients__role">Developer, VecuroSoft</p>
@@ -204,7 +204,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <div class="title-area title-area--style6 mb-title text-center"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="icon"> News & Blog <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="icon"></span>
+                    <div class="title-area title-area--style6 mb-title text-center"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="icon" loading="lazy"> News & Blog <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="icon" loading="lazy"></span>
                         <h2 class="title-area__title">Our Most Latest News And Blogs</h2></div>
                 </div>
             </div>
@@ -213,7 +213,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80">
                         <div class="vs-blog vs-blog--style8 vs-image-effect">
                             <figure class="vs-blog__figure">
-                                <a class="vs-blog__figure__link" href="blog-details.html" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#00030e" data-cursor-size="60px" data-cursor-blend="normal"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-1.jpg" alt="Blog Image">
+                                <a class="vs-blog__figure__link" href="blog-details.html" data-cursor-style="default" data-cursor-text="View!" data-cursor-bg="#00030e" data-cursor-size="60px" data-cursor-blend="normal"><img class="vs-blog__img vs-image-effect__image" src="assets/img/blog/vs-blog-h1-1.jpg" alt="Blog Image" loading="lazy">
                                     <div class="vs-image-effect__overlay"></div>
                                 </a><span class="vs-blog__date">16 <sub>Jan</sub></span></figure>
                             <div class="vs-blog__content">

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/e-commerce-solutions.webp')}}">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/e-commerce-solutions.webp')}}" loading="lazy">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="vs-blog vs-blog--single">
-                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/best-ecommerce-website-lowprice.webp')}}" alt="Blog Image">
+                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/best-ecommerce-website-lowprice.webp')}}" alt="Blog Image" loading="lazy">
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
@@ -45,11 +45,11 @@
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/best-ecommerce-website.webp')}}" alt="best-ecommerce-website"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/best-ecommerce-website.webp')}}" alt="best-ecommerce-website" loading="lazy"></div>
                                 </div>
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/ecommerce-website.webp')}}" alt="ecommerce-website"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/ecommerce-website.webp')}}" alt="ecommerce-website" loading="lazy"></div>
                                 </div>
                             </div>
                 <!-- FAQ Section Start -->

@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/contact.webp')}}"><img class="breadcrumb-wrapper__ele1" src="/assets/img/elements/breadcumb-element-bar.svg" alt="element">
+    <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/contact.webp')}}"><img class="breadcrumb-wrapper__ele1" src="/assets/img/elements/breadcumb-element-bar.svg" alt="element" loading="lazy">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -42,8 +42,8 @@
             <div class="vs-contact__wrapper">
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
-                        <div class="title-area title-area--style6 mb-30 text-center"><span class="title-area__title--sub"><img src="/assets/img/icons/vs-icon-title-h6-1.svg" alt=""> Contact Us <img src="/assets/img/icons/vs-icon-title-h6-1.svg" alt=""></span>
-                            <h2 class="title-area__title" style="color: whitesmoke">Get In Touch With BigBiz</h2></div>
+                        <div class="title-area title-area--style6 mb-30 text-center"><span class="title-area__title--sub"><img src="/assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy"> Contact Us <img src="/assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy"></span>
+                            <h2 class="title-area__title" style="color: whitesmoke">Get In Touch With Crystree Solutions</h2></div>
                     </div>
                 </div>
                 @if(session('success'))

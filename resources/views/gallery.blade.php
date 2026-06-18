@@ -34,7 +34,7 @@
 
                                 <img src="{{ asset($gallery->image) }}"
                                      class="vs-portfolio__img"
-                                     alt="{{ $gallery->title }}">
+                                     alt="{{ $gallery->title }}" loading="lazy">
                             </a>
 
                             <div class="vs-portfolio__item-overlay">

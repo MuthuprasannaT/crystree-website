@@ -5,9 +5,7 @@
 <div class="breadcrumb-wrapper z-index-common overflow-hidden"
     data-bg-src="{{ asset('assets/img/bg/blog.webp')}}">
 
-    <img class="breadcrumb-wrapper__ele1"
-        src="{{ asset('assets/img/elements/breadcumb-element-bar.svg') }}"
-        alt="element">
+    <img class="breadcrumb-wrapper__ele1" src="{{ asset('assets/img/elements/breadcumb-element-bar.svg') }}" alt="element loading="lazy"">
 
     <div class="overlay"></div>
 
@@ -43,9 +41,7 @@
                 <div class="vs-blog vs-blog--single">
 
                     <figure class="vs-blog__figure">
-                        <img class="vs-blog__img"
-                            src="{{ asset($blog->featured_image) }}"
-                            alt="{{ $blog->title }}">
+                        <img class="vs-blog__img" src="{{ asset($blog->featured_image) }}" alt="{{ $blog->title }}" loading="lazy">
                     </figure>
 
                     <div class="vs-blog__content">
@@ -103,8 +99,7 @@
 
                                 <div class="recent-blog-thumb">
                                     <a href="{{ route('blog.details', $recent->slug) }}">
-                                        <img src="{{ asset($recent->featured_image) }}"
-                                            alt="{{ $recent->title }}">
+                                        <img src="{{ asset($recent->featured_image) }}" alt="{{ $recent->title }}" loading="lazy">
                                     </a>
                                 </div>
 

@@ -67,9 +67,7 @@
                     <a class="vs-blog__figure__link"
                         href="{{ route('blog.details', $blog->slug) }}">
 
-                        <img class="vs-blog__img"
-                             src="{{ asset($blog->featured_image) }}"
-                             alt="{{ $blog->title }}">
+                        <img class="vs-blog__img" src="{{ asset($blog->featured_image) }}" alt="{{ $blog->title }}" loading="lazy">
                     </a>
 
                     <span class="vs-blog__date">

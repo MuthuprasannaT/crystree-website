@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/app-development-banner.webp')}}">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/app-development-banner.webp')}}" loading="lazy">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="vs-blog vs-blog--single">
-                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/app-development-company.webp')}}" alt="App-development-company">
+                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/app-development-company.webp')}}" alt="App-development-company" loading="lazy">
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
@@ -44,11 +44,11 @@
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/low-price-app.webp')}}" alt="low-price-app"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/low-price-app.webp')}}" alt="low-price-app" loading="lazy"></div>
                                 </div>
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/mobile-app-developemt.webp')}}" alt="video"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/mobile-app-developemt.webp')}}" alt="video" loading="lazy"></div>
                                 </div>
                             </div>
 

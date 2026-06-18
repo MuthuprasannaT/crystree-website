@@ -1,7 +1,7 @@
 @extends('Layouts.app') @section('content')
 
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/about/aboutus.webp"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/about/aboutus.webp" loading="lazy"><img class="breadcrumb-wrapper__ele1" src="assets/img/elements/breadcumb-element-bar.svg" alt="element" loading="lazy">
     <div class="overlay"></div>
     <div class="container">
         <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -32,24 +32,24 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="vs-about__imgs-h6__img1"><img src="assets/img/about/about_us1.webp" alt="about img"></div>
+                            <div class="vs-about__imgs-h6__img1"><img src="assets/img/about/about_us1.webp" alt="about img" loading="lazy"></div>
                         </div>
                         <div class="col-md-6">
-                            <div class="vs-about__imgs-h6__img2"><img src="assets/img/about/about_us2.webp" alt="about img"></div>
-                            <div class="vs-about__imgs-h6__img3"><img src="assets/img/about/about_us3.webp" alt="about img"></div>
+                            <div class="vs-about__imgs-h6__img2"><img src="assets/img/about/about_us2.webp" alt="about img" loading="lazy"></div>
+                            <div class="vs-about__imgs-h6__img3"><img src="assets/img/about/about_us3.webp" alt="about img" loading="lazy"></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 mb-30">
                 <div class="vs-about__content">
-                    <div class="title-area title-area--style6 mb-2"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="vs-icon-title-star"> About US <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="vs-icon-title-star"></span>
+                    <div class="title-area title-area--style6 mb-2"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="vs-icon-title-star" loading="lazy"> About US <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="vs-icon-title-star" loading="lazy"></span>
                         <h2 class="title-area__title">Transforming Ideas Into Success</h2>
                         <p>Crystree Solutions is a trusted technology partner delivering innovative digital solutions that help businesses improve efficiency, enhance customer engagement, and achieve sustainable growth across industries.</p>
                     </div>
                     <div class="vs-about__cards">
                         <div class="vs-about__card">
-                            <div class="vs-about__card-icon"><img src="assets/img/favicons/Innovation.png" alt="vs-icon"></div>
+                            <div class="vs-about__card-icon"><img src="assets/img/favicons/Innovation.png" alt="vs-icon" loading="lazy"></div>
                             <div class="vs-about__card-content">
                                 <h3 class="vs-about__card-title">Innovation & Excellence</h3>
                                 <p class="vs-about__card-text">Creating smart digital solutions for modern businesses.</p>
@@ -57,7 +57,7 @@
                         </div>
                         <div class="vs-about__cards-divider"></div>
                         <div class="vs-about__card">
-                            <div class="vs-about__card-icon"><img src="assets/img/favicons/Customer.png" alt="vs-icon"></div>
+                            <div class="vs-about__card-icon"><img src="assets/img/favicons/Customer.png" alt="vs-icon" loading="lazy"></div>
                             <div class="vs-about__card-content">
                                 <h3 class="vs-about__card-title">Customer Success</h3>
                                 <p class="vs-about__card-text">Focused on delivering value, quality, and trust.</p>
@@ -228,7 +228,7 @@
 
 <section class="vs-about space-extra-bottom overflow-hidden z-index-common">
     <div class="vs-ele vs-ele--ele1">
-        <img data-parallax='{"y":150,"smoothness":5}' src="assets/img/elements/vs-about-ele-h3-1.svg" alt="BigBiz">
+        <img data-parallax='{"y":150,"smoothness":5}' src="assets/img/elements/vs-about-ele-h3-1.svg" alt="Crystree Solutions" loading="lazy">
     </div>
     <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -272,7 +272,7 @@
                 </div>
             </div>
             <div class="col-xl-4 mb-30">
-                <div class="vs-about__img-home3"><img class="rounded-20" src="assets/img/about/vision_mission.webp" alt="BigBiz"></div>
+                <div class="vs-about__img-home3"><img class="rounded-20" src="assets/img/about/vision_mission.webp" alt="Crystree Solutions" loading="lazy"></div>
             </div>
 
         </div>
@@ -419,7 +419,7 @@
 
                         <img src="assets/img/team/MD2.png"
                              alt="Managing Director"
-                             class="leader-image">
+                             class="leader-image" loading="lazy">
 
                         <h3>Lakshmi Narayanan V</h3>
                         <h3>Managing Director</h3>
@@ -435,7 +435,7 @@
 
                     <div class="center-logo">
                         <img src="assets/img/logo/crystree-11.png"
-                             alt="Crystree Solutions">
+                             alt="Crystree Solutions" loading="lazy">
                     </div>
 
                 </div>
@@ -446,7 +446,7 @@
 
                         <img src="assets/img/team/CEO1.png"
                              alt="Chief Executive Officer"
-                             class="leader-image">
+                             class="leader-image" loading="lazy">
 
                         <h3>Suganya</h3>
                         <h3>Chief Executive Officer</h3>
@@ -737,7 +737,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team1.png" alt="Muthu Prasanna T"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team1.png" alt="Muthu Prasanna T" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -760,7 +760,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team2.jpeg" alt="Sangeetha R"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team2.jpeg" alt="Sangeetha R" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -783,7 +783,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team3.png" alt="Gopala Krishnan T"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team3.png" alt="Gopala Krishnan T" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -807,7 +807,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team4.png" alt="Swathi"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team4.png" alt="Swathi" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -830,7 +830,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team5.png" alt="Dharani A"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team5.png" alt="Dharani A" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -854,7 +854,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team6.png" alt="Lakshana R"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team6.png" alt="Lakshana R" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -877,7 +877,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team8.png" alt="Sathi Guchait"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team8.png" alt="Sathi Guchait" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -900,7 +900,7 @@
                                 </ul>
                             </div>
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team7.png" alt="Premkumar R"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="assets/img/team/team7.png" alt="Premkumar R" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -920,8 +920,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7 col-xl-6">
-                <div class="title-area text-center px-4" dir="ltr"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star"> <span class="textify-style15" data-color="#84ff00" data-duration="0.8">Services</span> <img src="assets/img/icons/vs-icon-title-star.svg"
-                    alt="vs-icon-title-star"></span>
+                <div class="title-area text-center px-4" dir="ltr"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star" loading="lazy"> <span class="textify-style15" data-color="#84ff00" data-duration="0.8">Services</span> <img src="assets/img/icons/vs-icon-title-star.svg" alt="vs-icon-title-star" loading="lazy"></span>
                     <h2 class="title-area__title textify-style21" data-filter="blur(2px) drop-shadow(0 0 10px #84ff00)" data-duration="1">Empowering Businesses Through Innovative Digital Solutions</h2></div>
             </div>
         </div>
@@ -930,7 +929,7 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="{{ route('products.website') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/websitedevelopment.webp') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.website') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/websitedevelopment.webp') }}" alt="Service Image" loading="lazy"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
@@ -944,7 +943,7 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="{{ route('products.app') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/mobileappdevelopment.webp') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.app') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/mobileappdevelopment.webp') }}" alt="Service Image" loading="lazy"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
@@ -957,7 +956,7 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="{{ route('products.seo') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/digitalmarketing.webp') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.seo') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/digitalmarketing.webp') }}" alt="Service Image" loading="lazy"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
@@ -972,7 +971,7 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="{{ route('products.software') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/softwaredevelopment.webp') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.software') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/softwaredevelopment.webp') }}" alt="Service Image" loading="lazy"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
@@ -985,7 +984,7 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="{{ route('products.erp') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/itconsulting.webp') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.erp') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/itconsulting.webp') }}" alt="Service Image" loading="lazy"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
@@ -998,7 +997,7 @@
                 <div class="vs-service__card">
                     <div class="vs-service__card-figure">
                         <div class="vs-service__card-figure__inner">
-                            <a class="vs-service__card-img-link" href="{{ route('products.design') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/graphicdesign_branding.webp') }}" alt="Service Image"></a>
+                            <a class="vs-service__card-img-link" href="{{ route('products.design') }}"><img class="vs-service__card-img" src="{{ asset('assets/img/about/graphicdesign_branding.webp') }}" alt="Service Image" loading="lazy"></a>
                         </div>
                     </div>
                     <div class="vs-service__card-content">
@@ -1023,7 +1022,7 @@
     <div class="container">
         <div class="row align-items-end justify-content-between">
             <div class="col-lg-7 col-xl-6">
-                <div class="title-area title-area--style6 mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="">   Digital Marketing <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt=""></span>
+                <div class="title-area title-area--style6 mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="">   Digital Marketing <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy"></span>
                     <h2 class="title-area__title">Accelerate Growth With Digital Marketing</h2></div>
             </div>
             <div class="col-md-auto">
@@ -1038,7 +1037,7 @@
             
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="{{ route('products.seo') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/seo.png') }}" alt="SEO Optimization in No-1 Tollgat"></span>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/seo.png') }}" alt="SEO Optimization in No-1 Tollgat" loading="lazy"></span>
                             <h3 class="vs-service__financial-heading"><a href="{{ route('products.seo') }}" class="vs-service__financial-heading__link">SEO Optimization</a></h3>
                             <p class="vs-service__financial-text">Improve rankings and increase website traffic.</p>
                         </div>
@@ -1048,7 +1047,7 @@
 
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="{{ route('products.smm') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/smm.png') }}" alt=" best Social Media Marketing in Trichy"></span>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/smm.png') }}" alt=" best Social Media Marketing in Trichy" loading="lazy"></span>
                             <h3 class="vs-service__financial-heading"><a href="{{ route('products.smm') }}" class="vs-service__financial-heading__link">Social Media Marketing</a></h3>
                             <p class="vs-service__financial-text">Grow your brand across social platforms.</p>
                         </div>
@@ -1056,7 +1055,7 @@
                 </div>
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="{{ route('products.ads') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/googleads.png') }}" alt="best Google Ads company in Tricy"></span>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/googleads.png') }}" alt="best Google Ads company in Tricy" loading="lazy"></span>
                             <h3 class="vs-service__financial-heading"><a href="{{ route('products.ads') }}" class="vs-service__financial-heading__link">Google Ads</a></h3>
                             <p class="vs-service__financial-text">Drive leads with targeted ad campaigns.</p>
                         </div>
@@ -1064,7 +1063,7 @@
                 </div>
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="{{ route('products.brand') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/contentwrite.png') }}" alt="Content Marketing in Chathram Bus Stand"></span>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/contentwrite.png') }}" alt="Content Marketing in Chathram Bus Stand" loading="lazy"></span>
                             <h3 class="vs-service__financial-heading"><a href="{{ route('products.brand') }}" class="vs-service__financial-heading__link">Content Marketing</a></h3>
                             <p class="vs-service__financial-text">Create content that attracts customers.</p>
                         </div>
@@ -1072,7 +1071,7 @@
                 </div>
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="{{ route('products.email') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/emailmarketing.png') }}" alt="Bes Email Marketing company Crystree Solution"></span>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/emailmarketing.png') }}" alt="Bes Email Marketing company Crystree Solution" loading="lazy"></span>
                             <h3 class="vs-service__financial-heading"><a href="{{ route('products.email') }}" class="vs-service__financial-heading__link">Email Marketing</a></h3>
                             <p class="vs-service__financial-text">Reach customers through email campaigns.</p>
                         </div>
@@ -1080,7 +1079,7 @@
                 </div>
                 <div class="swiper-slide mb-30">
                     <div class="vs-service__financial vs-active"><a href="{{ route('products.brand') }}" class="vs-service__financial-arrow"><i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/lead_generation.png') }}" alt="Bestr Lead Generation Company in Crystree Solutions"></span>
+                        <div class="vs-service__financial-content"><span class="vs-service__financial-icon"><img src="{{ asset('assets/img/about/lead_generation.png') }}" alt="Bestr Lead Generation Company in Crystree Solutions" loading="lazy"></span>
                             <h3 class="vs-service__financial-heading"><a href="{{ route('products.brand') }}" class="vs-service__financial-heading__link">Lead Generation</a></h3>
                             <p class="vs-service__financial-text">Convert visitors into qualified leads.</p>
                         </div>
@@ -1097,9 +1096,9 @@
             <div class="col-lg-7 col-xl-6">
                 <div class="title-area title-area--style6 mb-title">
                     <span class="title-area__title--sub">
-                        <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="">
+                        <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy">
                         FAQ
-                        <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="">
+                        <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy">
                     </span>
                     <h2 class="title-area__title">
                         Frequently Asked Questions
@@ -1124,9 +1123,7 @@
             <div class="col-lg-4 mb-30">
                 <div class="vs-clients__card-review style2 text-center">
 
-                    <img class="vs-clients__card-review__logo"
-                         src="assets/img/logo/crystree-11.png"
-                         alt="Crystree Solutions"style="width:200px;height:auto;">
+                    <img class="vs-clients__card-review__logo"src="assets/img/logo/crystree-11.png" alt="Crystree Solutions"style="width:200px;height:auto;" loading="lazy">
 
                     <p class="text-white">
                         Have questions about our web development, mobile app
@@ -1142,10 +1139,10 @@
 
                     <div class="vs-about__facts">
                         <div class="vs-about__facts-images vs-active-wrapper">
-                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-1.jpg" alt="about"> </a>
-                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-2.jpg" alt="about"> </a>
-                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-3.jpg" alt="about"> </a>
-                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active active"><img src="assets/img/about/about-facts-h1-4.jpg" alt="about"></a>
+                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-1.jpg" alt="about" loading="lazy"> </a>
+                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-2.jpg" alt="about" loading="lazy"> </a>
+                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active"><img src="assets/img/about/about-facts-h1-3.jpg" alt="about" loading="lazy"> </a>
+                            <a href="{{ route('about') }}" class="vs-about__facts-img vs-active active"><img src="assets/img/about/about-facts-h1-4.jpg" alt="about" loading="lazy"></a>
                         </div>
                     </div>
 

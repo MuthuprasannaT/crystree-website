@@ -68,10 +68,10 @@
                                 <div class="vs-clients__rating" data-rate="4.5"></div><span class="vs-about__review-text">Customer Review <span>1000+</span></span>
                                 <div class="vs-about__facts">
                                     <div class="vs-about__facts-images">
-                                        <a href="#" class="vs-about__facts-img"><img src="assets/img/about/about-facts-h1-1.jpg" alt="about"> </a>
-                                        <a href="#" class="vs-about__facts-img"><img src="assets/img/about/about-facts-h1-2.jpg" alt="about"> </a>
-                                        <a href="#" class="vs-about__facts-img"><img src="assets/img/about/about-facts-h1-3.jpg" alt="about"> </a>
-                                        <a href="#" class="vs-about__facts-img"><img src="assets/img/about/about-facts-h1-4.jpg" alt="about"></a>
+                                        <a href="#" class="vs-about__facts-img"><img src="assets/img/about/about-facts-h1-1.jpg" alt="about" loading="lazy"> </a>
+                                        <a href="#" class="vs-about__facts-img"><img src="assets/img/about/about-facts-h1-2.jpg" alt="about" loading="lazy"> </a>
+                                        <a href="#" class="vs-about__facts-img"><img src="assets/img/about/about-facts-h1-3.jpg" alt="about" loading="lazy"> </a>
+                                        <a href="#" class="vs-about__facts-img"><img src="assets/img/about/about-facts-h1-4.jpg" alt="about" loading="lazy"></a>
                                         <div class="vs-about__facts-content main-counter" data-counter="1" data-format="comma">
                                             <div class="vs-about__facts-number">
                                                 <p class="main-counter__number">0</p>k</div>
@@ -79,8 +79,8 @@
                                     </div>
                                 </div>
                             </div><span class="vs-about__review-radius"></span></div>
-                        <div class="vs-about__images-one"><img src="{{ asset('assets/img/home/About_1.webp') }}" alt="about image"></div>
-                        <div class="vs-about__images-two"><img src="{{ asset('assets/img/home/About_2.webp') }}" alt="about image"></div>
+                        <div class="vs-about__images-one"><img src="{{ asset('assets/img/home/About_1.webp') }}" alt="about image" loading="lazy"></div>
+                        <div class="vs-about__images-two"><img src="{{ asset('assets/img/home/About_2.webp') }}" alt="about image" loading="lazy"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-30">
@@ -103,7 +103,7 @@
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade active show" id="history-tab-pane" role="tabpanel" aria-labelledby="history-tab" tabindex="0">
                                     <div class="vs-about--story__tab-content">
-                                        <div class="vs-about__video"><img src="assets/img/about/mission.png" alt="about"></div>
+                                        <div class="vs-about__video"><img src="assets/img/about/mission.png" alt="about" loading="lazy"></div>
                                         <ul class="vs-list">
                                             <li>Deliver innovative and scalable digital solutions. </li>
                                             <li>Improve business productivity through automation.</li>
@@ -114,7 +114,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                                     <div class="vs-about--story__tab-content">
-                                        <div class="vs-about__video"><img src="assets/img/about/vision.png" alt="about"></div>
+                                        <div class="vs-about__video"><img src="assets/img/about/vision.png" alt="about" loading="lazy"></div>
                                         <ul class="vs-list">
                                             <li>Build strong and lasting client relationships. </li>
                                             <li>Drive innovation through modern technology.</li>
@@ -172,8 +172,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/favicons/Web.png"
-                                         alt="Website Development Company">
+                                    <img src="assets/img/favicons/Web.png" alt="Website Development Company" loading="lazy">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
                                     <a class="vs-service__biz-heading__link" href="#">
@@ -196,8 +195,7 @@
                             <div class="vs-service__biz-bg"></div>
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
-                                    <img src="assets/img/favicons/App.png"
-                                         alt="Mobile App Development Services">
+                                    <img src="assets/img/favicons/App.png" alt="Mobile App Development Services" loading="lazy">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
                                     <a class="vs-service__biz-heading__link" href="#">
@@ -222,7 +220,7 @@
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
                                     <img src="assets/img/favicons/Software.png"
-                                         alt="Custom Software Development">
+                                         alt="Custom Software Development" loading="lazy">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
                                     <a class="vs-service__biz-heading__link" href="#">
@@ -247,7 +245,7 @@
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
                                     <img src="assets/img/favicons/ERP.png"
-                                         alt="SEO Services Company">
+                                         alt="SEO Services Company" loading="lazy">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
                                     <a class="vs-service__biz-heading__link" href="#">
@@ -272,7 +270,7 @@
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
                                     <img src="assets/img/favicons/CRM.png"
-                                         alt="CRM Software Solutions">
+                                         alt="CRM Software Solutions" loading="lazy">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
                                     <a class="vs-service__biz-heading__link" href="#">
@@ -297,7 +295,7 @@
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
                                     <img src="assets/img/favicons/SMM.png"
-                                         alt="Social Media Marketing Services">
+                                         alt="Social Media Marketing Services" loading="lazy">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
                                     <a class="vs-service__biz-heading__link" href="#">
@@ -322,7 +320,7 @@
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
                                     <img src="assets/img/favicons/GBP.png"
-                                         alt="Google Business Profile Optimization">
+                                         alt="Google Business Profile Optimization" loading="lazy">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
                                     <a class="vs-service__biz-heading__link" href="#">
@@ -386,7 +384,7 @@
                             <div class="vs-service__biz-body">
                                 <div class="vs-service__biz-icon">
                                     <img src="assets/img/favicons/Icon2.png"
-                                         alt="SEO Services Company">
+                                         alt="SEO Services Company" loading="lazy">
                                 </div>
                                 <h3 class="vs-service__biz-heading">
                                     <a class="vs-service__biz-heading__link" href="#">
@@ -502,7 +500,7 @@
 
                                 <img src="{{ asset('assets/img/icons/vs-icon-quote-h2-1.svg') }}"
                                      alt="quote"
-                                     class="vs-clients__quote-icon">
+                                     class="vs-clients__quote-icon" loading="lazy">
 
                                 <div class="vs-clients__rating"
                                      data-rate="{{ $testimonial->rating ?? 5 }}">
@@ -571,7 +569,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind8.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind8.webp') }}" alt="Team Member Image" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -582,7 +580,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind7.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind7.webp') }}" alt="Team Member Image" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -593,7 +591,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img"src="{{ asset('uploads/ind/Ind1.webp') }}"alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img"src="{{ asset('uploads/ind/Ind1.webp') }}"alt="Team Member Image" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -604,7 +602,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind2.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind2.webp') }}" alt="Team Member Image" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -615,7 +613,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind3.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind3.webp') }}" alt="Team Member Image" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -626,7 +624,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind4.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind4.webp') }}" alt="Team Member Image" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -637,7 +635,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind5.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind5.webp') }}" alt="Team Member Image" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -648,7 +646,7 @@
                     <div class="swiper-slide vs-fade-in-up" data-delay="0.2" data-duration="1">
                         <div class="vs-team__item vs-team__item--style2 vs-active">
                             <figure class="vs-team__item-figure">
-                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind6.webp') }}" alt="Team Member Image"></a>
+                                <a class="vs-team__item-img-link" href="#"><img class="vs-team__item-img" src="{{ asset('uploads/ind/Ind6.webp') }}" alt="Team Member Image" loading="lazy"></a>
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
@@ -741,11 +739,11 @@
         <div class="vs-portfolio__content">
 
             <a class="vs-portfolio__link--img d-inline-block"
-                href="{{ asset($gallery->image) }}">
+                href="{{ asset($gallery->image) }}" loading="lazy">
 
                 <img src="{{ asset($gallery->image) }}"
                     class="vs-portfolio__img"
-                    alt="{{ $gallery->title }}">
+                    alt="{{ $gallery->title }}" loading="lazy">
             </a>
 
             <div class="vs-portfolio__item-overlay">
@@ -836,7 +834,7 @@
 
                             <img class="vs-blog__img"
                                 src="{{ asset($blog->featured_image) }}"
-                                alt="{{ $blog->title }}">
+                                alt="{{ $blog->title }}" loading="lazy">
 
                         </a>
 

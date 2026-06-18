@@ -34,11 +34,11 @@
                                 @if(!empty($team->image))
                                     <img class="vs-team__item-img"
                                          src="{{ asset($team->image) }}"
-                                         alt="{{ $team->title }}">
+                                         alt="{{ $team->title }}" loading="lazy">
                                 @else
                                     <img class="vs-team__item-img"
                                          src="{{ asset('assets/img/team/default-user.jpg') }}"
-                                         alt="{{ $team->name }}">
+                                         alt="{{ $team->name }}" loading="lazy">
                                 @endif
 
                             </a>

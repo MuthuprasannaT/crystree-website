@@ -8,9 +8,7 @@
                         <div class="col-lg-4 mb-30 vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80" data-scale="1">
                             <div class="vs-footer__widget">
                                 <div class="vs-footer__logo mb-30">
-                                    <a href="index.html" class="vs-footer__logo-link"><img src="{{ asset('assets/img/logo/newlogo1.png') }}"
-     alt="Crystree Solutions Pvt Ltd - Software Development Company in Trichy"
-     class="logo"></a>
+                                    <a href="index.html" class="vs-footer__logo-link"><img src="{{ asset('assets/img/logo/newlogo1.png') }}"alt="Crystree Solutions Pvt Ltd - Software Development Company in Trichy" class="logo" loading="lazy"></a>
                                 </div>
                                <p class="vs-footer__desc text-white">
     Crystree Solutions Pvt Ltd is a leading Software Development Company in Trichy providing
@@ -19,7 +17,7 @@
     Digital Marketing, Cloud Solutions, AI Solutions and
     Custom Software Development services across India.
 </p>
-                                <!-- <form action="https://html.vecurosoft.com/bigbiz/demo/mail.php"
+                                <!-- <form action="https://html.vecurosoft.com/Crystree Solutions/demo/mail.php"
                                 class="vs-subscribe vs-subscribe--style2 mt-40" method="post">
                                     <input type="text" class="vs-subscribe__field" placeholder="Your Email Address" name="email" autocomplete="email">
                                     <button class="vs-subscribe__btn vs-btn"><i class="fa-solid fa-paper-plane"></i><span>Subscribe</span></button>
@@ -83,7 +81,7 @@
                     <div class="vs-footer__middle--row">
                         <div class="vs-footer__middle--col">
                             <div class="vs-info style2">
-                                <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="{{ asset('assets/img/icons/vs-icon-location-h2.svg') }}" alt="Location Icon"></i></div>
+                                <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="{{ asset('assets/img/icons/vs-icon-location-h2.svg') }}" alt="Location Icon" loading="lazy"></i></div>
                                 <div class="vs-info__content">
                                    <span class="vs-info__label">
                                    Flat No:F9, No:20, J.C. ABODES, Karur Bypass Rd, Annamalai Nagar, Tiruchirappalli, Tamil Nadu 620018</span></div>
@@ -91,7 +89,7 @@
                         </div>
                         <div class="vs-footer__middle--col">
                             <div class="vs-info style2">
-                                <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="{{ asset('assets/img/icons/vs-icon-email-h2.svg') }}"  alt="Location Icon"></i></div>
+                                <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="{{ asset('assets/img/icons/vs-icon-email-h2.svg') }}"  alt="Location Icon" loading="lazy"></i></div>
                                 <div class="vs-info__content">
                                     <a class="vs-info__label" href="mailto:support@crystreesolutions.com">support@crystreesolutions.com</a> <br>
                                     <a class="vs-info__label" href="mailto:leads@crystreesolutions.com">leads@crystreesolutions.com</a>
@@ -100,7 +98,7 @@
                         </div>
                         <div class="vs-footer__middle--col">
                             <div class="vs-info style2">
-                                <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="{{ asset('assets/img/icons/vs-icon-support-h2.svg') }}" alt="Location Icon"></i></div>
+                                <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="{{ asset('assets/img/icons/vs-icon-support-h2.svg') }}" alt="Location Icon" loading="lazy"></i></div>
                                 <div class="vs-info__content">
                                     <a class="vs-info__label" href="tel:+919566968212">+91- 9566968212</a><br> <a class="vs-info__label" href="tel:+916381324611">+91- 6381324611</a></div>
                             </div>

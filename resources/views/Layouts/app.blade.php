@@ -20,7 +20,7 @@
 <body class="page vs-home2 bg-theme-8">
     <div class="preloader">
         <div class="preloader-inner">
-            <img src="{{ asset('assets/img/logo/free_loaded.png') }}" alt="Best Software company in tamilnadu">
+            <img src="{{ asset('assets/img/logo/free_loaded.png') }}" alt="Best Software company in tamilnadu"loading="lazy">
             <span class="vs-loader"></span>
         </div>
     </div>
