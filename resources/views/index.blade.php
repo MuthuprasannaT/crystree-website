@@ -3,6 +3,11 @@
 @section('content')
 
 <style>
+
+
+.vs-btn--gradient {
+    background: linear-gradient(90deg, #011548 0%, #59ac00 100%);
+}
     .vs-hero--home2 .vs-hero__bg::before, .vs-hero--home3 .vs-hero__bg::before, .vs-hero--home6 .vs-hero__bg::before {
     position: absolute;
     content: "";
