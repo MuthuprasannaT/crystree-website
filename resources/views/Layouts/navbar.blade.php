@@ -20,7 +20,7 @@
                                 <ul>
 
                                     <li class="menu-item-has-children">
-                                        <a class="menu-item-has-children__link active" href="{{ route('home') }}">HOME</a>
+                                        <a class="menau-item-has-children__link active" href="{{ route('home') }}">Home</a>
                                     </li>
 
                                     <li>
