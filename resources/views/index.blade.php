@@ -6,7 +6,7 @@
 
 
 .vs-btn--gradient {
-    background: linear-gradient(90deg, #011548 0%, #59ac00 100%);
+    background: linear-gradient(90deg, #011548 0%, #85ff03 100%);
 }
     .vs-hero--home2 .vs-hero__bg::before, .vs-hero--home3 .vs-hero__bg::before, .vs-hero--home6 .vs-hero__bg::before {
     position: absolute;
@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-lg-6 mb-30">
                     <div class="vs-about__content">
-                        <div class="title-area title-area--style2 mb-4"><span class="title-area__title--sub">About US</span>
+                        <div class="title-area title-area--style2 mb-4"><span class="title-area__title--sub"><strong>About US</strong></span>
                             <h2 class="title-area__title">Empowering Businesses With Smart Digital Solutions</h2>
                             <p class="fw-medium">Crystree Solutions is a leading Website Development, Mobile App Development, ERP Software, CRM Solutions and Digital Marketing company dedicated to helping businesses grow through innovative technology, creative strategies and result-driven digital solutions.</p>
                         </div>
@@ -156,7 +156,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-xl-6 col-lg-6">
                         <div class="title-area">
                             <p class="text-white mb-0">
                                 Crystree Solutions delivers innovative digital products,

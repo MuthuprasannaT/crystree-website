@@ -57,7 +57,7 @@
                     @empty
 
                         <div class="alert alert-info">
-                            No FAQs found.
+                            No FAQ found.
                         </div>
 
                         @endforelse

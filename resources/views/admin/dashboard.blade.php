@@ -50,7 +50,7 @@
         <div class="card stat-card card-faqs">
             <div class="card-body d-flex align-items-center justify-content-between p-4">
                 <div>
-                    <h6 class="text-muted text-uppercase mb-2">FAQs</h6>
+                    <h6 class="text-muted text-uppercase mb-2">FAQ</h6>
                     <h2 class="display-5 font-weight-bold m-0" style="color: var(--premium-gold);">{{ $stats['faqs'] }}</h2>
                 </div>
                 <div class="card-icon icon-faqs">
@@ -59,7 +59,7 @@
             </div>
             <div class="card-footer bg-white py-3 border-0">
                 <a href="{{ route('admin.faqs.index') }}" class="small font-weight-bold text-decoration-none" style="color: var(--premium-gold);">
-                    Manage FAQs <i class="fas fa-arrow-right ms-1"></i>
+                    Manage FAQ <i class="fas fa-arrow-right ms-1"></i>
                 </a>
             </div>
         </div>

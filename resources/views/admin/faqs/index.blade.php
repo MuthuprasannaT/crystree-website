@@ -1,13 +1,13 @@
 @extends('admin.layout')
 
-@section('title', 'FAQs')
+@section('title', 'FAQ')
 @section('page_header', 'Frequently Asked Questions')
 
 @section('content')
 <div class="d-flex justify-content-between align-items-center mb-4">
     <form action="{{ route('admin.faqs.index') }}" method="GET" class="d-flex col-md-5 col-sm-8 p-0">
         <div class="input-group">
-            <input type="text" class="form-control" name="search" value="{{ $search }}" placeholder="Search FAQs...">
+            <input type="text" class="form-control" name="search" value="{{ $search }}" placeholder="Search FAQ...">
             <button class="btn btn-primary-custom" type="submit">
                 <i class="fas fa-search"></i> Search
             </button>
@@ -26,7 +26,7 @@
 <div class="table-responsive-custom">
     @if($faqs->isEmpty())
         <div class="text-center py-4">
-            <p class="text-muted mb-0">No FAQs found.</p>
+            <p class="text-muted mb-0">No FAQ found.</p>
         </div>
     @else
         <table class="table table-custom table-hover">

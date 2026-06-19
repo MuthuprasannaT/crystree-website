@@ -7,9 +7,14 @@
                     <div class="row justify-content-between">
                         <div class="col-lg-4 mb-30 vs-fade-in-up" data-duration="1" data-delay="0.3" data-yposition="80" data-scale="1">
                             <div class="vs-footer__widget">
-                                <div class="vs-footer__logo mb-30">
-                                    <a href="index.html" class="vs-footer__logo-link"><img src="{{ asset('assets/img/logo/newlogo1.png') }}"alt="Crystree Solutions Pvt Ltd - Software Development Company in Trichy" class="logo" loading="lazy"></a>
-                                </div>
+                                <div class="vs-footer__logo mb-30 text-center">
+    <a href="{{ route('home') }}" class="vs-footer__logo-link">
+        <img src="{{ asset('assets/img/logo/footlogo.png') }}"
+             alt="Crystree Solutions Pvt Ltd - Software Development Company in Trichy"
+             class="footer-logo"
+             loading="lazy">
+    </a>
+</div>
                                <p class="vs-footer__desc text-white">
     Crystree Solutions Pvt Ltd is a leading Software Development Company in Trichy providing
     Website Development, Mobile App Development, ERP Software,
@@ -118,3 +123,49 @@
             </div>
         </div>
     </div>
+
+    <style>
+        .vs-footer__logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    text-align:center;
+}
+
+.vs-footer__logo-link{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-logo{
+    width:60%;
+    max-width:280px;
+    height:auto;
+    object-fit:contain;
+    display:block;
+    margin:0 auto;
+}
+
+/* Tablet */
+@media (max-width:991px){
+    .footer-logo{
+        max-width:220px;
+    }
+}
+
+/* Mobile */
+@media (max-width:768px){
+    .footer-logo{
+        max-width:180px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+    .footer-logo{
+        max-width:150px;
+    }
+}
+    </style>

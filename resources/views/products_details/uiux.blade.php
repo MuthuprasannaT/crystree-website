@@ -151,7 +151,7 @@ A user-friendly interface and smooth navigation encourage visitors to take actio
        <div class="col-12 mt-4">
     <div class="vs-header__action d-flex justify-content-center">
         <a href="#websiteFaq" class="vs-btn vs-btn--gradient">
-            Explore FAQs
+            Explore FAQ
             {{-- <i class="fa-solid fa-arrow-right"></i> --}}
         </a>
     </div>

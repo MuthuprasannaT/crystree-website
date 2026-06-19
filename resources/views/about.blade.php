@@ -434,8 +434,7 @@
                 <div class="col-lg-4 col-md-12 text-center mb-5">
 
                     <div class="center-logo">
-                        <img src="assets/img/logo/crystree-11.png"
-                             alt="Crystree Solutions" loading="lazy">
+                        <img src="assets/img/logo/crystree-11.png" alt="Crystree Solutions" loading="lazy">
                     </div>
 
                 </div>
@@ -444,11 +443,9 @@
                 <div class="col-lg-4 col-md-12 text-center mb-5">
                     <div class="leader-card">
 
-                        <img src="assets/img/team/CEO1.png"
-                             alt="Chief Executive Officer"
-                             class="leader-image" loading="lazy">
+                        <img src="assets/img/team/CEO1.png" alt="Chief Executive Officer" class="leader-image" loading="lazy">
 
-                        <h3>Suganya</h3>
+                        <h3>Suganya S</h3>
                         <h3>Chief Executive Officer</h3>
                         <p> Founder and Chief Executive Officer of Crystree Solutions Private Limited, dedicated to driving innovation, customer success, and digital transformation while building trusted partnerships that create long-term business value.</p>
                     

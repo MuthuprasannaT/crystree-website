@@ -14,6 +14,7 @@
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <link rel="canonical" href="{{ url()->current() }}">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
     @include('Layouts.header')
 </head>
 

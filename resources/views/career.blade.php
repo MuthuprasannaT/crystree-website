@@ -578,7 +578,7 @@ textarea.career-input{
     margin-top:25px;
 }
 .vs-btn--gradient {
-    background: linear-gradient(90deg, #011548 0%, #59ac00 100%) !important;
+    background: linear-gradient(90deg, #011548 0%, #85ff03 100%) !important;
 }
 
 .vs-btn{

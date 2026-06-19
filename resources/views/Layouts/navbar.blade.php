@@ -8,7 +8,7 @@
                         <div class="col-lg-auto col-auto">
                             <div class="vs-header__logo">
                                 <a href="{{ route('home') }}">
-                                    <img src="{{ asset('assets/img/logo/Logo1.png') }}"
+                                    <img src="{{ asset('assets/img/logo/headlogo.png') }}"
                                         alt="Crystree Solutions Pvt Ltd - Software Development Company in Trichy"
                                         class="logo">
                                 </a>
@@ -118,7 +118,7 @@
                             <div class="vs-header__action">
                                 <div class="d-none d-xl-inline-flex align-items-center">
                                     <a href="{{ route('career') }}" class="vs-btn vs-btn--gradient">
-                                        Get In Touch
+                                        Careers
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -135,3 +135,52 @@
         </div>
     </div>
 </header>
+<style>
+.logo{
+    width: 220px;
+    height: auto;
+    max-height: 70px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+/* Large Desktop */
+@media (max-width: 1400px){
+    .logo{
+        width: 200px;
+        max-height: 65px;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1200px){
+    .logo{
+        width: 180px;
+        max-height: 60px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px){
+    .logo{
+        width: 160px;
+        max-height: 55px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px){
+    .logo{
+        width: 140px;
+        max-height: 50px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px){
+    .logo{
+        width: 120px;
+        max-height: 45px;
+    }
+}
+</style>
