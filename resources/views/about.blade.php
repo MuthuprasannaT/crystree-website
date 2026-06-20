@@ -65,13 +65,25 @@
                         </div>
                     </div>
                     <p class="vs-about__text style2 text-white">"Transforming ideas into innovative digital solutions that drive growth and long-term success."</p>
-                    <div class="vs-about__footer"><a href="{{ route('products.website') }}" class="vs-btn vs-btn--style13">Explore Services</a>
-                        <div class="vs-info style9 d-none d-xl-flex">
-                            <div class="vs-info__content">
-                                <h6 class="vs-info__title">Talk To Our Experts</h6><a class="vs-info__label" style="text-decoration:none;" href="tel:+916381324611">+91-63813 24611</a>
-                            </div>
-                        </div>
-                    </div>
+<div class="vs-about__footer">
+    <a href="{{ route('products.website') }}" class="vs-btn vs-btn--style13">
+        Explore Services
+    </a>
+
+    <div class="vs-info style9">
+        <div class="vs-info__content">
+            <h6 class="vs-info__title">Talk To Our Experts</h6>
+
+            <a class="vs-info__label" href="tel:+916381324611">
+                +91-63813 24611
+            </a>
+
+            <a class="vs-info__label" href="tel:+919566968212">
+                +91-95669 68212
+            </a>
+        </div>
+    </div>
+</div>
                 </div>
             </div>
         </div>
@@ -79,6 +91,42 @@
 </section>
 
 <style>
+
+    .vs-about__footer{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+.vs-info__title{
+    margin-bottom:8px;
+    font-size:20px;
+    font-weight:700;
+}
+
+
+
+@media (max-width: 991px){
+
+    .vs-about__footer{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:15px;
+    }
+
+    .vs-about__footer .vs-btn{
+        width:auto !important;
+        min-width:220px;
+    }
+
+    .vs-info{
+        width:100%;
+    }
+
+    .vs-info__title{
+        margin-bottom:5px;
+    }
+}
 
     .vs-about__cards{
     display:flex;
@@ -404,7 +452,7 @@
 
         <div class="text-center mb-5">
             <h2 class="text-white fw-bold">
-                Meet The Leaders Behind <br>
+                Leaders Behind <br>
                 Crystree Solutions
             </h2>
         </div>
@@ -698,10 +746,7 @@
         <div class="row justify-content-center align-items-end">
             <div class="col-xl-6 col-lg-6">
                 <div class="title-area title-area--style3 text-center mb-title">
-                    <span class="title-area__title--sub">
-                        Team Members
-                    </span>
-
+        
                     <h2 class="title-area__title">
                         Meet Our Professional Team
                     </h2>
@@ -808,7 +853,7 @@
                             </figure>
                             <div class="vs-team__item-body">
                                 <div class="vs-team__item-content">
-                                    <h3 class="vs-team__item-name"><a href="#">Swathi</a></h3><a href="#" class="vs-team__item-role">Lead Digital Marketing</a></div>
+                                    <h3 class="vs-team__item-name"><a href="#">Swathi S</a></h3><a href="#" class="vs-team__item-role">Lead Digital Marketing</a></div>
                             </div>
                         </div>
                 </div>
@@ -1018,7 +1063,7 @@
 <section class="vs-service bg-theme-9 space space-extra-bottom">
     <div class="container">
         <div class="row align-items-end justify-content-between">
-            <div class="col-lg-7 col-xl-6">
+            <div class="col-lg-10 col-xl-10">
                 <div class="title-area title-area--style6 mb-title"><span class="title-area__title--sub"><img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="">   Digital Marketing <img src="assets/img/icons/vs-icon-title-h6-1.svg" alt="" loading="lazy"></span>
                     <h2 class="title-area__title">Accelerate Growth With Digital Marketing</h2></div>
             </div>

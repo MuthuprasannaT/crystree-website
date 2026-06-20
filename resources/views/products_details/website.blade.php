@@ -58,7 +58,7 @@
                             </div>
                             
                 <!-- FAQ Section Start -->
-<div class="row  mt-60 ">
+<div class="row  mt-10 ">
     <div class="col-lg-11">
         <div class="title-area text-center mb-40">
             <h4 class="mt-4 mb-15">Frequently Asked Questions Website Development</h4>

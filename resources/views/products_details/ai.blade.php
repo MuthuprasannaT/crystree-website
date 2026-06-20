@@ -58,7 +58,7 @@
                             <p class="mb-20">Modern businesses generate vast amounts of data every day. AI integration helps transform this data into actionable insights, enabling organizations to make informed decisions, automate operations, and improve customer experiences.</p>
                              <p class="mb-20">By integrating artificial intelligence into your business ecosystem, you can unlock new opportunities, increase efficiency, and stay ahead in a rapidly evolving digital landscape.</p>
  <!-- FAQ Section Start -->
-<div class="row  mt-60 ">
+<div class="row  mt-10 ">
     <div class="col-lg-11">
         <div class="title-area text-center mb-40">
             <h4 class="mt-4 mb-15">Frequently Asked Questions</h4>

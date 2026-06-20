@@ -33,7 +33,7 @@
                             </svg>
                             <p class="pt-40">A mobile app can help businesses connect with customers, streamline operations, and deliver seamless digital experiences. Our experienced app developers create feature-rich mobile applications that combine attractive design, smooth functionality, and high performance.</p>
                             <p class="pt-40">Whether you need a business application, e-commerce app, service booking platform, educational app, healthcare solution, or custom mobile application, we deliver solutions that support your business objectives and future growth.</p>
-                            <h4 class="mt-4 mb-15">Why Mobile App Development is Essential</h4>
+                            <h4 class="mt-4 mb-15">Why Mobile App Development is Essential?</h4>
                             <p class="mb-20">Mobile applications help businesses improve customer engagement, increase accessibility, and provide a better user experience. A well-designed app allows businesses to stay connected with customers, automate processes, and create new revenue opportunities in today's competitive digital marketplace. High-performance mobile applications also improve brand loyalty, operational efficiency, and business growth.</p>
                             {{-- <ul class="vs-list style2">
                                 <li>Improve Customer Engagement</li>
@@ -53,7 +53,7 @@
                             </div>
 
                                       <!-- FAQ Section Start -->
-<div class="row  mt-60 ">
+<div class="row  mt-10 ">
     <div class="col-lg-11">
         <div class="title-area text-center mb-40">
             <h4 class="mt-4 mb-15">Frequently Asked Questions Website Development</h4>
