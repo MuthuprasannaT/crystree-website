@@ -28,64 +28,64 @@
                                     </li>
 
                                     <li class="menu-item-has-children mega-menu-wrap">
-                                        <a class="menu-item-has-children__link" href="javascript:void(0)">Products</a>
+    <a href="javascript:void(0)"
+       class="menu-item-has-children__link {{ request()->routeIs('products.*') ? 'active-product' : '' }}">
+        Products
+    </a>
 
-                                        <ul class="mega-menu">
+    <ul class="mega-menu">
 
-                                            <li>
-                                                <a href="javascript:void(0)">Development Solutions</a>
-                                                <ul>
-                                                    <li><a href="{{ route('products.website') }}">Website Development</a></li>
-                                                    <li><a href="{{ route('products.app') }}">Mobile App Development</a></li>
-                                                    <li><a href="{{ route('products.web') }}">Web Applications</a></li>
-                                                     <li><a href="{{ route('products.ecommerce') }}">E-Commerce Solutions</a></li>
-                                                    <li><a href="{{ route('products.maintenance') }}">Website Maintenance</a></li>
-                                                    <li><a href="{{ route('products.ppc') }}">PPC Marketing</a></li>
-                                                </ul>
-                                            </li>
+        <li>
+            <a href="javascript:void(0)">Development Solutions</a>
+            <ul>
+                <li><a class="{{ request()->routeIs('products.website') ? 'active-product' : '' }}" href="{{ route('products.website') }}">Website Development</a></li>
+                <li><a class="{{ request()->routeIs('products.app') ? 'active-product' : '' }}" href="{{ route('products.app') }}">Mobile App Development</a></li>
+                <li><a class="{{ request()->routeIs('products.web') ? 'active-product' : '' }}" href="{{ route('products.web') }}">Web Applications</a></li>
+                <li><a class="{{ request()->routeIs('products.ecommerce') ? 'active-product' : '' }}" href="{{ route('products.ecommerce') }}">E-Commerce Solutions</a></li>
+                <li><a class="{{ request()->routeIs('products.maintenance') ? 'active-product' : '' }}" href="{{ route('products.maintenance') }}">Website Maintenance</a></li>
+                <li><a class="{{ request()->routeIs('products.ppc') ? 'active-product' : '' }}" href="{{ route('products.ppc') }}">PPC Marketing</a></li>
+            </ul>
+        </li>
 
-                                            <li>
-                                                <a href="javascript:void(0)">Digital Marketing</a>
-                                                <ul>
-                                                    <li><a href="{{ route('products.seo') }}">SEO Services</a></li>
-                                                    <li><a href="{{ route('products.gbp') }}">Google Business Profile</a></li>
-                                                    <li><a href="{{ route('products.smm') }}">Social Media Marketing</a></li>
-                                                    <li><a href="{{ route('products.ads') }}">Google & Meta Ads</a></li>
-                                                    <li><a href="{{ route('products.email') }}">Email Marketing</a></li>
-                                                    <li><a href="{{ route('products.whatsapp') }}">WhatsApp Marketing</a></li>
-                                                    <li><a href="{{ route('products.sms') }}">Bulk SMS Services</a></li>
+        <li>
+            <a href="javascript:void(0)">Digital Marketing</a>
+            <ul>
+                <li><a class="{{ request()->routeIs('products.seo') ? 'active-product' : '' }}" href="{{ route('products.seo') }}">SEO Services</a></li>
+                <li><a class="{{ request()->routeIs('products.gbp') ? 'active-product' : '' }}" href="{{ route('products.gbp') }}">Google Business Profile</a></li>
+                <li><a class="{{ request()->routeIs('products.smm') ? 'active-product' : '' }}" href="{{ route('products.smm') }}">Social Media Marketing</a></li>
+                <li><a class="{{ request()->routeIs('products.ads') ? 'active-product' : '' }}" href="{{ route('products.ads') }}">Google & Meta Ads</a></li>
+                <li><a class="{{ request()->routeIs('products.email') ? 'active-product' : '' }}" href="{{ route('products.email') }}">Email Marketing</a></li>
+                <li><a class="{{ request()->routeIs('products.whatsapp') ? 'active-product' : '' }}" href="{{ route('products.whatsapp') }}">WhatsApp Marketing</a></li>
+                <li><a class="{{ request()->routeIs('products.sms') ? 'active-product' : '' }}" href="{{ route('products.sms') }}">Bulk SMS Services</a></li>
+            </ul>
+        </li>
 
-                                                </ul>
-                                            </li>
+        <li>
+            <a href="javascript:void(0)">Business Solutions</a>
+            <ul>
+                <li><a class="{{ request()->routeIs('products.erp') ? 'active-product' : '' }}" href="{{ route('products.erp') }}">iCrystal ERP Solutions</a></li>
+                <li><a class="{{ request()->routeIs('products.oracle') ? 'active-product' : '' }}" href="{{ route('products.oracle') }}">Oracle ERP Solutions</a></li>
+                <li><a class="{{ request()->routeIs('products.crm') ? 'active-product' : '' }}" href="{{ route('products.crm') }}">CRM Software</a></li>
+                <li><a class="{{ request()->routeIs('products.saas') ? 'active-product' : '' }}" href="{{ route('products.saas') }}">SaaS Solutions</a></li>
+                <li><a class="{{ request()->routeIs('products.cloud') ? 'active-product' : '' }}" href="{{ route('products.cloud') }}">Cloud Solutions</a></li>
+                <li><a class="{{ request()->routeIs('products.software') ? 'active-product' : '' }}" href="{{ route('products.software') }}">Custom Software Development</a></li>
+            </ul>
+        </li>
 
-                                            <li>
-                                                <a href="javascript:void(0)">Business Solutions</a>
-                                                <ul>
-                                                    <li><a href="{{ route('products.erp') }} ">iCrystal ERP Solutions</a></li>
-                                                    <li><a href="{{ route('products.oracle') }}">Oracle ERP Solutions</a></li>
-                                                    <li><a href="{{ route('products.crm') }}">CRM Software</a></li>
-                                                    <li><a href="{{ route('products.saas') }}">SaaS Solutions</a></li>
-                                                    <li><a href="{{ route('products.cloud') }}">Cloud Solutions</a></li>
-                                                    <li><a href="{{ route('products.software') }}">Custom Software Development</a></li>
-                                                </ul>
-                                            </li>
+        <li>
+            <a href="javascript:void(0)">Creative & AI Services</a>
+            <ul>
+                <li><a class="{{ request()->routeIs('products.brand') ? 'active-product' : '' }}" href="{{ route('products.brand') }}">Branding Solutions</a></li>
+                <li><a class="{{ request()->routeIs('products.design') ? 'active-product' : '' }}" href="{{ route('products.design') }}">Graphic Design</a></li>
+                <li><a class="{{ request()->routeIs('products.poster') ? 'active-product' : '' }}" href="{{ route('products.poster') }}">Poster Design</a></li>
+                <li><a class="{{ request()->routeIs('products.uiux') ? 'active-product' : '' }}" href="{{ route('products.uiux') }}">UI/UX Design</a></li>
+                <li><a class="{{ request()->routeIs('products.reel') ? 'active-product' : '' }}" href="{{ route('products.reel') }}">Reels & Video Marketing</a></li>
+                <li><a class="{{ request()->routeIs('products.ai') ? 'active-product' : '' }}" href="{{ route('products.ai') }}">AI Solutions</a></li>
+            </ul>
+        </li>
 
-                                            <li>
-                                                <a href="javascript:void(0)">Creative & AI Services</a>
-                                                <ul>
-                                                    <li><a href="{{ route('products.brand') }}">Branding Solutions</a></li>
-                                                    <li><a href="{{ route('products.design') }}">Graphic Design</a></li>
-                                                    <li><a href="{{ route('products.poster') }}">Poster Design</a></li>
-                                                    <li><a href="{{ route('products.uiux') }}">UI/UX Design</a></li>
-                                                    <li><a href="{{ route('products.reel') }}">Reels & Video Marketing</a></li>
-                                                    <li><a href="{{ route('products.ai') }}">AI Solutions</a></li>
-                                                   
-                                                </ul>
-                                            </li>
-
-                                        </ul>
-                                    </li>
-
+    </ul>
+</li>
                                     <li>
                                         <a class="menu-item-has-children__link" href="{{ route('gallery') }}">Gallery</a>
                                     </li>
@@ -136,6 +136,15 @@
     </div>
 </header>
 <style>
+
+    .active-product{
+    background: linear-gradient(180deg, #FFF8DC 0%, #fcd80a 30%, #bb9521 60%, #765c08 80%, #664f05 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
 .logo{
     width: 220px;
     height: auto;

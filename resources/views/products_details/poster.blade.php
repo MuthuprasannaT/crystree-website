@@ -189,30 +189,8 @@ Project timelines vary depending on requirements, but we ensure timely delivery 
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="sidebar-area sticky-top">
-                        <div class="widget widget_block widget_services">
-                            <h3 class="widget__heading">Our Services</h3>
-                            <ul class="wp-block-categories-list wp-block-categories">
-                                <li class="cat-item cat-item-17"><a href="#">Investment & Wealth Management</a></li>
-                                <li class="cat-item cat-item-26"><a href="#">Retirement Planning Services</a></li>
-                                <li class="cat-item cat-item-24"><a href="#">Tax Planning And Preparation</a></li>
-                                <li class="cat-item cat-item-24"><a href="#">Risk & Insurance Advisory</a></li>
-                                <li class="cat-item cat-item-24"><a href="#">Business Financial Consulting</a></li>
-                            </ul>
-                        </div>
-                        <div class="widget widget_block widget_newsletter bg-theme-17" data-bg-src="assets/img/elements/vs-bg-blog-sidebar-ele1.svg">
-                            <h3 class="widget__heading">News Letter</h3>
-                            <form action="#">
-                                <div class="wp-block-search__inside-wrapper">
-                                    <p class="text-white">Subscribe email and get recent news and updates or offers.</p>
-                                    <input placeholder="Search Here..." type="text" name="search" id="wp-search">
-                                    <button class="vs-btn vs-btn--style14">Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                                @include('commonpages.commonservice')
+
             </div>
         </div>
     </section>

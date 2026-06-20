@@ -995,11 +995,10 @@ visibility:hidden
 }
 
 .vs-menu-wrapper .mobile-logo {
-padding-bottom:20px;
 padding-top:30px;
 display:block;
 text-align:center;
-background-color:color-mix(in srgb, var(--vs-title-color) 80%, transparent)
+background-color:#fff;
 }
 
 .vs-menu-wrapper .mobile-logo svg {
@@ -1031,7 +1030,7 @@ color:var(--vs-title-color)
 }
 
 .vs-menu-wrapper .vs-menu-toggle:hover::before,.vs-menu-wrapper .vs-menu-toggle.active::before {
-background-color:var(--vs-theme-color-7)
+background: linear-gradient(90deg, #011548 0%, #85ff03 100%);
 }
 
 .vs-menu-wrapper .vs-menu-area {
@@ -1179,10 +1178,10 @@ z-index:1
 .vs-menu-toggle::before {
 position:absolute;
 content:"";
---icon-size: 55px;
+--icon-size: 50px;
 min-width:var(--icon-size);
 min-height:var(--icon-size);
-background-color:var(--vs-theme-color-2);
+background: linear-gradient(90deg, #011548 0%, #85ff03 100%);
 border-radius:50%;
 z-index:-1;
 top:50%;
@@ -15569,7 +15568,7 @@ box-shadow:none
 .accordion .accordion-button:not(.collapsed) {
 color:var(--vs-white-color);
 background-color:var(--vs-theme-color-11);
-border-radius:30px
+border-radius:30px 30px 0px 0px;
 }
 
 .accordion .accordion-button:not(.collapsed):after {
@@ -15696,8 +15695,8 @@ font-size:14px
 }
 
 .accordion.style3 .accordion-button:not(.collapsed) {
-background-color:var(--vs-theme-color-18);
-color:var(--vs-title-color)
+background: linear-gradient(90deg, #00030e 0%, #00030e 100%);
+color:#fff;
 }
 
 .accordion.style3 .accordion-item {
@@ -15732,8 +15731,8 @@ color:var(--vs-title-color)
 }
 
 .accordion.style3 .accordion-button::after {
-background-color:var(--vs-theme-color-17);
-color:var(--vs-theme-color-18)
+background: linear-gradient(90deg, #011548 0%, #85ff03 100%);
+color:#fff;
 }
 
 @media(max-width: 991px) {
