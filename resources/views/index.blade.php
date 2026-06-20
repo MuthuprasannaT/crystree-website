@@ -434,6 +434,18 @@
                     object-fit:contain;
                 }
                 </style>
+                
+
+                <div class="col-lg-12 col-xl-12">
+    <div class="title-area title-area--style2 white-style text-center">
+        <span class="title-area__title--sub">
+            Trusted By Leading Brands
+        </span>
+        <h2 class="title-area__title">
+            Our Valued Clients
+        </h2>
+    </div>
+</div>
 
 <div class="vs-brand m-0" dir="ltr">
     <div class="vs-brand__content vs-brand__content--style2 z-index-common bg-black-3">
