@@ -56,7 +56,7 @@
                                     <li><a href="{{ route('products.app') }}">Mobile App Development</a></li>
                                      <li><a href="{{ route('products.gbp') }}">Google Business Profile</a></li>
                                     <li><a href="{{ route('products.seo') }}">SEO Services</a></li>
-                                    <li><a href="{{ route('products.erp') }}">iCRYSTAL ERP Solution</a></li>
+                                    <li><a href="{{ route('products.erp') }}">iCrystal ERP Solution</a></li>
                                     <li><a href="{{ route('products.crm') }}">CRM Software</a></li>
                                      <li><a href="{{ route('products.design') }}">Graphic Design</a></li>
                                       <li><a href="{{ route('products.uiux') }}">UI/UX Design</a></li>

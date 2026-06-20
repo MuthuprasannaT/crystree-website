@@ -40,7 +40,7 @@
                                                     <li><a href="{{ route('products.web') }}">Web Applications</a></li>
                                                      <li><a href="{{ route('products.ecommerce') }}">E-Commerce Solutions</a></li>
                                                     <li><a href="{{ route('products.maintenance') }}">Website Maintenance</a></li>
-                                                    <li><a href="{{ route('products.ppc') }}">PPC Advertising</a></li>
+                                                    <li><a href="{{ route('products.ppc') }}">PPC Marketing</a></li>
                                                 </ul>
                                             </li>
 
@@ -61,8 +61,8 @@
                                             <li>
                                                 <a href="javascript:void(0)">Business Solutions</a>
                                                 <ul>
-                                                    <li><a href="{{ route('products.erp') }} ">iCRYSTAL ERP Solution</a></li>
-                                                    <li><a href="{{ route('products.oracle') }}">Oracle ERP Solution</a></li>
+                                                    <li><a href="{{ route('products.erp') }} ">iCrystal ERP Solutions</a></li>
+                                                    <li><a href="{{ route('products.oracle') }}">Oracle ERP Solutions</a></li>
                                                     <li><a href="{{ route('products.crm') }}">CRM Software</a></li>
                                                     <li><a href="{{ route('products.saas') }}">SaaS Solutions</a></li>
                                                     <li><a href="{{ route('products.cloud') }}">Cloud Solutions</a></li>

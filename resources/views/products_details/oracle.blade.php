@@ -6,11 +6,11 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
-                <h1 class="breadcrumb-wrapper__title">Oracle ERP</h1>
+                <h1 class="breadcrumb-wrapper__title">Oracle ERP Solutions </h1>
                 <div class="breadcrumb-wrapper__menu--wrap">
                     <ul class="breadcrumb-wrapper__menu">
                         <li class="breadcrumb-wrapper__menu--item"><a href="{{('home')}}">Home</a></li>
-                        <li class="breadcrumb-wrapper__menu--item">Oracle ERP</li>
+                        <li class="breadcrumb-wrapper__menu--item">Oracle ERP Solutions </li>
                     </ul>
                 </div>
             </div>

@@ -183,7 +183,7 @@ Yes. Our team can manage and support various cloud environments based on your bu
                             <h3 class="widget__heading">Our Services</h3>
                             <ul class="wp-block-categories-list wp-block-categories">
                                 <li class="cat-item cat-item-17"><a href="{{ route('products.seo') }}">Search Engine Optimization</a></li>
-                                <li class="cat-item cat-item-26"><a href="{{ route('products.erp') }}">iCRYSTAL ERP</a></li>
+                                <li class="cat-item cat-item-26"><a href="{{ route('products.erp') }}">iCrystal ERP</a></li>
                                 <li class="cat-item cat-item-24"><a href="{{ route('products.app') }}">Mobile App Development</a></li>
                                 <li class="cat-item cat-item-24"><a href="{{ route('products.website') }}">Website Development</a></li>
                                 <li class="cat-item cat-item-24"><a href="{{ route('products.crm') }}">CRM Software</a></li>
