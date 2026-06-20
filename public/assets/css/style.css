@@ -1136,7 +1136,7 @@ line-height:25px;
 margin-top:-12.5px;
 display:inline-block;
 text-align:center;
-background-color:var(--vs-smoke-color);
+background: linear-gradient(90deg, #011548 0%, #85ff03 100%) !important;
 color:var(--vs-title-color);
 box-shadow:0 0 20px -8px color-mix(in srgb, #ad8858 50%, transparent);
 border-radius:50%
@@ -1144,8 +1144,12 @@ border-radius:50%
 
 .vs-mobile-menu ul .vs-item-has-children>a .vs-mean-expand:before {
 content:"";
-font-family:var(--vs-icon-font)
+font-family:var(--vs-icon-font);
+color: white;
+
 }
+
+
 
 .vs-mobile-menu ul .vs-item-has-children.vs-active>a .vs-mean-expand:before {
 content:""
@@ -12472,9 +12476,9 @@ background-repeat:no-repeat;
 background-position:left 100%
 }
 
-.vs-service__financial-heading:hover .vs-service__financial-heading__link {
+/* .vs-service__financial-heading:hover .vs-service__financial-heading__link {
 background-size:100% 2px
-}
+} */
 
 .vs-service__financial-icon+.vs-service__financial-heading {
 margin-top:30px
@@ -13963,7 +13967,7 @@ color:var(--vs-theme-color-7)
 .vs-clients__card-review .vs-clients__rating {
 display:inline-flex;
 padding:10px 30px;
-background-color:var(--vs-theme-color-7);
+background: linear-gradient(90deg, #011548 20%, #85ff03 100%);
 border-radius:10px;
 color:var(--vs-theme-color-6);
 margin-bottom:15px;
@@ -13971,8 +13975,12 @@ width:-moz-max-content;
 width:max-content
 }
 
-.vs-clients__card-review .vs-clients__rating i {
-font-size:18px
+.vs-clients__card-review .vs-clients__rating i{
+    font-size: 18px;
+    background: linear-gradient(180deg, #FFF8DC 0%, #fcd80a 30%, #bb9521 60%, #765c08 80%, #664f05 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .vs-clients__card-review.style2 {

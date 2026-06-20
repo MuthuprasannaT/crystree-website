@@ -37,6 +37,7 @@
                     </a>
 
                     <ul class="sub-menu">
+                        
 
                         <li><a class="{{ request()->routeIs('products.website') ? 'active-mobile' : '' }}" href="{{ route('products.website') }}">Website</a></li>
                         <li><a class="{{ request()->routeIs('products.app') ? 'active-mobile' : '' }}" href="{{ route('products.app') }}">App</a></li>
@@ -124,20 +125,14 @@
 </div>
 
 <style>
-    .active-mobile {
-    background: linear-gradient(180deg, #FFF8DC 0%, #fcd80a 30%, #bb9521 60%, #765c08 80%, #664f05 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
+    .active-mobile{
+    color:#d4af37 !important;
+    font-weight:600;
 }
 
-.active-mobile-parent > a {
-    background: linear-gradient(180deg, #FFF8DC 0%, #fcd80a 30%, #bb9521 60%, #765c08 80%, #664f05 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
+.active-mobile-parent > a{
+    color:#d4af37 !important;
+    font-weight:600;
 }
 
 .vs-mobile-menu .sub-menu .active-mobile {
@@ -145,6 +140,12 @@
     border-radius: 5px;
     padding: 8px 12px;
     display: block;
+}
+.vs-mobile-menu .vs-mean-expand,
+.vs-mobile-menu .vs-mean-expand *{
+    -webkit-text-fill-color: initial !important;
+    background:none !important;
+    color:#000 !important;
 }
 
 </style>
