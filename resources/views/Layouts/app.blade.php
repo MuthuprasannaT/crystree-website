@@ -14,16 +14,17 @@
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <link rel="canonical" href="{{ url()->current() }}">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     @include('Layouts.header')
 </head>
 
 <body class="page vs-home2 bg-theme-8">
     <div class="preloader">
         <div class="preloader-inner">
-            <img src="{{ asset('assets/img/logo/free_loaded.png') }}" alt="Best Software company in tamilnadu"loading="lazy">
+            <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Best Software company in tamilnadu"loading="lazy"  width="300"
+     height="300" >
             <span class="vs-loader"></span>
         </div>
     </div>
@@ -55,6 +56,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 </div>
 
 <style>
+
+
  .floating-buttons{
     position: fixed;
     right: 25px;
@@ -66,8 +69,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 }
 
 .float-btn{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     display:flex;
     align-items:center;
@@ -90,8 +93,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 }
 
 .call-btn img{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 }
 
@@ -109,8 +112,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     }
 
     .float-btn{
-        width:55px;
-        height:55px;
+        width:45px;
+        height:45px;
         font-size:24px;
     }
 }

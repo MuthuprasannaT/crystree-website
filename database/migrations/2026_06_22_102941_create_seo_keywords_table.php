@@ -11,10 +11,11 @@ return new class extends Migration
      */
     public function up(): void
 {
-    Schema::create('logos', function (Blueprint $table) {
+    Schema::create('seo_keywords', function (Blueprint $table) {
         $table->id();
-        $table->string('title');
-        $table->string('image');
+        $table->string('category');
+        $table->text('keyword');
+        $table->string('slug')->nullable();
         $table->timestamps();
     });
 }
@@ -24,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('logos');
+        Schema::dropIfExists('seo_keywords');
     }
 };

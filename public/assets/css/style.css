@@ -4955,7 +4955,7 @@ font-size:14px
 
 
 
-        .breadcrumb-wrapper::before {
+.breadcrumb-wrapper::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -4964,10 +4964,10 @@ font-size:14px
 }
 
 .widget {
-padding:10px 10px 40px 10px;
+padding:3px;
 background-color:var(--vs-theme-color-19);
 position:relative;
-margin-bottom:40px;
+margin-bottom:0px;
 border-radius:20px;
  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
@@ -5002,7 +5002,7 @@ padding:10px 10px 10px 20px
 
 }
 
-.widget label::after,.widget__heading::after,.widget .wp-block-heading::after,.widget h3::after {
+/* .widget label::after,.widget__heading::after,.widget .wp-block-heading::after,.widget h3::after {
 content:"";
 font-family:var(--vs-icon-font);
 margin-left:auto;
@@ -5015,7 +5015,7 @@ background-color:var(--vs-theme-color-18);
 font-size:26px;
 border-radius:20px;
 color:var(--vs-theme-color-17)
-}
+} */
 
 .widget .wp-block-search__inside-wrapper {
 padding:30px 30px 0 30px
@@ -5751,9 +5751,9 @@ font-size:14px
 }
 
 @media(max-width: 991px) {
-.sidebar-area {
+/* .sidebar-area {
 padding-top:30px
-}
+} */
 
 .wp-block-tag-cloud a,.tagcloud a {
 padding:10.5px 18px
@@ -5782,7 +5782,7 @@ gap:10px
 
 @media(max-width: 575px) {
 .widget {
-padding:25px 15px
+padding:6px 6px
 }
 
 }
@@ -7319,7 +7319,7 @@ color:var(--vs-theme-color-2);
 position:relative
 }
 
-.vs-footer__copyright a::before {
+/* .vs-footer__copyright a::before {
 position:absolute;
 content:"";
 width:0%;
@@ -7331,7 +7331,7 @@ visibility:hidden;
 height:2px;
 background-color:var(--vs-theme-color-2);
 transition:all .3s ease-in-out
-}
+} */
 
 .vs-footer__copyright a:hover {
 color:var(--vs-theme-color-2)
