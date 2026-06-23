@@ -464,7 +464,7 @@
 @forelse($logos as $logo)
     <div class="it-carousel__item it-carousel__item--style2">
         <img
-            src="{{ asset('uploads/logos/'.$logo->image) }}"
+            src="{{ asset('/public/uploads/logos/'.$logo->image) }}"
             alt="{{ $logo->title }}"
             loading="lazy">
     </div>
