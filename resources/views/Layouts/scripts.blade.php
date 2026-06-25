@@ -33,6 +33,7 @@
 <script src="{{ asset('assets/js/mkk360-cursor.js') }}"></script>
 
 <script src="{{ asset('assets/js/vs-animation.js') }}"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

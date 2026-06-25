@@ -38,6 +38,7 @@
     @include('Layouts.footer')
 
     @include('Layouts.scripts')
+    
 <div class="floating-buttons">
     
     <!-- WhatsApp -->

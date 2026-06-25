@@ -74,6 +74,17 @@
                         <div class="col-12 form-group">
                             <textarea class="form-control" name="message" id="message" placeholder="Message Here..." rows="5" required>{{ old('message') }}</textarea>
                         </div>
+                        <div class="col-12 form-group">
+                            <div class="g-recaptcha"
+                                data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}">
+                            </div>
+
+                            @error('captcha')
+                                <div class="text-danger mt-2">
+                                    {{ $message }}
+                                </div>
+                            @enderror
+                        </div>
                         <div class="col-12 text-center">
                             <button class="vs-btn"><span class="vs-btn__border"></span>Send Message</button>
                         </div>
