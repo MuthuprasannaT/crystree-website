@@ -21,8 +21,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/admin-custom.css') }}">
 
     <!-- Summernote Rich Text Editor CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jodit@4/es2021/jodit.min.css">
     @yield('styles')
 
     <style>
@@ -313,7 +312,6 @@
 <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
 
 <!-- Summernote Rich Text Editor JS -->
-<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
 <script>
     // ── Mobile sidebar toggle ──
@@ -324,42 +322,29 @@
     // ── Global Summernote initialisation ──
     // Any <textarea> with class "rich-editor" will become a rich-text editor.
     $(document).ready(function () {
-        $('.rich-editor').summernote({
-            height: 300,
-            toolbar: [
-                ['style',   ['style']],
-                ['font',    ['bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', 'clear']],
-                ['fontname',['fontname']],
-                ['fontsize',['fontsize']],
-                ['color',   ['color']],
-                ['para',    ['ul', 'ol', 'paragraph']],
-                ['table',   ['table']],
-                ['insert',  ['link', 'picture', 'video', 'hr']],
-                ['view',    ['fullscreen', 'codeview', 'undo', 'redo', 'help']],
-            ],
-            fontNames: ['Arial','Courier New','Georgia','Inter','Outfit','Times New Roman','Verdana'],
-            popover: {
-                image: [
-                    ['image',   ['resizeFull','resizeHalf','resizeQuarter','resizeNone']],
-                    ['float',   ['floatLeft','floatRight','floatNone']],
-                    ['remove',  ['removeMedia']],
-                ],
-                link: [['link', ['linkDialogShow', 'unlink']]],
-                table: [
-                    ['add',     ['addRowDown','addRowUp','addColLeft','addColRight']],
-                    ['delete',  ['deleteRow','deleteCol','deleteTable']],
-                ],
-            },
-            callbacks: {
-                // Keep the textarea value in sync so Laravel can pick it up on submit
-                onChange: function (contents) {
-                    $(this).val(contents);
-                }
-            }
-        });
+
     });
 </script>
 
+
+<script src="https://cdn.jsdelivr.net/npm/jodit@4/es2021/jodit.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.querySelectorAll(".rich-editor").forEach(function (element) {
+
+        Jodit.make(element, {
+            height: 500,
+            toolbarSticky: false,
+            showCharsCounter: true,
+            showWordsCounter: true,
+            showXPathInStatusbar: false
+        });
+
+    });
+
+});
+</script>
 @yield('scripts')
 </body>
 </html>

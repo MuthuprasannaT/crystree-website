@@ -7607,7 +7607,7 @@ color:var(--vs-white-color);
 margin:0em 0 0em 0;
 max-width:60%;
 width:100%;
-font-size:64px;
+font-size:35px;
 text-transform:uppercase;
 }
 
@@ -8722,7 +8722,7 @@ padding:0px 15px 40px
 .vs-blog--single .vs-blog__title {
 font-size:48px;
 line-height:1.2;
-margin:0 0 50px 0
+margin:0 0 5px 0
 }
 
 @media(max-width: 991px) {
