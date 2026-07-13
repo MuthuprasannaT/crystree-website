@@ -29,7 +29,7 @@
 
             <div class="mb-3">
                 <label for="image" class="form-label font-weight-bold">Client Photo</label>
-                <input type="file" class="form-control @error('image') is-invalid @enderror" id="image" name="image" accept="image/*" required>
+                <input type="file" class="form-control @error('image') is-invalid @enderror" id="image" name="image" accept="image/*" >
                 <small class="text-muted">Allowed types: jpeg, png, jpg, gif, svg, webp. Max size: 2MB.</small>
                 @error('image')
                     <div class="invalid-feedback">{{ $message }}</div>

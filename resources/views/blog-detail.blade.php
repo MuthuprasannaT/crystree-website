@@ -5,7 +5,7 @@
 <div class="breadcrumb-wrapper z-index-common overflow-hidden"
     data-bg-src="{{ asset('assets/img/bg/blog.webp')}}">
 
-    <img class="breadcrumb-wrapper__ele1" src="{{ asset('assets/img/elements/breadcumb-element-bar.svg') }}" alt="element loading="lazy"">
+<img class="breadcrumb-wrapper__ele1" src="{{ asset('assets/img/elements/breadcumb-element-bar.svg') }}" alt="Element" loading="lazy">
 
     <div class="overlay"></div>
 
@@ -65,16 +65,7 @@
                         <div class="blog-content">
                             {!! preg_replace('/<h1[^>]*>.*?<\/h1>/is', '', $blog->content, 1) !!}
                         </div>
-{{-- 
-                        @if(!empty($blog->short_description))
-                            <p class="mb-4">
-                                {{ $blog->short_description }}
-                            </p>
-                        @endif --}}
 
-                        {{-- <div class="blog-content">
-                            {!! $blog->content !!}
-                        </div> --}}
 
                     </div>
 

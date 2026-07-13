@@ -16,9 +16,12 @@ use App\Http\Controllers\CareerController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Admin\CareerApplicationController;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Controllers\VisitorController;
 
-
-
+Route::post('/cookie-consent/store', [VisitorController::class, 'store']);
+Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'admin']], function () {
+    Route::get('/visitors', [VisitorController::class, 'index'])->name('admin.visitor.index');
+});
 
 Route::get('/', [FrontendController::class, 'home'])->name('home');
 
@@ -76,12 +79,6 @@ Route::prefix('products')->group(function () {
     Route::get('/ai', [ProductController::class, 'ai'])->name('products.ai');
     Route::get('/ppc', [ProductController::class, 'ppc'])->name('products.ppc');
 });
-
-
-
-
-
-
 
 Route::get('/admin/login', function () {
     return view('admin.auth.login');

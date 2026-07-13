@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="assets/img/bg/breadcrumb-bg-1-1.png" loading="lazy">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{asset('assets/img/blog/P-1.webp') }}" loading="lazy">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="vs-blog vs-blog--single">
-                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="assets/img/blog/vs-blog-details-img-1.jpg" alt="Blog Image" loading="lazy">
+                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/P-2.webp') }}" alt="Blog Image" loading="lazy">
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
@@ -45,15 +45,15 @@
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-3.jpg" alt="video" loading="lazy"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/P-3.webp') }}" alt="video" loading="lazy"></div>
                                 </div>
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="assets/img/blog/vs-blog-details-img-4.jpg" alt="video" loading="lazy"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/P-4.webp') }}" alt="video" loading="lazy"></div>
                                 </div>
                             </div>
 
-                                                        <h4 class="mb-15 mt-5">Why Creative Design Matters for Your Business</h4>
+                                <h4 class="mb-15 mt-5">Why Creative Design Matters for Your Business</h4>
                             <p class="mb-20">Creative visuals play a crucial role in attracting customers and building brand recognition. Professionally designed posters and marketing materials help businesses:</p>
                             <ul class="vs-list style2">
                                 <li>Increase Brand Visibility</li>

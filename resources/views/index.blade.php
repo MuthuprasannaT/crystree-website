@@ -19,6 +19,221 @@
     opacity: .9;
     z-index: -1;
 }
+
+
+.vs-hero__bg{
+    position:relative;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    border-radius:30px;
+    align-items:center;
+}
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    /* background:rgba(4,18,35,.65); */
+}
+
+.hero-content{
+    position:relative;
+    z-index:10;
+}
+
+.hero-logo{
+    width:130px;
+    margin-bottom:20px;
+    filter:drop-shadow(0 0 20px rgba(255,255,255,.35));
+}
+
+.hero-title{
+    font-size:85px;
+    font-weight:800;
+background: linear-gradient(
+90deg,
+#D9ECFF 0%,
+#B6D8FF 20%,
+#7BBF32 65%,
+#66FF00 100%
+);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+    /* text-shadow: 5px 3px 8px rgba(255, 255, 255, 0.6); */
+    line-height:1;
+    margin-bottom:15px;
+}
+
+/* .hero-title span{
+background: linear-gradient(
+90deg,
+#D9ECFF 0%,
+#B6D8FF 20%,
+#7BBF32 65%,
+#66FF00 100%
+);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+} */
+
+.hero-subtitle{
+    color:#fff;
+    font-size:55px;
+    font-weight:300;
+    letter-spacing:8px;
+    margin-bottom:25px;
+}
+
+.hero-tagline{
+    color:#d6d6d6;
+    font-size:22px;
+    letter-spacing:2px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.hero-description{
+    color:#ececec;
+
+    margin:auto;
+    font-size:20px;
+    line-height:34px;
+}
+
+.hero-btn{
+    display:inline-block;
+    margin-top:5px;
+    padding:16px 42px;
+    border:2px solid #57d46b;
+    color:#fff;
+    border-radius:50px;
+    text-decoration:none;
+    transition:.4s;
+    font-size:18px;
+    font-weight:600;
+}
+
+.hero-btn:hover{
+    background:linear-gradient(90deg, #011548 0%, #85ff03 100%);
+    color:#fff;
+}
+
+@media (max-width: 1475px) {
+
+    .hero-content {
+        margin-top: -175px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        line-height: 1.1;
+    }
+
+    .hero-subtitle {
+        font-size: 47px;
+        line-height: 1.2;
+    }
+
+    .hero-description {
+        font-size: 17px;
+        line-height: 1.7;
+        margin-left: 150px;
+    }
+    .hero-tagline{
+        
+    }
+
+}
+
+@media (max-width: 1275px) {
+
+    .hero-content {
+        margin-top: -160px;
+    }
+    .hero-logo {
+    width: 102px;
+    /* margin-bottom: 20px; */
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, .35));
+}
+
+    .hero-title {
+        font-size: 58px;
+        line-height: 1.1;
+    }
+
+    .hero-subtitle {
+        font-size: 39px;
+        line-height: 1.2;
+    }
+
+    .hero-description {
+        font-size: 17px;
+        line-height: 1.7;
+        margin-left: 25px;
+    }
+    .hero-tagline{
+        font-size:18px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1280px)
+and (min-height: 500px) and (max-height: 560px) {
+    .hero-content {
+        margin-top: -170px;
+    }
+    .hero-subtitle {
+margin-bottom: 5px;
+}
+.hero-title {
+    font-size: 65px;
+    margin-bottom: 5px;
+}
+.hero-subtitle {
+    font-size: 45px;
+}
+.hero-tagline{
+    font-size: 15px;
+}
+.hero-description {
+    font-size: 17px
+}
+.hero-logo {
+    margin-bottom: 5px;
+}
+}
+@media(max-width:991px){
+
+.hero-logo{
+    width:90px;
+}
+
+.hero-title{
+    font-size:48px;
+}
+
+.hero-subtitle{
+    font-size:28px;
+    letter-spacing:3px;
+}
+
+.hero-tagline{
+    font-size:16px;
+}
+
+.hero-description{
+    font-size:15px;
+    line-height:28px;
+}
+
+.hero-btn{
+    padding:14px 30px;
+}
+
+}
 </style>
 
 
@@ -26,42 +241,74 @@
         </form>
     </div>
 
-    <section class="vs-hero vs-hero--home2 overflow-hidden">
-        <div class="vs-hero__inner">
-            <div class="vs-carousel swiper" data-xl="1" data-lg="1" data-md="1" data-sm="1" data-effect="fade" data-grab-cursor="true" data-loop="false">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/home/Home2.webp') }}">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Crystree Solutions Digital Service</span>
-                                            <h1 class="vs-hero__title vs-swiper-animation">Grow Your Business <span class="text-gradient">With Crystree Solutions</span></h1>
-                                            <p class="vs-hero__text vs-swiper-animation">Crystree Solutions provides website development, mobile app development, ERP software, CRM solutions and custom business software services that help companies improve efficiency, increase visibility and accelerate digital growth.</p><a href="{{ route('blog') }}"
-                                            class="vs-btn vs-btn--style3 vs-swiper-animation">Explore Services <i class="fa-solid fa-arrow-right"></i></a></div>
+<section class="vs-hero vs-hero--home2 overflow-hidden">
+    <div class="vs-hero__inner">
+        <div class="vs-carousel swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <div class="vs-hero__bg"
+                        style="background-image:url('{{ asset('assets/img/home/Home2.png') }}');">
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="container h-100">
+                            <div class="row h-100 align-items-center justify-content-center">
+
+                                <div class="col-lg-10">
+
+                                    <div class="hero-content text-center">
+
+                                        <!-- Logo -->
+                                        <img src="{{ asset('assets/img/logo/logoicon.png') }}"
+                                            class="hero-logo"
+                                            alt="Crystree Solutions">
+
+                                        <!-- Company Name -->
+                                        <h1 class="hero-title">
+                                            Crystree
+                                            Solutions
+                                        </h1>
+
+                                        <h2 class="hero-subtitle">
+                                            Private Limited
+                                        </h2>
+
+                                        <!-- Tagline -->
+                                        <p class="hero-tagline">
+                                            • Trust • Credibility • Confidence
+                                        </p>
+
+                                        <!-- Description -->
+                                        <p class="hero-description">
+                                            Empowering Businesses with Smart Digital
+                                            Solutions, Web Development, Mobile Apps,
+                                            Digital Marketing & Branding.
+                                        </p>
+
+                                        <!-- Button -->
+                                        <a href="{{route('about')}}" class="hero-btn">
+                                            Explore More
+                                            <i class="fas fa-arrow-right ms-2"></i>
+                                        </a>
+
                                     </div>
+
                                 </div>
+
                             </div>
                         </div>
+
                     </div>
-                    <div class="swiper-slide">
-                        <div class="vs-hero__bg" data-bg-src="{{ asset('assets/img/home/Home1.webp') }}">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="vs-hero__content"><span class="vs-hero__title-sub vs-swiper-animation"> Local SEO & Digital Marketing Experts </span>
-                                            <h1 class="vs-hero__title vs-swiper-animation">Boost Your Brand <span class="text-gradient">With Local SEO Solutions</span></h1>
-                                            <p class="vs-hero__text vs-swiper-animation">Crystree Solutions delivers SEO services, Google Business Profile optimization, social media marketing and digital growth solutions that help businesses improve rankings, attract local customers and increase online visibility.</p><a href="{{ route('blog') }}"
-                                            class="vs-btn vs-btn--style3 vs-swiper-animation">Explore Services <i class="fa-solid fa-arrow-right"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
+
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <section class="vs-about space space-extra-bottom overflow-hidden">
         <div class="container">
@@ -130,7 +377,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="vs-about__footer"><a href="blog-details.html" class="vs-btn vs-btn--style3">Explore More <i class="fa-solid fa-arrow-right"></i> </a></div>
+                        <div class="vs-about__footer"><a href="{{route('about')}}" class="vs-btn vs-btn--style3">Explore More <i class="fa-solid fa-arrow-right"></i> </a></div>
                     </div>
                 </div>
             </div>
@@ -464,7 +711,7 @@
 @forelse($logos as $logo)
     <div class="it-carousel__item it-carousel__item--style2">
         <img
-            src="{{ asset('/public/uploads/logos/'.$logo->image) }}"
+            src="{{ asset('/uploads/logos/'.$logo->image) }}"
             alt="{{ $logo->title }}"
             loading="lazy">
     </div>
@@ -492,6 +739,79 @@
 .vs-service__biz:nth-child(4)::after,
 .vs-service__biz:nth-child(8)::after {
     display: none !important;
+}
+
+
+/* Make all slides equal height */
+#testimonialBottom .swiper-slide {
+    display: flex;
+    height: auto;
+}
+
+/* Testimonial Card */
+.vs-clients__item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    background: #00030e;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Quote section grows */
+.vs-clients__quote {
+    flex: 1;
+    margin: 20px 0;
+}
+
+.vs-clients__quote p{
+    margin-bottom:0;
+}
+
+/* Author stays at bottom */
+.vs-clients__author {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+/* Avatar */
+.vs-clients__avatar,
+.vs-clients__avatar-placeholder {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.vs-clients__avatar {
+    object-fit: cover;
+}
+
+.vs-clients__avatar-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d6efd;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Equal spacing */
+.vs-clients__details {
+    margin-left: 15px;
+}
+
+.vs-clients__name {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.vs-clients__role {
+    margin: 0;
+    color: #777;
 }
 </style>
 
@@ -533,10 +853,9 @@
 
                                         @if(!empty($testimonial->image) && file_exists(public_path($testimonial->image)))
 
-                                            <img
-                                                class="vs-clients__avatar"
-                                                src="{{ asset($testimonial->image) }}"
-                                                alt="{{ $testimonial->name }}">
+                                           <div class="vs-clients__avatar-placeholder">
+                                                {{ strtoupper(substr(trim($testimonial->name), 0, 2)) }}
+                                            </div>
 
                                         @else
 
@@ -729,92 +1048,104 @@
     align-items: center;
     justify-content: center;
 }
-    </style>
+  
+  .gallery-slider{
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+
+.gallery-track{
+    display:flex;
+    width:max-content;
+    animation: scrollGallery 30s linear infinite;
+}
+
+.gallery-item{
+    position:relative;
+    flex:0 0 auto;
+    width:320px;
+    margin-right:20px;
+}
+
+.gallery-item img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.overlay{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#fff;
+    padding:15px;
+    border-radius:0 0 15px 15px;
+}
+
+.gallery-track:hover{
+    animation-play-state:paused;
+}
+
+@keyframes scrollGallery{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}
+  </style>
 
     
-    <section class="vs-portfolio section-outer space-top">
-        <div class="bg-title z-index-common overflow-hidden rounded-30 space">
-            <div class="vs-ele vs-ele--circle vs-ele--circle--service1" data-ele-move="zoom" data-ele-move-speed="2"></div>
-            <div class="vs-ele vs-ele--circle vs-ele--circle--service2" data-ele-move="zoom" data-ele-move-speed="2"></div>
-            <div class="container">
-                <div class="row justify-content-center align-items-end">
-                    <div class="col-lg-6">
-                        <div class="title-area title-area--style2 white-style text-center" dir="ltr"><span class="title-area__title--sub title-area__title--sub-center">Our Core Expertise</span>
-                            <h2 class="title-area__title">Explore Our Web, Software & Digital Marketing Solutions</h2></div>
-                    </div>
-                </div>
-            <div class="vs-portfolio__grids row grid">
+<section class="vs-portfolio section-outer space-top">
+    <div class="container">
 
-    <div class="grid-sizer col-lg-4 col-md-6"></div>
+        <div class="title-area text-center mb-5">
+            <span class="title-area__title--sub">Our Core Expertise</span>
+            <h2 class="title-area__title">
+                Explore Our Web, Software & Digital Marketing Solutions
+            </h2>
+        </div>
 
-    @foreach($galleries as $gallery)
+        <div class="gallery-slider">
 
-    <div class="vs-portfolio__item vs-portfolio__item--style2 grid-item col-lg-4 col-md-6 vs-fade-in-up"
-        data-duration="1"
-        data-delay="0.3">
+            <div class="gallery-track">
 
-        <div class="vs-portfolio__content">
-
-            <a class="vs-portfolio__link--img d-inline-block"
-                href="{{ asset($gallery->image) }}" loading="lazy">
-
-                <img src="{{ asset($gallery->image) }}"
-                    class="vs-portfolio__img"
-                    alt="{{ $gallery->title }}" loading="lazy">
-            </a>
-
-            <div class="vs-portfolio__item-overlay">
-
-                <div class="vs-portfolio__item-text">
-
-                    <a href="#"
-                        class="vs-portfolio__item-tag">
-                        {{ $gallery->category ?? 'Portfolio' }}
-                    </a>
-
-                    <h3 class="vs-portfolio__item-heading">
-                        <a href="#"
-                            class="vs-portfolio__item-heading__link">
-                            {{ $gallery->title }}
-                        </a>
-                    </h3>
-
+                @foreach($galleries as $gallery)
+                <div class="gallery-item">
                     <a href="{{ asset($gallery->image) }}"
-                        class="vs-portfolio__item-view">
-
-                        <i class="fa-solid fa-plus"></i>
-
+                       data-fancybox="gallery"
+                       data-caption="{{ $gallery->title }}">
+                        <img src="{{ asset($gallery->image) }}" alt="{{ $gallery->title }}">
                     </a>
-
                 </div>
+                @endforeach
+
+                {{-- Duplicate for infinite scrolling --}}
+                @foreach($galleries as $gallery)
+                <div class="gallery-item">
+                   @php
+                            $slug = \Illuminate\Support\Str::slug($gallery->title);
+                        @endphp
+
+                        <a href="{{ asset($gallery->image) }}"
+                        data-fancybox="gallery"
+                        data-caption="{{ $gallery->title }}"
+                        data-slug="{{ $slug }}">
+                            <img src="{{ asset($gallery->image) }}" alt="{{ $gallery->title }}">
+                        </a>
+                </div>
+                @endforeach
 
             </div>
 
         </div>
 
     </div>
-
-    @endforeach
-
-</div>
-
-<style>
-    .vs-portfolio__img{
-    width:100%;
-    height:350px;
-    object-fit:cover;
-    border-radius:15px;
-}
-
-.vs-portfolio__content{
-    overflow:hidden;
-    border-radius:15px;
-}
-</style>
-</div>
-        </div>
-    </section>
-
+</section>
 
     <section class="vs-blog--layout1 space space-extra-bottom" dir="ltr">
     <div class="container">
@@ -901,7 +1232,63 @@
 </section>
 
 <style>
+/* Equal height columns */
 
+
+/* Card */
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+}
+
+/* Image */
+.blog-card-image {
+    margin: 0;
+}
+
+.blog-card-image img {
+    width: 100%;
+    height: 250px; /* Same image height */
+    object-fit: cover;
+    display: block;
+}
+
+/* Content */
+.blog-card-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Title - fixed lines */
+.blog-title {
+    min-height: 60px;
+}
+
+.blog-title a {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Max 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Description - fixed lines */
+.blog-description {
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Max 4 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Push button to bottom */
+.vs-blog__buttons {
+    margin-top: auto;
+}
 /* Card */
 .blog-card{
     display:flex;

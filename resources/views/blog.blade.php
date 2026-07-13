@@ -3,44 +3,47 @@
 @section('content')
 
 <style>
-    .vs-blog--style8 {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        background: #fff;
-    }
+.vs-blog--style8 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
 
-    .vs-blog__figure {
-        height: 150px;
-        overflow: hidden;
-        margin-bottom: 0;
-    }
+.vs-blog__figure {
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 0;
+    flex-shrink: 0;
+}
 
-    .vs-blog__img {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-        transition: 0.4s;
-    }
+.vs-blog__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .4s;
+}
 
-    .vs-blog__content {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        padding: 25px;
-    }
+.vs-blog__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 25px;
+}
 
-    .vs-blog__title {
-        min-height: 60px;
-    }
+.vs-blog__title {
+    margin-bottom: 15px;
+}
 
-    .vs-blog__content p {
-        min-height: 75px;
-    }
+.vs-blog__content p {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
 
-    .vs-blog__buttons {
-        margin-top: 10px;
-    }
+.vs-blog__buttons {
+    margin-top: auto;
+}
 </style>
     <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/blog.webp')}}">
         <div class="overlay"></div>
@@ -59,8 +62,8 @@
     <section class="vs-blog--layout1 space space-extra-bottom" dir="ltr">
         <div class="container">
                <div class="row">
-    @foreach($blogs as $blog)
-        <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        @foreach($blogs as $blog)
+        <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
             <div class="vs-blog vs-blog--style8 w-100">
 
                 <figure class="vs-blog__figure">
@@ -118,8 +121,8 @@
 
             </div>
         </div>
-    @endforeach
-</div>
+          @endforeach
+             </div>
             </div>
         </div>
     </section>

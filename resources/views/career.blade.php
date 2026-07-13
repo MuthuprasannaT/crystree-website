@@ -117,6 +117,7 @@
 
                     </div>
 
+
                     <div class="career-footer">
 
                       <button
@@ -354,6 +355,18 @@
                                           class="form-control career-input"
                                           placeholder="Tell us about your skills, experience and achievements"></textarea>
 
+                            </div>
+                                                <!-- Google reCAPTCHA -->
+                            <div class="col-12 mb-4 text-center">
+                                <div class="g-recaptcha"
+                                     data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}">
+                                </div>
+                            
+                                @error('captcha')
+                                    <div class="text-danger mt-2">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
 
                             <!-- Button -->

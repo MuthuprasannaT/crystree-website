@@ -186,6 +186,73 @@
    
 
 <style>
+/* Both Swiper sliders */
+#testimonialBottom .swiper-wrapper,
+#testimonialTop .swiper-wrapper{
+    align-items: stretch;
+}
+
+#testimonialBottom .swiper-slide,
+#testimonialTop .swiper-slide{
+    display: flex;
+    height: auto;
+}
+
+#testimonialBottom .vs-clients__item,
+#testimonialTop .vs-clients__item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-height: 320px; /* Adjust as needed */
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* Review content */
+#testimonialBottom .vs-clients__quote,
+#testimonialTop .vs-clients__quote{
+    flex: 1;
+    margin: 20px 0;
+}
+
+/* Keep author at bottom */
+#testimonialBottom .vs-clients__author,
+#testimonialTop .vs-clients__author{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Image */
+.vs-clients__avatar{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.vs-clients__avatar-placeholder{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:600;
+    color:#fff;
+    background:#0d6efd;
+}
+
+/* Optional: limit text to keep cards uniform */
+#testimonialBottom .vs-clients__quote,
+#testimonialTop .vs-clients__quote{
+    overflow:hidden;
+    display:-webkit-box;
+    -webkit-line-clamp:6;
+    -webkit-box-orient:vertical;
+}
+
     .vs-clients__carousel {
     overflow: hidden;
     position: relative;

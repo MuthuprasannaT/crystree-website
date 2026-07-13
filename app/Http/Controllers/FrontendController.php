@@ -53,6 +53,7 @@ class FrontendController extends Controller
 
         return view('gallery', compact('galleries'));
     }
+    
     public function bts()
     {
         $teams = Bts::orderBy('id', 'asc')->paginate(10);

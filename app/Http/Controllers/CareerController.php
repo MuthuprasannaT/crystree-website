@@ -6,6 +6,7 @@ use App\Models\Career;
 use Illuminate\Http\Request;
 use App\Models\CareerApplication;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Http;
 use App\Mail\CareerApplicationAdminMail;
 use App\Mail\CareerApplicationUserMail;
 
@@ -24,6 +25,26 @@ class CareerController extends Controller
 
     public function apply(Request $request)
     {
+        // Verify Google reCAPTCHA
+        $response = Http::asForm()->post(
+            'https://www.google.com/recaptcha/api/siteverify',
+            [
+                'secret'   => env('RECAPTCHA_SECRET_KEY'),
+                'response' => $request->input('g-recaptcha-response'),
+                'remoteip' => $request->ip(),
+            ]
+        );
+
+        $captcha = $response->json();
+
+        if (!isset($captcha['success']) || $captcha['success'] !== true) {
+            return back()
+                ->withErrors([
+                    'captcha' => 'Please verify reCAPTCHA.'
+                ])
+                ->withInput();
+        }
+
         $request->validate([
             'name'        => 'required|string|max:255',
             'email'       => 'required|email|max:255',
@@ -61,7 +82,7 @@ class CareerController extends Controller
 
         // Candidate Mail
         Mail::to($request->email)
-            ->send(new CareerApplicationAdminMail($application));
+            ->send(new CareerApplicationUserMail($application));
 
         return redirect()->back()->with(
             'success',

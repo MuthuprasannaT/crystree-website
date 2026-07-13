@@ -2,6 +2,17 @@
 
 @section('content')
 
+<style>
+    /* Laravel Pagination */
+nav[role="navigation"] svg {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+nav[role="navigation"] * {
+    font-size: 14px;
+}
+</style>
 
     <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/faq.webp')}}">
         <div class="overlay"></div>

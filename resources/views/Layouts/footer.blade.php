@@ -1,3 +1,440 @@
+
+<style>
+    /* Equal height columns */
+.row .col-xl-3 {
+    display: flex;
+}
+
+/* Branch Card */
+.branch-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+/* Fixed image height */
+.branch-icon img {
+    width: 100%;
+    height:60px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Keep headings same height */
+.branch-card h3 {
+    min-height: 35px;
+    margin-top: 15px;
+}
+
+.branch-card h6 {
+    min-height: 25px;
+}
+
+/* Address section grows */
+.branch-info:first-of-type {
+    flex: 1;
+}
+
+/* Keep button at bottom */
+.branch-card .vs-btn {
+    margin-top: auto;
+}
+</style>
+<section class="branch-section py-5">
+
+    <div class="container">
+
+        <div class="text-center text-white mb-5">
+            <!-- <span class="small-title">LOCATIONS</span> -->
+
+            <h2 class="display-5 fw-bold mt-2 branch">
+                TRICHY <span style= color:#6db422 >BRANCH</span> OFFICES
+            </h2>
+
+            <p class="branch-description">
+                We are expanding across India to provide faster support and better customer service.
+                Visit the nearest <span>Crystree Solutions</span> branch for all your IT needs.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Branch 1 -->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="branch-card W-100">
+
+                    <div class="branch-icon">
+                        <img src="{{asset('assets/img/about/Annamalai.webp')}}" alt="Trichy" class="img-fluid">
+                    </div>
+
+                    <h3>Annamalai Nagar</h3>
+                    <h6>HEAD OFFICE</h6>
+
+                    <div class="divider"></div>
+
+                    <div class="branch-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>
+                          Flat No: F9, No: 20, J.C. ABODES, Karur Bypass Rd, Annamalai Nagar, Tiruchirappalli, Tamil Nadu-620018
+                        </p>
+                    </div>
+
+                    <div class="branch-info">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 63813 24611</p>
+                    </div>
+
+                    <a href="https://www.google.com/maps/place/Crystree+Solutions+Private+Limited/@10.8312996,78.6862418,16z/data=!3m1!4b1!4m6!3m5!1s0x3baaf592ee09bc0b:0x54537b454d49b845!8m2!3d10.8312996!4d78.6862418!16s%2Fg%2F11ghfd2zlv?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D" class="vs-btn vs-btn--gradient">
+                        <i class="fas fa-location-dot me-2"></i> View Map
+                    </a>
+
+                </div>
+            </div>
+            
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="branch-card">
+
+                    <div class="branch-icon">
+                      <img src="{{ asset('assets/img/about/Thillainagar.webp') }}"
+     alt="Thillai Nagar"
+     class="img-fluid">
+                    </div>
+
+                    <h3>Thillai Nagar</h3>
+                    <h6>BRANCH OFFICE</h6>
+
+                    <div class="divider"></div>
+
+                    <div class="branch-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>
+                          J.S Tower, Plot No.C71, 10th Cross St, Thillai Nagar, Tennur, Tiruchirappalli, Tamil Nadu-620018
+                        </p>
+                    </div>
+
+                    <div class="branch-info">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9566968212</p>
+                    </div>
+
+                    <a href="google.com/maps/place/Crystree+Solutions+Private+Limited+-+Thillai+Nagar+Branch/data=!4m2!3m1!1s0x0:0x89e360f18362fb13?sa=X&ved=1t:2428&hl=en-GB&ictx=111" class="vs-btn vs-btn--gradient">
+                        <i class="fas fa-location-dot me-2"></i> View Map
+                    </a>
+
+                </div>
+            </div>
+            <!-- Branch 2 -->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="branch-card">
+
+                    <div class="branch-icon">
+                        <img src="{{asset('assets/img/about/Srirangam.webp')}}" alt="Chennai" class="img-fluid">
+                    </div>
+
+                    <h3>Srirangam</h3>
+                    <h6>BRANCH OFFICE</h6>
+
+                    <div class="divider"></div>
+
+                    <div class="branch-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>
+                         T-5, Thangam Avenue, “A” Block 3rd Floor, Ammamandapam Road, Mambala Salai Bridge, Tiruchirappalli, Tamil Nadu-620006
+                        </p>
+                    </div>
+
+                    <div class="branch-info">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9443005808</p>
+                    </div>
+                    <a href="https://www.google.com/maps/place/Crystree+Solutions+Private+Limited+-+Srirangam+Branch/data=!4m2!3m1!1s0x0:0x979293cc53a08495?sa=X&ved=1t:2428&hl=en&ictx=111	" class="vs-btn vs-btn--gradient">
+                        <i class="fas fa-location-dot me-2"></i> View Map
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Branch 4 -->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="branch-card">
+
+                    <div class="branch-icon">
+                        <img src="{{asset('assets/img/about/Puthur.webp')}}" alt="Bangalore" class="img-fluid">
+                    </div>
+                    <h3>Puthur</h3>
+                    <h6>BRANCH OFFICE</h6>
+
+                    <div class="divider"></div>
+                    <div class="branch-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>
+                           No. 22/72, <br> Puthur Agraharam,<br> Puthur, Trichy - 620017
+                        </p>
+                    </div>
+                    <div class="branch-info">
+                        <i class="fas fa-phone"></i>
+                        <p>
+                          <a href="tel:+919092166523">+91 90921 66523</a>
+                        </p>
+                    </div>
+                    <a href="https://www.google.com/maps/place/Crystree+Solutions+Private+Limited+-+Puthur+Branch/@10.8180728,78.674284,17z/data=!3m1!4b1!4m6!3m5!1s0x3baaf5a458152e6f:0x9252d3f06041567d!8m2!3d10.8180728!4d78.674284!16s%2Fg%2F11zcr_9kf1?hl=en&entry=ttu&g_ep=EgoyMDI2MDcwNS4wIKXMDSoASAFQAw%3D%3D" class="vs-btn vs-btn--gradient">
+                        <i class="fas fa-location-dot me-2"></i> View Map
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<style>
+    /* ===========================
+   Branch Section
+=========================== */
+
+.branch-section {
+background: white;
+    padding: 100px 0 70px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* World Map Background */
+.branch-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('assets/img/world-map.png') center top no-repeat;
+    background-size: contain;
+    opacity: .08;
+    pointer-events: none;
+}
+
+.branch-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.small-title {
+    color: #85ff03;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.branch-description {
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: rgba(9, 9, 9, 0.85);
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.branch-description span {
+    color: #6db422;
+    font-weight: 600;
+}
+
+/* ===========================
+   Branch Card
+=========================== */
+
+.branch-card {
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    padding: 80px 16px 35px;
+    height: 100%;
+    box-shadow: 0 15px 40px rgba(4, 28, 72, 0.35);
+    transition: .35s;
+}
+
+.branch-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0,0,0,.20);
+}
+
+/* ===========================
+   Icon
+=========================== */
+
+.branch-icon {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    background: #08285d;
+    border-radius: 50%;
+    border: 5px solid #7ac943;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,.25);
+}
+
+.branch-icon img {
+    width: 60px;
+}
+
+/* ===========================
+   Title
+=========================== */
+
+.branch-card h3 {
+    text-align: center;
+    color: #3f9c35;
+    font-weight: 700;
+    font-size:27px;
+    margin-bottom: 5px;
+    /* letter-spacing: 1px; */
+}
+
+.branch-card h6 {
+    text-align: center;
+    color: #0d2757;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.divider {
+    width: 70px;
+    height: 3px;
+    background: #7ac943;
+    margin: 18px auto 25px;
+    border-radius: 10px;
+}
+
+/* ===========================
+   Information
+=========================== */
+
+.branch-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 18px;
+}
+
+.branch-info i {
+    color: #6dbb36;
+    font-size: 18px;
+    margin-top: 4px;
+    min-width: 18px;
+}
+
+.branch-info p {
+    margin: 0;
+    color: #000;
+    line-height: 1.7;
+    font-size: 15px;
+    text-align:left;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.btn-map {
+    margin-top: 15px;
+    background: #08285d;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s;
+    display: inline-block;
+}
+
+.btn-map:hover {
+    background: #7ac943;
+    color: #fff;
+}
+
+/* ===========================
+   Bottom Skyline
+=========================== */
+
+.branch-card::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 70px;
+    background: url('assets/img/city-line.png') center bottom no-repeat;
+    background-size: contain;
+    opacity: .25;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:1200px) {
+
+    .branch-card{
+        margin-top:60px;
+    }
+
+}
+
+@media (max-width:992px){
+
+    .branch-description{
+        max-width:100%;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .branch-section{
+        padding:80px 0 50px;
+    }
+
+    .display-5{
+        font-size:2rem;
+    }
+
+    .branch-card{
+        padding:75px 20px 30px;
+    }
+
+    .branch-icon{
+        width:100px;
+        height:100px;
+        top:-50px;
+    }
+
+    .branch-icon img{
+        width:50px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .branch-card{
+        margin-top:55px;
+    }
+
+    .branch-description{
+        font-size:15px;
+    }
+
+}
+    </style>
+
 <div class="vs-footer vs-footer--layout2 section-outer pb-40" dir="ltr">
     <div class="bg-title rounded-30 space-top z-index-common overflow-hidden">
         <div class="vs-ele vs-ele--circle vs-ele--circle--service1"></div>
@@ -98,7 +535,7 @@
                     </div>
                     <div class="vs-footer__middle--col">
                         <div class="vs-info style2">
-                            <div class="vs-info__icon--box"><i class="vs-info__icon"><img src="{{ asset('assets/img/icons/vs-icon-support-h2.svg') }}" alt="Location Icon" loading="lazy"></i></div>
+                            <div class="vs-info__icon--box"><img src="{{ asset('assets/img/icons/vs-icon-support-h2.svg') }}" alt="Location Icon" loading="lazy"></i></div>
                             <div class="vs-info__content">
                                 <a class="vs-info__label" href="tel:+919566968212">+91- 9566968212</a>
                                 <br> <a class="vs-info__label" href="tel:+916381324611">+91- 6381324611</a></div>
@@ -110,58 +547,141 @@
 
         <div class="container">
 
-    <!-- Main Dropdown -->
-    <div class="industry-wrapper">
+            <div class="industry-wrapper">
 
-        <button type="button" class="industry-main-toggle">
-            Industries We Serve
-        </button>
+                <!-- Main Button -->
+                <button type="button" class="industry-main-toggle">
+                    Solutions for Every Industry
+                </button>
 
-        <div class="industry-content">
+                <!-- Categories -->
+               <div class="industry-content" style="display:none;">
 
-            <div class="row g-4 seo-row">
+                    <div class="row">
 
-                @foreach($categories as $category => $keywords)
+                        @foreach($categories as $category => $keywords)
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="widget widget_services_new">
+                        <div class="col-lg-4 col-md-6 mb-4">
 
-                        <h4 class="widget__heading">
-                            {{ $category }}
-                        </h4>
+                            <div class="industry-category">
 
-                        <ul class="service-list">
+                                <!-- Category Heading -->
+                                <button class="category-toggle">
+                                    {{ $category }}
+                                    <span>+</span>
+                                </button>
 
-                            @foreach($keywords as $index => $keyword)
+                                <!-- Category Details -->
+                                <div class="category-content" style="display:none;">
 
-                            <li class="seo-item {{ $index >= 5 ? 'd-none' : '' }}">
-                                <a href="#">
-                                    {{ $keyword->keyword }}
-                                </a>
-                            </li>
+                                    <ul class="service-list">
 
-                            @endforeach
+                                        @foreach($keywords as $index => $keyword)
 
-                        </ul>
+                                        <li class="seo-item {{ $index >= 5 ? 'd-none extra-item' : '' }}">
+                                            <a href="#">
+                                                {{ $keyword->keyword }}
+                                            </a>
+                                        </li>
 
-                        @if(count($keywords) > 5)
-                        <button class="load-more-btn">
-                            View More
-                        </button>
-                        @endif
+                                        @endforeach
+
+                                    </ul>
+
+                                    @if(count($keywords) > 5)
+                                        <button class="load-more-btn">
+                                            View More
+                                        </button>
+                                    @endif
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        @endforeach
 
                     </div>
-                </div>
 
-                @endforeach
+                </div>
 
             </div>
 
+            <style>
+            .industry-wrapper{
+                max-width:100%;
+            }
+
+            .industry-main-toggle{
+                width:100%;
+                padding:18px 25px;
+                background:#0b2b5c;
+                color:#fff;
+                border:none;
+                border-radius:8px;
+                font-size:20px;
+                font-weight:600;
+                cursor:pointer;
+            }
+
+           .industry-category{
+                border:1px solid #eee;
+                border-radius:8px;
+                overflow:hidden;
+                background:#fff;
+            }
+
+            .category-toggle{
+                width:100%;
+                background:#fff;
+                border:none;
+                padding:18px 20px;
+                text-align:left;
+                font-size:18px;
+                font-weight:600;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                cursor:pointer;
+            }
+
+
+
+            .category-toggle span{
+                font-size:24px;
+            }
+
+            .category-content{
+                padding:20px;
+                background:#fafafa;
+            }
+
+            .service-list{
+                list-style:none;
+                padding:0;
+                margin:0;
+            }
+
+            .service-list li{
+                padding:8px 0;
+            }
+
+            .service-list li a{
+                text-decoration:none;
+                color:#333;
+            }
+
+            .load-more-btn{
+                margin-top:15px;
+                background:#0b2b5c;
+                color:#fff;
+                border:none;
+                padding:10px 18px;
+                border-radius:5px;
+            }
+                                        </style>
         </div>
-
-    </div>
-
-</div>
         <div class="vs-footer__bottom">
             <div class="container">
                 <div class="row justify-content-center  align-items-center gy-3 flex-column-reverse flex-lg-row">
@@ -301,6 +821,108 @@
 
 
 <script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    // Main Industries Toggle
+    const mainBtn = document.querySelector(".industry-main-toggle");
+    const industryContent = document.querySelector(".industry-content");
+
+    mainBtn.addEventListener("click", function () {
+        industryContent.classList.toggle("active");
+    });
+
+    // Category Toggle
+    document.querySelectorAll(".category-toggle").forEach(function (btn) {
+
+        btn.addEventListener("click", function () {
+
+            const currentContent = this.nextElementSibling;
+            const icon = this.querySelector("span");
+
+            // Close other categories
+            document.querySelectorAll(".category-toggle").forEach(function(btn){
+
+    btn.addEventListener("click", function(){
+
+        const current = this.closest(".industry-category");
+        const currentContent = current.querySelector(".category-content");
+        const currentIcon = this.querySelector("span");
+
+        // Close all other categories
+        document.querySelectorAll(".industry-category").forEach(function(card){
+
+            if(card !== current){
+                card.querySelector(".category-content").style.display = "none";
+                card.querySelector(".category-toggle span").textContent = "+";
+            }
+
+        });
+
+        // Toggle current category
+        if(currentContent.style.display === "block"){
+            currentContent.style.display = "none";
+            currentIcon.textContent = "+";
+        }else{
+            currentContent.style.display = "block";
+            currentIcon.textContent = "−";
+        }
+
+    });
+
+});
+
+            if (currentContent.style.display === "block") {
+
+                currentContent.style.display = "none";
+                icon.innerHTML = "+";
+
+            } else {
+
+                currentContent.style.display = "block";
+                icon.innerHTML = "−";
+
+            }
+
+        });
+
+    });
+
+    // View More / View Less
+    document.querySelectorAll(".load-more-btn").forEach(function (btn) {
+
+        btn.addEventListener("click", function () {
+
+            const hiddenItems = this.parentElement.querySelectorAll(".extra-item");
+            const expanded = this.classList.contains("expanded");
+
+            if (!expanded) {
+
+                hiddenItems.forEach(function (item) {
+                    item.classList.remove("d-none");
+                });
+
+                this.innerText = "View Less";
+                this.classList.add("expanded");
+
+            } else {
+
+                hiddenItems.forEach(function (item) {
+                    item.classList.add("d-none");
+                });
+
+                this.innerText = "View More";
+                this.classList.remove("expanded");
+
+            }
+
+        });
+
+    });
+
+});
+
+    
 document.addEventListener('DOMContentLoaded', function(){
 
     document.querySelectorAll('.widget_services_new').forEach(function(card){

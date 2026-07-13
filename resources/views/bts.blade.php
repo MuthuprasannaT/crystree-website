@@ -23,70 +23,127 @@
 
             @forelse($teams as $team)
 
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+               <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+    <div class="team-card">
 
-                    <div class="vs-team__item vs-team__item--style6 vs-active">
+        <div class="team-image">
+            @if(!empty($team->image))
+                <img src="{{ asset($team->image) }}"
+                     alt="{{ $team->title }}"
+                     loading="lazy">
+            @else
+                <img src="{{ asset('assets/img/team/default-user.jpg') }}"
+                     alt="{{ $team->title }}"
+                     loading="lazy">
+            @endif
 
-                        <figure class="vs-team__item-figure">
+            <div class="team-overlay">
+                <h4>{{ $team->title }}</h4>
 
-                            <a class="vs-team__item-img-link" href="javascript:void(0)">
+                {{-- Uncomment if you want description --}}
+                {{-- <p>{!! $team->description !!}</p> --}}
 
-                                @if(!empty($team->image))
-                                    <img class="vs-team__item-img"
-                                         src="{{ asset($team->image) }}"
-                                         alt="{{ $team->title }}" loading="lazy">
-                                @else
-                                    <img class="vs-team__item-img"
-                                         src="{{ asset('assets/img/team/default-user.jpg') }}"
-                                         alt="{{ $team->name }}" loading="lazy">
-                                @endif
+                <div class="team-social">
+                    @if($team->facebook)
+                        <a href="{{ $team->facebook }}" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    @endif
 
-                            </a>
+                    @if($team->linkedin)
+                        <a href="{{ $team->linkedin }}" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    @endif
 
-                        </figure>
-
-                        <div class="vs-team__item-body">
-
-                            <div class="vs-team__item-content">
-
-                                <h3 class="vs-team__item-name">
-                                    {{ $team->title }}
-                                </h3>
-
-                              {{-- <div class="vs-team__item-role">
-    {!! $team->description !!}
-</div> --}}
-
-                            </div>
-
-                            <div class="vs-team__item-social">
-
-                                @if($team->facebook)
-                                    <a href="{{ $team->facebook }}" target="_blank">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                @endif
-
-                                @if($team->linkedin)
-                                    <a href="{{ $team->linkedin }}" target="_blank">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                @endif
-
-                                @if($team->instagram)
-                                    <a href="{{ $team->instagram }}" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                @endif
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
+                    @if($team->instagram)
+                        <a href="{{ $team->instagram }}" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    @endif
                 </div>
+            </div>
+        </div>
 
+    </div>
+</div>
+<style>
+    .team-card{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.team-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-image img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    display:block;
+    transition:0.5s;
+}
+
+.team-overlay{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.65);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+
+    opacity:0;
+    visibility:hidden;
+    transition:.4s ease;
+}
+
+.team-overlay h4{
+    color:#fff;
+    margin-bottom:12px;
+    font-size:22px;
+    font-weight:600;
+}
+
+.team-social{
+    display:flex;
+    gap:12px;
+}
+
+.team-social a{
+    width:40px;
+    height:40px;
+    background:#fff;
+    color:#000;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.3s;
+}
+
+.team-social a:hover{
+    background:#ff6600;
+    color:#fff;
+}
+
+.team-image:hover img{
+    transform:scale(1.08);
+}
+
+.team-image:hover .team-overlay{
+    opacity:1;
+    visibility:visible;
+}
+</style>
             @empty
 
                 <div class="col-12 text-center">

@@ -219,6 +219,13 @@
     </a>
 </li>
 
+
+<li class="nav-item">
+    <a href="{{ route('admin.visitor.index') }}" class="nav-link">
+    <i class="fas fa-users"></i> Visitors
+</a>
+</li>
+
                 <li class="nav-item" style="margin-top: 24px; border-top: 1px solid rgba(255,255,255,.1); padding-top: 8px;">
                     <form id="logout-form" action="{{ route('admin.logout') }}" method="POST">
                         @csrf

@@ -740,7 +740,7 @@
 </style>
 
 
-<section class="vs-team space space-extra-bottom">
+<!-- <section class="vs-team space space-extra-bottom">
     <div class="container">
 
         <div class="row justify-content-center align-items-end">
@@ -955,7 +955,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <section class="vs-service vs-service--layout1 bg-theme-3 space space-extra-bottom">

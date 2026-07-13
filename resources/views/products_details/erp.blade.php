@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/iCrystal -erp-banner.webp')}}" loading="lazy">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/iCrystal-erp-banner.webp')}}" loading="lazy">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="vs-blog vs-blog--single">
-                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/iCrystal-erp.webp')}}" alt="Blog Image" loading="lazy">
+                        <figure class="vs-blog__figure"><img class="vs-blog__img" src="{{ asset('assets/img/blog/icrystal-erp.webp')}}" alt="Blog Image" loading="lazy">
                             <div class="overlay"></div>
                         </figure>
                         <div class="vs-blog__content">
