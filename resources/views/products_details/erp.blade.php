@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/iCrystal-erp-banner.webp')}}" loading="lazy">
+<div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/icrystal-erp-banner.webp')}}" loading="lazy">
         <div class="overlay"></div>
         <div class="container">
             <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
@@ -44,11 +44,11 @@
                             <div class="row pt-30">
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/iCrystal-erp-marketing.webp')}}" alt="video" loading="lazy"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/icrystal-erp-marketing.webp')}}" alt="video" loading="lazy"></div>
                                 </div>
                                 <div class="col-md-6 mb-25">
                                     <div class="vs-blog__video">
-                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/iCrystal-erp-trichy.webp')}}" alt="video" loading="lazy"></div>
+                                        <div class="overlay"></div><img src="{{ asset('assets/img/blog/icrystal-erp-trichy.webp')}}" alt="video" loading="lazy"></div>
                                 </div>
                             </div>
 <!-- FAQ Section Start -->
@@ -142,7 +142,7 @@ iCrystal ERP Solutions helps businesses streamline operations, automate routine 
        <div class="col-12 mt-4">
     <div class="vs-header__action d-flex justify-content-center">
         <a href="#websiteFaq" class="vs-btn vs-btn--gradient">
-            Explore FAQ
+            {{ route('faq') }}
             {{-- <i class="fa-solid fa-arrow-right"></i> --}}
         </a>
     </div>

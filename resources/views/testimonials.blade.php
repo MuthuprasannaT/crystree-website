@@ -77,10 +77,9 @@
 
                                         @if(!empty($testimonial->image) && file_exists(public_path($testimonial->image)))
 
-                                            <img
-                                                class="vs-clients__avatar"
-                                                src="{{ asset($testimonial->image) }}"
-                                                alt="{{ $testimonial->name }}">
+                                           <div class="vs-clients__avatar-placeholder">
+                                                {{ strtoupper(substr(trim($testimonial->name), 0, 2)) }}
+                                            </div>
 
                                         @else
 
