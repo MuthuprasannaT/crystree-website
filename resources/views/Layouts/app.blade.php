@@ -4,28 +4,35 @@
 <head>
     <title>@yield('title', 'Crystree Solutions Pvt Ltd | Software Development Company in Trichy')</title>
 
-<meta name="description"content="Crystree Solutions Pvt Ltd is a leading Software Development Company in Trichy offering Website Development, Mobile App Development, ERP Software, CRM Software, Digital Marketing, SEO Services and E-Commerce Solutions.">
-<meta name="keywords"content="Software Development Company Trichy, Website Development Trichy, Mobile App Development, ERP Software, CRM Software, SEO Services, Digital Marketing, E-Commerce Solutions">
-<meta name="author" content="Crystree Solutions Pvt Ltd">
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="Crystree Solutions Pvt Ltd">
-<meta property="og:description"content="Software Development, Mobile App Development, ERP Solutions, Digital Marketing and SEO Services.">
-<meta property="og:image" content="{{ asset('assets/img/logo/newlogo1.png') }}">
-<meta property="og:url" content="{{ url()->current() }}">
-<meta property="og:type" content="website">
-<meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Google analytics link added -->
-<meta name="p:domain_verify" content="bd4f50c6eba3911808233bf25cae4569"/>
-<meta name="google-site-verification" content="DxFekIS0MtH5CXTBAXx2gfUUYFesB3Q-YIBhrE_Im4M" />
+    <meta name="description" content="Crystree Solutions Pvt Ltd is a leading Software Development Company in Trichy offering Website Development, Mobile App Development, ERP Software, CRM Software, Digital Marketing, SEO Services and E-Commerce Solutions.">
 
+    <meta name="keywords" content="Software Development Company Trichy, Website Development Trichy, Mobile App Development, ERP Software, CRM Software, SEO Services, Digital Marketing, E-Commerce Solutions">
 
-<link rel="canonical" href="{{ url()->current() }}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+    <meta name="author" content="Crystree Solutions Pvt Ltd">
+    <meta name="robots" content="index,follow">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css">
+    <meta property="og:title" content="Crystree Solutions Pvt Ltd">
+    <meta property="og:description" content="Software Development, Mobile App Development, ERP Solutions, Digital Marketing and SEO Services.">
+    <meta property="og:image" content="{{ asset('assets/img/logo/newlogo1.png') }}">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <meta name="google-site-verification" content="HXG6BBcWmnmiDcOOC21f3hhMV_SqjK_wdEpN7a_oEmM">
+
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css">
+
     @include('Layouts.header')
 </head>
 
@@ -559,6 +566,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script> --}}
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GY4Q89LPNB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GY4Q89LPNB');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MP3BQ7B7');</script>
+<!-- End Google Tag Manager -->
+
+
 </body>
 
 </html>

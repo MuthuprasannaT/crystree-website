@@ -73,7 +73,7 @@
 
                                 <div class="vs-clients__author">
 
-                                    <div class="vs-clients__author-img">
+                                     <div class="vs-clients__author-img">
 
                                         @if(!empty($testimonial->image) && file_exists(public_path($testimonial->image)))
 
@@ -138,14 +138,13 @@
 
                                 <div class="vs-clients__author">
 
-                                    <div class="vs-clients__author-img">
+                                     <div class="vs-clients__author-img">
 
                                         @if(!empty($testimonial->image) && file_exists(public_path($testimonial->image)))
 
-                                            <img
-                                                class="vs-clients__avatar"
-                                                src="{{ asset($testimonial->image) }}"
-                                                alt="{{ $testimonial->name }}">
+                                           <div class="vs-clients__avatar-placeholder">
+                                                {{ strtoupper(substr(trim($testimonial->name), 0, 2)) }}
+                                            </div>
 
                                         @else
 
@@ -305,7 +304,7 @@
 }
 
 .vs-clients__avatar-placeholder {
-    background: #ff6b35;
+    background: #0d6efd;
     color: #fff;
     font-size: 22px;
     font-weight: 700;

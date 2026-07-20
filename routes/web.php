@@ -17,6 +17,8 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Admin\CareerApplicationController;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\VisitorController;
+use App\Http\Controllers\SubscriberController;
+
 
 Route::post('/cookie-consent/store', [VisitorController::class, 'store']);
 Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'admin']], function () {
@@ -31,6 +33,8 @@ Route::get('/products', [FrontendController::class, 'products'])->name('products
 
 Route::get('/career', [CareerController::class, 'index'])->name('career');
 
+Route::post('/subscribe', [SubscriberController::class, 'store'])
+    ->name('subscribe.store');
 
 Route::post('/career/apply', [CareerController::class, 'apply'])
     ->name('career.apply');
@@ -135,4 +139,21 @@ Route::get('/test-mail', function () {
     });
 
     return 'Mail Sent';
+});
+
+Route::prefix('admin/subscribers')->group(function () {
+
+    // Blog
+    Route::get('/blog', [SubscriberController::class, 'blogIndex'])
+        ->name('admin.subscribers.blog.index');
+
+    Route::post('/blog/send', [SubscriberController::class, 'sendBlog'])
+        ->name('admin.subscribers.blog.send');
+
+    // Gallery
+    Route::get('/gallery', [SubscriberController::class, 'galleryIndex'])
+        ->name('admin.subscribers.gallery.index');
+
+    Route::post('/gallery/send', [SubscriberController::class, 'sendGallery'])
+        ->name('admin.subscribers.gallery.send');
 });

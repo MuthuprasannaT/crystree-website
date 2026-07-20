@@ -14079,7 +14079,7 @@ text-align:center
 display:flex;
 align-items:center;
 background-color:var(--vs-white-color);
-padding:5px 5px 5px 30px;
+padding:5px 5px 5px 5px;
 border-radius:10px;
 gap:0px;
 flex-wrap:wrap
@@ -14202,16 +14202,19 @@ background-color:var(--vs-black-color-3)
 }
 
 .vs-subscribe--style2 input {
-background-color:var(--vs-black-color-3);
-color:var(--vs-white-color)
+background-color:#fcfafa;
+color:#000;
+border: 2px solid #ffffff;
+border-radius: 10px;
+padding: 10px;
 }
 
 .vs-subscribe--style2 input::-moz-placeholder {
-color:var(--vs-white-color)
+color:black;
 }
 
 .vs-subscribe--style2 input::placeholder {
-color:var(--vs-white-color)
+color:black !important;
 }
 
 .vs-subscribe--style2 .vs-subscribe__btn {

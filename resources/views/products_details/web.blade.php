@@ -1,6 +1,11 @@
 @extends('Layouts.app')
 
 @section('content')
+    <style>
+    .pt-40 {
+     padding-top: 0px !important; 
+}
+    </style>
 
 <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/web-application-banner.webp')}}" loading="lazy">
         <div class="overlay"></div>
@@ -151,8 +156,8 @@ Yes, every website is developed with SEO-friendly architecture and technical opt
             </div>
        <div class="col-12 mt-4">
     <div class="vs-header__action d-flex justify-content-center">
-        <a href="#websiteFaq" class="vs-btn vs-btn--gradient">
-            {{ route('faq') }}
+        <a href="{{ route('faq') }}" class="vs-btn vs-btn--gradient">
+            Explore FAQ
             {{-- <i class="fa-solid fa-arrow-right"></i> --}}
         </a>
     </div>

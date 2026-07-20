@@ -7,6 +7,9 @@ use App\Models\Blog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
+use App\Models\Subscriber;
+use App\Mail\NewBlogNotification;
+use Illuminate\Support\Facades\Mail;
 
 class BlogController extends Controller
 {

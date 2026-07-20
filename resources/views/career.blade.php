@@ -117,17 +117,17 @@
 
                     </div>
                     <!-- Google reCAPTCHA -->
-<div class="col-12 mb-4 text-center">
-    <div class="g-recaptcha"
-         data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}">
-    </div>
+<!--<div class="col-12 mb-4 text-center">-->
+<!--    <div class="g-recaptcha"-->
+<!--         data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}">-->
+<!--    </div>-->
 
-    @error('captcha')
-        <div class="text-danger mt-2">
-            {{ $message }}
-        </div>
-    @enderror
-</div>
+<!--    @error('captcha')-->
+<!--        <div class="text-danger mt-2">-->
+<!--            {{ $message }}-->
+<!--        </div>-->
+<!--    @enderror-->
+<!--</div>-->
 
 
                     <div class="career-footer">
@@ -284,11 +284,8 @@
                                            class="form-control career-input"
                                            placeholder="Enter Mobile Number"
                                            required>
-
                                 </div>
-
                             </div>
-
                             <!-- Email -->
                             <div class="col-md-6 mb-4">
 

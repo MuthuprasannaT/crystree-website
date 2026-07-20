@@ -145,8 +145,8 @@ Yes. We design professional, mobile-friendly email templates that align with you
             </div>
        <div class="col-12 mt-4">
     <div class="vs-header__action d-flex justify-content-center">
-        <a href="#websiteFaq" class="vs-btn vs-btn--gradient">
-            {{ route('faq') }}
+        <a href="{{ route('faq') }}" class="vs-btn vs-btn--gradient">
+            Explore FAQ
             {{-- <i class="fa-solid fa-arrow-right"></i> --}}
         </a>
     </div>

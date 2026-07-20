@@ -12,7 +12,7 @@
 }
 
 .vs-blog__figure {
-    height: 250px;
+    height: 150px;
     overflow: hidden;
     margin-bottom: 0;
     flex-shrink: 0;
@@ -38,11 +38,15 @@
 
 .vs-blog__content p {
     flex-grow: 1;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
 }
 
 .vs-blog__buttons {
     margin-top: auto;
+}
+
+.vs-blog--style6 .vs-blog__date, .vs-blog--style7 .vs-blog__date, .vs-blog--style8 .vs-blog__date{
+    bottom: 15px;
 }
 </style>
     <div class="breadcrumb-wrapper z-index-common overflow-hidden" data-bg-src="{{ asset('assets/img/bg/blog.webp')}}">
@@ -98,7 +102,7 @@
                     </h3>
 
                     <p>
-                        {{ Str::limit(strip_tags($blog->short_description), 120) }}
+                        {{ Str::limit(strip_tags($blog->short_description), 300) }}
                     </p>
 
                     <hr class="vs-blog__divider">

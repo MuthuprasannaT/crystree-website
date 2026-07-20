@@ -119,9 +119,12 @@
                         <p>+91 9566968212</p>
                     </div>
 
-                    <a href="google.com/maps/place/Crystree+Solutions+Private+Limited+-+Thillai+Nagar+Branch/data=!4m2!3m1!1s0x0:0x89e360f18362fb13?sa=X&ved=1t:2428&hl=en-GB&ictx=111" class="vs-btn vs-btn--gradient">
-                        <i class="fas fa-location-dot me-2"></i> View Map
-                    </a>
+                    <a href="https://www.google.com/maps/place/Crystree+Solutions+Private+Limited+-+Thillai+Nagar+Branch/data=!4m2!3m1!1s0x0:0x89e360f18362fb13?sa=X&ved=1t:2428&hl=en-GB&ictx=111"
+                           class="vs-btn vs-btn--gradient"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fas fa-location-dot me-2"></i> View Map
+                        </a>
 
                 </div>
             </div>
@@ -453,13 +456,26 @@ background: white;
                                 Crystree Solutions Pvt Ltd is a leading Software Development Company in Trichy providing Website Development, Mobile App Development, ERP Software, CRM Software, E-Commerce Solutions, SEO Services, Digital Marketing, Cloud Solutions, AI Solutions and
                                 Custom Software Development services across India.
                             </p>
-                            <!-- <form action="https://html.vecurosoft.com/Crystree Solutions/demo/mail.php"
-                                class="vs-subscribe vs-subscribe--style2 mt-40" method="post">
-                                    <input type="text" class="vs-subscribe__field" placeholder="Your Email Address" name="email" autocomplete="email">
-                                    <button class="vs-subscribe__btn vs-btn"><i class="fa-solid fa-paper-plane"></i><span>Subscribe</span></button>
-                                </form> -->
+                          <form action="{{ route('subscribe.store') }}"
+      method="POST"
+      class="vs-subscribe vs-subscribe--style2 mt-40">
 
-                            <div class="col-auto mt-5 text-center text-lg-start w-100 w-lg-auto">
+    @csrf
+
+    <input type="email"
+           name="email"
+           class="vs-subscribe__field"
+           placeholder="Your Email Address"
+           required>
+
+    <button class="vs-subscribe__btn vs-btn" type="submit">
+        <i class="fa-solid fa-paper-plane"></i>
+        <span>Subscribe</span>
+    </button>
+
+</form>
+
+                            <div class="col-auto mt-2 text-center text-lg-start w-100 w-lg-auto">
                                 <div class="social-style style3"><a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-youtube"></i></a></div>
                             </div>
                         </div>
@@ -609,6 +625,9 @@ background: white;
             </div>
 
             <style>
+                .mt-40 {
+margin-top:5px
+}
             .industry-wrapper{
                 max-width:100%;
             }

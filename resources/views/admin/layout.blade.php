@@ -220,10 +220,49 @@
 
 
 <li class="nav-item">
-    <a href="{{ route('admin.visitor.index') }}" class="nav-link">
+    <a class="nav-link {{ Route::is('admin.visitor.*') ? 'active' : '' }}" href="{{ route('admin.visitor.index') }}" >
     <i class="fas fa-users"></i> Visitors
 </a>
 </li>
+
+
+<li class="nav-item">
+
+    <a href="javascript:void(0);" class="nav-link" id="subscriberMenu">
+
+        <i class="fas fa-envelope"></i>
+
+        <span class="ms-2">Subscribers</span>
+
+        <i class="fas fa-chevron-down ms-auto" id="subscriberArrow"></i>
+
+    </a>
+
+    <ul id="subscriberSubMenu"
+        style="display:{{ Request::is('admin/subscribers*') ? 'block' : 'none' }};
+               list-style:none;
+               padding-left:35px;">
+
+        <li class="nav-item mt-2">
+            <a href="{{ route('admin.subscribers.blog.index') }}"
+               class="nav-link {{ Route::is('admin.subscribers.blog.*') ? 'active' : '' }}">
+                <i class="far fa-newspaper"></i>
+                <span class="ms-2">Blog Newsletter</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="{{ route('admin.subscribers.gallery.index') }}"
+               class="nav-link {{ Route::is('admin.subscribers.gallery.*') ? 'active' : '' }}">
+                <i class="far fa-images"></i>
+                <span class="ms-2">Gallery Newsletter</span>
+            </a>
+        </li>
+
+    </ul>
+
+</li>
+
 
                 <li class="nav-item" style="margin-top: 24px; border-top: 1px solid rgba(255,255,255,.1); padding-top: 8px;">
                     <form id="logout-form" action="{{ route('admin.logout') }}" method="POST">
@@ -343,6 +382,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const menu = document.getElementById("subscriberMenu");
+    const submenu = document.getElementById("subscriberSubMenu");
+    const arrow = document.getElementById("subscriberArrow");
+
+    menu.addEventListener("click", function () {
+
+        if (submenu.style.display === "block") {
+
+            submenu.style.display = "none";
+            arrow.classList.remove("fa-chevron-up");
+            arrow.classList.add("fa-chevron-down");
+
+        } else {
+
+            submenu.style.display = "block";
+            arrow.classList.remove("fa-chevron-down");
+            arrow.classList.add("fa-chevron-up");
+
+        }
+
+    });
 });
 </script>
 @yield('scripts')
